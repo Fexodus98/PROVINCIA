@@ -1,0 +1,57 @@
+{
+  "page_notes": [
+    "Page 75 of PIR² contains only one entry relevant to the PROVINCIA corpus: P. Afranius Flavianus (A 443).",
+    "The image is the authoritative source; OCR text is provided only as a noisy aid for locating passages."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_2_A_443",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma transcription contains a typo: 'P. AFRANIVS FLAVIANVS' should be 'P. AFRANIVS FLAVIANVS' (correct as per image, but 'AFRANIVS' is a minor OCR artifact; the image shows 'AFRANIVS' in small caps).",
+          "severity": "low",
+          "suggested_fix": "Use 'P. Afranius Flavianus' for displayed_name and 'Publius Afranius Flavianus' for normalized_name, but keep lemma as printed: 'P. AFRANIVS FLAVIANVS'."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "Exact text quote is slightly truncated. The image shows: 'Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3.' (includes 't. 3.').",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3.'"
+        },
+        {
+          "field": "governorship_factoids.province_normalized",
+          "issue": "Province normalized is correct, but ensure it matches the registry label exactly.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "career_factoids.car_A443_1.exact_text",
+          "issue": "Exact text for legatus pro praetore of Asia is truncated. The image shows: 'Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1.' (includes 't. 1.').",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1.'"
+        },
+        {
+          "field": "career_factoids.car_A443_3.exact_text",
+          "issue": "Exact text for proconsul of Asia is truncated. The image shows: 'Proconsul provinciae Asiae imperante Hadriano t. 2, qui titulus...'.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Proconsul provinciae Asiae imperante Hadriano t. 2'"
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "Status marker 'consularis' is inferred but not explicitly stated in the entry. The entry mentions his consulship as inferred ('Consulatu c. a. 115 functum esse').",
+          "severity": "medium",
+          "suggested_fix": "Add a note clarifying that 'consularis' is inferred from the context of his proconsulship and consulship."
+        },
+        {
+          "field": "governorship_factoids.date_normalized_end",
+          "issue": "The date_normalized_end is set to 114, but the diploma only attests his governorship on September 1, 114. No end date is provided.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to null or add a note clarifying that the end date is unattested."
+        }
+      ]
+    }
+  ]
+}

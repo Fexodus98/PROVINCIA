@@ -1,0 +1,52 @@
+{
+  "page_notes": [
+    "Page 16 of the PIR volume (PIR² A) containing entries 93 to 104.",
+    "Two entries (98 and 101) explicitly attest to legati pro praetore and are relevant to the PROVINCIA corpus.",
+    "No entries beginning on the previous page continue here."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A_98",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.date_normalized_start",
+          "issue": "Date range 'primis imperii temporibus ut videtur' is vague. The proposed range 14-68 is speculative but reasonable for 'early imperial period'.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text includes 'primis imperii temporibus ut videtur', which is a commentary rather than a direct quote. The direct quote is 'legatus pro praetore provinciae Lusitaniae'.",
+          "severity": "medium",
+          "suggested_fix": "Use 'legatus pro praetore provinciae Lusitaniae' as exact_text and move 'primis imperii temporibus ut videtur' to notes."
+        }
+      ]
+    },
+    {
+      "entry_id": "A_101",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text includes 'paullo post, fortasse ab a. 101 usque ad a. 103/104', which is partially commentary. The direct quote is 'Legatus Aug. pro pr. Germaniae inferioris'.",
+          "severity": "medium",
+          "suggested_fix": "Use 'Legatus Aug. pro pr. Germaniae inferioris' as exact_text and move 'paullo post, fortasse ab a. 101 usque ad a. 103/104' to notes."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_start",
+          "issue": "The start date '101' is speculative ('fortasse ab a. 101').",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The end date '104' is speculative ('usque ad a. 103/104').",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    }
+  ]
+}

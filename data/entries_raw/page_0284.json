@@ -1,0 +1,101 @@
+{
+  "document_notes": [
+    "The page contains the continuation of entry PIR² A 1322 (Atrius Clonius) at the top, which is highly relevant to the PROVINCIA corpus as it lists three governorships (Cappadocia, Syria maior, Hispania citerior) as Legatus Aug. pr. pr."
+  ],
+  "entries": [
+    {
+      "entry_id": "A 1322 (continuation)",
+      "pir_reference": "A 1322",
+      "lemma": "[Atrius Clonius]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pr. pr. of Cappadocia, Syria maior, and Hispania citerior.",
+      "segments": {
+        "lemma": "",
+        "name_variants": "",
+        "identification_and_sources": "t. 3 (cf. Stein l.l.), ὁ λαμπρότατος ὑπατικός ib.; consul suffectus ut videtur in ipsa legatione.",
+        "offices_and_career": "consul suffectus ut videtur in ipsa legatione.",
+        "governorship_attestation": "Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "Gr."
+      },
+      "main_person": {
+        "id": "A_1322",
+        "displayed_name": "[Atrius Clonius]",
+        "normalized_name": "Atrius Clonius",
+        "pir_reference": "A 1322",
+        "status_markers": [
+          "consul suffectus",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "The entry starts on the preceding page (p. 267)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Cappadocia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum ... Syriae maioris",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Syria maior",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_3",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum ... Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib.",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Hispania citerior",
+          "date_text": "sub Severo Alexandro",
+          "date_normalized_start": 222,
+          "date_normalized_end": 235,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "A centurio of legio VII gemina piae fidelis Severianae Alexandrianae dedicated an inscription."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "A_1322",
+          "exact_text": "consul suffectus ut videtur in ipsa legatione",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "in ipsa legatione",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "high",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The text is a continuation from page 267."
+      ]
+    }
+  ]
+}

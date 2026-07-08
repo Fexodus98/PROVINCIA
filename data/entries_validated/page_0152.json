@@ -1,0 +1,198 @@
+{
+  "document_notes": [
+    "Page 136 of PIR (Volume I, 2nd edition). Contains entries for Anteius and Antianus."
+  ],
+  "entries": [
+    {
+      "entry_id": "731",
+      "pir_reference": "A 731",
+      "lemma": "P. ANTEIVS RUFVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Augusti pro praetore provinciae Dalmatiae.",
+      "segments": {
+        "lemma": "731 P. ANTEIVS RUFVS",
+        "name_variants": "P. Anteius Rufus, P. Anteius",
+        "identification_and_sources": "nominatur in titulis Dalmaticis III 1977 (1), 14321^16 (2) gemello ut videtur, sed potest hoc frustulum superesse ex t. 1 tantummodo exemplis servato, 14987^1 (3), Bull. dalm. 31, 1908, 3 (4), Abramić Strena Buliciana (1924), 222 (5). Tria nomina exhibent vel exhibuerunt tituli (P. Anteio traditur in t. 1). P. Anteius Tac. a. 13, 22 (pantelo cod. Med. pro P. Anteio); 16, 14.",
+        "offices_and_career": "Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5 (in t. 4 numerus imperatoriae acclamationis Claudii perperam indicatur XV . .); in t. 5 ex principis honoribus nihil nisi imp. XXI p. p. c[os. . .] superest (imp. XXI Claudius dictus est a. p. C. 50). Consul igitur suffectus anno incerto probabiliter sub Claudio. A. 55 Syria ei destinata, sed variis mox artibus elusus ad postremum in urbe retentus est Tac. a. 13, 22; caritate Agrippinae invisus Neroni ib. 16, 14; a. 66 ab Antistio Sosiano accusatus apud Neronem, quod immineret rebus et sua Caesarisque fata scrutaretur, hausto veneno et intercisis venis mortem adproperavit ib. 16, 14.",
+        "governorship_attestation": "Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5",
+        "family_and_social_relations": "Huius probabiliter liberti libertus P. Anteius P. Antei Syri l. Herma sevir, qui a. 54 t. posuit Salonis III 1947 = D. 219.",
+        "prosopographical_commentary": "Nomen Antei Rufi in titulis 3. 5 in rasura positum esse eo explicandum videtur, quod memoria eius sub Nerone damnata, post Neronis exitum fortasse restituta est. — Opes eius praecipuae ad eliciendam cupidinem Tac. a. 16, 14.",
+        "bibliography_or_cross_references": "Tac. a. 13, 22; 16, 14. CIL III 1977, 14321^16, 14987^1, Bull. dalm. 31, 1908, 3, Abramić Strena Buliciana (1924), 222, CIL III 1947 = D. 219."
+      },
+      "main_person": {
+        "id": "person_731",
+        "displayed_name": "P. Anteius Rufus",
+        "normalized_name": "Publius Anteius Rufus",
+        "pir_reference": "A 731",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_731_1",
+          "person_id": "person_731",
+          "exact_text": "Legatus Augusti pro praetore provinciae Dalmatiae a. 51",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Dalmatia",
+          "province_normalized": null,
+          "date_text": "a. 51",
+          "date_normalized_start": 51,
+          "date_normalized_end": 51,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in Dalmatian inscriptions."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_731_1",
+          "person_id": "person_731",
+          "exact_text": "Consul igitur suffectus anno incerto probabiliter sub Claudio",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "anno incerto probabiliter sub Claudio",
+          "date_normalized_start": 41,
+          "date_normalized_end": 54,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_731_2",
+          "person_id": "person_731",
+          "exact_text": "A. 55 Syria ei destinata, sed variis mox artibus elusus ad postremum in urbe retentus est",
+          "normalized_office": "legatus Augusti pro praetore (designatus)",
+          "province_text": "Syria",
+          "date_text": "a. 55",
+          "date_normalized_start": 55,
+          "date_normalized_end": 55,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Appointed to Syria but detained in Rome by Nero."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_herma",
+          "displayed_name": "P. Anteius P. Antei Syri l. Herma",
+          "normalized_name": "Publius Anteius Herma",
+          "relation_context": "Huius probabiliter liberti libertus",
+          "certainty": "medium",
+          "notes": [
+            "sevir, qui a. 54 t. posuit Salonis"
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "confirm",
+        "problems": [
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "The exact_text 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51' is slightly truncated. The full quote from the image is 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5'.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5'."
+          },
+          {
+            "field": "governorship_factoids[0].date_normalized_end",
+            "issue": "The date_normalized_end is set to 51, but the text implies he held the post for multiple years (t. 1—5).",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to 55 or add a note clarifying the duration."
+          },
+          {
+            "field": "career_factoids[1].normalized_office",
+            "issue": "The office for the Syria appointment is marked as 'legatus Augusti pro praetore (designatus)', but the text states he was 'destinata' (designated) but never took office.",
+            "severity": "low",
+            "suggested_fix": "Clarify in notes that he was designated but did not assume the post."
+          }
+        ]
+      },
+      "needs_review": false
+    },
+    {
+      "entry_id": "735",
+      "pir_reference": "A 735",
+      "lemma": ".....VS ANTIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus Aug. pr. pr. provinciae Pannoniae inferioris.",
+      "segments": {
+        "lemma": "735 .....VS ANTIANVS",
+        "name_variants": ".....VS ANTIANVS",
+        "identification_and_sources": "dedicavit pro salute, victoria et perpetuitate Imp. Caesaris M. Aureli!!!!!!",
+        "offices_and_career": "legatus Aug. pr. pr. provinciae Pannoniae inferioris",
+        "governorship_attestation": "legatus Aug. pr. pr. provinciae Pannoniae inferioris",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": ""
+      },
+      "main_person": {
+        "id": "person_735",
+        "displayed_name": "[.....]us Antianus",
+        "normalized_name": "Antianus",
+        "pir_reference": "A 735",
+        "status_markers": [
+          "senator"
+        ],
+        "notes": [
+          "Name partially lost, ending in -us Antianus."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_735_1",
+          "person_id": "person_735",
+          "exact_text": "legatus Aug. pr. pr. provinciae Pannoniae inferioris",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia inferior",
+          "province_normalized": null,
+          "date_text": "sub M. Aurelio",
+          "date_normalized_start": 161,
+          "date_normalized_end": 180,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Dedicavit pro salute, victoria et perpetuitate Imp. Caesaris M. Aureli..."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "main_person.displayed_name",
+            "issue": "The displayed_name '[.....]us Antianus' is correct, but the normalized_name 'Antianus' omits the partially lost nomen.",
+            "severity": "low",
+            "suggested_fix": "Update normalized_name to '[.....]us Antianus' or add a note about the partial name."
+          },
+          {
+            "field": "governorship_factoids[0].date_text",
+            "issue": "The date_text 'sub M. Aurelio' is inferred but not explicitly stated in the text. The image shows 'Imp. Caesaris M. Aureli!!!!!!', which suggests a dedication during Marcus Aurelius' reign but does not specify exact years.",
+            "severity": "medium",
+            "suggested_fix": "Update date_text to 'sub Imp. Caesare M. Aurelio' and adjust date_normalized_start/end to reflect the broader range (161-180)."
+          },
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "The exact_text 'legatus Aug. pr. pr. provinciae Pannoniae inferioris' is correct but omits the dedicatory context ('dedicavit pro salute, victoria et perpetuitate').",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to include the full quote: 'legatus Aug. pr. pr. provinciae Pannoniae inferioris, dedicavit pro salute, victoria et perpetuitate Imp. Caesaris M. Aureli!!!!!!'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

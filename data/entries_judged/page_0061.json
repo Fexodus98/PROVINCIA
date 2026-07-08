@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 61 of PIR² (A 271–275) contains one entry (A 271, Aelius Triccianus) explicitly attested as legatus Augustorum pro praetore of Pannonia inferior. No other entries on this page show the formula for legatus Augusti pro praetore or equivalent."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_271",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari' is not a verbatim quote from the page. The page reads: 'legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari.' (trailing period and slight OCR noise, but the core is correct). The proposed text adds a trailing period not present in the original.",
+          "severity": "low",
+          "suggested_fix": "Use the exact quote from the page: 'legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari.'"
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The start date is set to 217, which aligns with Macrinus' accession, but the text does not specify an exact start month or day. The date is plausible but not explicitly precise.",
+          "severity": "low",
+          "suggested_fix": "Clarify in notes that the date is inferred from Macrinus' reign (April 217)."
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "The end date is set to 218, which aligns with Macrinus' death, but the text does not specify an exact end month or day. The date is plausible but not explicitly precise.",
+          "severity": "low",
+          "suggested_fix": "Clarify in notes that the date is inferred from Macrinus' death (June 218)."
+        },
+        {
+          "field": "segments.governorship_attestation",
+          "issue": "The segment 'legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari.' is correct but includes a trailing period not present in the original text.",
+          "severity": "low",
+          "suggested_fix": "Remove the trailing period: 'legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'legatus Augustorum pro praetore' is correct but should reflect the exact formula from the text: 'legatus Augustorum pro praetore'.",
+          "severity": "low",
+          "suggested_fix": "Use 'legatus Augustorum pro praetore' to match the text exactly."
+        }
+      ]
+    }
+  ]
+}

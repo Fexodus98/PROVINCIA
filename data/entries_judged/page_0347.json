@@ -1,0 +1,51 @@
+{
+  "page_notes": [
+    "The page header indicates the gentilicium 'AVRELIVS' and the page number 331. The first entry is a continuation from the previous page (330).",
+    "The entry for 'Aurelius Valentinianus' (vir perfectissimus, praeses provinciae Dalmatiae) is appended to the main entry but is a separate individual and not a legatus Augusti pro praetore."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "Aurelius_continued_331",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1.province_text",
+          "issue": "The province_text 'Pannonia inferior' should use the normalized label 'Pannonia inferior' (from the registry) but the casus in the exact_text is genitive ('Pannoniae inferioris'). The province_text should reflect the genitive form as it appears in the text.",
+          "severity": "low",
+          "suggested_fix": "Set province_text to 'Pannoniae inferioris' to match the exact_text."
+        },
+        {
+          "field": "governorship_factoids.gov_2.province_text",
+          "issue": "The province_text 'Hispania citerior' should reflect the genitive form 'Hispaniae citerioris' as it appears in the exact_text.",
+          "severity": "low",
+          "suggested_fix": "Set province_text to 'Hispaniae citerioris' to match the exact_text."
+        },
+        {
+          "field": "governorship_factoids.gov_2.normalized_office",
+          "issue": "The exact_text uses 'legatus Augustorum pro praetore' (plural Augustorum), which should be reflected in the normalized_office.",
+          "severity": "low",
+          "suggested_fix": "Set normalized_office to 'legatus Augustorum pro praetore'."
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_end",
+          "issue": "The date 'a. 283' likely refers to a single year, but the end date is set to 283, which is redundant. If the text implies a single year, the end date should be null or the same as the start date with a note.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_end to null or add a note clarifying the single-year governorship."
+        },
+        {
+          "field": "related_persons",
+          "issue": "The related_person 'Aurelius Valentinianus' is not a legatus Augusti pro praetore but a praeses provinciae Dalmatiae. This relation is misleading as it implies a connection to the governorship corpus.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'Aurelius Valentinianus' from related_persons or clarify that this person is not a legatus Augusti pro praetore."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Aurelius' is too generic. The lemma '[Aurelius ---]' suggests a partially preserved name, so the normalized_name should reflect this.",
+          "severity": "low",
+          "suggested_fix": "Set normalized_name to '[Aurelius ---]' or 'Aurelius (partial name)'."
+        }
+      ]
+    }
+  ]
+}

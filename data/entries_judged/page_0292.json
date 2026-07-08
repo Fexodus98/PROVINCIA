@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "The page number on the image is 276, not 292 as referenced in the prompt metadata. This discrepancy should be noted for pagination accuracy."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "1383",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro' is not a verbatim quote. The page text reads 'Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro t. 4.' (includes 't. 4.').",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro t. 4.'"
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The date 'sub Severo Alexandro' spans 222-235 AD, but the normalized_start is set to 222. This is correct but could be clarified as an approximation.",
+          "severity": "low",
+          "suggested_fix": "Add a note: 'Date range approximates the reign of Severus Alexander (222-235 AD).'"
+        },
+        {
+          "field": "career_factoids[0].province_text",
+          "issue": "The province_text 'Germania Inferior' is inferred but not explicitly stated in the text. The text only mentions 'Legatus legionis I Minerviae' without specifying the province.",
+          "severity": "medium",
+          "suggested_fix": "Set province_text to null or add a note: 'Legio I Minervia was stationed in Germania Inferior, but the province is not explicitly stated in the source.'"
+        },
+        {
+          "field": "career_factoids[1].normalized_office",
+          "issue": "The normalized_office 'legatus proconsulis pro praetore' is inferred from 'Legatus (proconsulis ut videtur) pr. pr.'. The text explicitly states 'ut videtur' (as it seems), indicating uncertainty.",
+          "severity": "medium",
+          "suggested_fix": "Add a note: 'Office inferred as legatus proconsulis pro praetore, but the text includes 'ut videtur' (as it seems), indicating uncertainty.'"
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_marker 'legatus Aug. pr. pr.' is correct but redundant with the governorship_factoid. It should be removed to avoid duplication.",
+          "severity": "low",
+          "suggested_fix": "Remove 'legatus Aug. pr. pr.' from status_markers."
+        },
+        {
+          "field": "related_persons[0].normalized_name",
+          "issue": "The normalized_name 'Caius Aufidius Marcellus' is not explicitly stated in the text. The text only mentions 'C. Aufidio Marcello'.",
+          "severity": "low",
+          "suggested_fix": "Update normalized_name to: 'C. Aufidius Marcellus'."
+        }
+      ]
+    }
+  ]
+}

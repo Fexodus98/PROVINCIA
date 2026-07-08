@@ -1,0 +1,186 @@
+{
+  "document_notes": [
+    "Page 285 contains entries for Avidius Nigrinus (1407) and C. Avidius Nigrinus (1408). Only 1408 is explicitly attested as legatus Augusti pro praetore (in Dacia and Achaia), while 1407 is discussed as proconsul of Achaia and distinguished from the legatus Aug. pr. pr. of the Delphic inscriptions."
+  ],
+  "entries": [
+    {
+      "entry_id": "1408",
+      "pir_reference": "A 1408",
+      "lemma": "c. AVIDIVS NIGRINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'leg. Aug. pr. pr.' in an inscription from Sarmizegetusa (CIL III 7904 = D. 2417) and as 'Legatus Aug. pr. pr.' / 'leg. Aug. pro pr.' / '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος' in bilingual inscriptions from Delphi.",
+      "segments": {
+        "lemma": "1408 c. AVIDIVS NIGRINVS, filius probabiliter eius qui praecedit. (v. sub hoc).",
+        "name_variants": "C. Avidius Nigrinus, [C. Avi]dius Nigrinus, ᾿Αουίδιος Νιγρῖνος",
+        "identification_and_sources": "Ad eum pertinere videntur: monumentum Delphicum continens decreta bilinguia ex parte tantum servata [C.] Avidii Nigrini de finibus terrae sacrae Delphorum (1—6) et principium epistulae graecae ab eodem Nigrino ad Delphos datae (7) Ditt. Syll.3 827 A—G, pars latina III 567 = 7303 cf. p. 987 (nova fragmenta adhuc inedita, commemorat Bourguet De rebus Delph. p. 69); ara posita Sarmizegetusae a centurione legionis IIII F(laviae) f(elicis) exerc(itatore) eq(uitum) sing(ularium) C. Avidi Nigrini leg. Aug. pr. pr. III 7904 = D. 2417 (8) (errore editores hunc titulum propter literarum formam saeculo p. C. tertio attribuerunt; v. infra). Nominatur praeterea in t. Antiatino sepulcrali C. Avidii Laconis Avidiae Plautiae Nigrini filiae liberti X 6706 = D. 8217 (9). — Nigrinus vita Hadr. 7, 1. 2; 23, 10. Dio exc. 69, 2, 5.",
+        "offices_and_career": "Hic fortasse Nigrinus tribunus plebis a. 105, qui saepius memoratur in epistulis Plinii (5, 13, 6; 20, 6; 7, 6, 2. 4; ‘Nigrinum optimum virum’ 7, 6, 2). Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. t. 1 cf. t. 5; ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος t. 7) sententias tulit ex iussu optimi principis de finium controversiis inter Delphos et civitates finitimas t. 1—6 [X?] k. Octobr. t. 1 cf. t. 2, X k. Octobres Elatiae t. 3 cf. t. 4, [VI] idu[s Octobr. Eleusi]ne t. 5. Neque quo tempore neque quo iure has sententias tulerit, ex titulis apparet,",
+        "governorship_attestation": "Attested as legatus Augusti pro praetore in Dacia (Sarmizegetusa: 'C. Avidi Nigrini leg. Aug. pr. pr.') and in Achaia/Delphi ('Legatus Aug. pr. pr.', '[C. Avi]dio Nigrino leg. Aug. pro pr.', '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος').",
+        "family_and_social_relations": "Filius probabiliter Avidii Nigrini senioris (1407). Father of Avidia Plautia (implied by her libertus C. Avidius Laco). Father-in-law of the father of Lucius Verus ('cuius pater Nigrini (minoris) gener dicitur').",
+        "prosopographical_commentary": "Discusses his identity as the tribunus plebis of 105 mentioned by Pliny, and his role as imperial commissioner settling boundary disputes in Greece under Trajan.",
+        "bibliography_or_cross_references": "Ditt. Syll.3 827 A—G; CIL III 567 = 7303; CIL III 7904 = D. 2417; CIL X 6706 = D. 8217; Plin. Ep. 5, 13, 6; 20, 6; 7, 6, 2. 4; SHA Hadr. 7, 1. 2; 23, 10; Dio exc. 69, 2, 5."
+      },
+      "main_person": {
+        "id": "person_1408",
+        "displayed_name": "C. Avidius Nigrinus",
+        "normalized_name": "Gaius Avidius Nigrinus",
+        "pir_reference": "A 1408",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": [
+          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1408_dacia",
+          "person_id": "person_1408",
+          "exact_text": "C. Avidi Nigrini leg. Aug. pr. pr.",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Dacia",
+          "province_normalized": null,
+          "date_text": "sub finem ut videtur imperii Traiani",
+          "date_normalized_start": 112,
+          "date_normalized_end": 117,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by an inscription from Sarmizegetusa (CIL III 7904 = D. 2417) set up by a centurion of legio IIII Flavia."
+          ]
+        },
+        {
+          "factoid_id": "gov_1408_achaia",
+          "person_id": "person_1408",
+          "exact_text": "Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. ... ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Achaia",
+          "province_normalized": null,
+          "date_text": "sub finem ut videtur imperii Traiani",
+          "date_normalized_start": 112,
+          "date_normalized_end": 117,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1408_tribunate",
+          "person_id": "person_1408",
+          "exact_text": "tribunus plebis a. 105",
+          "normalized_office": "tribunus plebis",
+          "province_text": "Roma",
+          "date_text": "a. 105",
+          "date_normalized_start": 105,
+          "date_normalized_end": 105,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Tentatively identified with the Nigrinus praised in Pliny's letters."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1407",
+          "displayed_name": "Avidius Nigrinus",
+          "normalized_name": "Avidius Nigrinus",
+          "relation_context": "filius probabiliter eius qui praecedit",
+          "certainty": "medium",
+          "notes": [
+            "Proconsul of Achaia under Domitian."
+          ]
+        },
+        {
+          "id": "person_avidia_plautia",
+          "displayed_name": "Avidia Plautia",
+          "normalized_name": "Avidia Plautia",
+          "relation_context": "Avidiae Plautiae Nigrini filiae",
+          "certainty": "high",
+          "notes": [
+            "Daughter of C. Avidius Nigrinus."
+          ]
+        },
+        {
+          "id": "person_pater_veri",
+          "displayed_name": "pater Veri Augusti",
+          "normalized_name": "Lucius Aelius Caesar",
+          "relation_context": "cuius pater Nigrini (minoris) gener dicitur",
+          "certainty": "high",
+          "notes": [
+            "Son-in-law of C. Avidius Nigrinus."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1408",
+          "target": "person_1407",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "filius probabiliter eius qui praecedit",
+          "notes": []
+        },
+        {
+          "source": "person_avidia_plautia",
+          "target": "person_1408",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Avidiae Plautiae Nigrini filiae",
+          "notes": []
+        },
+        {
+          "source": "person_pater_veri",
+          "target": "person_1408",
+          "relation": "related_to",
+          "certainty": "high",
+          "basis": "cuius pater Nigrini (minoris) gener dicitur",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his governorship in Dacia, both dating to the late reign of Trajan."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids.gov_1408_dacia.date_normalized_start",
+            "issue": "The date 'sub finem ut videtur imperii Traiani' is interpreted as 112-117, but the text does not provide explicit start/end years. The certainty of 112 as the start year is not directly supported by the image.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to 115 or null, as the text only suggests 'sub finem' (late reign of Trajan)."
+          },
+          {
+            "field": "governorship_factoids.gov_1408_dacia.exact_text",
+            "issue": "The exact_text 'C. Avidi Nigrini leg. Aug. pr. pr.' is correct, but the trailing period is missing in the proposed JSON.",
+            "severity": "low",
+            "suggested_fix": "Add a period at the end: 'C. Avidi Nigrini leg. Aug. pr. pr.'."
+          },
+          {
+            "field": "governorship_factoids.gov_1408_achaia.exact_text",
+            "issue": "The exact_text is overly verbose and includes non-verbatim elements (e.g., '[C. Avi]dio Nigrino leg. Aug. pro pr. ...'). The image shows specific formulas: 'Legatus Aug. pr. pr.' and '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος'.",
+            "severity": "medium",
+            "suggested_fix": "Split into two exact_text entries: 'Legatus Aug. pr. pr.' and '᾿Αουίδιος Νιγρῖνος, πρεσβευτης Σεβαστος ἀντιστράτηγος' (or closest verbatim from the image)."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Gaius Avidius Nigrinus' is not explicitly stated in the text. The lemma shows 'c. AVIDIVS NIGRINVS' (abbreviated praenomen).",
+            "severity": "low",
+            "suggested_fix": "Use 'C. Avidius Nigrinus' to match the lemma abbreviation."
+          },
+          {
+            "field": "career_factoids.career_1408_tribunate.certainty",
+            "issue": "The tribunus plebis identification is tentative ('Hic fortasse Nigrinus tribunus plebis a. 105'). The proposed certainty 'medium' is too high.",
+            "severity": "medium",
+            "suggested_fix": "Set certainty to 'low' or 'tentative'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

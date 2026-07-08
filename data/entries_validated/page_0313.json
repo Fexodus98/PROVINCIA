@@ -1,0 +1,90 @@
+{
+  "document_notes": [
+    "Processed page 297 of PIR (AVRELIVS). Identified one entry relevant to the PROVINCIA corpus: 1465 ([A]vr(elivs) Basilevs)."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_1465",
+      "pir_reference": "A 1465",
+      "lemma": "[A]vr(elivs) Basilevs",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore (provinciae Galatiae) under Severus Alexander.",
+      "segments": {
+        "lemma": "[A]vr(elivs) Basilevs",
+        "name_variants": "[A]vr(elivs) Basilevs",
+        "identification_and_sources": "miliarius viae Tavio Amaseam III 14184².",
+        "offices_and_career": "legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro",
+        "governorship_attestation": "legatus Augusti pro praetore (provinciae Galatiae)",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Nescio an idem is qui sequitur.",
+        "bibliography_or_cross_references": "St."
+      },
+      "main_person": {
+        "id": "person_1465",
+        "displayed_name": "[A]vr(elivs) Basilevs",
+        "normalized_name": "Aurelius Basileus",
+        "pir_reference": "A 1465",
+        "status_markers": [
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Governor of Galatia under Severus Alexander."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1465_1",
+          "person_id": "person_1465",
+          "exact_text": "legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Galatia",
+          "province_normalized": null,
+          "date_text": "imperante Severo Alexandro",
+          "date_normalized_start": 222,
+          "date_normalized_end": 235,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on a milestone (miliarius) on the road from Tavium to Amaseia (CIL III 14184, 2)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The milestone CIL III 14184, 2 records his governorship of Galatia under Severus Alexander."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "segments.governorship_attestation",
+            "issue": "The exact_text 'legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro' is not a verbatim quote from the page. The page reads: 'legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro miliarivs viae Tavio Amaseam III 14184².' The inclusion of 'miliarius...' is missing in the exact_text.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to: 'legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro miliarivs viae Tavio Amaseam III 14184²'."
+          },
+          {
+            "field": "governorship_factoids.0.date_normalized_start",
+            "issue": "The start date of 222 is correct for Severus Alexander's reign, but the page does not provide explicit evidence for the exact year this governorship began. The certainty should be adjusted to reflect this.",
+            "severity": "medium",
+            "suggested_fix": "Change certainty to 'medium' and add a note: 'Exact year of governorship within Severus Alexander’s reign not specified in the source.'"
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Aurelius Basileus' is correct, but the lemma on the page is '[A]vr(elivs) Basilevs'. The proposal omits the square brackets and parentheses in the displayed_name and lemma fields, which should be preserved for accuracy.",
+            "severity": "low",
+            "suggested_fix": "Update displayed_name to '[A]vr(elivs) Basilevs' and ensure lemma reflects the same."
+          },
+          {
+            "field": "governorship_factoids.0.province_normalized",
+            "issue": "The province_normalized 'Galatia' is correct and matches the registry label.",
+            "severity": "low",
+            "suggested_fix": null
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

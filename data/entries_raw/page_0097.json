@@ -1,0 +1,217 @@
+{
+  "document_notes": [
+    "Page 81 of PIR1 Volume 1 contains entry 477, which is highly relevant due to the explicit mention of 'legatus Aug. pr. pr. Ponti et Bithyniae'."
+  ],
+  "entries": [
+    {
+      "entry_id": "477",
+      "pir_reference": "A 477",
+      "lemma": "L. ALBINIVS SATVRNINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus Aug. pr. pr. Ponti et Bithyniae.",
+      "segments": {
+        "lemma": "477 L. ALBINIVS SATVRNINVS, A. f., tribu Quirina",
+        "name_variants": "L. Albinius Saturninus",
+        "identification_and_sources": "X 4750 t. decreto decurionum positus. Gr.",
+        "offices_and_career": "quaestor urbanus, sodalis Antoninianus, aedilis plebis, praetor urbanus, legatus Augusti Asturiae et Callaeciae, praefectus aerarii Saturni, proconsul provinciae Achaiae, consul (suff. a. inc.) ante legationem Ponti et Bithyniae ut videtur, legatus Aug. pr. pr. Ponti et Bithyniae, proconsul provinciae Asiae; patronus coloniae, curator coloniae Suessae Auruncae",
+        "governorship_attestation": "legatus Aug. pr. pr. Ponti et Bithyniae",
+        "family_and_social_relations": "A. f., tribu Quirina",
+        "prosopographical_commentary": "consul (suff. a. inc.) ante legationem Ponti et Bithyniae ut videtur",
+        "bibliography_or_cross_references": "CIL X 4750"
+      },
+      "main_person": {
+        "id": "person_477",
+        "displayed_name": "L. ALBINIVS SATVRNINVS",
+        "normalized_name": "Lucius Albinius Saturninus",
+        "pir_reference": "A 477",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": [
+          "Filius Auli",
+          "Tribu Quirina"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_477_1",
+          "person_id": "person_477",
+          "exact_text": "legatus Aug. pr. pr. Ponti et Bithyniae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Pontus et Bithynia",
+          "date_text": "post consulatum (suff. a. inc.)",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Pontus et Bithynia as legatus Augusti pro praetore."
+          ]
+        },
+        {
+          "factoid_id": "gov_477_2",
+          "person_id": "person_477",
+          "exact_text": "legatus Augusti Asturiae et Callaeciae",
+          "normalized_office": "legatus Augusti",
+          "province_text": "Asturia et Callaecia",
+          "date_text": "ante consulatum",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_477_3",
+          "person_id": "person_477",
+          "exact_text": "proconsul provinciae Achaiae",
+          "normalized_office": "proconsul",
+          "province_text": "Achaia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_477_4",
+          "person_id": "person_477",
+          "exact_text": "proconsul provinciae Asiae",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_477_1",
+          "person_id": "person_477",
+          "exact_text": "quaestor urbanus",
+          "normalized_office": "quaestor urbanus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_2",
+          "person_id": "person_477",
+          "exact_text": "sodalis Antoninianus",
+          "normalized_office": "sodalis Antoninianus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_3",
+          "person_id": "person_477",
+          "exact_text": "aedilis plebis",
+          "normalized_office": "aedilis plebis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_4",
+          "person_id": "person_477",
+          "exact_text": "praetor urbanus",
+          "normalized_office": "praetor urbanus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_5",
+          "person_id": "person_477",
+          "exact_text": "praefectus aerarii Saturni",
+          "normalized_office": "praefectus aerarii Saturni",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_6",
+          "person_id": "person_477",
+          "exact_text": "consul (suff. a. inc.)",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. inc.",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_477_7",
+          "person_id": "person_477",
+          "exact_text": "curator coloniae Suessae Auruncae",
+          "normalized_office": "curator coloniae",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_aulus_albinius",
+          "displayed_name": "A.",
+          "normalized_name": "Aulus Albinius",
+          "relation_context": "Father of L. Albinius Saturninus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_aulus_albinius",
+          "target": "person_477",
+          "relation": "father",
+          "certainty": "high",
+          "basis": "A. f.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "L. Albinius Saturninus had a distinguished senatorial career, holding governorships in Asturia et Callaecia, Achaia, Pontus et Bithynia, and Asia."
+      ]
+    }
+  ]
+}

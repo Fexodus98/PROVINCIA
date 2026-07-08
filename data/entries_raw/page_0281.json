@@ -1,0 +1,107 @@
+{
+  "document_notes": [
+    "Page 265 of PIR contains entries for ATILIVS, specifically M. Atilius Postumus Bradua (1303), T. Atilius Rufus (1304), and T. Atilius Rufus Titianus (1305). Only T. Atilius Rufus (1304) is relevant to the PROVINCIA corpus as he is explicitly attested as legatus Aug. pro pr. of Pannonia and Syria."
+  ],
+  "entries": [
+    {
+      "entry_id": "1304",
+      "pir_reference": "A 1304",
+      "lemma": "T. ATILIVS RVFVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Aug. pro pr. Pannoniae and Legatus Aug. pro pr. Syriae.",
+      "segments": {
+        "lemma": "T. ATILIVS RVFVS",
+        "name_variants": "(plena nomina exhibent dipl. mil. et miliarius ; Atilius Rufus Tac. Agr. 40)",
+        "identification_and_sources": "consularis Tac. l.l., consul suffectus anno incerto Vespasiani ut videtur.",
+        "offices_and_career": "consul suffectus anno incerto Vespasiani ut videtur. Legatus Aug. pro pr. Pannoniae a. 80 III p. 854 dipl. mil. datum d. 13. m. Iunii a. 80. — Legatus Aug. pro pr. Syriae Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95 cippus ‘miliarius. Tac. Agr. 40, a. 83 miliarius; in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "governorship_attestation": "Legatus Aug. pro pr. Pannoniae a. 80 III p. 854 dipl. mil. datum d. 13. m. Iunii a. 80. — Legatus Aug. pro pr. Syriae Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95 cippus ‘miliarius. Tac. Agr. 40, a. 83 miliarius; in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "family_and_social_relations": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127. Cf. Add. Gr.",
+        "prosopographical_commentary": "in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "bibliography_or_cross_references": "Tac. Agr. 40, dipl. mil. datum d. 13. m. Iunii a. 80, Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95, Cf. Add. Gr."
+      },
+      "main_person": {
+        "id": "person_1304",
+        "displayed_name": "T. ATILIVS RVFVS",
+        "normalized_name": "Titus Atilius Rufus",
+        "pir_reference": "A 1304",
+        "status_markers": [
+          "consularis",
+          "consul suffectus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1304_1",
+          "person_id": "person_1304",
+          "exact_text": "Legatus Aug. pro pr. Pannoniae a. 80",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Pannonia",
+          "date_text": "a. 80",
+          "date_normalized_start": 80,
+          "date_normalized_end": 80,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by military diploma dated 13 June 80 AD (dipl. mil. datum d. 13. m. Iunii a. 80)."
+          ]
+        },
+        {
+          "factoid_id": "gov_1304_2",
+          "person_id": "person_1304",
+          "exact_text": "Legatus Aug. pro pr. Syriae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Syria",
+          "date_text": "a. 83-84",
+          "date_normalized_start": 83,
+          "date_normalized_end": 84,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by a milestone (cippus miliarius) published in Palestine Explor. Fund 1924, 94 = AE 1925, 95.",
+            "Died in office in the province in 84 AD according to Tacitus (Agr. 40)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1304_1",
+          "person_id": "person_1304",
+          "exact_text": "consul suffectus anno incerto Vespasiani ut videtur",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "anno incerto Vespasiani ut videtur",
+          "date_normalized_start": 69,
+          "date_normalized_end": 79,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1305",
+          "displayed_name": "T. Atilius Rufus Titianus",
+          "normalized_name": "Titus Atilius Rufus Titianus",
+          "relation_context": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127.",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 127 AD."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1304",
+          "target": "person_1305",
+          "relation": "grandfather",
+          "certainty": "medium",
+          "basis": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127.",
+          "notes": []
+        }
+      ],
+      "entry_notes": []
+    }
+  ]
+}

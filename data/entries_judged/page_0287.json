@@ -1,0 +1,45 @@
+{
+  "page_notes": [
+    "The page contains the continuation of the entry for L. Attidius Cornelianus (PIR² A 1341) from the previous page, covering his governorships in Arabia and Syria.",
+    "No other entries on this page explicitly attest a person as 'legatus Augusti pro praetore' or equivalent."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_1341_continuation",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The date 'anno 213 (aerae Pompeianae) = a. p. C. 150' is correctly transcribed, but the normalized start year is set to 150. The text explicitly states this is the year 213 of the Pompeian era, which corresponds to 150 AD. However, the consul suffectus date (151) is also mentioned as 'etiamtum legatus Arabiae', suggesting overlap. The normalized start year should be clarified to reflect the earliest attested year (150).",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_start to 150 and date_normalized_end to 151 to reflect the explicit overlap."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text includes 'etiamtum legatus Arabiae' at the end, which is not contiguous with the initial quote. This may misrepresent the verbatim source. The quote should be split or truncated to maintain verbatim accuracy.",
+          "severity": "medium",
+          "suggested_fix": "Split the exact_text into two parts: 'Legatus Aug. pro pr. (Arabiae) t. 1—4, anno 213 (aerae Pompeianae) = a. p. C. 150 t. 3. 4' and 'etiamtum legatus Arabiae' (with appropriate context in notes)."
+        },
+        {
+          "field": "governorship_factoids[1].date_normalized_end",
+          "issue": "The date 'a. 162 t. 5' is correctly transcribed, but the normalized end year is set to 162. The text also mentions 'a Parthis fugatus (a. 161/162)', which suggests the end year could be 161 or 162. The normalized end year should reflect the latest attested year (162).",
+          "severity": "low",
+          "suggested_fix": "Retain date_normalized_end as 162, but add a note clarifying the possible range (161/162)."
+        },
+        {
+          "field": "governorship_factoids[1].exact_text",
+          "issue": "The exact_text includes 'vita Marci 8, 6 (idem potest esse praeses Syriae vita Pert. 1, 6)', which introduces ambiguity about whether the same person is attested in 'vita Pert. 1, 6'. This should be clarified in notes rather than included in the exact_text.",
+          "severity": "medium",
+          "suggested_fix": "Truncate exact_text to 'Legatus Aug. pr. pr. Syriae t. 5. 6. vita Marci 8, 6... anno 157 t. 6, a. 162 t. 5, a Parthis fugatus (a. 161/162)' and move the ambiguity to notes."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name is 'Lucius Attidius Cornelianus', but the lemma and text use 'L. ATTIDIVS CORNELIANVS'. The praenomen 'Lucius' is not explicitly attested in the visible text on this page (only 'L.').",
+          "severity": "low",
+          "suggested_fix": "Use 'L. Attidius Cornelianus' for normalized_name to match the explicit attestation."
+        }
+      ]
+    }
+  ]
+}

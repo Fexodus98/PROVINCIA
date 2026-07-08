@@ -1,0 +1,80 @@
+{
+  "document_notes": [
+    "Page 269 of PIR contains entry 1331, which is highly relevant to the PROVINCIA corpus as it explicitly names a legatus Aug. pro pr. of Galatia."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_1331",
+      "pir_reference": "A 1331",
+      "lemma": "C. ATTICIVS NORBANVS (?) STRABO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. of Galatia (Galatiae) under Septimius Severus, attested on milestones of Lycaonia and Isauria between 198 and 200 AD.",
+      "segments": {
+        "lemma": "1331 C. ATTICIVS NORBANVS (?) STRABO",
+        "name_variants": "C. Atticius Strabo t. 1...... [S]trabonem t. 2.... nicium (recte ...tieium) ...banum St[r]a[bo]nem t. 3. T. ATTICIVMNOR. M.... PRAO. NEM legere sibi visi sunt editores in t. 4.",
+        "identification_and_sources": "memoratur in miliariis Lycaoniae et Isauriae Stud. in the hist. and art of the eastern prov. ed. Ramsay (1906) 173, 58 = Ann. ép. 1907, 58 (1), Stud. 172, 56 cf. p. 284. 247 = Class. Rev. 1905, 416 = Ann. ép. 1906, 21 (2), inedito quem Ramsay cum Ottone Hirschfeld communicavit a. 1905 (3), Ann. d. scuola arch. di Atene 3, 1916/20 p. 51 = Ann. ép. 1922, 5 (4).",
+        "offices_and_career": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT).",
+        "governorship_attestation": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT).",
+        "family_and_social_relations": "Pater probabiliter eius qui sequitur (T. Atticius Strabo Romulus, PIR A 1332).",
+        "prosopographical_commentary": "The milestones record his name with some variations and corruptions in the readings of the editors (e.g., T. ATTICIVMNOR. M.... PRAO. NEM).",
+        "bibliography_or_cross_references": "Stud. in the hist. and art of the eastern prov. ed. Ramsay (1906) 173, 58 = Ann. ép. 1907, 58 (1), Stud. 172, 56 cf. p. 284. 247 = Class. Rev. 1905, 416 = Ann. ép. 1906, 21 (2), inedito quem Ramsay cum Ottone Hirschfeld communicavit a. 1905 (3), Ann. d. scuola arch. di Atene 3, 1916/20 p. 51 = Ann. ép. 1922, 5 (4)."
+      },
+      "main_person": {
+        "id": "person_A_1331",
+        "displayed_name": "C. ATTICIVS NORBANVS (?) STRABO",
+        "normalized_name": "C. Atticius Norbanus Strabo",
+        "pir_reference": "A 1331",
+        "status_markers": [
+          "senator",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Attested on milestones in Lycaonia and Isauria."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A_1331_01",
+          "person_id": "person_A_1331",
+          "exact_text": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT)",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Galatiae",
+          "date_text": "a. 198 - a. 200",
+          "date_normalized_start": 198,
+          "date_normalized_end": 200,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The milestones date to the reign of Septimius Severus, specifically mentioning his tribunician power VI (198 AD) and VIII (200 AD)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_A_1332",
+          "displayed_name": "T. ATTICIVS STRABO ROMVLVS",
+          "normalized_name": "T. Atticius Strabo Romulus",
+          "relation_context": "Pater probabiliter eius qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "Mentioned in PIR A 1332 as a clarissimus puer."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A_1331",
+          "target": "person_A_1332",
+          "relation": "father",
+          "certainty": "medium",
+          "basis": "Pater probabiliter eius qui sequitur.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The reading of the name on milestone 4 was problematic for the editors (T. ATTICIVMNOR. M.... PRAO. NEM)."
+      ]
+    }
+  ]
+}

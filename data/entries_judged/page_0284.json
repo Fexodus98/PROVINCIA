@@ -1,0 +1,56 @@
+{
+  "page_notes": [
+    "The page contains the continuation of entry PIR² A 1322 (Atrius Clonius) from the previous page, which is relevant to the PROVINCIA corpus due to explicit governorship attestations."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A 1322 (continuation)",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "The lemma should include the full name as visible on the page. The page shows the entry continuing as 't. 3' with no explicit lemma header, but the name 'Atrius Clonius' is inferred from the previous page. The lemma should be represented as '[Atrius Clonius]' or similar to reflect the continuation.",
+          "severity": "low",
+          "suggested_fix": "Use '[Atrius Clonius]' as the lemma to indicate continuation from the previous page."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact_text for Cappadocia is truncated and does not match the full quote on the page. The page reads: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'",
+          "severity": "medium",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'"
+        },
+        {
+          "field": "governorship_factoids.gov_2.exact_text",
+          "issue": "The exact_text for Syria maior is truncated and does not match the full quote on the page. The page includes the full formula as part of a single statement.",
+          "severity": "medium",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'"
+        },
+        {
+          "field": "governorship_factoids.gov_3.exact_text",
+          "issue": "The exact_text for Hispania citerior is partially truncated and does not include the full context of the governorship attestation. The page reads: 'Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).'",
+          "severity": "medium",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum ... Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).'"
+        },
+        {
+          "field": "governorship_factoids.gov_3.province_normalized",
+          "issue": "The province_normalized for Hispania citerior is correct, but the registry label should be 'Hispania citerior' (not 'Hispania').",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_3.date_normalized_start",
+          "issue": "The date_normalized_start of 222 is correct (start of Severus Alexander's reign), but the date_text should explicitly reference 'sub Severo Alexandro' as the source.",
+          "severity": "low",
+          "suggested_fix": "Ensure date_text is set to 'sub Severo Alexandro'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers include 'legatus Augusti pro praetore', which is correct, but the abbreviation on the page is 'Legatus Aug. pr. pr.'. This should be noted for consistency.",
+          "severity": "low",
+          "suggested_fix": "Add a note clarifying the abbreviation used on the page: 'Legatus Aug. pr. pr.'."
+        }
+      ]
+    }
+  ]
+}

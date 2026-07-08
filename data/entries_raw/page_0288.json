@@ -1,0 +1,81 @@
+{
+  "document_notes": [
+    "Processed page 272 of PIR. Found one entry relevant to the PROVINCIA corpus: Q. Attius Celer (1350)."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_1350",
+      "pir_reference": "A 1350",
+      "lemma": "Q. ATTIVS CELER",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. provinciae Thraciae sub Gordiano.",
+      "segments": {
+        "lemma": "1350 Q. ATTIVS CELER",
+        "name_variants": "nominatur in titulo Traianae Augustae reperto IGR 1, 756 (1), in miliariis Thracis ib. 724 cf. 1477 (2), 725 (3), SEG 3, 508 (4). K. Ἀττόου Κέλερος t. 1. K. Ἀττ[ί]ου Κελέρου t. 4. K. Ἀτίου Κελερ ... t. 2. Ἀτίου Κέλερος t. 3",
+        "identification_and_sources": "ex hoc t. apparet Q. Attii nomen ei fuisse, non Cattii, ut legerunt priores (cf. PIR1 1, 321, 470)",
+        "offices_and_career": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4",
+        "governorship_attestation": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4; cf. Stein l. l. p. 66 sq.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "sed dubitat Stein Thracia p. 66, num t. 3 recte descriptus sit, provocans ad Cattium Celerem tituli IX 2778.",
+        "bibliography_or_cross_references": "IGR 1, 756 (1); IGR 1, 724 cf. 1477 (2), 725 (3); SEG 3, 508 (4); PIR1 1, 321, 470; Stein Thracia p. 66"
+      },
+      "main_person": {
+        "id": "person_1350",
+        "displayed_name": "Q. Attius Celer",
+        "normalized_name": "Quintus Attius Celer",
+        "pir_reference": "A 1350",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1350_1",
+          "person_id": "person_1350",
+          "exact_text": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Thracia",
+          "date_text": "sub Gordiano",
+          "date_normalized_start": 238,
+          "date_normalized_end": 244,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on milestones (miliaria) in Thrace."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_cattius_celer",
+          "displayed_name": "Cattius Celer",
+          "normalized_name": "Cattius Celer",
+          "relation_context": "Stein compares him to Cattius Celer of tituli IX 2778 due to reading doubts.",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_gordianus",
+          "displayed_name": "Gordianus",
+          "normalized_name": "Gordianus III",
+          "relation_context": "Emperor under whom Q. Attius Celer served as governor.",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1350",
+          "target": "person_gordianus",
+          "relation": "subject",
+          "certainty": "high",
+          "basis": "sub Gordiano",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the correction of the name from Cattius to Q. Attius based on epigraphic evidence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "source_page": 106,
+  "entries": [
+    {
+      "entry_id": "534",
+      "pir_reference": "A 534",
+      "lemma": "P. ALFIVS MAXIMVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore Galatiae, and likely legatus Pannoniae superioris.",
+      "segments": {
+        "lemma": "P. ALFIVS MAXIMVS",
+        "name_variants": "P. Alfius Maximus, P. Alfius Maxi[mus]",
+        "identification_and_sources": "nominatur in titulo graeco Ancyrano IGR 3, 162 posito imperatore, cuius nomen periit, quartum consule; inter illius aetatis, cui t. attribuendus esse videtur, imperatores in censum veniunt aut Antoninus Pius aut Commodus aut Antoninus Severi filius.",
+        "offices_and_career": "legatus Augusti pro praetore Galatiae; videtur fuisse legatus Pannoniae superioris.",
+        "governorship_attestation": "legatus Augusti pro praetore Galatiae (IGR 3, 162); legatus Pannoniae superioris (Carnunti III 14356^4).",
+        "family_and_social_relations": "Fortasse non diversus ab eo qui sequitur (P. Alfius Maximus Numerius Licinianus, 535).",
+        "prosopographical_commentary": "The dating of his governorship of Galatia depends on the identification of the emperor who was consul IV (Antoninus Pius, Commodus, or Caracalla). His governorship of Pannonia superior is inferred from an inscription at Carnuntum set up for his health.",
+        "bibliography_or_cross_references": "IGR 3, 162; CIL III 14356^4; cf. 535."
+      },
+      "main_person": {
+        "id": "person_534",
+        "displayed_name": "P. ALFIVS MAXIMVS",
+        "normalized_name": "Publius Alfius Maximus",
+        "pir_reference": "A 534",
+        "status_markers": [
+          "senator"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_534_1",
+          "person_id": "person_534",
+          "exact_text": "legatus Augusti pro praetore Galatiae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Galatia",
+          "province_normalized": "Galatia",
+          "date_text": "temp. Antoninus Pius, Commodus oder Caracalla (Antoninus Severi filius)",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a Greek inscription from Ancyra (IGR III 162)."
+          ]
+        },
+        {
+          "factoid_id": "gov_2_pann_sup",
+          "province_text": "Pannonia superior",
+          "province_normalized": "Pannonia superior",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "certainty": "low",
+          "evidence_type": "inferred_from_context",
+          "exact_text": "videtur fuisse legatus Pannoniae superioris",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "notes": [
+            "Statthalterschaft von Pannonia superior nicht explizit bezeugt; erschlossen allein daraus, dass Alfius als Senator im zentralen Verwaltungssitz Pannoniens geehrt wurde — CIL III 14356^4 (= EDH HD072856). Moeglicherweise Statthalter von Pannonia superior; sehr geringe Sicherheit.",
+            "Personenidentitaet: moeglicherweise dieselbe Person wie A 535 (P. Alfius Maximus Numerius Licinianus). PIR wechselseitig: bei 534 'Fortasse non diversus ab eo qui sequitur', bei 535 'Potest idem esse is, qui praecedit'. sameAs-Kandidat."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_535",
+          "displayed_name": "P. ALFIVS MAXIMUS NUMER(IUS) LICINIANVS",
+          "normalized_name": "Publius Alfius Maximus Numerius Licinianus",
+          "relation_context": "Fortasse non diversus ab eo qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 535, possibly identical to P. Alfius Maximus (A 534)."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#10: Galatia + Pannonia superior (low, erschlossen CIL III 14356^4); Identitaet A 535; Amt-Status -> senator; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 106
+    }
+  ]
+}

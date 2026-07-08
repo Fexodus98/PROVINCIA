@@ -1,0 +1,51 @@
+{
+  "page_notes": [
+    "Page 272 of PIR² (Attii) contains one entry explicitly attesting a legatus Augusti pro praetore: Q. Attius Celer (1350).",
+    "No other entries on this page explicitly mention the formula 'legatus Augusti pro praetore' or its abbreviations for their main subject."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_1350",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma transcription contains a typo: 'Q. ATTIVS CELER' should be 'Q. Attius Celer' (no all-caps, correct spacing and 'u' instead of 'V').",
+          "severity": "low",
+          "suggested_fix": "Use 'Q. Attius Celer' as lemma."
+        },
+        {
+          "field": "segments.governorship_attestation",
+          "issue": "The exact_text 'Legatus Aug. pro pr. provinciae Thraciae sub Gordiano' is correct but slightly truncated. The full printed text is 'Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4; cf. Stein l. l. p. 66 sq.'.",
+          "severity": "low",
+          "suggested_fix": "Extend exact_text to include 't. 1—4; cf. Stein l. l. p. 66 sq.' for full verbatim accuracy."
+        },
+        {
+          "field": "governorship_factoids.0.province_text",
+          "issue": "Province text 'Thracia' is correct in content but should match the printed casus: 'Thraciae' (genitive).",
+          "severity": "low",
+          "suggested_fix": "Use 'Thraciae' in province_text."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The end date of 244 is inferred from Gordian III's death, but the text only says 'sub Gordiano' without specifying the exact end year. This is a minor over-interpretation.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to null or add a note about the uncertainty."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "Normalized name 'Quintus Attius Celer' is plausible but the praenomen 'Quintus' is not explicitly given in the printed text (only 'Q.').",
+          "severity": "low",
+          "suggested_fix": "Use 'Q. Attius Celer' as normalized_name or add a note about the praenomen expansion."
+        },
+        {
+          "field": "related_persons.0.relation_context",
+          "issue": "The relation_context for Cattius Celer is slightly misleading. The text says Stein doubts the reading, not that Cattius Celer is a direct relation. The comparison is epigraphic, not familial or career-related.",
+          "severity": "medium",
+          "suggested_fix": "Clarify relation_context: 'Stein compares the epigraphic reading to Cattius Celer of tituli IX 2778 due to doubts about the transcription.'"
+        }
+      ]
+    }
+  ]
+}

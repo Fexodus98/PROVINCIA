@@ -1,0 +1,175 @@
+{
+  "source_page": 70,
+  "entries": [
+    {
+      "entry_id": "346",
+      "pir_reference": "A 346",
+      "lemma": "L. AEM[ILIVS .. F.] QVIRIN(A) FRON[TINVS] vel FRON[TO]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. provinciae Lugudunensis.",
+      "segments": {
+        "lemma": "L. AEM[ILIVS .. F.] QVIRIN(A) FRON[TINVS] vel FRON[TO]",
+        "name_variants": "L. Aem[ilius .. f.] Quirin(a) Fron[tinus] vel Fron[to]",
+        "identification_and_sources": "XIII 1679 t. mutilus Lugdunensis ei positus a tribus provinciis Galliae.",
+        "offices_and_career": "legatus Aug. pr. pr. provinciae Lugudunensis, consul (suffectus a. inc.)",
+        "governorship_attestation": "legatus Aug. pr. pr. provinciae Lugudunensis",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Fortasse idem qui praecedit.",
+        "bibliography_or_cross_references": "XIII 1679"
+      },
+      "main_person": {
+        "id": "person_346",
+        "displayed_name": "L. Aem[ilius .. f.] Quirin(a) Fron[tinus] vel Fron[to]",
+        "normalized_name": "Lucius Aemilius Frontinus vel Fronto",
+        "pir_reference": "A 346",
+        "status_markers": [
+          "consul"
+        ],
+        "notes": [
+          "Cognomen unsicher (Frontinus vel Fronto, Lakune); Tribus Quirina; Filiation unbekannt."
+        ],
+        "name_variants": [
+          "Lucius Aemilius Frontinus",
+          "Lucius Aemilius Fronto"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_346_1",
+          "person_id": "person_346",
+          "exact_text": "legatus Aug. pr. pr. provinciae Lugudunensis",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Lugudunensis",
+          "province_normalized": "Gallia Lugdunensis",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "t. mutilus Lugdunensis ei positus a tribus provinciis Galliae"
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_346_1",
+          "person_id": "person_346",
+          "exact_text": "consul (suffectus a. inc.)",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. inc.",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_345",
+          "displayed_name": "L. Aemilius Fron....",
+          "normalized_name": "Lucius Aemilius Fron...",
+          "relation_context": "Possibly identical to L. Aem[ilius] Fron[tinus] (346)",
+          "certainty": "medium",
+          "notes": [
+            "Fortasse idem qui praecedit."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#4: Gallia Lugdunensis; normalized_name 'Frontinus vel Fronto' + name_variants; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 70
+    },
+    {
+      "entry_id": "342",
+      "pir_reference": "A 342",
+      "lemma": "SEX. AEMILIVS EQVESTER",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore of Dalmatia.",
+      "segments": {
+        "lemma": "SEX. AEMILIVS EQVESTER",
+        "name_variants": "Sex. Aemilius Equester",
+        "identification_and_sources": "nominatur in titulo Delminensi, quem mecum communicavit Abramaé.",
+        "offices_and_career": "legatus Augusti pro praetore (provinciae Dalmatiae)",
+        "governorship_attestation": "Provinciam rexit sub Antonino Pio non ante annum 145, cum Pius in titulo dictus sit consul IIII, fortasse hoc ipso anno.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Idem sine dubio Aemilius Equester ad quem (praetorem ut videtur) divus Pius rescripsit Ulp. Dig. 36, 4, 1, 3.",
+        "bibliography_or_cross_references": "Ulp. Dig. 36, 4, 1, 3."
+      },
+      "main_person": {
+        "id": "person_342",
+        "displayed_name": "Sex. Aemilius Equester",
+        "normalized_name": "Sextus Aemilius Equester",
+        "pir_reference": "A 342",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_342_1",
+          "person_id": "person_342",
+          "exact_text": "legatus Augusti pro praetore (provinciae Dalmatiae)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Dalmatia",
+          "province_normalized": "Dalmatia",
+          "date_text": "sub Antonino Pio non ante annum 145",
+          "date_normalized_start": 145,
+          "date_normalized_end": 161,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Provinciam rexit sub Antonino Pio non ante annum 145, cum Pius in titulo dictus sit consul IIII, fortasse hoc ipso anno."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_342_1",
+          "person_id": "person_342",
+          "exact_text": "praetorem ut videtur",
+          "normalized_office": "praetor",
+          "province_text": null,
+          "date_text": "sub divo Pio",
+          "date_normalized_start": 138,
+          "date_normalized_end": 161,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "divus Pius rescripsit Ulp. Dig. 36, 4, 1, 3"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_antoninus_pius",
+          "displayed_name": "Antoninus Pius",
+          "normalized_name": "T. Aurelius Fulvus Boionius Arrius Antoninus",
+          "relation_context": "Emperor under whom he governed Dalmatia and who wrote a rescript to him",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_confirmed",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "Ungeflaggt; am Seitenbild verifiziert (Amt und Provinz korrekt); province_normalized zur Konsistenz ergaenzt."
+      },
+      "needs_review": false,
+      "source_page": 70
+    }
+  ]
+}

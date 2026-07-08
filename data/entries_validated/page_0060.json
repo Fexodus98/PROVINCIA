@@ -1,0 +1,128 @@
+{
+  "document_notes": [
+    "The page contains the continuation of the entry for P. Aelius Severianus Maximus (PIR² A 260) at the top, followed by entries 261 to 270. Only the top entry (PIR² A 260) is relevant to the PROVINCIA corpus as it explicitly attests a legatus Augusti pro praetore."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_260",
+      "pir_reference": "A 260",
+      "lemma": "P. AELIVS SEVERIANVS MAXIMVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus Aug. pro praetore of Arabia in 193 and 194 AD.",
+      "segments": {
+        "lemma": "P. AELIVS SEVERIANVS MAXIMVS",
+        "name_variants": "P. Aelius Severianus Maximus, P. Ael. Severia[nus] Max[i]mus, Ael. Severianus Maximus",
+        "identification_and_sources": "natur in t. Perinthio IGR 1, 794 = Jahresh. 23 B. 171, 118 (2) et in multis miliariis provinciae Arabiae. P. Aelius Severianus Maximus t. 1. 2. III 14149^43, P. Ael. Severia[nus] Max[i]mus III 14150^6, Ael. Severianus Maximus III 14172. 14174; nomina plus minus mutila in ceteris miliariis.",
+        "offices_and_career": "Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1, consul suffectus circa a. 194; ὁ λαμπρότατος ὑπατικός t. 2. Severianum post consulatum legatum provinciae Thraciae fuisse viri docti e titulo 2 filio Perinthi dicato collegerunt (cf. Stein Thracia p. 39 sq.), dubito num iure; fieri potest ut oriundus fuerit Perintho.",
+        "governorship_attestation": "Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1",
+        "family_and_social_relations": "Pater P. Aelii Severiani Maximi t. 2.",
+        "prosopographical_commentary": "The author doubts the hypothesis of Stein and other scholars that Severianus was legatus of Thrace after his consulship, which was inferred from an inscription dedicated to his son in Perinthus.",
+        "bibliography_or_cross_references": "IGR 1, 794 = Jahresh. 23 B. 171, 118 (2); CIL III 14149^43, 14150^6, 14172, 14174, 13612, 14169, 14170^3, 14176^4, 13614; Thomsen Die röm. Meilensteine d. Prov. Syria, Arabia u. Palästina passim; Stein Thracia p. 39 sq."
+      },
+      "main_person": {
+        "id": "P_Aelius_Severianus_Maximus_A260",
+        "displayed_name": "P. Aelius Severianus Maximus",
+        "normalized_name": "Publius Aelius Severianus Maximus",
+        "pir_reference": "A 260",
+        "status_markers": [
+          "consularis",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Consul suffectus circa a. 194"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "P_Aelius_Severianus_Maximus_A260",
+          "exact_text": "Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": null,
+          "date_text": "a. 193 - 194",
+          "date_normalized_start": 193,
+          "date_normalized_end": 194,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on multiple milestones in Arabia under Pertinax (193) and Septimius Severus (194)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "P_Aelius_Severianus_Maximus_A260",
+          "exact_text": "Consul designatus etiamtum legatus Arabiae t. 1, consul suffectus circa a. 194",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "circa a. 194",
+          "date_normalized_start": 194,
+          "date_normalized_end": 194,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Designated consul while still serving as governor of Arabia."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "P_Aelius_Severianus_Maximus_A261",
+          "displayed_name": "P. Ael(ius) Severianus Maximus",
+          "normalized_name": "Publius Aelius Severianus Maximus",
+          "relation_context": "filius P. Aelii Severiani Maximi consularis",
+          "certainty": "high",
+          "notes": [
+            "Honored by the Perinthians (IGR 1, 794 = Jahresh. 23 B. 171, 118)."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "P_Aelius_Severianus_Maximus_A260",
+          "target": "P_Aelius_Severianus_Maximus_A261",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "Pater P. Aelii Severiani Maximi t. 2. / filius P. Aelii Severiani Maximi consularis",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry is split across pages; the beginning of the entry is on the preceding page, but the crucial governorship details for Arabia are fully preserved on this page."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids.gov_2.province_normalized",
+            "issue": "The province 'Thracia' is not explicitly attested for P. Aelius Severianus Maximus as legatus Augusti pro praetore. The text states the governorship is doubted by the PIR author and is inferred by other scholars, not confirmed.",
+            "severity": "medium",
+            "suggested_fix": "Set province_normalized to null for gov_2, as the evidence is low certainty and the PIR author explicitly doubts this governorship."
+          },
+          {
+            "field": "governorship_factoids.gov_2.date_normalized_end",
+            "issue": "The end date for the inferred Thracia governorship is too broad (210). The text does not provide any date range beyond 'post consulatum (post a. 194)'.",
+            "severity": "low",
+            "suggested_fix": "Set date_normalized_end to null or a more conservative estimate (e.g., 200) if a range must be provided."
+          },
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "The exact_text is slightly truncated and does not match the verbatim quote from the page. The page reads: 'Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1'. The proposed exact_text omits 'miliariis' and some punctuation.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to: 'Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente miliar[iis]... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1'."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status marker 'consularis' is not explicitly stated in the text for the governorship of Arabia. It is inferred from the consulship, but the text does not use the term 'consularis' for this period.",
+            "severity": "low",
+            "suggested_fix": "Remove 'consularis' from status_markers or add a note clarifying the inference."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page_notes": [
+    "Page 180 (PIR page 164) contains one entry (851) explicitly matching the criteria for the PROVINCIA corpus (legatus Augusti pro praetore of Cappadocia). Entry 849 mentions 'legatus pr. pr. provinciae Africae', which is a legatus proconsulis, not a legatus Augusti pro praetore, and is excluded. No other entries on this page explicitly attest a legatus Augusti pro praetore."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "851",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text 'legatus Aug. pr. pr. (Cappadociae) sub Philippis' is slightly truncated. The image shows 'legatus Aug. pr. pr. (Cappadociae) sub Philippis,' with a comma after 'Philippis'.",
+          "severity": "low",
+          "suggested_fix": "Include the comma: 'legatus Aug. pr. pr. (Cappadociae) sub Philippis,'"
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The end date of 249 is inferred from the reign of Philip the Younger, but the image does not explicitly state this. The certainty should be noted as inferred.",
+          "severity": "low",
+          "suggested_fix": "Add a note clarifying that the end date is inferred from the reign of Philip the Younger."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'vir clarissimus' is not explicitly stated in the entry. It is inferred from the office of legatus Augusti pro praetore, but this should be noted.",
+          "severity": "low",
+          "suggested_fix": "Add a note that 'vir clarissimus' is inferred from the office held."
+        }
+      ]
+    }
+  ]
+}

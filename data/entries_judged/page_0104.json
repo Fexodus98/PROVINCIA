@@ -1,0 +1,75 @@
+{
+  "page_notes": [
+    "Page 88 contains three entries: 519, 520, and 521. The image confirms the presence of all three entries and their PIR references.",
+    "Entry 520 is correctly excluded as the subject is only attested as procurator, not legatus Augusti pro praetore."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A_519",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_519_1.exact_text",
+          "issue": "The exact_text 'Legatus Augusti pro praetore provinciae Arabiae' is not a verbatim quote from the image. The image shows 'Legatus Augusti pro praetore provinciae Arabiae t. 1;' (with 't. 1;' included).",
+          "severity": "low",
+          "suggested_fix": "Trim the exact_text to exclude 't. 1;' or include it verbatim: 'Legatus Augusti pro praetore provinciae Arabiae t. 1;'."
+        },
+        {
+          "field": "governorship_factoids.gov_519_1.date_text",
+          "issue": "The date_text 'a. 209 (?)' is not fully supported by the image. The image states 'hunc nominatum fuisse in t. posito a. 209' but also notes significant doubt ('dubito num recte').",
+          "severity": "medium",
+          "suggested_fix": "Update date_text to reflect the uncertainty more clearly: 'a. 209 (conjectured, debated)'."
+        },
+        {
+          "field": "governorship_factoids.gov_519_1.notes",
+          "issue": "The note about the Gerasene inscription (IGR 3, 1371) is not directly supported by the image text. The image only mentions the conjecture in Wadd. 2460.",
+          "severity": "low",
+          "suggested_fix": "Clarify the note to reflect the image text: 'His identification in Wadd. 2460 (dated to 209 AD) is conjectured based on the ending '...ητιανοῦ', but this is debated and could potentially refer to Syria instead of Arabia.'"
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'frater Arvalis' is correct but should include the promagister detail for completeness.",
+          "severity": "low",
+          "suggested_fix": "Update status_markers to: ['senator', 'frater Arvalis (promagister collegii)']."
+        }
+      ]
+    },
+    {
+      "entry_id": "A_521",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_521_1.exact_text",
+          "issue": "The exact_text 'Legatus Severi et Antonini Augustorum pr. pr. (provinciae Syriae Coeles ut videtur)' is not a verbatim quote. The image shows 'Legatus Severi et Antonini Augustorum pr. pr. (provinciae Syriae Coeles ut videtur) t. 1. 2 cf. III 6711 = Jalabert-Mouterde 41,'.",
+          "severity": "low",
+          "suggested_fix": "Trim the exact_text to exclude trailing references or include them verbatim."
+        },
+        {
+          "field": "governorship_factoids.gov_521_2.exact_text",
+          "issue": "The exact_text 'Legatus Augustorum eorundem pr. pr. (provinciae Britanniae)' is not a verbatim quote. The image shows 'Legatus Augustorum eorundem pr. pr. (provinciae Britanniae) t. 3—9 ;'.",
+          "severity": "low",
+          "suggested_fix": "Trim the exact_text to exclude 't. 3—9 ;' or include it verbatim."
+        },
+        {
+          "field": "governorship_factoids.gov_521_2.date_text",
+          "issue": "The date_text 'intra a. 205 et 207' is slightly off. The image shows 'intra a. 205 et 207 t. 6.' (specific reference to t. 6).",
+          "severity": "low",
+          "suggested_fix": "Update date_text to: 'intra a. 205 et 207 (t. 6)'."
+        },
+        {
+          "field": "governorship_factoids.gov_521_1.notes",
+          "issue": "The note about Syrian inscriptions (CIL III 6709, 6710) is correct but could clarify that the province is restored as Syria Coele ('ut videtur').",
+          "severity": "low",
+          "suggested_fix": "Clarify the note: 'Attested in Syrian inscriptions (CIL III 6709, 6710). The exact province is restored as Syria Coele (\"ut videtur\").'"
+        },
+        {
+          "field": "entry_notes",
+          "issue": "The entry_note about the chronological order of governorships is correct but could explicitly mention the confusion in tribunician dates.",
+          "severity": "low",
+          "suggested_fix": "Update entry_note to: 'The chronological order of his governorships in Syria Coele and Britannia is difficult to define precisely due to confused tribunician dates in Syrian inscriptions (\"numeri annorum tribuniciae potestatis cet. confusi sint\").'"
+        }
+      ]
+    }
+  ]
+}

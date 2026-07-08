@@ -1,0 +1,56 @@
+{
+  "page_notes": [
+    "Page 136 of PIR (Volume I, 2nd edition) contains entries for Anteius and Antianus. The image shows two explicit legatus Augusti pro praetore attestations: one for P. Anteius Rufus (Dalmatia) and one for [.....]us Antianus (Pannonia inferior)."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "731",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51' is slightly truncated. The full quote from the image is 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5'.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to 'Legatus Augusti pro praetore provinciae Dalmatiae a. 51 t. 1—5'."
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "The date_normalized_end is set to 51, but the text implies he held the post for multiple years (t. 1—5).",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 55 or add a note clarifying the duration."
+        },
+        {
+          "field": "career_factoids[1].normalized_office",
+          "issue": "The office for the Syria appointment is marked as 'legatus Augusti pro praetore (designatus)', but the text states he was 'destinata' (designated) but never took office.",
+          "severity": "low",
+          "suggested_fix": "Clarify in notes that he was designated but did not assume the post."
+        }
+      ]
+    },
+    {
+      "entry_id": "735",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "main_person.displayed_name",
+          "issue": "The displayed_name '[.....]us Antianus' is correct, but the normalized_name 'Antianus' omits the partially lost nomen.",
+          "severity": "low",
+          "suggested_fix": "Update normalized_name to '[.....]us Antianus' or add a note about the partial name."
+        },
+        {
+          "field": "governorship_factoids[0].date_text",
+          "issue": "The date_text 'sub M. Aurelio' is inferred but not explicitly stated in the text. The image shows 'Imp. Caesaris M. Aureli!!!!!!', which suggests a dedication during Marcus Aurelius' reign but does not specify exact years.",
+          "severity": "medium",
+          "suggested_fix": "Update date_text to 'sub Imp. Caesare M. Aurelio' and adjust date_normalized_start/end to reflect the broader range (161-180)."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'legatus Aug. pr. pr. provinciae Pannoniae inferioris' is correct but omits the dedicatory context ('dedicavit pro salute, victoria et perpetuitate').",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to include the full quote: 'legatus Aug. pr. pr. provinciae Pannoniae inferioris, dedicavit pro salute, victoria et perpetuitate Imp. Caesaris M. Aureli!!!!!!'."
+        }
+      ]
+    }
+  ]
+}

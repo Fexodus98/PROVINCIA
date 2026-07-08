@@ -1,0 +1,184 @@
+{
+  "document_notes": [
+    "The page contains the continuation of the entry for L. Antistius Vetus (PIR² A 776), which contains explicit governorship formulas for Germania Superior. It also contains entries 777 and 778, which are not relevant to the PROVINCIA corpus."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_776",
+      "pir_reference": "A 776",
+      "lemma": "L. ANTISTIVS VETVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pro pr. a. 56' of Germania Superior ('exercitui (Germaniae superioris) praefuit').",
+      "segments": {
+        "lemma": "[L. ANTISTIVS VETVS]",
+        "name_variants": "L. Antistius Vetus, L. Antistio",
+        "identification_and_sources": "Tac. a. 13, 11; 16, 10; Suet. Nero 14; CIL IV 5513",
+        "offices_and_career": "Consul a. 55 cum Nerone Augusto. Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55. Legatus Aug. pro pr. a. 56. Proconsul Asiae a. 64/65 ut videtur.",
+        "governorship_attestation": "legatus Aug. pro pr. a. 56 t. 1; exercitui (Germaniae superioris) praefuit Tac. a. 13, 53",
+        "family_and_social_relations": "Pater fuit, si t. 2 pertinet ad Veterem hunc, C. Antistius Vetus consul a. 23. Gener: Rubellius Plautus. Filia: Antistia Pollitta. Socrus: Sextia. Nepotes memorantur Tac. 14, 59; 16, 11.",
+        "prosopographical_commentary": "Accusatus apud Neronem a Fortunato liberto adscito Claudio Demiano; damnationem anteierunt venas simul solventes a. 65.",
+        "bibliography_or_cross_references": "Tac. a. 13, 11; 13, 53; 14, 58. 59; 16, 10. 11. 12; Suet. Nero 14; Plin. n. h. ind. l. 3-6; CIL IV 5513."
+      },
+      "main_person": {
+        "id": "P_A_776",
+        "displayed_name": "L. Antistius Vetus",
+        "normalized_name": "Lucius Antistius Vetus",
+        "pir_reference": "A 776",
+        "status_markers": [
+          "consul",
+          "legatus Augusti pro praetore",
+          "proconsul"
+        ],
+        "notes": [
+          "Consul in 55 AD",
+          "Legatus of Germania Superior",
+          "Proconsul of Asia"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "F_G_A_776_1",
+          "person_id": "P_A_776",
+          "exact_text": "Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55 ... legatus Aug. pro pr. a. 56 t. 1",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Germania superior",
+          "date_text": "a. 55-56",
+          "date_normalized_start": 55,
+          "date_normalized_end": 56,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Germania Superior as legatus Aug. pro pr."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "F_C_A_776_1",
+          "person_id": "P_A_776",
+          "exact_text": "Consul a. 55 cum Nerone Augusto",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "a. 55",
+          "date_normalized_start": 55,
+          "date_normalized_end": 55,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "F_C_A_776_2",
+          "person_id": "P_A_776",
+          "exact_text": "Proconsul Asiae ib. 16, 10 anno 64/65 ut videtur",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": "anno 64/65 ut videtur",
+          "date_normalized_start": 64,
+          "date_normalized_end": 65,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "P_C_Antistius_Vetus",
+          "displayed_name": "C. Antistius Vetus",
+          "normalized_name": "Gaius Antistius Vetus",
+          "relation_context": "Father of L. Antistius Vetus",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 23 AD"
+          ]
+        },
+        {
+          "id": "P_Antistia_Pollitta",
+          "displayed_name": "Antistia Pollitta",
+          "normalized_name": "Antistia Pollitta",
+          "relation_context": "Daughter of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Rubellius_Plautus",
+          "displayed_name": "Rubellius Plautus",
+          "normalized_name": "Rubellius Plautus",
+          "relation_context": "Son-in-law of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Sextia",
+          "displayed_name": "Sextia",
+          "normalized_name": "Sextia",
+          "relation_context": "Mother-in-law of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Aelius_Gracilis",
+          "displayed_name": "Aelius Gracilis",
+          "normalized_name": "Aelius Gracilis",
+          "relation_context": "Legatus of Belgica who deterred Vetus from digging a canal",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Curtilius_Mancia",
+          "displayed_name": "T. Curtilius Mancia",
+          "normalized_name": "Titus Curtilius Mancia",
+          "relation_context": "Successor of Vetus in Germania Superior",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "P_A_776",
+          "target": "P_C_Antistius_Vetus",
+          "relation": "son of",
+          "certainty": "medium",
+          "basis": "Pater fuit, si t. 2 pertinet ad Veterem hunc, C. Antistius Vetus consul a. 23.",
+          "notes": []
+        },
+        {
+          "source": "P_Antistia_Pollitta",
+          "target": "P_A_776",
+          "relation": "daughter of",
+          "certainty": "high",
+          "basis": "Antistia Pollitta (?) filia ... Luci Veteris",
+          "notes": []
+        },
+        {
+          "source": "P_Rubellius_Plautus",
+          "target": "P_A_776",
+          "relation": "son-in-law of",
+          "certainty": "high",
+          "basis": "Rubellium Plautum generum Luci Veteris",
+          "notes": []
+        },
+        {
+          "source": "P_Sextia",
+          "target": "P_A_776",
+          "relation": "mother-in-law of",
+          "certainty": "high",
+          "basis": "ipse socrusque eius Sextia",
+          "notes": []
+        },
+        {
+          "source": "P_Curtilius_Mancia",
+          "target": "P_A_776",
+          "relation": "successor of",
+          "certainty": "high",
+          "basis": "eo ipso anno T. Curtilius Mancia in eius locum successit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry for L. Antistius Vetus is continued from the previous page (149). Only the text on page 150 is analyzed here."
+      ]
+    }
+  ]
+}

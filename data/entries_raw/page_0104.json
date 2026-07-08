@@ -1,0 +1,240 @@
+{
+  "document_notes": [
+    "Page 88 contains three entries: 519, 520, and 521. Entry 520 is excluded because the subject is only attested as procurator, not legatus Augusti pro praetore. Entries 519 and 521 are included as they explicitly mention the target governorship formulas."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_519",
+      "pir_reference": "A 519",
+      "lemma": "L. ALFENVS AVITIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Augusti pro praetore provinciae Arabiae'.",
+      "segments": {
+        "lemma": "519 L. ALFENVS AVITIANVS",
+        "name_variants": "L. Alfenius Avi[tianus], Alfenus Avitianus, Alfenius Avitianus",
+        "identification_and_sources": "nominatur in titulo Geraseno IGR 3, 1371 (1), in actis fratrum Arvalium VI 2104 (= D. 5039) (2). 2108 (3).",
+        "offices_and_career": "Legatus Augusti pro praetore provinciae Arabiae t. 1; hunc nominatum fuisse in t. posito a. 209, Wadd. 2460, ubi nomina legati perierunt praeter .... ητιανοῦ, suspicati sunt Bruennow et Domaszewski Arabia 3, 209. 298 (dubito num recte), qui simul monuerunt fieri posse ut non Arabiae sed Syriae legatus in hoc t. memoratus sit. Frater Arvalis a. 218 (promagister collegii) t. 2, a. 231 t. 3.",
+        "governorship_attestation": "Legatus Augusti pro praetore provinciae Arabiae t. 1; hunc nominatum fuisse in t. posito a. 209, Wadd. 2460, ubi nomina legati perierunt praeter .... ητιανοῦ, suspicati sunt Bruennow et Domaszewski Arabia 3, 209. 298 (dubito num recte), qui simul monuerunt fieri posse ut non Arabiae sed Syriae legatus in hoc t. memoratus sit.",
+        "family_and_social_relations": "Ex posteris videtur L. Alfeni Avitiari primipilaris equestribus militiis functi sub divis fratribus; origine fortasse Accitanus. Pater videtur fuisse L. Alfeni Virii Iuliani et L. Alfeni Virii Aviti Avitiani, qui pueri patrimi et matrimi cum ministrarent Arvalibus annis 240 et 241 (D. 9522. VI 2114), et ipse et uxor etiamtum vivebant; uxorem e gente Viria ortam esse ex nominibus filiorum conici potest. Socer ni fallor L. Iulii Apronii Maenii Pii Salamalliani, id quod nominibus Iulii Apronii Maenii Avitiani filii et Iuliae Aproniae Alfenae Agrippinae filiae Apronii Pii indicari videtur. — Cf. infra...um Antianum.",
+        "prosopographical_commentary": "Ex posteris videtur L. Alfeni Avitiari primipilaris equestribus militiis functi sub divis fratribus; origine fortasse Accitanus.",
+        "bibliography_or_cross_references": "IGR 3, 1371; VI 2104 (= D. 5039); 2108; Wadd. 2460; Bruennow et Domaszewski Arabia 3, 209. 298; D. 9522; VI 2114; Cf. infra...um Antianum."
+      },
+      "main_person": {
+        "id": "person_519",
+        "displayed_name": "L. Alfenus Avitianus",
+        "normalized_name": "Lucius Alfenus Avitianus",
+        "pir_reference": "A 519",
+        "status_markers": [
+          "senator",
+          "frater Arvalis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_519_1",
+          "person_id": "person_519",
+          "exact_text": "Legatus Augusti pro praetore provinciae Arabiae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Arabia",
+          "date_text": "a. 209 (?)",
+          "date_normalized_start": 209,
+          "date_normalized_end": 209,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a Gerasene inscription (IGR 3, 1371). His identification in Wadd. 2460 (dated to 209 AD) is conjectured based on the ending '...ητιανοῦ', but this is debated and could potentially refer to Syria instead of Arabia."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_519_1",
+          "person_id": "person_519",
+          "exact_text": "Frater Arvalis a. 218 (promagister collegii) t. 2, a. 231 t. 3",
+          "normalized_office": "frater Arvalis",
+          "province_text": null,
+          "date_text": "a. 218, a. 231",
+          "date_normalized_start": 218,
+          "date_normalized_end": 231,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_519_rel_1",
+          "displayed_name": "L. Alfenius Avitiarius",
+          "normalized_name": "Lucius Alfenius Avitiarius",
+          "relation_context": "Possible ancestor; primipilaris who performed equestrian military service under the divi fratres.",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_519_rel_2",
+          "displayed_name": "L. Alfenius Virius Iulianus",
+          "normalized_name": "Lucius Alfenius Virius Iulianus",
+          "relation_context": "Likely son of L. Alfenus Avitianus.",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_519_rel_3",
+          "displayed_name": "L. Alfenius Virius Avitus Avitianus",
+          "normalized_name": "Lucius Alfenius Virius Avitus Avitianus",
+          "relation_context": "Likely son of L. Alfenus Avitianus.",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_519_rel_4",
+          "displayed_name": "L. Iulius Apronius Maenius Pius Salamallianus",
+          "normalized_name": "Lucius Iulius Apronius Maenius Pius Salamallianus",
+          "relation_context": "Possibly father-in-law of L. Alfenus Avitianus.",
+          "certainty": "medium",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_519_rel_1",
+          "target": "person_519",
+          "relation": "ancestor of",
+          "certainty": "medium",
+          "basis": "Nomenclatural and chronological proximity ('Ex posteris videtur...').",
+          "notes": []
+        },
+        {
+          "source": "person_519",
+          "target": "person_519_rel_2",
+          "relation": "father of",
+          "certainty": "medium",
+          "basis": "Arval records and onomastic reconstruction ('Pater videtur fuisse...').",
+          "notes": []
+        },
+        {
+          "source": "person_519",
+          "target": "person_519_rel_3",
+          "relation": "father of",
+          "certainty": "medium",
+          "basis": "Arval records and onomastic reconstruction ('Pater videtur fuisse...').",
+          "notes": []
+        },
+        {
+          "source": "person_519_rel_4",
+          "target": "person_519",
+          "relation": "father-in-law of",
+          "certainty": "medium",
+          "basis": "Inferred from the names of the children/grandchildren ('Socer ni fallor...').",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "Origin is suggested as possibly Accitanus (from Acci in Hispania Tarraconensis)."
+      ]
+    },
+    {
+      "entry_id": "A_521",
+      "pir_reference": "A 521",
+      "lemma": "L. ALFENVS SENECIO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Severi et Antonini Augustorum pr. pr.' (Syria Coele) and 'Legatus Augustorum eorundem pr. pr.' (Britannia).",
+      "segments": {
+        "lemma": "521 L. ALFENVS SENECIO",
+        "name_variants": "L. Alfenus Senecio, L. A[lfenus] Senecionis, Alfenus Senecio, [S]enecio",
+        "identification_and_sources": "nominatur in titulis Syriacis III 6709 = D. 5899 = Jalabert-Mouterde Inscr. gr. et lat. de la Syrie 1, 39 (1). III 6710 = Jalabert-Mouterde 1, 40 (2) et Britannicis VII 269 = Eph. ep. 9 p. 563 (3). 279 (4). 513, melius Eph. ep. 3 p. 132 (5). 1003 = D. 2618 (6). Journ. Rom. stud. 18, 1928, 212 (7), ib. 19, 1929, 214 (8), fortasse etiam in fragmento corrupto VII 270 (9).",
+        "offices_and_career": "Legatus Severi et Antonini Augustorum pr. pr. (provinciae Syriae Coeles ut videtur) t. 1. 2 cf. III 6711 = Jalabert-Mouterde 41, intra a. 198 et 209 (cf. infra). Legatus Augustorum eorundem pr. pr. (provinciae Britanniae) t. 3—9 ; co(n)s(ularis) t. 5. 6. 8; [co(n)s(ularis)] amplissimus t. 3 cf. t. 9, intra a. 205 et 207 t. 6.",
+        "governorship_attestation": "Legatus Severi et Antonini Augustorum pr. pr. (provinciae Syriae Coeles ut videtur) t. 1. 2 cf. III 6711 = Jalabert-Mouterde 41, intra a. 198 et 209 (cf. infra). Legatus Augustorum eorundem pr. pr. (provinciae Britanniae) t. 3—9 ; co(n)s(ularis) t. 5. 6. 8; [co(n)s(ularis)] amplissimus t. 3 cf. t. 9, intra a. 205 et 207 t. 6. Neque tempora legationum accuratius definire licet, cum in titulis Syriacis numeri annorum tribuniciae potestatis cet. confusi sint, neque pro certo explorari potest, utrum Syriam (Coelen) ante Britanniam administraverit",
+        "family_and_social_relations": "Probabiliter filius L. Alfeni Senecionis procuratoris Aug. cf. Stein Ritterst. p. 333.",
+        "prosopographical_commentary": "Vir clarissimus t. 6. Neque tempora legationum accuratius definire licet, cum in titulis Syriacis numeri annorum tribuniciae potestatis cet. confusi sint, neque pro certo explorari potest, utrum Syriam (Coelen) ante Britanniam administraverit",
+        "bibliography_or_cross_references": "III 6709 = D. 5899 = Jalabert-Mouterde Inscr. gr. et lat. de la Syrie 1, 39; III 6710 = Jalabert-Mouterde 1, 40; VII 269 = Eph. ep. 9 p. 563; Eph. ep. 3 p. 132; 1003 = D. 2618; Journ. Rom. stud. 18, 1928, 212; ib. 19, 1929, 214; VII 270; III 6711 = Jalabert-Mouterde 41; Stein Ritterst. p. 333."
+      },
+      "main_person": {
+        "id": "person_521",
+        "displayed_name": "L. Alfenus Senecio",
+        "normalized_name": "Lucius Alfenus Senecio",
+        "pir_reference": "A 521",
+        "status_markers": [
+          "vir clarissimus",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_521_1",
+          "person_id": "person_521",
+          "exact_text": "Legatus Severi et Antonini Augustorum pr. pr. (provinciae Syriae Coeles ut videtur)",
+          "normalized_office": "legatus Augustorum pro praetore",
+          "province_text": "Syria Coele",
+          "date_text": "intra a. 198 et 209",
+          "date_normalized_start": 198,
+          "date_normalized_end": 209,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in Syrian inscriptions (CIL III 6709, 6710). The exact province is restored as Syria Coele ('ut videtur')."
+          ]
+        },
+        {
+          "factoid_id": "gov_521_2",
+          "person_id": "person_521",
+          "exact_text": "Legatus Augustorum eorundem pr. pr. (provinciae Britanniae)",
+          "normalized_office": "legatus Augustorum pro praetore",
+          "province_text": "Britannia",
+          "date_text": "intra a. 205 et 207",
+          "date_normalized_start": 205,
+          "date_normalized_end": 207,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in numerous British inscriptions (CIL VII 269, etc.)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_521_1",
+          "person_id": "person_521",
+          "exact_text": "co(n)s(ularis)",
+          "normalized_office": "consularis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_520",
+          "displayed_name": "L. Alfenus Senecio",
+          "normalized_name": "Lucius Alfenus Senecio",
+          "relation_context": "Probable father; procurator of Mauretania Caesariensis and Belgica.",
+          "certainty": "medium",
+          "notes": [
+            "Subject of entry PIR A 520."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_520",
+          "target": "person_521",
+          "relation": "father of",
+          "certainty": "medium",
+          "basis": "Onomastic identity and chronological sequence ('Probabiliter filius L. Alfeni Senecionis procuratoris Aug.').",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The chronological order of his governorships in Syria Coele and Britannia is difficult to define precisely due to confused tribunician dates in Syrian inscriptions."
+      ]
+    }
+  ]
+}

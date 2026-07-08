@@ -1,0 +1,278 @@
+{
+  "source_page": 69,
+  "entries": [
+    {
+      "entry_id": "PIR_A_338",
+      "pir_reference": "A 338",
+      "lemma": "L. AEMILIVS CARVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore of Arabia, Cappadocia, Tres Daciae, and censitor of Lugdunensis.",
+      "segments": {
+        "lemma": "338 L. AEMILIVS CARVS.",
+        "name_variants": "L. Aemilius L. f. Cam(ilia) Karus t. 1. L. Aemilius Carus t. 2—6. Αἰμίλιος Κᾶρος t. 7. 8.",
+        "identification_and_sources": "Tituli: urbanus ei positus a C. Iulio Eruciano Crispo praefecto alae I Ulpiae Dacorum amico VI 1333 = D. 1077 (1); ipse posuit Iovi optimo maximo legatus (sc. legionis) Agrippinensem XIII 8197 (2), Iovi optimo maximo conservatori legatus Arabiae Philadelphenum III 14 149¹ = D. 3013 (3), legatus Daciarum Sarapidi Iovi Soli Isidi Lunae Dianae dis deabusque conservatoribus Apulensem III 7771 = D. 4398 (4), Silvano sancto Apulensem (ut videtur) III 1153 (5), Apollini Augusto Dacicum III 1415 (6); nominatur in titulis Gerasenis IGR 3, 1348 (7), Rev. bibl. 1909, 449 (ex parte iam IGR 3, 1364) (8). Referri potest ad eum fragmentum XIII 8534, ubi nihil superest nisi L. Car[u]s. Non huc respicit fistula aquaria XV 7546 Aemiliorum Luci(us) et Karici, plumbariorum nomina exhibens, cf. quae adnotavit Dressel (minus recte VI 31633 adnot.).",
+        "offices_and_career": "Origine videtur fuisse Italicus propter tribum Camiliam. Cursum honorum usque ad legationem Cappadociae exhibet t. 1: Xvir stlitibus iudicandis, tribunus militum legionis VIIII Hispanae aetate Hadriano, quo regnante haec legio interiit (cf. Ritterling RE 12, 1669), tribunus militum legionis VIII Augustae, quaestor Augusti, tribunus plebis, praetor, legatus legionis XXX Ulpiae victricis — ad hanc legationem pertinet t. 2, ubi dicitur leg. Aug. nude —, curator viae Flaminiae t. 1.",
+        "governorship_attestation": "Legatus Aug. pro praetore provinciae Arabiae t. 1. 3. 7 anno 205 aerae Pompeianae ut videtur i. e. a. p. C. 142/143 t. 8, ante a. 150, quo anno L. Attidius Cornelianus provinciam obtinuit (v. infra sub Attidio); consul t. 1 (ubi consulatus ceteris honoribus praemittitur) suffectus a. inc. imperante Antonino Pio; legatus Aug. pr. pr. censitor provinciae Lugdunensis, legatus Aug. pr. pr. provinciae Cappadociae t. 1 certe ante M. Sedatium Severianum, qui hanc provinciam rexit usque ad annum 161 p. C. Legatus Aug. pr. pr. III Daciarum t. 4. 5. 6.",
+        "family_and_social_relations": "Legatum Daciarum diversum esse a Caro hoc, sc. filium eius, posuit Ritterling l. l. 1824 sine idonea causa: nam nihil obstat quominus statuamus Carum ut rei militaris peritissimum quamvis aetate provectum a divis fratribus Daciae praepositum esse, quam defenderet ab incursionibus barbarorum; quod si recte positum est, primus fuerit necesse est qui consularis rexit hanc provinciam ad id tempus a praetoriis administratam.",
+        "prosopographical_commentary": "Iure enim Premerstein Wiener Eranos (1909), 266 sq. demonstrasse videtur Carum tres Dacias rexisse inter a. 161, quo P. Furius Saturninus provinciae praefuit, et a. 164/166, quo tempore M. Claudius Fronto hac legatione functus est.",
+        "bibliography_or_cross_references": "Sodalis Flavialis, XV vir sacris faciundis t. 1. Gr."
+      },
+      "main_person": {
+        "id": "person_A338",
+        "displayed_name": "L. AEMILIVS CARVS",
+        "normalized_name": "Lucius Aemilius Carus",
+        "pir_reference": "A 338",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A338_arabia",
+          "person_id": "person_A338",
+          "exact_text": "Legatus Aug. pro praetore provinciae Arabiae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": "Arabia",
+          "date_text": "anno 205 aerae Pompeianae ut videtur i. e. a. p. C. 142/143 t. 8, ante a. 150",
+          "date_normalized_start": 142,
+          "date_normalized_end": 149,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in 142/143 AD (year 205 of the Pompeian era) and before 150 AD when L. Attidius Cornelianus took over.",
+            "Ende 149 ('ante a. 150', bis L. Attidius Cornelianus A 1341 uebernahm)."
+          ]
+        },
+        {
+          "factoid_id": "gov_A338_lugdunensis",
+          "person_id": "person_A338",
+          "exact_text": "legatus Aug. pr. pr. censitor provinciae Lugdunensis",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Lugdunensis",
+          "province_normalized": "Gallia Lugdunensis",
+          "date_text": "imperante Antonino Pio",
+          "date_normalized_start": 138,
+          "date_normalized_end": 161,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Served as censitor of Lugdunensis under Antoninus Pius."
+          ]
+        },
+        {
+          "factoid_id": "gov_A338_cappadocia",
+          "person_id": "person_A338",
+          "exact_text": "legatus Aug. pr. pr. provinciae Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cappadocia",
+          "province_normalized": "Cappadocia",
+          "date_text": "certe ante M. Sedatium Severianum, qui hanc provinciam rexit usque ad annum 161 p. C.",
+          "date_normalized_start": null,
+          "date_normalized_end": 161,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Cappadocia before M. Sedatius Severianus.",
+            "Beginn unbestimmt (nur Terminus vor M. Sedatius Severianus, bis 161)."
+          ]
+        },
+        {
+          "factoid_id": "gov_A338_dacia",
+          "person_id": "person_A338",
+          "exact_text": "Legatus Aug. pr. pr. III Daciarum",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Tres Daciae",
+          "province_normalized": "Tres Daciae",
+          "date_text": "inter a. 161, quo P. Furius Saturninus provinciae praefuit, et a. 164/166",
+          "date_normalized_start": 161,
+          "date_normalized_end": 166,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_A338_1",
+          "person_id": "person_A338",
+          "exact_text": "Xvir stlitibus iudicandis",
+          "normalized_office": "decemvir stlitibus iudicandis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_A338_2",
+          "person_id": "person_A338",
+          "exact_text": "tribunus militum legionis VIIII Hispanae",
+          "normalized_office": "tribunus militum",
+          "province_text": null,
+          "date_text": "aetate Hadriano",
+          "date_normalized_start": 117,
+          "date_normalized_end": 138,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_A338_3",
+          "person_id": "person_A338",
+          "exact_text": "legatus legionis XXX Ulpiae victricis",
+          "normalized_office": "legatus legionis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_A338_4",
+          "person_id": "person_A338",
+          "exact_text": "curator viae Flaminiae",
+          "normalized_office": "curator viae",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_A338_5",
+          "person_id": "person_A338",
+          "exact_text": "consul suffectus",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "imperante Antonino Pio",
+          "date_normalized_start": 138,
+          "date_normalized_end": 161,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_C_Iulius_Erucianus_Crispus",
+          "displayed_name": "C. Iulio Eruciano Crispo",
+          "normalized_name": "Gaius Iulius Erucianus Crispus",
+          "relation_context": "praefecto alae I Ulpiae Dacorum amico",
+          "certainty": "high",
+          "notes": [
+            "Friend of L. Aemilius Carus who set up an inscription for him."
+          ]
+        },
+        {
+          "id": "person_L_Attidius_Cornelianus",
+          "displayed_name": "L. Attidius Cornelianus",
+          "normalized_name": "Lucius Attidius Cornelianus",
+          "relation_context": "provinciam [Arabiam] obtinuit",
+          "certainty": "high",
+          "notes": [
+            "Succeeded L. Aemilius Carus in Arabia around 150 AD."
+          ]
+        },
+        {
+          "id": "person_M_Sedatius_Severianus",
+          "displayed_name": "M. Sedatium Severianum",
+          "normalized_name": "Marcus Sedatius Severianus",
+          "relation_context": "qui hanc provinciam [Cappadociam] rexit usque ad annum 161 p. C.",
+          "certainty": "high",
+          "notes": [
+            "Governed Cappadocia after L. Aemilius Carus."
+          ]
+        },
+        {
+          "id": "person_P_Furius_Saturninus",
+          "displayed_name": "P. Furius Saturninus",
+          "normalized_name": "Publius Furius Saturninus",
+          "relation_context": "provinciae [Daciae] praefuit",
+          "certainty": "high",
+          "notes": [
+            "Governed Dacia in 161 AD before L. Aemilius Carus."
+          ]
+        },
+        {
+          "id": "person_M_Claudius_Fronto",
+          "displayed_name": "M. Claudius Fronto",
+          "normalized_name": "Marcus Claudius Fronto",
+          "relation_context": "hac legatione [Daciae] functus est",
+          "certainty": "high",
+          "notes": [
+            "Governed Dacia around 164/166 AD after L. Aemilius Carus."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A338",
+          "target": "person_C_Iulius_Erucianus_Crispus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "amico",
+          "notes": []
+        },
+        {
+          "source": "person_A338",
+          "target": "person_L_Attidius_Cornelianus",
+          "relation": "predecessor_of",
+          "certainty": "high",
+          "basis": "ante a. 150, quo anno L. Attidius Cornelianus provinciam obtinuit",
+          "notes": []
+        },
+        {
+          "source": "person_A338",
+          "target": "person_M_Sedatius_Severianus",
+          "relation": "predecessor_of",
+          "certainty": "high",
+          "basis": "certe ante M. Sedatium Severianum",
+          "notes": []
+        },
+        {
+          "source": "person_A338",
+          "target": "person_P_Furius_Saturninus",
+          "relation": "successor_of",
+          "certainty": "high",
+          "basis": "inter a. 161, quo P. Furius Saturninus provinciae praefuit",
+          "notes": []
+        },
+        {
+          "source": "person_A338",
+          "target": "person_M_Claudius_Fronto",
+          "relation": "predecessor_of",
+          "certainty": "high",
+          "basis": "et a. 164/166, quo tempore M. Claudius Fronto hac legatione functus est",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the debate on whether the legatus of Dacia was this Carus or his son, concluding that it was likely this Carus, who governed the Three Dacias as a consularis between 161 and 164/166 AD."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#3: 4 Statthalterschaften behalten; Cappadocia-Beginn null; Arabia-Ende 149; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 69
+    }
+  ]
+}

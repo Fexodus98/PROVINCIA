@@ -1,0 +1,121 @@
+{
+  "document_notes": [
+    "Page 90 of PIR"
+  ],
+  "entries": [
+    {
+      "entry_id": "534",
+      "pir_reference": "A 534",
+      "lemma": "P. ALFIVS MAXIMVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore Galatiae, and likely legatus Pannoniae superioris.",
+      "segments": {
+        "lemma": "P. ALFIVS MAXIMVS",
+        "name_variants": "P. Alfius Maximus, P. Alfius Maxi[mus]",
+        "identification_and_sources": "nominatur in titulo graeco Ancyrano IGR 3, 162 posito imperatore, cuius nomen periit, quartum consule; inter illius aetatis, cui t. attribuendus esse videtur, imperatores in censum veniunt aut Antoninus Pius aut Commodus aut Antoninus Severi filius.",
+        "offices_and_career": "legatus Augusti pro praetore Galatiae; videtur fuisse legatus Pannoniae superioris.",
+        "governorship_attestation": "legatus Augusti pro praetore Galatiae (IGR 3, 162); legatus Pannoniae superioris (Carnunti III 14356^4).",
+        "family_and_social_relations": "Fortasse non diversus ab eo qui sequitur (P. Alfius Maximus Numerius Licinianus, 535).",
+        "prosopographical_commentary": "The dating of his governorship of Galatia depends on the identification of the emperor who was consul IV (Antoninus Pius, Commodus, or Caracalla). His governorship of Pannonia superior is inferred from an inscription at Carnuntum set up for his health.",
+        "bibliography_or_cross_references": "IGR 3, 162; CIL III 14356^4; cf. 535."
+      },
+      "main_person": {
+        "id": "person_534",
+        "displayed_name": "P. ALFIVS MAXIMVS",
+        "normalized_name": "Publius Alfius Maximus",
+        "pir_reference": "A 534",
+        "status_markers": [
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_534_1",
+          "person_id": "person_534",
+          "exact_text": "legatus Augusti pro praetore Galatiae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Galatia",
+          "province_normalized": null,
+          "date_text": "temp. Antoninus Pius, Commodus, or Caracalla",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a Greek inscription from Ancyra (IGR III 162)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_535",
+          "displayed_name": "P. ALFIVS MAXIMUS NUMER(IUS) LICINIANVS",
+          "normalized_name": "Publius Alfius Maximus Numerius Licinianus",
+          "relation_context": "Fortasse non diversus ab eo qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 535, possibly identical to P. Alfius Maximus (A 534)."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "pir_reference",
+            "issue": "PIR reference should be 'A 534' as printed at the start of the entry, but the lemma is 'P. ALFIVS MAXIMVS' (all caps, no brackets). The proposed lemma matches the printed text.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.gov_534_1.exact_text",
+            "issue": "The exact_text 'legatus Augusti pro praetore Galatiae' is a correct verbatim quote from the image, but the full context in the image is 'legatus Augusti pro praetore Galatiae, nominatur in titulo graeco Ancyrano IGR 3, 162...'. The exact_text could be slightly expanded for clarity.",
+            "severity": "low",
+            "suggested_fix": "Use 'legatus Augusti pro praetore Galatiae, nominatur in titulo graeco Ancyrano IGR 3, 162' as exact_text."
+          },
+          {
+            "field": "governorship_factoids.gov_534_1.province_normalized",
+            "issue": "Province 'Galatia' is correctly identified and normalized.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.gov_534_1.date_text",
+            "issue": "The date_text 'temp. Antoninus Pius, Commodus, or Caracalla' is supported by the image text: 'imperatores in censum veniunt aut Antoninus Pius aut Commodus aut Antoninus Severi filius'. However, 'Antoninus Severi filius' refers to Caracalla, so the date_text should reflect this explicitly.",
+            "severity": "medium",
+            "suggested_fix": "Update date_text to 'temp. Antoninus Pius, Commodus, or Caracalla (Antoninus Severi filius)'."
+          },
+          {
+            "field": "governorship_factoids.gov_534_2",
+            "issue": "The second governorship factoid is inferred ('videtur fuisse legatus Pannoniae superioris') and is supported by the image text. However, the certainty is marked as 'medium', which is appropriate, but the exact_text should reflect the tentative language in the image.",
+            "severity": "low",
+            "suggested_fix": "Use 'videtur fuisse legatus Pannoniae superioris' as exact_text (already correct)."
+          },
+          {
+            "field": "governorship_factoids.gov_534_2.province_normalized",
+            "issue": "Province 'Pannonia superior' is correctly identified and normalized.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Publius Alfius Maximus' is a reasonable expansion of 'P. ALFIVS MAXIMVS', but the image does not provide explicit confirmation of the praenomen 'Publius'. However, this is a standard expansion and likely correct.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "related_persons.person_535.relation_context",
+            "issue": "The relation_context 'Fortasse non diversus ab eo qui sequitur' is a verbatim quote from the image and is correctly attributed.",
+            "severity": "low",
+            "suggested_fix": null
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 321 (image shows '321' at top) contains the entry for Aur(elius) Petrus (PIR A 1570), which is the only entry on this page explicitly discussing a potential legatus Aug. pr. pr. or praeses."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "1570",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'vir perfectissimus' is not explicitly stated in the entry for Aur(elius) Petrus. The entry only mentions uncertainty between 'legatus Aug. pr. pr.' (senatorial) and 'praeses dignitatis equestris' (equestrian).",
+          "severity": "medium",
+          "suggested_fix": "Remove 'vir perfectissimus' from status_markers."
+        },
+        {
+          "field": "governorship_factoids.factoid_id.gov_1570_1.province_text",
+          "issue": "The province_text 'Arabia' is correct, but the normalized_office should reflect the uncertainty in the text. The entry explicitly states 'Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.'",
+          "severity": "low",
+          "suggested_fix": "Clarify in notes that the office is uncertain and could be either 'legatus Augusti pro praetore' or 'praeses'."
+        },
+        {
+          "field": "governorship_factoids.factoid_id.gov_1570_1.exact_text",
+          "issue": "The exact_text is slightly truncated. The full quote from the entry is: 'Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.'",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.'"
+        },
+        {
+          "field": "career_factoids.factoid_id.car_1570_1.normalized_office",
+          "issue": "The normalized_office 'praeses provinciae' is correct, but the certainty should be marked as 'medium' due to the uncertainty about his rank (senatorial vs. equestrian).",
+          "severity": "low",
+          "suggested_fix": "Update certainty to 'medium' and add a note about the rank uncertainty."
+        },
+        {
+          "field": "main_person.notes",
+          "issue": "The note 'Governed the province of Arabia in 278/279 AD.' is correct but should acknowledge the uncertainty of his rank.",
+          "severity": "low",
+          "suggested_fix": "Update note to: 'Attested as governor (praeses or legatus Aug. pr. pr.) of the province of Arabia in 278/279 AD.'"
+        }
+      ]
+    }
+  ]
+}

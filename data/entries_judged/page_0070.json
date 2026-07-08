@@ -1,0 +1,57 @@
+{
+  "page_notes": [
+    "Page 54 of PIR² (AEMILIVS) contains two entries explicitly relevant to the PROVINCIA corpus: Sex. Aemilius Equester (342) and L. Aem[ilius .. F.] Quirin(a) Fron[tinus] vel Fron[to] (346).",
+    "The image confirms the presence of all proposed entries and their PIR references."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "342",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.date_normalized_end",
+          "issue": "The date range for Antoninus Pius' reign (138–161) is correct but overly broad. The text suggests a narrower range around 145 (consul IIII).",
+          "severity": "low",
+          "suggested_fix": "Adjust date_normalized_end to 145 or a slightly broader range (e.g., 145–150) if precision is desired."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text includes parentheses for '(provinciae Dalmatiae)', which is not in the original text. The original reads 'legatus Augusti pro praetore (provinciae Dalmatiae)' with parentheses, but the exact_text should match verbatim.",
+          "severity": "low",
+          "suggested_fix": "Use the exact quote: 'legatus Augusti pro praetore (provinciae Dalmatiae)'."
+        }
+      ]
+    },
+    {
+      "entry_id": "346",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Lucius Aemilius Frontinus' assumes a full name not explicitly given in the lemma. The lemma shows 'L. AEM[ILIVS .. F.] QVIRIN(A) FRON[TINVS] vel FRON[TO]'.",
+          "severity": "medium",
+          "suggested_fix": "Use 'Lucius Aemilius Quirina Fronto' or 'Lucius Aemilius Quirina Frontinus' to reflect the lemma's uncertainty."
+        },
+        {
+          "field": "governorship_factoids.province_text",
+          "issue": "The province_text 'Lugudunensis' is correct but should match the Latin form in the text: 'Lugudunensis' (no 'y').",
+          "severity": "low",
+          "suggested_fix": "Use 'Lugudunensis' (as in the original)."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text 'legatus Aug. pr. pr. provinciae Lugudunensis' is correct but abbreviates 'Augustorum' as 'Aug.' The original uses 'Aug.' (singular) in this context, but the lemma and text suggest 'Aug.' is acceptable.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "related_persons",
+          "issue": "The relation to 'person_345' (L. Aemilius Fron....) is speculative ('Fortasse idem qui praecedit'). The certainty is correctly marked as 'medium', but the displayed_name for person_345 should reflect the lemma's uncertainty.",
+          "severity": "low",
+          "suggested_fix": "Update displayed_name for person_345 to 'L. Aemilius Fron....' (as in the lemma)."
+        }
+      ]
+    }
+  ]
+}

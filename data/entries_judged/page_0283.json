@@ -1,0 +1,63 @@
+{
+  "page_notes": [
+    "Page number is 267, not 283 as initially stated. The image is authoritative and shows entries from ATIMETVS to Q. ATRIVS CLONIVS (PIR A 1315 to A 1322).",
+    "Only entry 1322 (Q. ATRIVS CLONIVS) is relevant to the PROVINCIA corpus due to explicit attestation as legatus Augusti pro praetore provinciae Thraciae."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "1322",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma in the printed page is 'Q. ATRIVS CLONIVS.' (with a period), but proposed JSON omits the period.",
+          "severity": "low",
+          "suggested_fix": "Add the period to the lemma: 'Q. ATRIVS CLONIVS.'"
+        },
+        {
+          "field": "pir_reference",
+          "issue": "PIR reference is correct as 'A 1322', but the printed page shows it as the entry number, not explicitly prefixed with 'A'. This is a minor formatting issue.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text 'Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino' is correct but includes a typo in the printed page: '¢. 7. 4' (likely an OCR error for 't. 1. 4').",
+          "severity": "low",
+          "suggested_fix": "Use 'Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino' as the exact quote."
+        },
+        {
+          "field": "governorship_factoids.date_normalized_start",
+          "issue": "The date range 198-217 for Caracalla's reign is correct, but the text specifies 'regnante (Severo) Antonino', which refers to Caracalla (211-217). The start date should be 211, not 198.",
+          "severity": "medium",
+          "suggested_fix": "Adjust date_normalized_start to 211."
+        },
+        {
+          "field": "governorship_factoids.date_normalized_end",
+          "issue": "The end date of 217 is correct for Caracalla's reign.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Quintus Atrius Clonius' is correct, but the praenomen 'Quintus' is not explicitly attested in the lemma or text. The lemma shows 'Q.' which is abbreviated.",
+          "severity": "low",
+          "suggested_fix": "Use 'Q. Atrius Clonius' for normalized_name to reflect the abbreviation."
+        },
+        {
+          "field": "career_factoids[0].normalized_office",
+          "issue": "The normalized_office 'sodalis Flavialis' is inferred ('fortasse inter sodales Flaviales'), but the text does not explicitly confirm this. The certainty should be lower.",
+          "severity": "medium",
+          "suggested_fix": "Set certainty to 'low' for this factoid."
+        },
+        {
+          "field": "career_factoids[1].date_normalized_start",
+          "issue": "The date range 200-205 for 'praetor tutelaris' is speculative. The text only suggests 'fortasse tunc fuit praetor tutelaris'.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start and date_normalized_end to null or adjust certainty to 'low'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "document_notes": [
+    "The page contains the continuation of the entry for L. Attidius Cornelianus (PIR² A 1341) at the top, followed by entries 1342 to 1348.",
+    "Only the continuation of the entry for L. Attidius Cornelianus (A 1341) is relevant to the PROVINCIA corpus, as he is explicitly attested as legatus Augusti pro praetore of Arabia and Syria."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_1341_continuation",
+      "pir_reference": "A 1341",
+      "lemma": "L. ATTIDIVS CORNELIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pro pr. (Arabiae)' and 'Legatus Aug. pr. pr. Syriae'.",
+      "segments": {
+        "lemma": "L. ATTIDIVS CORNELIANVS",
+        "name_variants": "A. Ἀττίδιος Κορνηλιανός, Attidius Cornelianus, Atidius Cornelianus",
+        "identification_and_sources": "Ditt. Or. Gr. 625 (minus recte CIG 4661 cum add. p. 1183. IGR 3, 1353) (3), Journ. Rom. Stud. l. l. 159, 19 (4), in t. prope Damascum reperto III 129 corr. 6658 (5), in diplomate militari III p. 2328 = D. 9057 (6). A. Ἀττίδιος Κορνηλιανός t. 3. 1 (Ἀττίλιον traditur). 4 (ubi nomina minus plene extant). Attidius Cornelianus t. 5 (lectionem gentilicii corruptam recte emendavit Borghesi). 6. ...... Κορνηλιανός t. 2. Atidius Cornelianus vita Marci 8, 6.",
+        "offices_and_career": "consul designatus eodem anno t. 3 (Δεί[ου] δκ', qui mensis in Syria Novembri anni Iuliani respondebat, cf. quae adnotavit Dittenberger l.l.). 4; consularis t. 1. 2, consul igitur suffectus a. 151, etiamtum legatus Arabiae.",
+        "governorship_attestation": "Legatus Aug. pro pr. (Arabiae) t. 1—4, anno 213 (aerae Pompeianae) = a. p. C. 150 t. 3. 4... Legatus Aug. pr. pr. Syriae t. 5. 6. vita Marci 8, 6 (idem potest esse praeses Syriae vita Pert. 1, 6), anno 157 t. 6, a. 162 t. 5, a Parthis fugatus (a. 161/162) vita Marci l. l. cf. vita Veri 6, 9. Veri ep. ad Front. 3 p. 132 N. = 2, 196 Haines. Fronto princ. hist. p. 206 sq. N. = 2, 208 Haines.",
+        "family_and_social_relations": "Pater vel avus eius qui sequitur (L. Attidius Cornelianus, 1342).",
+        "prosopographical_commentary": "Discussion of his identity, dates of his governorships in Arabia and Syria, and his defeat by the Parthians in 161/162 AD.",
+        "bibliography_or_cross_references": "Ditt. Or. Gr. 625, IGR 3, 1353, JRS, CIL III 129, CIL III p. 2328 = D. 9057, SHA Vita Marci 8, 6, Vita Pert. 1, 6, Vita Veri 6, 9, Fronto."
+      },
+      "main_person": {
+        "id": "person_A1341",
+        "displayed_name": "L. Attidius Cornelianus",
+        "normalized_name": "Lucius Attidius Cornelianus",
+        "pir_reference": "A 1341",
+        "status_markers": [
+          "consularis",
+          "consul suffectus"
+        ],
+        "notes": [
+          "Legatus Augusti pro praetore of Arabia and Syria."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A1341_arabia",
+          "person_id": "person_A1341",
+          "exact_text": "Legatus Aug. pro pr. (Arabiae) t. 1—4, anno 213 (aerae Pompeianae) = a. p. C. 150 t. 3. 4... etiamtum legatus Arabiae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Arabia",
+          "date_text": "anno 213 (aerae Pompeianae) = a. p. C. 150; consul suffectus a. 151 etiamtum legatus Arabiae",
+          "date_normalized_start": 150,
+          "date_normalized_end": 151,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in year 213 of the Bostran era (150 AD) and still in office as consul suffectus in 151 AD."
+          ]
+        },
+        {
+          "factoid_id": "gov_A1341_syria",
+          "person_id": "person_A1341",
+          "exact_text": "Legatus Aug. pr. pr. Syriae t. 5. 6. vita Marci 8, 6... anno 157 t. 6, a. 162 t. 5, a Parthis fugatus (a. 161/162)",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Syria",
+          "date_text": "anno 157 t. 6, a. 162 t. 5, a Parthis fugatus (a. 161/162)",
+          "date_normalized_start": 157,
+          "date_normalized_end": 162,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Defeated by the Parthians in 161/162 AD."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A1341_consul",
+          "person_id": "person_A1341",
+          "exact_text": "consul designatus eodem anno t. 3... consul igitur suffectus a. 151",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 151",
+          "date_normalized_start": 151,
+          "date_normalized_end": 151,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Consul designatus in 150, consul suffectus in 151 while still governing Arabia."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1342",
+          "displayed_name": "L. Attidius Cornelianus (1342)",
+          "normalized_name": "Lucius Attidius Cornelianus",
+          "relation_context": "filius vel nepos eius qui praecedit",
+          "certainty": "medium",
+          "notes": [
+            "Son or grandson of the main person."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A1341",
+          "target": "person_1342",
+          "relation": "parent_or_grandparent_of",
+          "certainty": "medium",
+          "basis": "filius vel nepos eius qui praecedit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry is reconstructed from the top of page 271, which continues from the previous page."
+      ]
+    }
+  ]
+}

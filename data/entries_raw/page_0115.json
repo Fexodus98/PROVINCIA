@@ -1,0 +1,122 @@
+{
+  "document_notes": [
+    "Page 99 of PIR contains entries 598 to 604. Only entry 599 is relevant to the PROVINCIA corpus as it explicitly mentions a legatus Aug. pr. pr. of Moesia inferior."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_599",
+      "pir_reference": "A 599",
+      "lemma": "ANICIVS FAVSTVS PAVLINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. of Moesia inferior in the year 230.",
+      "segments": {
+        "lemma": "599 ANICIVS FAVSTVS PAVLINVS",
+        "name_variants": "ANICIVS FAVSTVS PAVLINVS",
+        "identification_and_sources": "a. 230 III 7473 t. Moesiae inf.",
+        "offices_and_career": "legatus Aug. pr. pr. (Moesiae inferioris) a. 230; successor ut videtur L. Mantennii Sabini legati a. 229.",
+        "governorship_attestation": "legatus Aug. pr. pr. (Moesiae inferioris) a. 230 III 7473 t. Moesiae inf.",
+        "family_and_social_relations": "Potest filius esse Q. Anicii Fausti consulis a. 198, fortasse non diversus a Sex. Anicio Fausto (n. 596). Huius ni fallor filius Sex. Cocceius Anicius Faustus Paulinus qui sequitur.",
+        "prosopographical_commentary": "successor ut videtur L. Mantennii Sabini legati a. 229. Potest filius esse Q. Anicii Fausti consulis a. 198, fortasse non diversus a Sex. Anicio Fausto (n. 596).",
+        "bibliography_or_cross_references": "CIL III 7473; n. 596; n. 600"
+      },
+      "main_person": {
+        "id": "person_599",
+        "displayed_name": "ANICIVS FAVSTVS PAVLINVS",
+        "normalized_name": "Anicius Faustus Paulinus",
+        "pir_reference": "A 599",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_599_1",
+          "person_id": "person_599",
+          "exact_text": "legatus Aug. pr. pr. (Moesiae inferioris) a. 230",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Moesia inferior",
+          "date_text": "a. 230",
+          "date_normalized_start": 230,
+          "date_normalized_end": 230,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in CIL III 7473 from Moesia inferior.",
+            "Successor of L. Mantennius Sabinus, legatus in 229."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_mantennius_sabinus",
+          "displayed_name": "L. Mantennii Sabini",
+          "normalized_name": "Lucius Mantennius Sabinus",
+          "relation_context": "predecessor as legatus of Moesia inferior in 229",
+          "certainty": "high",
+          "notes": [
+            "legatus a. 229"
+          ]
+        },
+        {
+          "id": "person_q_anicius_faustus",
+          "displayed_name": "Q. Anicii Fausti",
+          "normalized_name": "Quintus Anicius Faustus",
+          "relation_context": "possible father",
+          "certainty": "medium",
+          "notes": [
+            "consul in 198"
+          ]
+        },
+        {
+          "id": "person_sex_anicius_faustus",
+          "displayed_name": "Sex. Anicio Fausto",
+          "normalized_name": "Sextus Anicius Faustus",
+          "relation_context": "possibly identical with him",
+          "certainty": "medium",
+          "notes": [
+            "PIR n. 596"
+          ]
+        },
+        {
+          "id": "person_sex_cocceius_anicius_faustus_paulinus",
+          "displayed_name": "Sex. Cocceius Anicius Faustus Paulinus",
+          "normalized_name": "Sextus Cocceius Anicius Faustus Paulinus",
+          "relation_context": "probable son",
+          "certainty": "medium",
+          "notes": [
+            "PIR n. 600"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_599",
+          "target": "person_q_anicius_faustus",
+          "relation": "son of",
+          "certainty": "medium",
+          "basis": "Potest filius esse Q. Anicii Fausti consulis a. 198",
+          "notes": []
+        },
+        {
+          "source": "person_599",
+          "target": "person_sex_anicius_faustus",
+          "relation": "possibly identical to",
+          "certainty": "medium",
+          "basis": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
+          "notes": []
+        },
+        {
+          "source": "person_sex_cocceius_anicius_faustus_paulinus",
+          "target": "person_599",
+          "relation": "son of",
+          "certainty": "medium",
+          "basis": "Huius ni fallor filius Sex. Cocceius Anicius Faustus Paulinus qui sequitur.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry links this governor to the prominent family of the Anicii, suggesting a lineage from the consul of 198 and identifying his son as the proconsul of Africa (n. 600)."
+      ]
+    }
+  ]
+}

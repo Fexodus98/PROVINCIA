@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 222 (image 238) contains the entry for L. Arruntius, consul in 6 AD, who was appointed legatus Augusti pro praetore of Hispania Citerior but governed in absence. The entry spans the entire page and is the only relevant entry."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "entry_l_arruntius_222",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "pir_reference",
+          "issue": "PIR reference is missing. The printed page shows 'ARRVNTIVS' at the top, but no explicit PIR number is visible for this entry.",
+          "severity": "low",
+          "suggested_fix": "Add the PIR reference if it can be inferred from the volume's numbering system (e.g., 'PIR² A 1130' or similar). If not visible, set to null but note the absence."
+        },
+        {
+          "field": "governorship_factoids.date_normalized_end",
+          "issue": "The proposed end date of 37 AD is not explicitly supported by the text. The text states it is uncertain whether Arruntius retained the legation until his death (Omnino incertum, num Hispaniae legationem usque ad finem vitae retinuerit).",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to null and add a note about the uncertainty."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text is slightly truncated. The full sentence on the page is: 'Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80.' The proposed exact_text omits 'Tac. h. 2, 65 cf. a. 1, 80'.",
+          "severity": "low",
+          "suggested_fix": "Include the full sentence: 'Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80.'"
+        },
+        {
+          "field": "governorship_factoids.date_text",
+          "issue": "The date_text 'A. 21 - 37' is not directly quoted from the text. The text mentions A. 21 as the year he accepted the legation and sub a. 33 as the year he was still detained, but no explicit end date is given.",
+          "severity": "medium",
+          "suggested_fix": "Revise date_text to 'A. 21 - uncertain' or similar to reflect the ambiguity."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'consularis' is correct but not explicitly stated in the text. It is inferred from his consulship in 6 AD.",
+          "severity": "low",
+          "suggested_fix": "Add a note clarifying that 'consularis' is inferred from his consulship."
+        }
+      ]
+    }
+  ]
+}

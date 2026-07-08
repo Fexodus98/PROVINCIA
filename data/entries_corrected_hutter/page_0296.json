@@ -1,0 +1,100 @@
+{
+  "source_page": 296,
+  "entries": [
+    {
+      "entry_id": "PIR_A_1395",
+      "pir_reference": "A 1395",
+      "lemma": "AVFIDIVS VMBER",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro praetore Cappadociae et Galatiae.",
+      "segments": {
+        "lemma": "1395 AVFIDIVS VMBER",
+        "name_variants": "AVFIDIVS VMBER, Αὐφιδίου Οὔμβερος, Αὐφι[δίου] Οὔμβερος",
+        "identification_and_sources": "nominatur in nummo Neocaesareae metropoleos Ponti Polemoniaci: in adversa cum capite Traiani et inscriptione Αὐτο(κράτωρ) Νέρ(ουας) Τραιανὸς Σεβ(αστὸς) Γερμ(ανικός), in aversa Νεοκαισαρείας ἐπὶ Αὐφιδίου Οὔμβερος ἔτους λζ' Imhoof-Blumer Kleinas. Münzen 2, 499; alius nummus quem publici fecit iuris Münsterberg Beamtenn. p. 60 = Num. Ztschr. 1911, 128; 1921, 130, partis adversae inscriptionem adfert ἐπὶ Αὐφι[δίου] Οὔμβερος [πρεσβ(ευτοῦ) καὶ] ἀντιστρα(τήγου) τοῦ Σεβαστοῦ.",
+        "offices_and_career": "Legatus Aug. pro praetore Cappadociae et Galatiae ut videtur, anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101; successor videtur fuisse T. Pomponii Bassi. Consul suffectus anno incerto paullo...",
+        "governorship_attestation": "Legatus Aug. pro praetore Cappadociae et Galatiae ut videtur, anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "successor videtur fuisse T. Pomponii Bassi. Consul suffectus anno incerto paullo...",
+        "bibliography_or_cross_references": "Imhoof-Blumer Kleinas. Münzen 2, 499; Münsterberg Beamtenn. p. 60 = Num. Ztschr. 1911, 128; 1921, 130"
+      },
+      "main_person": {
+        "id": "person_A1395",
+        "displayed_name": "Aufidius Umber",
+        "normalized_name": "Aufidius Umber",
+        "pir_reference": "A 1395",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A1395_01",
+          "person_id": "person_A1395",
+          "exact_text": "Legatus Aug. pro praetore Cappadociae et Galatiae ut videtur, anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cappadocia et Galatia",
+          "province_normalized": "Cappadocia et Galatia",
+          "date_text": "anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101",
+          "date_normalized_start": 100,
+          "date_normalized_end": 101,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on coins of Neocaesarea of year 37 of the local era, corresponding to 100/101 AD."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A1395_01",
+          "person_id": "person_A1395",
+          "exact_text": "Consul suffectus anno incerto paullo",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "anno incerto paullo",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Consul suffectus in an uncertain year shortly before or after his governorship."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_T_Pomponius_Bassus",
+          "displayed_name": "T. Pomponius Bassus",
+          "normalized_name": "Titus Pomponius Bassus",
+          "relation_context": "predecessor of Aufidius Umber in Cappadocia and Galatia",
+          "certainty": "medium",
+          "notes": [
+            "successor videtur fuisse T. Pomponii Bassi"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A1395",
+          "target": "person_T_Pomponius_Bassus",
+          "relation": "successor_of",
+          "certainty": "medium",
+          "basis": "successor videtur fuisse T. Pomponii Bassi",
+          "notes": []
+        }
+      ],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_confirmed",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "Ungeflaggt; am Seitenbild verifiziert (Amt und Provinz korrekt); province_normalized zur Konsistenz ergaenzt."
+      },
+      "needs_review": false,
+      "source_page": 296
+    }
+  ]
+}

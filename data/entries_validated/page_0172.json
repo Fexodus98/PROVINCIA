@@ -1,0 +1,140 @@
+{
+  "document_notes": [
+    "Page 156 of PIR (Antonius). Contains entry 816 (Antonius Balbus), governor of Cilicia."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_816",
+      "pir_reference": "A 816",
+      "lemma": "ANTONIVS BALBVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. provinciae Ciliciae' under Septimius Severus.",
+      "segments": {
+        "lemma": "ANTONIVS BALBVS",
+        "name_variants": "ANTONIVS BALBVS, λαμπρότατος στρατηγός, [A]vtwvio[v ...]Mou [mpe]oB[euro0] ἀντι[στρατήγου, τοῦ] λα[μπ]ροτάτο[υ]",
+        "identification_and_sources": "nominatur in t. Charadri in Cilicia rep., posito imperante Septimio Severo intra annos 198—209 IGR 3, 838. Vide num eiusdem legati mentio fiat in t. Olbae sub eodem imperatore dedicato IGR 3, 848.",
+        "offices_and_career": "sine dubio legatus Aug. pr. pr. provinciae Ciliciae.",
+        "governorship_attestation": "sine dubio legatus Aug. pr. pr. provinciae Ciliciae. Vide num eiusdem legati mentio fiat in t. Olbae sub eodem imperatore dedicato IGR 3, 848, ubi agnoscitur [A]vtwvio[v ...]Mou [mpe]oB[euro0] ἀντι[στρατήγου, τοῦ] λα[μπ]ροτάτο[υ], modo ut Mou levi errore descriptum esse statuamus (hunc titulum a. 198 incisum esse non ita cerium videlur).",
+        "family_and_social_relations": "Fortasse pater eius qui sequitur (M. Antonius Balbus, 817).",
+        "prosopographical_commentary": "Idem puto intelligendus est Antonius Balbus (Antoninum traditur, Antonium scribendum videtur, cum ceteri fere omnes, qui eo loco recensentur, nomine gentilicio significentur), homo nobilis ab imperatore Septimio Severo occisus vit. Sev. 13, 2 ('ubi viz omnes qui memorantur crediderim ipso a. 197 post victoriam ab Albino reportatam interfectos esse; immo videtur hoc loco auctor laterculum attulisse senatorum per totum Severi imperium inde ab a. 197 occisorum).",
+        "bibliography_or_cross_references": "IGR 3, 838; IGR 3, 848; vit. Sev. 13, 2."
+      },
+      "main_person": {
+        "id": "person_A816",
+        "displayed_name": "ANTONIVS BALBVS",
+        "normalized_name": "Antonius Balbus",
+        "pir_reference": "A 816",
+        "status_markers": [
+          "senator",
+          "vir clarissimus"
+        ],
+        "notes": [
+          "Identified as legatus Aug. pr. pr. of Cilicia under Septimius Severus."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A816_cilicia",
+          "person_id": "person_A816",
+          "exact_text": "legatus Aug. pr. pr. provinciae Ciliciae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cilicia",
+          "province_normalized": null,
+          "date_text": "intra annos 198—209",
+          "date_normalized_start": 198,
+          "date_normalized_end": 209,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions from Charadrus (IGR 3, 838) and possibly Olba (IGR 3, 848)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_A816_execution",
+          "person_id": "person_A816",
+          "exact_text": "homo nobilis ab imperatore Septimio Severo occisus",
+          "normalized_office": null,
+          "province_text": null,
+          "date_text": "a. 197",
+          "date_normalized_start": 197,
+          "date_normalized_end": 197,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Mentioned in Historia Augusta, Vita Severi 13, 2 (where the text reads Antoninus, but PIR suggests correcting to Antonius)."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A817",
+          "displayed_name": "M. ANTONIVS BALBVS",
+          "normalized_name": "Marcus Antonius Balbus",
+          "relation_context": "Fortasse pater eius qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 817, vir clarissimus, patronus coloniae Canusii a. 223."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A816",
+          "target": "person_A817",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Fortasse pater eius qui sequitur.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the correction of 'Antoninus' to 'Antonius' in HA Vit. Sev. 13, 2."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "segments.governorship_attestation",
+            "issue": "The exact_text 'legatus Aug. pr. pr. provinciae Ciliciae' is correct, but the date_text 'intra annos 198—209' is not explicitly stated as the governorship period in the text. The text only states the inscription was posited 'intra annos 198—209', not necessarily the governorship duration.",
+            "severity": "medium",
+            "suggested_fix": "Clarify in notes that the governorship is attested during this period, but the exact duration is uncertain. Adjust date_normalized_start and date_normalized_end to reflect this uncertainty (e.g., null or broader range)."
+          },
+          {
+            "field": "governorship_factoids.gov_A816_cilicia.exact_text",
+            "issue": "The exact_text is slightly truncated. The full phrase in the text is 'sine dubio legatus Aug. pr. pr. provinciae Ciliciae.'",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to 'sine dubio legatus Aug. pr. pr. provinciae Ciliciae.'"
+          },
+          {
+            "field": "governorship_factoids.gov_A816_cilicia.date_normalized_start",
+            "issue": "The start date of 198 is inferred from the inscription date, not explicitly stated as the start of the governorship.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to null or add a note clarifying the uncertainty."
+          },
+          {
+            "field": "governorship_factoids.gov_A816_cilicia.date_normalized_end",
+            "issue": "The end date of 209 is inferred from the inscription date, not explicitly stated as the end of the governorship.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to null or add a note clarifying the uncertainty."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status marker 'vir clarissimus' is not explicitly stated for Antonius Balbus (A 816) in this entry. It is mentioned for M. Antonius Balbus (A 817).",
+            "severity": "medium",
+            "suggested_fix": "Remove 'vir clarissimus' from status_markers for A 816 unless supported by other evidence."
+          },
+          {
+            "field": "career_factoids.career_A816_execution.date_normalized_start",
+            "issue": "The date 'a. 197' is inferred from the context of the victory over Albinus, but the text does not explicitly state the execution occurred in 197.",
+            "severity": "low",
+            "suggested_fix": "Clarify in notes that the date is inferred and not explicitly stated."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

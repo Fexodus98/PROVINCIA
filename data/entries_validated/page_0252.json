@@ -1,0 +1,103 @@
+{
+  "document_notes": [
+    "Page 236 of PIR contains entries from Articuleius to Artorius. Entry 1180 is highly relevant as it explicitly mentions a 'legatus Aug. pr. pr.' of Moesia Inferior."
+  ],
+  "entries": [
+    {
+      "entry_id": "1180",
+      "pir_reference": "A 1180",
+      "lemma": "[...... a?]rToRivs",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. (Moesiae inferioris) in a. 120.",
+      "segments": {
+        "lemma": "[...... a?]rToRivs",
+        "name_variants": "[...... a?]rToRivs",
+        "identification_and_sources": "III 7539 = 12493 = IGR 1, 606 t. bilinguis Tomitanus.",
+        "offices_and_career": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+        "governorship_attestation": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "The name is partially restored as Artorius.",
+        "bibliography_or_cross_references": "III 7539 = 12493 = IGR 1, 606"
+      },
+      "main_person": {
+        "id": "person_1180",
+        "displayed_name": "[...... a?]rToRivs",
+        "normalized_name": "[...... A?]rtorius",
+        "pir_reference": "A 1180",
+        "status_markers": [
+          "senator",
+          "vir consularis"
+        ],
+        "notes": [
+          "Governor of Moesia Inferior in 120 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1180_1",
+          "person_id": "person_1180",
+          "exact_text": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "province_normalized": null,
+          "date_text": "a. 120",
+          "date_normalized_start": 120,
+          "date_normalized_end": 120,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a bilingual inscription from Tomis (CIL III 7539 = 12493 = IGR I 606)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The nomen is reconstructed as Artorius based on the remaining letters."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma transcription does not match the printed text exactly. The printed text shows '[...... a?]rToRivs' with a lowercase 'r' and 'T' in 'ToRivs' is uppercase, but the proposed lemma uses mixed case inconsistently.",
+            "severity": "low",
+            "suggested_fix": "Use '[...... a?]rToRivs' exactly as printed (lowercase 'r', uppercase 'T')."
+          },
+          {
+            "field": "main_person.displayed_name",
+            "issue": "Displayed name does not match the lemma transcription exactly. The proposed displayed_name uses mixed case, while the printed text is '[...... a?]rToRivs'.",
+            "severity": "low",
+            "suggested_fix": "Use '[...... a?]rToRivs' exactly as printed."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "Normalized name reconstruction is plausible but overly confident. The printed text only shows '[...... a?]rToRivs', and the 'A?' is speculative.",
+            "severity": "medium",
+            "suggested_fix": "Use '[...... A?]rtorius' with a note clarifying the speculative nature of the 'A'."
+          },
+          {
+            "field": "governorship_factoids.0.exact_text",
+            "issue": "Exact text is not a verbatim quote from the page. The page shows 'legatus Aug. pr. pr. (Moesiae inferioris) a. 120', but the parentheses and 'a.' are editorial conventions, not part of the original inscription.",
+            "severity": "medium",
+            "suggested_fix": "Use the exact phrase as it appears in the inscription source (CIL III 7539 = 12493 = IGR I 606), not the editorialized version from the PIR page."
+          },
+          {
+            "field": "governorship_factoids.0.date_normalized_end",
+            "issue": "Date range is overly precise. The text only provides 'a. 120', which typically means 'around 120' or 'in 120', not necessarily a single-year governorship.",
+            "severity": "low",
+            "suggested_fix": "Set date_normalized_end to null or use a broader range (e.g., 120-121) if supported by external evidence."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "Status markers 'senator' and 'vir consularis' are inferred but not explicitly stated in the entry. The entry only mentions 'legatus Aug. pr. pr.', which implies senatorial rank and consular status, but this is not directly attested here.",
+            "severity": "medium",
+            "suggested_fix": "Remove 'senator' and 'vir consularis' or add a note clarifying that these are inferred from the governorship."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

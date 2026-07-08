@@ -1,0 +1,92 @@
+{
+  "document_notes": [
+    "Page 291 of PIR2, volume 1, containing entries from AVILLIVS to AVITVS."
+  ],
+  "entries": [
+    {
+      "entry_id": "1421",
+      "pir_reference": "A 1421",
+      "lemma": "...... R. AVITVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. Germaniae superioris.",
+      "segments": {
+        "lemma": "...... R. AVITVS",
+        "name_variants": "...... R. AVITVS",
+        "identification_and_sources": "memoratur in t. Mogontiacensi XIII 6762.",
+        "offices_and_career": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213",
+        "governorship_attestation": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213, memoratur in t. Mogontiacensi XIII 6762.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "ut videtur a. 213",
+        "bibliography_or_cross_references": "t. Mogontiacensi XIII 6762"
+      },
+      "main_person": {
+        "id": "person_1421",
+        "displayed_name": "...... R. AVITVS",
+        "normalized_name": "[---]r. Avitus",
+        "pir_reference": "A 1421",
+        "status_markers": [
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1421_1",
+          "person_id": "person_1421",
+          "exact_text": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Germaniae superioris",
+          "province_normalized": null,
+          "date_text": "ut videtur a. 213",
+          "date_normalized_start": 213,
+          "date_normalized_end": 213,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Mogontiacum (CIL XIII 6762)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma transcription is incomplete. The printed page shows '...... R. AVITVS' with a clear 'R.' and 'AVITVS', but the dots may represent missing or uncertain praenomen/nomen.",
+            "severity": "low",
+            "suggested_fix": "Retain '...... R. AVITVS' as is, but ensure the dots are exactly six to match the printed page."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "Normalized name '[---]r. Avitus' uses square brackets for missing parts, but the printed page uses dots. Consistency with the printed page's notation is preferred.",
+            "severity": "low",
+            "suggested_fix": "Use '......r. Avitus' to match the printed page's dot notation."
+          },
+          {
+            "field": "governorship_factoids.0.exact_text",
+            "issue": "The exact_text 'legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213' is slightly truncated. The printed page shows 'legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213, memoratur in t. Mogontiacensi XIII 6762.'",
+            "severity": "low",
+            "suggested_fix": "Use the full verbatim quote: 'legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213, memoratur in t. Mogontiacensi XIII 6762.'"
+          },
+          {
+            "field": "governorship_factoids.0.date_normalized_end",
+            "issue": "The date 'ut videtur a. 213' suggests a single year, but the normalized_end is set to 213, which is correct but could be clarified as a single-year governorship.",
+            "severity": "low",
+            "suggested_fix": "Retain 213 for both start and end, but add a note clarifying it is a single-year attestation."
+          },
+          {
+            "field": "governorship_factoids.0.province_normalized",
+            "issue": "Province 'Germania superior' is correctly identified, but the normalized form should match the registry label exactly.",
+            "severity": "low",
+            "suggested_fix": "Use 'Germania superior' (without 'e') to match the registry label."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

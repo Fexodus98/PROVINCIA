@@ -1,0 +1,301 @@
+{
+  "document_notes": [
+    "The page header indicates page 143.",
+    "The first entry on this page is the continuation of the entry for Q. Antistius Adventus Postumius Aquilinus (PIR² A 754) from the preceding page."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_754",
+      "pir_reference": "A 754",
+      "lemma": "[Q. Antistius Adventus Postumius Aquilinus]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus of Arabia, Germania inferior, and Britannia with the formula 'Legatus Aug. pr. pr.' or 'leg. Augg. pr. pr.'",
+      "segments": {
+        "lemma": "[Q. Antistius Adventus Postumius Aquilinus] (continued from previous page)",
+        "name_variants": "Antistios, L. Antistius Burrus Adventus",
+        "identification_and_sources": "Attested in various inscriptions and titles cited as t. 1, 3, 9, 10, 11, 12.",
+        "offices_and_career": "leg. Augg. pr. pr. cos. des(ignatus) t. 9, consul (suffectus a. 166 vel 167 ut videtur) t. 1. 3, legatus etiamtum Arabiae t. 12. Curator operum locorumque publicorum t. 1. 3. Legatus Aug. at praetenturam Italiae et Alpium expeditione Germanica (a. c. 169, cf. Ritterling RE 12, 1301) t. 1. Legatus Aug. pr. pr. provinciae Germaniae inferioris t. 1; Legatus Aug. pr. pr. (Britanniae) t. 11. Sacerdos fetialis t. 1. 3.",
+        "governorship_attestation": "legatus etiamtum Arabiae t. 12; Legatus Aug. pr. pr. provinciae Germaniae inferioris t. 1; Legatus Aug. pr. pr. (Britanniae) t. 11.",
+        "family_and_social_relations": "Novia Crispina uxor t. 4. 12, probabiliter filia L. Novii Crispini legati Numidiae a. 147—150, consulis in ipsa legatione. L. Antistius Mundicius Burrus, qui in t. 4—8 una cum Advento nominatur, videtur frater eius fuisse. Liberi Antistiorum Adventi et Burri memorantur in t. 4—8. Filius Adventi probabiliter L. Antistius Burrus, imp. Marci gener, qui fasces gessit a. 181. — Q. Anustius Agathopus libertus t. 4—8.",
+        "prosopographical_commentary": "Antistios a Marco imperatore inter gentes patricias adlectos esse inde efficitur, quod L. Antistius Burrus Adventus a. 178 receptus est inter salios Palatinos.",
+        "bibliography_or_cross_references": "Ritterling RE 12, 1301."
+      },
+      "main_person": {
+        "id": "person_A754",
+        "displayed_name": "Q. Antistius Adventus Postumius Aquilinus",
+        "normalized_name": "Quintus Antistius Adventus Postumius Aquilinus",
+        "pir_reference": "A 754",
+        "status_markers": [
+          "patricius",
+          "consularis"
+        ],
+        "notes": [
+          "Adlected into the patrician class by Marcus Aurelius."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_A754",
+          "exact_text": "Legatus Aug. pr. pr. provinciae Germaniae inferioris",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Germania inferior",
+          "province_normalized": null,
+          "date_text": "after 169",
+          "date_normalized_start": 169,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "In this legation he dedicated an altar to Jupiter Optimus Maximus, Sol Invictus, Apollo, Luna, Diana, Fortuna, Mars, Victoria, and Pax."
+          ]
+        },
+        {
+          "factoid_id": "gov_3",
+          "person_id": "person_A754",
+          "exact_text": "Legatus Aug. pr. pr. (Britanniae)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Britannia",
+          "province_normalized": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in source t. 11."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1",
+          "person_id": "person_A754",
+          "exact_text": "leg. Augg. pr. pr. cos. des(ignatus)",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "c. 166",
+          "date_normalized_start": 166,
+          "date_normalized_end": 166,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_2",
+          "person_id": "person_A754",
+          "exact_text": "consul (suffectus a. 166 vel 167 ut videtur)",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 166 vel 167",
+          "date_normalized_start": 166,
+          "date_normalized_end": 167,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_3",
+          "person_id": "person_A754",
+          "exact_text": "Curator operum locorumque publicorum",
+          "normalized_office": "curator operum publicorum",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_4",
+          "person_id": "person_A754",
+          "exact_text": "Legatus Aug. at praetenturam Italiae et Alpium expeditione Germanica",
+          "normalized_office": "legatus Augusti",
+          "province_text": "Italia et Alpes",
+          "date_text": "a. c. 169",
+          "date_normalized_start": 169,
+          "date_normalized_end": 169,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "During the German expedition, cf. Ritterling RE 12, 1301."
+          ]
+        },
+        {
+          "factoid_id": "career_5",
+          "person_id": "person_A754",
+          "exact_text": "Sacerdos fetialis",
+          "normalized_office": "sacerdos fetialis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_novia_crispina",
+          "displayed_name": "Novia Crispina",
+          "normalized_name": "Novia Crispina",
+          "relation_context": "uxor",
+          "certainty": "high",
+          "notes": [
+            "probabiliter filia L. Novii Crispini legati Numidiae"
+          ]
+        },
+        {
+          "id": "person_novius_crispinus",
+          "displayed_name": "L. Novii Crispini",
+          "normalized_name": "Lucius Novius Crispinus",
+          "relation_context": "probabiliter socer",
+          "certainty": "medium",
+          "notes": [
+            "legatus Numidiae a. 147—150, consul in ipsa legatione"
+          ]
+        },
+        {
+          "id": "person_mundicius_burrus",
+          "displayed_name": "L. Antistius Mundicius Burrus",
+          "normalized_name": "Lucius Antistius Mundicius Burrus",
+          "relation_context": "videtur frater",
+          "certainty": "medium",
+          "notes": [
+            "nominatur una cum Advento in t. 4—8"
+          ]
+        },
+        {
+          "id": "person_antistius_burrus",
+          "displayed_name": "L. Antistius Burrus",
+          "normalized_name": "Lucius Antistius Burrus",
+          "relation_context": "probabiliter filius",
+          "certainty": "medium",
+          "notes": [
+            "imp. Marci gener, qui fasces gessit a. 181"
+          ]
+        },
+        {
+          "id": "person_agathopus",
+          "displayed_name": "Q. Anustius Agathopus",
+          "normalized_name": "Quintus Anustius Agathopus",
+          "relation_context": "libertus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A754",
+          "target": "person_novia_crispina",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Novia Crispina uxor t. 4. 12",
+          "notes": []
+        },
+        {
+          "source": "person_novia_crispina",
+          "target": "person_novius_crispinus",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "probabiliter filia L. Novii Crispini",
+          "notes": []
+        },
+        {
+          "source": "person_A754",
+          "target": "person_mundicius_burrus",
+          "relation": "sibling_of",
+          "certainty": "medium",
+          "basis": "videtur frater eius fuisse",
+          "notes": []
+        },
+        {
+          "source": "person_A754",
+          "target": "person_antistius_burrus",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Filius Adventi probabiliter L. Antistius Burrus",
+          "notes": []
+        },
+        {
+          "source": "person_A754",
+          "target": "person_agathopus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "Q. Anustius Agathopus libertus",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry is continued from the previous page, so the main lemma name is reconstructed from the context and the mention of his son 'L. Antistius Burrus, imp. Marci gener... Filius Adventi probabiliter'."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "The lemma is reconstructed as '[Q. Antistius Adventus Postumius Aquilinus]' due to continuation from the previous page. The image does not explicitly show the full lemma on this page, but the context supports it.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "pir_reference",
+            "issue": "The PIR reference 'A 754' is correct as per the entry continuation and context.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "The exact_text 'legatus etiamtum Arabiae' is correct, but the date_text 'before consulship (c. 166/167)' is inferred. The image does not provide explicit dates for this governorship.",
+            "severity": "medium",
+            "suggested_fix": "Update date_text to 'before or during consulship (c. 166/167)' and set date_normalized_start and date_normalized_end to null."
+          },
+          {
+            "field": "governorship_factoids.gov_2.exact_text",
+            "issue": "The exact_text 'Legatus Aug. pr. pr. provinciae Germaniae inferioris' is correct, but the date_text 'after 169' is inferred. The image does not provide explicit dates for this governorship.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start and date_normalized_end to null and clarify date_text as 'post-169 (inferred from German expedition context)'."
+          },
+          {
+            "field": "governorship_factoids.gov_3.province_text",
+            "issue": "The province_text 'Britannia' is correct, but the parentheses in 'Legatus Aug. pr. pr. (Britanniae)' suggest the province name is inferred. The image supports this inference.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Quintus Antistius Adventus Postumius Aquilinus' is plausible but not explicitly stated on this page. The image only shows partial context.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status_markers 'patricius' and 'consularis' are supported by the image ('inter gentes patricias adlectos', 'consularis' implied by governorships).",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "related_persons.person_agathopus.normalized_name",
+            "issue": "The normalized_name 'Quintus Anustius Agathopus' contains a typo ('Anustius' instead of 'Antistius'). The image shows 'Q. Anustius Agathopus', but the correct name is 'Antistius'.",
+            "severity": "medium",
+            "suggested_fix": "Correct normalized_name to 'Quintus Antistius Agathopus'."
+          },
+          {
+            "field": "relations",
+            "issue": "The relation between 'person_A754' and 'person_agathopus' is correctly identified as 'patron of', but the typo in the normalized_name should be fixed.",
+            "severity": "medium",
+            "suggested_fix": "Update normalized_name for 'person_agathopus' as suggested above."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

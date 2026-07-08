@@ -1,0 +1,69 @@
+{
+  "page_notes": [
+    "The page header shows '143', but the user indicated this is page 159 of the volume. The entry for Q. Antistius Adventus Postumius Aquilinus (PIR² A 754) continues from the previous page.",
+    "The OCR text contains some errors (e.g., 'Anustius' instead of 'Antistius', 'Advent?' instead of 'Adventi'), but the image is authoritative for verification."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A_754",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "The lemma is reconstructed as '[Q. Antistius Adventus Postumius Aquilinus]' due to continuation from the previous page. The image does not explicitly show the full lemma on this page, but the context supports it.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "pir_reference",
+          "issue": "The PIR reference 'A 754' is correct as per the entry continuation and context.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact_text 'legatus etiamtum Arabiae' is correct, but the date_text 'before consulship (c. 166/167)' is inferred. The image does not provide explicit dates for this governorship.",
+          "severity": "medium",
+          "suggested_fix": "Update date_text to 'before or during consulship (c. 166/167)' and set date_normalized_start and date_normalized_end to null."
+        },
+        {
+          "field": "governorship_factoids.gov_2.exact_text",
+          "issue": "The exact_text 'Legatus Aug. pr. pr. provinciae Germaniae inferioris' is correct, but the date_text 'after 169' is inferred. The image does not provide explicit dates for this governorship.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start and date_normalized_end to null and clarify date_text as 'post-169 (inferred from German expedition context)'."
+        },
+        {
+          "field": "governorship_factoids.gov_3.province_text",
+          "issue": "The province_text 'Britannia' is correct, but the parentheses in 'Legatus Aug. pr. pr. (Britanniae)' suggest the province name is inferred. The image supports this inference.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Quintus Antistius Adventus Postumius Aquilinus' is plausible but not explicitly stated on this page. The image only shows partial context.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers 'patricius' and 'consularis' are supported by the image ('inter gentes patricias adlectos', 'consularis' implied by governorships).",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "related_persons.person_agathopus.normalized_name",
+          "issue": "The normalized_name 'Quintus Anustius Agathopus' contains a typo ('Anustius' instead of 'Antistius'). The image shows 'Q. Anustius Agathopus', but the correct name is 'Antistius'.",
+          "severity": "medium",
+          "suggested_fix": "Correct normalized_name to 'Quintus Antistius Agathopus'."
+        },
+        {
+          "field": "relations",
+          "issue": "The relation between 'person_A754' and 'person_agathopus' is correctly identified as 'patron of', but the typo in the normalized_name should be fixed.",
+          "severity": "medium",
+          "suggested_fix": "Update normalized_name for 'person_agathopus' as suggested above."
+        }
+      ]
+    }
+  ]
+}

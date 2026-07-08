@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "Page 187 of PIR² (ANTONIVS) contains entry 883, which is the only entry on this page explicitly attesting a legatus Augusti pro praetore governorship (Thracia). Entry 882 is present but does not attest a governorship. Entry 884 begins on this page but does not attest a governorship here."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "883",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma transcription contains a typographical error: 'M. ANTONIVS ZENO' should be 'M. Antonius Zeno' (no 'V' in 'Antonius'). The printed text shows 'M. Antonius Zeno'.",
+          "severity": "low",
+          "suggested_fix": "Correct lemma to 'M. Antonius Zeno'."
+        },
+        {
+          "field": "main_person.displayed_name",
+          "issue": "Displayed name contains the same typographical error as the lemma: 'M. Antonius Zeno' should be used instead of 'M. ANTONIVS ZENO'.",
+          "severity": "low",
+          "suggested_fix": "Correct displayed_name to 'M. Antonius Zeno'."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140' is slightly truncated and does not match the full printed quote. The printed text reads: 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140 i. 2; nummos Perinthiorum cum inscriptione...'.",
+          "severity": "medium",
+          "suggested_fix": "Update exact_text to include the full quote: 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140 i. 2; nummos Perinthiorum cum inscriptione θεὰ Φαυστεῖνα post mortem Faustinae Augustae i. e. non ante a. 140 cusos esse censuit'."
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "The date_normalized_end is set to 140, but the text suggests the governorship may have extended beyond this year (e.g., 'non ante a. 140'). The exact end date is not specified, so it should be left open or noted as uncertain.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to null or add a note about uncertainty."
+        },
+        {
+          "field": "career_factoids[1].date_normalized_start",
+          "issue": "The proconsulship of Africa is dated to 'quinto decimo fere anno post consulatum' (ca. 163), but the normalized start date is set to 162. This is slightly off given the approximation 'fere'.",
+          "severity": "low",
+          "suggested_fix": "Adjust date_normalized_start to 163 to match the approximation in the text."
+        },
+        {
+          "field": "related_persons[0].id",
+          "issue": "The related person ID 'person_882' is not unique or descriptive. It should reflect the PIR reference (A 882) for clarity.",
+          "severity": "low",
+          "suggested_fix": "Update ID to 'person_A_882'."
+        }
+      ]
+    }
+  ]
+}

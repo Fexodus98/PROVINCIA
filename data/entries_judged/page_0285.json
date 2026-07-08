@@ -1,0 +1,45 @@
+{
+  "page_notes": [
+    "Page 285 contains entry 1331 (C. ATTICIVS NORBANVS (?) STRABO), which explicitly mentions the formula 'Legatus Aug. pro pr. (Galatiae)' and is relevant to the PROVINCIA corpus.",
+    "No other entries on this page explicitly attest a legatus Augusti pro praetore formula."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A_1331",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "The lemma in the proposed JSON includes '(?)' after NORBANVS, but the printed page shows '(?)' only after NORBANVS in the lemma line, not as part of the main lemma transcription. The parentheses are not part of the lemma itself.",
+          "severity": "low",
+          "suggested_fix": "Remove '(?)' from the lemma field. Keep it in the notes if necessary."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized name 'C. Atticius Norbanus Strabo' assumes 'Norbanus' is the nomen, but the printed page shows 'NORBANVS (?)' with a question mark, indicating uncertainty. The name may not be 'Norbanus' at all.",
+          "severity": "medium",
+          "suggested_fix": "Use 'C. Atticius Strabo' as the normalized name, or retain the uncertainty in the name (e.g., 'C. Atticius [Norbanus?] Strabo')."
+        },
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text is overly verbose and includes editorial notes ('ubi Septimius Severus appellatur...'). The printed page shows the formula as 'Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3' and 'a. 200 t. 4', but the additional context is not part of the direct quote.",
+          "severity": "low",
+          "suggested_fix": "Shorten exact_text to: 'Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3, a. 200 t. 4'."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The date_normalized_end is set to 200, but the text notes 'vix fuit VIIIT' (likely not the 8th tribunician power), suggesting uncertainty about whether 200 is the exact end date.",
+          "severity": "medium",
+          "suggested_fix": "Adjust date_normalized_end to 200 with a note about the uncertainty, or use a broader range (e.g., 198-201)."
+        },
+        {
+          "field": "related_persons.0.normalized_name",
+          "issue": "The normalized name 'T. Atticius Strabo Romulus' assumes 'Atticius' is the nomen, but the printed page shows 'T. ATTICIVS STRABO ROMVLVS' with 'Attici' as a possible abbreviation or corruption. The full nomen is uncertain.",
+          "severity": "medium",
+          "suggested_fix": "Use 'T. Atticius Strabo Romulus' with a note about the uncertainty in the nomen."
+        }
+      ]
+    }
+  ]
+}

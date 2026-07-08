@@ -1,0 +1,64 @@
+{
+  "page_notes": [
+    "Page 209 contains entries 1069 to 1073, as stated. The image confirms the presence of these entries.",
+    "The governorship formula for M. Arranius Venustus (A 1070) is explicitly attested as 'legatus Aug. pr. pr. (exercitus Africani)'.",
+    "The governorship formula for M. Arrecinus Clemens (A 1072) is restored as '[legatus Aug. p]ro praet. provinc. [Hispani]ae c[iter]ioris' by Gatti, based on fragmentary evidence."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_1070",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1070_1.date_normalized_start",
+          "issue": "The date 'a. 166' is explicitly mentioned for the consulship designation, but the governorship date is not directly provided. The normalized start date of 160 is an inference and should be noted as such.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_start to null or clarify in notes that the date is inferred."
+        },
+        {
+          "field": "governorship_factoids.gov_1070_1.province_normalized",
+          "issue": "The province_text 'exercitus Africanus' is not in the registry. The equivalent province is 'Numidia'.",
+          "severity": "medium",
+          "suggested_fix": "Set province_normalized to 'Numidia'."
+        }
+      ]
+    },
+    {
+      "entry_id": "PIR_1072",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1072_1.province_text",
+          "issue": "The province_text 'Hispania Citerior' is correct, but the registry label is 'Hispania citerior' (lowercase 'citerior').",
+          "severity": "low",
+          "suggested_fix": "Set province_text to 'Hispania citerior'."
+        },
+        {
+          "field": "governorship_factoids.gov_1072_1.province_normalized",
+          "issue": "The province_normalized field should match the registry label exactly.",
+          "severity": "low",
+          "suggested_fix": "Set province_normalized to 'Hispania citerior'."
+        },
+        {
+          "field": "governorship_factoids.gov_1072_1.date_normalized_start",
+          "issue": "The date 'sub Domitiano' is vague. The normalized date range (81-96) is reasonable but should be flagged as uncertain.",
+          "severity": "medium",
+          "suggested_fix": "Add a note clarifying the uncertainty of the date range."
+        },
+        {
+          "field": "governorship_factoids.gov_1072_1.exact_text",
+          "issue": "The exact_text is a restoration and should be clearly marked as such in the notes.",
+          "severity": "low",
+          "suggested_fix": "No change needed, but ensure the 'uncertain_reading' evidence_type is sufficient."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_marker 'consularis' is supported by 'consularis Suet. Dom. 11', but this is not explicitly tied to a governorship or office in the text.",
+          "severity": "low",
+          "suggested_fix": "Clarify in notes that 'consularis' is derived from Suetonius and not directly from the governorship attestation."
+        }
+      ]
+    }
+  ]
+}

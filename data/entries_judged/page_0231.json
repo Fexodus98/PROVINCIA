@@ -1,0 +1,56 @@
+{
+  "page_notes": [
+    "Page 215 (not 231) processed. The image shows the PIR entries for ARRIVS, starting at number 1089."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_1089",
+      "verdict": "major_issues",
+      "problems": [
+        {
+          "field": "relevance_to_provincia_corpus",
+          "issue": "The formula 'leg. Aug. pr. pr. Daciarum' is explicitly attributed to the father (C. Arrius Antoninus), not the main person (C. Arrius Antoninus, son). The main person is not attested as governor.",
+          "severity": "high",
+          "suggested_fix": "Set relevance_to_provincia_corpus to 'no' for the main person. The governorship factoid should be associated with the father (person_1089_father), not the main person."
+        },
+        {
+          "field": "governorship_factoids",
+          "issue": "The governorship factoid is incorrectly assigned to the father but under the main person's entry. The exact_text and province are correct, but the person_id should be the father's ID.",
+          "severity": "high",
+          "suggested_fix": "Move the governorship factoid to the father's entry (person_1089_father) and ensure the person_id is 'person_1089_father'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'clarissimus' is not explicitly attested for the main person in this entry. It is inferred but not stated.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'clarissimus' from status_markers or add a note explaining the inference."
+        },
+        {
+          "field": "main_person.notes",
+          "issue": "The note 'Son of the consular C. Arrius Antoninus, governor of Dacia.' is correct but should clarify that the governorship is the father's, not the main person's.",
+          "severity": "low",
+          "suggested_fix": "Update the note to: 'Son of the consular C. Arrius Antoninus, legatus Augusti pro praetore of Dacia.'"
+        },
+        {
+          "field": "related_persons.person_1089_wife.normalized_name",
+          "issue": "The normalized_name 'lia Crispina' is incomplete. The text shows '[...]lia Crispina', indicating the full name is uncertain.",
+          "severity": "low",
+          "suggested_fix": "Update normalized_name to '[...]lia Crispina'."
+        },
+        {
+          "field": "lemma",
+          "issue": "The lemma 'C. ARRIVS ANTONINVS' is correct, but the OCR may have confused 'I' and 'L' in 'ARRIVS'. The image shows 'ARRIVS' (with 'V'), which is correct.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "pir_reference",
+          "issue": "The PIR reference 'A 1089' is correct as per the image.",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    }
+  ]
+}

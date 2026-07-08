@@ -1,0 +1,68 @@
+{
+  "page_notes": [
+    "The page contains the continuation of the entry for C. Avidius Nigrinus (lemma started on the preceding page). No new entries begin on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "avidius_nigrinus",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "pir_reference",
+          "issue": "PIR reference is missing. The entry starts with 'AVIDIVS' and the PIR number '286' is printed at the top of the page, indicating this is PIR² A 1404 (or similar).",
+          "severity": "medium",
+          "suggested_fix": "Set pir_reference to 'A 1404' (verify exact PIR number from the printed entry)."
+        },
+        {
+          "field": "lemma",
+          "issue": "Lemma in the proposal is 'C. AVIDIVS NIGRINVS', but the page shows 'AVIDIVS' (small caps) and the entry is a continuation. The full lemma should match the printed header, which is 'AVIDIVS' with the number '286' at the top, and the continuation implies 'C. Avidius Nigrinus'.",
+          "severity": "low",
+          "suggested_fix": "Set lemma to 'AVIDIVS' (small caps as printed) or 'C. Avidius Nigrinus' (full name), but ensure consistency with the printed page header."
+        },
+        {
+          "field": "governorship_factoids.gov_1.province_text",
+          "issue": "Province_text is 'Moesia superior', which is correct, but the exact_text includes 't. 8 Moesiae superioris potius quam Daciae'. The province_normalized should be 'Moesia superior'.",
+          "severity": "low",
+          "suggested_fix": "Province_normalized is correct as 'Moesia superior'. No change needed, but ensure province_normalized is set to 'Moesia superior'."
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_start",
+          "issue": "Date_normalized_start is set to 117, but the text states 'a. 117/118 ab Hadriano e provincia avocatum'. The start date is not explicitly given, only the recall date.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to null or provide a note that the start date is uncertain. The recall date is 117/118."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "Exact_text is too long and includes parenthetical commentary ('quod statuerunt Dessau aliique'). The verbatim quote should be tighter: 'Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae'.",
+          "severity": "low",
+          "suggested_fix": "Trim exact_text to 'Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae'."
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_start",
+          "issue": "Date_normalized_start is set to 98, but the text says 'Traiani Hadrianique aetate' (Trajan and Hadrian's era, 98-138). The date range is too broad and speculative.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start and date_normalized_end to null, or narrow to 'Traiani Hadrianique aetate' with a note on uncertainty."
+        },
+        {
+          "field": "governorship_factoids.gov_2.exact_text",
+          "issue": "Exact_text is too long and includes commentary ('Mommsen's view...'). The verbatim quote should be: 'Nigrinum missum esse legatum in Achaiam ad ordinandum vel corrigendum statum rerum publicarum ... legati Aug. pro praetore extra ordinem Achaiam provinciam proconsulis loco regebant'.",
+          "severity": "low",
+          "suggested_fix": "Trim exact_text to the core phrase: 'Nigrinum missum esse legatum in Achaiam ad ordinandum vel corrigendum statum rerum publicarum ... legati Aug. pro praetore extra ordinem Achaiam provinciam proconsulis loco regebant'."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "Normalized_name is 'Caius Avidius Nigrinus', but the praenomen 'C.' is not explicitly attested in the text. The text uses 'Nigrinus' or 'Nigrinum'.",
+          "severity": "low",
+          "suggested_fix": "Set normalized_name to 'Avidius Nigrinus' or 'Gaius Avidius Nigrinus' (if 'C.' is attested elsewhere)."
+        },
+        {
+          "field": "related_persons",
+          "issue": "The relation_context for 'L. Ceionius Commodus' is 'Son-in-law of Nigrinus (or stepson)'. The text states 'Avidiam Plautiam sororem uterinam Aelii Caesaris fuisse' and 'recte generum Nigrini appellat', implying Ceionius Commodus was Nigrinus' son-in-law, not stepson.",
+          "severity": "medium",
+          "suggested_fix": "Update relation_context to 'Son-in-law of Nigrinus (married to his daughter Avidia Plautia)'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "page_notes": [
+    "Page header shows '355', matching the printed page number on the image.",
+    "OCR error 'EAZIAA' corrected to 'ΒΑΣΙΛΑ' in the image is accurate.",
+    "No entries starting on the previous page continue on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "59",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text includes 'CIG 4039 = Dit. Or. Gr. 33', which is not part of the quoted office formula but a source reference.",
+          "severity": "low",
+          "suggested_fix": "Trim exact_text to 'legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio'."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_start",
+          "issue": "The date 'imperante Tiberio' is normalized to 14-37, which is correct but the certainty is marked as 'medium'. The text uses 'ut videtur', so certainty should reflect this qualifier.",
+          "severity": "low",
+          "suggested_fix": "Retain dates but ensure certainty is explicitly marked as 'low' due to 'ut videtur'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers list includes 'legatus Augusti pro praetore', but the text uses the abbreviated form 'legatus Aug. pr. pr.'. This is a minor transcription difference.",
+          "severity": "low",
+          "suggested_fix": "Use the exact abbreviation from the text: 'legatus Augusti pro praetore' is acceptable, but note the abbreviation in the entry_notes."
+        },
+        {
+          "field": "segments.offices_and_career",
+          "issue": "The segment includes 'CIG 4039 = Dit. Or. Gr. 33', which is a source reference, not part of the office formula.",
+          "severity": "low",
+          "suggested_fix": "Trim to 'legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio'."
+        }
+      ]
+    }
+  ]
+}

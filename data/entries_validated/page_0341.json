@@ -1,0 +1,172 @@
+{
+  "document_notes": [
+    "Page 325 contains the continuation of the entry for T. Aurelius Quietus from the preceding page, followed by entries 1593 to 1601, none of which are relevant to the PROVINCIA corpus."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_Aurelius_Quietus_p325",
+      "pir_reference": null,
+      "lemma": "T. AVRELIVS QVIETVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81'.",
+      "segments": {
+        "lemma": "T. AVRELIVS QVIETVS (continuation)",
+        "name_variants": "Aurelius Quietus, Τίτος Αὐρήλιος Κυῆτος",
+        "identification_and_sources": "D. 8796 (1), in t. Termessensi mutilo IGR 3, 1510 = TAM 2, 1, 21 (2), in dipl. mil. III p. 1960 = D. 1995 (3).",
+        "offices_and_career": "Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81 t. 1. 2: [δικαι]οδότης. Consul cum M. Larcio Magno Pompeio Silone d. 19 m. Sept. a. 82 t. 3.",
+        "governorship_attestation": "Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81 t. 1. 2: [δικαι]οδότης.",
+        "family_and_social_relations": "T. Aure[lius] pater eius honoratur publice t. 2, ubi Τίτον Αὐρή[λιον...] υἱόν, τὸν π[ατέρα Τίτου Αὐρη]λίου Κυήτ[ου]... Parentela fortasse coniunctus cum T. Aurelio Fulvo aequali suo. Hospiti suo medico mandavit, ut in hortis, quos Ravennae habebat, in quos omnibus annis secedere solebat, sphaeristerium et hypocausta et quaedam ipsius valetudini apta sua impensa faceret.",
+        "prosopographical_commentary": "Hunc non diversum esse a Quieto proconsule, Plutarchi amico, qui memoratur quaest. conv. 2, 1, 5 p. 62 A, coniecit Benndorf l. l. vix recte; v. supra sub T. Avidio Quieto.",
+        "bibliography_or_cross_references": "Benndorf Wien. Stud. 24, 249; dig. 17, 1, 16; v. supra sub T. Avidio Quieto."
+      },
+      "main_person": {
+        "id": "person_t_aurelius_quietus",
+        "displayed_name": "T. Aurelius Quietus",
+        "normalized_name": "Titus Aurelius Quietus",
+        "pir_reference": null,
+        "status_markers": [
+          "consularis",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Legatus Aug. pr. pr. Lyciae et Pamphyliae",
+          "Consul suffectus in AD 82"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_t_aurelius_quietus_lycia_pamphylia",
+          "person_id": "person_t_aurelius_quietus",
+          "exact_text": "Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Lycia et Pamphylia",
+          "province_normalized": null,
+          "date_text": "a. 80/81",
+          "date_normalized_start": 80,
+          "date_normalized_end": 81,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions from Termessos (TAM II 21)"
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_t_aurelius_quietus_consul",
+          "person_id": "person_t_aurelius_quietus",
+          "exact_text": "Consul cum M. Larcio Magno Pompeio Silone d. 19 m. Sept. a. 82",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 82",
+          "date_normalized_start": 82,
+          "date_normalized_end": 82,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Consul suffectus on September 19, 82 AD with M. Larcius Magnus Pompeius Silo"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_t_aurelius_pater",
+          "displayed_name": "T. Aure[lius] pater",
+          "normalized_name": "Titus Aurelius",
+          "relation_context": "pater eius",
+          "certainty": "high",
+          "notes": [
+            "Father of T. Aurelius Quietus, honored publicly at Termessos"
+          ]
+        },
+        {
+          "id": "person_m_larcius_magnus_pompeius_silo",
+          "displayed_name": "M. Larcius Magnus Pompeius Silo",
+          "normalized_name": "Marcus Larcius Magnus Pompeius Silo",
+          "relation_context": "consular colleague",
+          "certainty": "high",
+          "notes": [
+            "Consul suffectus with Quietus in AD 82"
+          ]
+        },
+        {
+          "id": "person_t_aurelius_fulvus",
+          "displayed_name": "T. Aurelius Fulvus",
+          "normalized_name": "Titus Aurelius Fulvus",
+          "relation_context": "possible relative (parentela fortasse coniunctus)",
+          "certainty": "medium",
+          "notes": [
+            "Described as 'aequali suo'"
+          ]
+        },
+        {
+          "id": "person_t_avidius_quietus",
+          "displayed_name": "T. Avidius Quietus",
+          "normalized_name": "Titus Avidius Quietus",
+          "relation_context": "possible confusion / comparison",
+          "certainty": "medium",
+          "notes": [
+            "Benndorf identified him with Quietus the proconsul and friend of Plutarch, but the author suggests looking under T. Avidius Quietus instead."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_t_aurelius_pater",
+          "target": "person_t_aurelius_quietus",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "T. Aure[lius] pater eius honoratur publice... ubi Τίτον Αὐρή[λιον...] υἱόν, τὸν π[ατέρα Τίτου Αὐρη]λίου Κυήτ[ου]",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry is a continuation from the previous page, hence the lack of a PIR number and the main lemma heading on this page.",
+        "Mentions a legal response by Juventius Celsus in Digest 17, 1, 16 regarding a sphaeristerium and hypocausta built by Quietus for his doctor at his estate in Ravenna."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "pir_reference",
+            "issue": "PIR reference is set to null, but the entry is a continuation and the PIR number is not visible on this page. This is expected, but the field should reflect the correct PIR number if known from the previous page.",
+            "severity": "low",
+            "suggested_fix": "Set pir_reference to 'A 1512' if this is the correct PIR number from the previous page."
+          },
+          {
+            "field": "governorship_factoids.exact_text",
+            "issue": "The exact_text 'Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81' is slightly truncated. The image shows 'Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81 t. 1. 2: [δικαι]οδότης.'",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to 'Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81 t. 1. 2: [δικαι]οδότης.'"
+          },
+          {
+            "field": "governorship_factoids.province_text",
+            "issue": "The province_text 'Lycia et Pamphylia' is correct but does not match the exact Latin form on the page, which is 'Lyciae et Pamphyliae'.",
+            "severity": "low",
+            "suggested_fix": "Update province_text to 'Lyciae et Pamphyliae'."
+          },
+          {
+            "field": "governorship_factoids.notes",
+            "issue": "The notes mention 'Attested in inscriptions from Termessos (TAM II 21)' but do not explicitly cite the exact source from the entry (IGR 3, 1510 = TAM 2, 1, 21).",
+            "severity": "low",
+            "suggested_fix": "Update notes to include the exact source: 'Attested in inscriptions from Termessos (IGR 3, 1510 = TAM 2, 1, 21).'"
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status_markers include 'legatus Augusti pro praetore', which is correct, but the Latin form on the page is 'Legatus Aug. pr. pr.'.",
+            "severity": "low",
+            "suggested_fix": "Update status_markers to use the exact Latin form: 'Legatus Augusti pro praetore (Legatus Aug. pr. pr.)'."
+          },
+          {
+            "field": "related_persons",
+            "issue": "The related person 'person_t_aurelius_pater' has the displayed_name 'T. Aure[lius] pater', but the image shows 'T. Aure[lius]' with 'pater' in the relation context. The displayed_name should reflect the exact transcription.",
+            "severity": "low",
+            "suggested_fix": "Update displayed_name to 'T. Aurelius pater' and ensure the normalized_name is 'Titus Aurelius'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

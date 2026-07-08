@@ -1,0 +1,160 @@
+{
+  "source_page": 129,
+  "entries": [
+    {
+      "entry_id": "A 659",
+      "pir_reference": "A 659",
+      "lemma": "[L. ANNIVS ITALICVS]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pr. pr. provinciae Moesiae inferioris in AD 224.",
+      "segments": {
+        "lemma": "[L. ANNIVS ITALICVS]",
+        "name_variants": "L. Annius L. f. Quirina Italicus",
+        "identification_and_sources": "Mentioned in inscriptions/documents of Moesia inferior (t. 3 a. 224 d. 20 m. Sept. t. 4) and family inscriptions (t. VI 31685, XI 5808).",
+        "offices_and_career": "legatus Augusti pr. pr. provinciae Moesiae inferioris (a. 224).",
+        "governorship_attestation": "legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4.",
+        "family_and_social_relations": "Gavidia Torquata uxor, liberi Annii Italicus et Honoratus et Italica; natu maximus probabiliter L. Annius L. f. Quirina Italicus; filius L. Annius Italicus Rutilianus (n. 660).",
+        "prosopographical_commentary": "Incertum utrum hic an filius Italicus, qui L. Annio Italico Rutiliano filio posuit t. sepulcralem XI 5808 Iguvinum.",
+        "bibliography_or_cross_references": "cf. n. 659, t. VI 31685, XI 5808."
+      },
+      "main_person": {
+        "id": "person_A659",
+        "displayed_name": "L. Annius Italicus",
+        "normalized_name": "Lucius Annius Italicus",
+        "pir_reference": "A 659",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": [
+          "Governor of Moesia Inferior in AD 224.",
+          "Beziehung zu A 660 (L. Annius Italicus Rutilianus): Verwandtschaft gesichert, Grad unsicher — Sohn ODER Enkel. PIR: A 660 'Italici filius … cf. n. 659'; offen, ob der Vater A 659 selbst ('hic') oder dessen gleichnamiger Sohn Italicus ist ('Incertum utrum hic an filius Italicus, qui L. Annio Italico Rutiliano filio posuit t. sepulcralem XI 5808 Iguvinum'). Sohn (falls A 659 = Italicus) oder Enkel (falls ueber den Sohn Italicus). Enkel-Deutung: Danuta Okon, Res Historica 59 (2025). Beleg CIL XI 5808."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A659_1",
+          "person_id": "person_A659",
+          "exact_text": "legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "province_normalized": "Moesia inferior",
+          "date_text": "a. 224 d. 20 m. Sept.",
+          "date_normalized_start": 224,
+          "date_normalized_end": 224,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on September 20, 224 AD."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_gavidia_torquata",
+          "displayed_name": "Gavidia Torquata",
+          "normalized_name": "Gavidia Torquata",
+          "relation_context": "uxor",
+          "certainty": "high",
+          "notes": [
+            "Wife of L. Annius Italicus"
+          ]
+        },
+        {
+          "id": "person_annius_italicus_filius",
+          "displayed_name": "Annius Italicus",
+          "normalized_name": "Annius Italicus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": [
+            "Son of L. Annius Italicus"
+          ]
+        },
+        {
+          "id": "person_annius_honoratus",
+          "displayed_name": "Annius Honoratus",
+          "normalized_name": "Annius Honoratus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": [
+            "Son of L. Annius Italicus"
+          ]
+        },
+        {
+          "id": "person_annia_italica",
+          "displayed_name": "Annia Italica",
+          "normalized_name": "Annia Italica",
+          "relation_context": "filia",
+          "certainty": "high",
+          "notes": [
+            "Daughter of L. Annius Italicus"
+          ]
+        },
+        {
+          "id": "person_A660",
+          "displayed_name": "L. Annius Italicus Rutilianus",
+          "normalized_name": "Lucius Annius Italicus Rutilianus",
+          "relation_context": "filius",
+          "certainty": "medium",
+          "notes": [
+            "Probably son of L. Annius Italicus (or grandson, see commentary)"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A659",
+          "target": "person_gavidia_torquata",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Gavidia Torquata uxor",
+          "notes": []
+        },
+        {
+          "source": "person_A659",
+          "target": "person_annius_italicus_filius",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "liberi Annii Italicus et Honoratus et Italica",
+          "notes": []
+        },
+        {
+          "source": "person_A659",
+          "target": "person_annius_honoratus",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "liberi Annii Italicus et Honoratus et Italica",
+          "notes": []
+        },
+        {
+          "source": "person_A659",
+          "target": "person_annia_italica",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "liberi Annii Italicus et Honoratus et Italica",
+          "notes": []
+        },
+        {
+          "source": "person_A659",
+          "target": "person_A660",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Incertum utrum hic an filius Italicus, qui L. Annio Italico Rutiliano filio posuit t. sepulcralem XI 5808 Iguvinum.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry header is missing from this page as it is a continuation from the previous page, but can be securely identified as PIR² A 659 (L. Annius Italicus) based on the cross-reference in entry 660."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#13: Moesia inferior behalten; Beziehung A 660 = Sohn oder Enkel (beide Moeglichkeiten, CIL XI 5808); province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 129
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "document_notes": [
+    "Page 98 contains the continuation of the entry for Sex. Anicius Faustus (PIR² A 595), which began on page 97. It also contains the brief entry PIR² A 596 and the start of PIR² A 597, neither of which are independently relevant to the PROVINCIA corpus based on the visible text on this page."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_595",
+      "pir_reference": "A 595",
+      "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Augusti vel Augustorum pro praetore (Numidiae)' and 'Legatus Augustorum pro pr. (Moesiae superioris)'.",
+      "segments": {
+        "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+        "name_variants": "Ἀνίκιος Φῆστος (librariorum errore) Dio 78, 22, 2. Φαῦστος ib. § 4.",
+        "identification_and_sources": "18068 (13). 18255 (14). 18256 (15). Bull. tr. hist. 1911, 99 (16) ; ib. 100 (17); 1919, 85 (18). D. 9097 (19), Thamugadensibus VIII 17870 (= D. 446) (20). 17871 (21), Cirtensi VIII 19495 (22), Arsacalitano VIII 6048 (23), Cuiculitanis Bull. tr. hist. 1916, 233 (24) ; ib. 1911, 115 (25), Suburburano ib. 1917, 342 (26), Mauretano VIII 8796 cf. 18021 (27); ad eum pertinere videtur frustulum Lambaesitanum VIII 18078 (28) ; incertum num eius nomen recte restituatur in t. Numidiae VIII 2466 cf. 17954 (29); cf. Pallu de Lessert Fast. 1, 406—417. Dedicavit in legatione Moesiaca titulos III 1685 (30). 1686 (31). Nomina plena extant sive recte restituta sunt in titulis omnibus.",
+        "offices_and_career": "Clarissimus vir... Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8 (nomina consulum anni 197, quae leguntur in t. 4, non ad tituli dedicationem sed ad collationem pecuniae spectare videntur; cf. Stout Governors of Moes. 36 sq.); consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25 (ubi Severus errore dicitur cos. III). Faustus cum consul designatus fuerit a. 198, eodem anno fasces in legatione Numidica gesserit necesse est; itaque in t. 11. 13. 21 (posito a. 199) non co(n)s(ul) sed co(n)s(ularis) amplissimus legendum (item co(n)s(ularis) in t. 1 a. b. 2 b.). Severus in sortitione proconsulatus (Africae vel Asiae) eum praeteriit Dio 78, 22, 4 (Dionem errasse et Antoninum intelligendum esse statuit Waddington Fast. As. n. 169 sine idonea causa). A. 217 Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit et, cum exiguum anni proconsularis spatium ei remaneret, mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset Dio 78, 22, 2. 4. Quod num Elagabalus ratum habuerit, ignoramus.",
+        "governorship_attestation": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197 (cum Caracalla Caesar dictus sit, nondum imperator destinatus) t. 22, a. 197 t. 15. 20. 23, a. 199 t. 21. 24. 25. 26, a. 200 t. 19, a. 201 t. 1 a. b. 2 a. b. (de t. 4 v. infra). Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30 (numeri annorum tribuniciae potestatis corrupti sunt). 31.",
+        "family_and_social_relations": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius. Anicii, qui aetate labente floruerunt, ab eo originem duxisse videntur.",
+        "prosopographical_commentary": "The text discusses the chronology of his governorship in Numidia, arguing that since he was consul designatus in 198, he must have held the fasces in Numidia in that same year. It also notes the error in Dio regarding the proconsulship of Asia under Macrinus, and discusses the debate over whether Severus or Antoninus passed him over in the sortition.",
+        "bibliography_or_cross_references": "cf. Pallu de Lessert Fast. 1, 406—417; Stout Governors of Moes. 36 sq.; Waddington Fast. As. n. 169; cf. sub Anicio Fausto Paulino."
+      },
+      "main_person": {
+        "id": "PIR_A_595",
+        "displayed_name": "Sex. Anicius Faustus",
+        "normalized_name": "Sextus Anicius Faustus",
+        "pir_reference": "A 595",
+        "status_markers": [
+          "clarissimus vir",
+          "consularis",
+          "patronus"
+        ],
+        "notes": [
+          "Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "PIR_A_595",
+          "exact_text": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Numidia",
+          "date_text": "anno 196 vel priore semestri a. 197",
+          "date_normalized_start": 196,
+          "date_normalized_end": 197,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The text notes that he held this office until 201, and that he must have held the fasces in Numidia in 198 as consul designatus."
+          ]
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "PIR_A_595",
+          "exact_text": "Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30",
+          "normalized_office": "legatus Augustorum pro praetore",
+          "province_text": "Moesia superior",
+          "date_text": "intra a. 202 et 207",
+          "date_normalized_start": 202,
+          "date_normalized_end": 207,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Dedicavit in legatione Moesiaca titulos III 1685. 1686."
+          ]
+        },
+        {
+          "factoid_id": "gov_3",
+          "person_id": "PIR_A_595",
+          "exact_text": "A. 217 Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit et, cum exiguum anni proconsularis spatium ei remaneret, mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": "217 - 218/219",
+          "date_normalized_start": 217,
+          "date_normalized_end": 219,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Sent by Macrinus to replace C. Iulius Asprus, and extended to replace Aufidius Fronto."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "PIR_A_595",
+          "exact_text": "Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 198,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_2",
+          "person_id": "PIR_A_595",
+          "exact_text": "consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25",
+          "normalized_office": "consularis",
+          "province_text": null,
+          "date_text": "a. 199 - 200",
+          "date_normalized_start": 199,
+          "date_normalized_end": 200,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "PIR_A_596",
+          "displayed_name": "Sextus Anicius Faustus",
+          "normalized_name": "Sextus Anicius Faustus",
+          "relation_context": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR² A 596, honoratus t. Thamugadensi mutilo VIII 17890; possibly the son of the main person."
+          ]
+        },
+        {
+          "id": "PIR_C_Iulius_Asprus",
+          "displayed_name": "(C. Iulius) Asprus",
+          "normalized_name": "C. Iulius Asprus",
+          "relation_context": "Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "PIR_Aufidius_Fronto",
+          "displayed_name": "Aufidius Fronto",
+          "normalized_name": "M. Aufidius Fronto",
+          "relation_context": "mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "PIR_A_595",
+          "target": "PIR_A_596",
+          "relation": "father of",
+          "certainty": "medium",
+          "basis": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "This entry is a continuation of PIR² A 595 from the previous page (page 97)."
+      ]
+    }
+  ]
+}

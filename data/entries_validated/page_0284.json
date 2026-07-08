@@ -1,0 +1,152 @@
+{
+  "document_notes": [
+    "The page contains the continuation of entry PIR² A 1322 (Atrius Clonius) at the top, which is highly relevant to the PROVINCIA corpus as it lists three governorships (Cappadocia, Syria maior, Hispania citerior) as Legatus Aug. pr. pr."
+  ],
+  "entries": [
+    {
+      "entry_id": "A 1322 (continuation)",
+      "pir_reference": "A 1322",
+      "lemma": "[Atrius Clonius]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pr. pr. of Cappadocia, Syria maior, and Hispania citerior.",
+      "segments": {
+        "lemma": "",
+        "name_variants": "",
+        "identification_and_sources": "t. 3 (cf. Stein l.l.), ὁ λαμπρότατος ὑπατικός ib.; consul suffectus ut videtur in ipsa legatione.",
+        "offices_and_career": "consul suffectus ut videtur in ipsa legatione.",
+        "governorship_attestation": "Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "Gr."
+      },
+      "main_person": {
+        "id": "A_1322",
+        "displayed_name": "[Atrius Clonius]",
+        "normalized_name": "Atrius Clonius",
+        "pir_reference": "A 1322",
+        "status_markers": [
+          "consul suffectus",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "The entry starts on the preceding page (p. 267)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cappadocia",
+          "province_normalized": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum ... Syriae maioris",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syria maior",
+          "province_normalized": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "gov_3",
+          "person_id": "A_1322",
+          "exact_text": "Legatus Aug. pr. pr. provinciarum ... Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib.",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Hispania citerior",
+          "province_normalized": null,
+          "date_text": "sub Severo Alexandro",
+          "date_normalized_start": 222,
+          "date_normalized_end": 235,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "A centurio of legio VII gemina piae fidelis Severianae Alexandrianae dedicated an inscription."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "A_1322",
+          "exact_text": "consul suffectus ut videtur in ipsa legatione",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "in ipsa legatione",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "high",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The text is a continuation from page 267."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "The lemma should include the full name as visible on the page. The page shows the entry continuing as 't. 3' with no explicit lemma header, but the name 'Atrius Clonius' is inferred from the previous page. The lemma should be represented as '[Atrius Clonius]' or similar to reflect the continuation.",
+            "severity": "low",
+            "suggested_fix": "Use '[Atrius Clonius]' as the lemma to indicate continuation from the previous page."
+          },
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "The exact_text for Cappadocia is truncated and does not match the full quote on the page. The page reads: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'",
+            "severity": "medium",
+            "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'"
+          },
+          {
+            "field": "governorship_factoids.gov_2.exact_text",
+            "issue": "The exact_text for Syria maior is truncated and does not match the full quote on the page. The page includes the full formula as part of a single statement.",
+            "severity": "medium",
+            "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum Cappadociae, Syriae maioris, Hispaniae citerioris t. 1.'"
+          },
+          {
+            "field": "governorship_factoids.gov_3.exact_text",
+            "issue": "The exact_text for Hispania citerior is partially truncated and does not include the full context of the governorship attestation. The page reads: 'Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).'",
+            "severity": "medium",
+            "suggested_fix": "Update exact_text to: 'Legatus Aug. pr. pr. provinciarum ... Hispaniae citerioris t. 1. Hispaniam rexit sub Severo Alexandro ib. (titulum dedicavit centurio quidam legionis VII geminae piae fidelis Severianae Alexandrianae).'"
+          },
+          {
+            "field": "governorship_factoids.gov_3.province_normalized",
+            "issue": "The province_normalized for Hispania citerior is correct, but the registry label should be 'Hispania citerior' (not 'Hispania').",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.gov_3.date_normalized_start",
+            "issue": "The date_normalized_start of 222 is correct (start of Severus Alexander's reign), but the date_text should explicitly reference 'sub Severo Alexandro' as the source.",
+            "severity": "low",
+            "suggested_fix": "Ensure date_text is set to 'sub Severo Alexandro'."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status_markers include 'legatus Augusti pro praetore', which is correct, but the abbreviation on the page is 'Legatus Aug. pr. pr.'. This should be noted for consistency.",
+            "severity": "low",
+            "suggested_fix": "Add a note clarifying the abbreviation used on the page: 'Legatus Aug. pr. pr.'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

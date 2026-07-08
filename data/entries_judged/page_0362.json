@@ -1,0 +1,39 @@
+{
+  "page_notes": [
+    "Page 346 of PIR² (Baebii) contains one entry explicitly attested as legatus Augustorum pro praetore: L. Baebius Caecilianus (B 14).",
+    "The image confirms the formula 'Legatus Augustorum pro praetore (Pannoniae inferioris)' for L. Baebius Caecilianus."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "pir-b-14",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized name 'Lucius Baebius Caecilianus' is not fully supported by the image. The image shows 'L. BAEBIVS CAECILIANVS' and variants like 'L. Baebius Caecilianus' or 'Baebius Caecilianus', but 'Lucius' is not explicitly attested in the visible text.",
+          "severity": "low",
+          "suggested_fix": "Use 'L. Baebius Caecilianus' as normalized_name to match the lemma and avoid unsupported expansion."
+        },
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text 'Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.' is slightly truncated. The image shows 'Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.' with a small '¢' symbol before '1—4', which is omitted in the exact_text.",
+          "severity": "low",
+          "suggested_fix": "Include the '¢' symbol in exact_text: 'Legatus Augustorum pro praetore (Pannoniae inferioris) ¢ t. 1—4 a. 199 t. 2.'."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The date 'a. 199' is given as a single year, but the image does not explicitly state whether the governorship spanned only one year or longer. The date is supported, but the end year is assumed.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_end to null or clarify in notes that the end year is uncertain."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'vir clarissimus' is not explicitly attested in the visible text for L. Baebius Caecilianus. This may be inferred from his senatorial rank, but it is not directly supported by the image.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'vir clarissimus' from status_markers or add a note explaining the inference."
+        }
+      ]
+    }
+  ]
+}

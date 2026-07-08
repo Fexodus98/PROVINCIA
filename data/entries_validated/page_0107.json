@@ -1,0 +1,143 @@
+{
+  "document_notes": [
+    "Page 91 of PIR contains entry 544, which is highly relevant to the PROVINCIA corpus due to the explicit attestation of the governorship of Arabia."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_544",
+      "pir_reference": "A 544",
+      "lemma": "C. ALLIVS FVSCIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Augusti pr. pr. of Arabia.",
+      "segments": {
+        "lemma": "C. ALLIVS FVSCIANVS",
+        "name_variants": "C. Allius Fuscianus, [Αἰλλ]ιος Φουσκιανός, C. Allius C. f. Fuscianus",
+        "identification_and_sources": "honoratur titulis Gerasenis III 118 = 14156^8 (1), Journ. Rom. stud. 18, 1928, 160 (2).",
+        "offices_and_career": "Legatus Augusti pr. pr. (Arabiae), consul designatus t. 1, consul (suffectus anno incerto saec. II medii) t. 2. Idem videtur C. Allius C. f. Fuscianus, patronus ordinis senatorii complurium collegiorum Ostiensium, qui nominatur in titulis Ostiensibus a. 140 XIV 246, a. 152 XIV...",
+        "governorship_attestation": "Legatus Augusti pr. pr. (Arabiae)",
+        "family_and_social_relations": "C. f. (Caii filius)",
+        "prosopographical_commentary": "Identified with the C. Allius C. f. Fuscianus, patron of the senatorial order of several Ostian guilds, attested in 140 and 152 AD.",
+        "bibliography_or_cross_references": "CIL III 118 = 14156^8; JRS 18 (1928) 160; CIL XIV 246"
+      },
+      "main_person": {
+        "id": "person_A_544",
+        "displayed_name": "C. Allius Fuscianus",
+        "normalized_name": "Caius Allius Fuscianus",
+        "pir_reference": "A 544",
+        "status_markers": [
+          "senator",
+          "consularis",
+          "patronus"
+        ],
+        "notes": [
+          "Patron of several Ostian guilds."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A_544_1",
+          "person_id": "person_A_544",
+          "exact_text": "Legatus Augusti pr. pr. (Arabiae)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": null,
+          "date_text": "saec. II medii",
+          "date_normalized_start": 130,
+          "date_normalized_end": 170,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions from Gerasa."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A_544_1",
+          "person_id": "person_A_544",
+          "exact_text": "consul designatus",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "saec. II medii",
+          "date_normalized_start": 130,
+          "date_normalized_end": 170,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A_544_2",
+          "person_id": "person_A_544",
+          "exact_text": "consul (suffectus anno incerto saec. II medii)",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "saec. II medii",
+          "date_normalized_start": 130,
+          "date_normalized_end": 170,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A_544_3",
+          "person_id": "person_A_544",
+          "exact_text": "patronus ordinis senatorii complurium collegiorum Ostiensium",
+          "normalized_office": "patronus",
+          "province_text": "Italia",
+          "date_text": "a. 140, a. 152",
+          "date_normalized_start": 140,
+          "date_normalized_end": 152,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in Ostian inscriptions CIL XIV 246 and another from 152 AD."
+          ]
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The identification of the Gerasene governor with the Ostian patron is highly probable."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "pir_reference",
+            "issue": "The PIR reference is correct, but the lemma in the proposed JSON is 'C. ALLIVS FVSCIANVS' while the printed page shows 'c. ALLIVS FVSCIANVS' (lowercase 'c.').",
+            "severity": "low",
+            "suggested_fix": "Update lemma to 'c. Allius Fuscianus' and adjust displayed_name and normalized_name accordingly."
+          },
+          {
+            "field": "governorship_factoids.exact_text",
+            "issue": "The exact_text 'Legatus Augusti pr. pr. (Arabiae)' is correct, but the parentheses around 'Arabiae' are not present in the printed text (it reads 'Legatus Augusti pr. pr. Arabiae').",
+            "severity": "low",
+            "suggested_fix": "Remove parentheses: 'Legatus Augusti pr. pr. Arabiae'."
+          },
+          {
+            "field": "governorship_factoids.date_normalized_start/end",
+            "issue": "The date range 'saec. II medii' is vague. The page does not provide exact dates, but the proposed range (130-170) is reasonable. However, this should be noted as an approximation.",
+            "severity": "medium",
+            "suggested_fix": "Add a note clarifying that the dates are approximate based on 'saec. II medii'."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Caius Allius Fuscianus' is correct, but the lemma uses 'C.' (Gaius) rather than 'Caius'.",
+            "severity": "low",
+            "suggested_fix": "Use 'Gaius Allius Fuscianus' for consistency with 'C.' abbreviation."
+          },
+          {
+            "field": "career_factoids.car_A_544_3.province_text",
+            "issue": "The province_text 'Italia' is not in the registry of provinces. The correct label should be null or a valid registry entry (e.g., 'Italia' is not a province but a region).",
+            "severity": "medium",
+            "suggested_fix": "Set province_text to null or clarify the region as 'Italia' in notes."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

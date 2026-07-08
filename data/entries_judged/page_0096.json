@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "Page 80 contains the continuation of the entry for Q. Aiacius Modestus Crescentianus (PIR2 A 470), which is the only entry with explicit governorship attestations on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "entry_A470",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "The date range for Arabia governorship is too broad. The text states 'Modestus non ante a. p. C. 198 provinciam rexerit necesse est' but does not provide an explicit end date. The proposed end date (204) is inferred from the XV vir sacris faciundis office in 204, but this is not directly supported by the text.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to null or adjust to a more conservative range (e.g., 200-204) with a note explaining the inference."
+        },
+        {
+          "field": "governorship_factoids[1].exact_text",
+          "issue": "The exact_text for Germania Superior governorship is overly verbose. The text states 'Legatus Augustorum duorum t. 2 Augustorum trium t. 1 pro praetore Germaniae superioris', but the key phrase is 'pro praetore Germaniae superioris'.",
+          "severity": "low",
+          "suggested_fix": "Shorten exact_text to 'pro praetore Germaniae superioris' or 'Legatus Augustorum pro praetore Germaniae superioris'."
+        },
+        {
+          "field": "governorship_factoids[1].date_normalized_end",
+          "issue": "The text suggests the governorship may have extended beyond 209 ('fortasse annis quoque praecedentibus vel subsequentibus eodem munere functus est'), but the proposed date range is limited to 209.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 210 or add a note about the possibility of a longer tenure."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Quintus Aiacius Modestus Crescentianus' is correct but the lemma shows '[Mo]destus Crescentia[nus]' with missing letters. The displayed_name should reflect the lemma's uncertainty.",
+          "severity": "low",
+          "suggested_fix": "Update displayed_name to 'Q. Aiacius [Mo]destus Crescentia[nus]' to match the lemma."
+        },
+        {
+          "field": "career_factoids[4].province_normalized",
+          "issue": "The province_normalized for the proconsulship of Asia is missing. The text states 'ἀνθύ[πατος sc. ᾿Ασίας]', which refers to Asia.",
+          "severity": "low",
+          "suggested_fix": "Set province_normalized to 'Asia'."
+        },
+        {
+          "field": "related_persons[3].id",
+          "issue": "The related person 'M. Maecius Probus' is listed as a consul colleague but is not explicitly mentioned in the text as a relation to Q. Aiacius Modestus Crescentianus beyond the shared consulship. This is not a direct relation.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'M. Maecius Probus' from related_persons or clarify the relation as 'consul colleague' without implying a direct personal relation."
+        }
+      ]
+    }
+  ]
+}

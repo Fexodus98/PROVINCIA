@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 99 of PIR² (volume A) contains entries 598 to 604. Only entry 599 explicitly mentions a legatus Augusti pro praetore (legatus Aug. pr. pr.) of Moesia inferior, making it the sole relevant entry for the PROVINCIA corpus on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_599",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text includes parentheses and a date abbreviation that are not strictly verbatim from the image. The image shows 'legatus Aug. pr. pr. (Moesiae inferioris) a. 230' without the CIL reference in the same line.",
+          "severity": "low",
+          "suggested_fix": "Use 'legatus Aug. pr. pr. (Moesiae inferioris) a. 230' as exact_text, removing the trailing CIL reference."
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_end",
+          "issue": "The date is given as a single year (a. 230), but the end year is set to 230, which is correct but could be clarified as a single-year governorship.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Anicius Faustus Paulinus' is correct but could be more precise by including the praenomen 'Sextus' if it is attested elsewhere, though not on this page.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "related_persons.0.displayed_name",
+          "issue": "The displayed_name 'L. Mantennii Sabini' should be 'L. Mantenni Sabini' (no double 'i' in 'Mantenni').",
+          "severity": "medium",
+          "suggested_fix": "Change displayed_name to 'L. Mantenni Sabini'."
+        },
+        {
+          "field": "related_persons.0.normalized_name",
+          "issue": "The normalized_name 'Lucius Mantennius Sabinus' should be 'Lucius Mantennius Sabinus' (double 'n' in 'Mantennius').",
+          "severity": "medium",
+          "suggested_fix": "Change normalized_name to 'Lucius Mantennius Sabinus'."
+        }
+      ]
+    }
+  ]
+}

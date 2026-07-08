@@ -1,0 +1,171 @@
+{
+  "document_notes": [
+    "Page 75 of PIR contains entry 443 (P. Afranius Flavianus), which is highly relevant to the PROVINCIA corpus due to his explicit attestation as 'Legatus Aug. pro praetore Pannoniae inferioris' in 114 AD."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_2_A_443",
+      "pir_reference": "A 443",
+      "lemma": "P. AFRANIVS FLAVIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pro praetore Pannoniae inferioris' in a military diploma dated September 1, 114 AD.",
+      "segments": {
+        "lemma": "443 P. AFRANIVS FLAVIANVS",
+        "name_variants": "P. Afranius Flavianus t. 3; ᾿Αφράνιος Φλαουιανός t. 1; ᾿Αφράνιος Φλαβιανός t. 2.",
+        "identification_and_sources": "memoratur in monumento Ephesio C. Vibii Salutaris Inscr. Br. Mus. 3, 2 p. 133 n. 481, plenius Forsch. in Eph. 2 n. 27 p. 129. 130. 136 (1), in altero titulo Ephesio Jahresh. 7 B 42 (2), in dipl. mil. III p. 867 = 1975 (3).",
+        "offices_and_career": "Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1. Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3. Proconsul provinciae Asiae imperante Hadriano t. 2, qui titulus cum Hadrianus iam audiat Ζεὺς ᾿Ολύμπιος neque vero Ephesii altera neocoria exornati sint, c. a. 130 incisus videtur (cf. Weber Hadr. 214). Consulatu c. a. 115 functum esse cum ex intervallo, quod tum inter consulatum et proconsulatum Asiae intercedere solebat, tum ex tempore legationis Pannonicae concludi potest.",
+        "governorship_attestation": "Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3.",
+        "family_and_social_relations": "Cum in decreto senatus populique Ephesiorum monumento Vibi Salutaris inserto Aquillius Proculus proconsul et Afranius Flavianus legatus eius afferantur ὡς γνή[σιοι π]ολεῖται [ἡμῶν αὐτοί (t. 1 col. 2 v. 80. 81), inde nolim conicere Proculum Flavianumque origine fuisse Ephesios; magis crediderim utrumque ab Ephesiis civitate donatum esse.",
+        "prosopographical_commentary": "The date of his consulship is inferred to be around 115 AD based on the interval between his legation in Pannonia and his subsequent proconsulship of Asia under Hadrian.",
+        "bibliography_or_cross_references": "Inscr. Br. Mus. 3, 2 p. 133 n. 481; Forsch. in Eph. 2 n. 27 p. 129. 130. 136; Jahresh. 7 B 42; dipl. mil. III p. 867 = 1975; Weber Hadr. 214."
+      },
+      "main_person": {
+        "id": "person_A443",
+        "displayed_name": "P. Afranius Flavianus",
+        "normalized_name": "Publius Afranius Flavianus",
+        "pir_reference": "A 443",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A443_1",
+          "person_id": "person_A443",
+          "exact_text": "Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia inferior",
+          "province_normalized": null,
+          "date_text": "d. 1 m. Sept. a. 114",
+          "date_normalized_start": 114,
+          "date_normalized_end": 114,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a military diploma dated September 1, 114 AD."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A443_1",
+          "person_id": "person_A443",
+          "exact_text": "Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1",
+          "normalized_office": "Legatus proconsulis",
+          "province_text": "Asia",
+          "date_text": "a. 103/104",
+          "date_normalized_start": 103,
+          "date_normalized_end": 104,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Served as legatus to the proconsul C. Aquillius Proculus."
+          ]
+        },
+        {
+          "factoid_id": "car_A443_2",
+          "person_id": "person_A443",
+          "exact_text": "Consulatu c. a. 115 functum esse",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "c. a. 115",
+          "date_normalized_start": 115,
+          "date_normalized_end": 115,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Inferred from the chronological gap between his Pannonian legation and his proconsulship of Asia."
+          ]
+        },
+        {
+          "factoid_id": "car_A443_3",
+          "person_id": "person_A443",
+          "exact_text": "Proconsul provinciae Asiae imperante Hadriano t. 2",
+          "normalized_office": "Proconsul",
+          "province_text": "Asia",
+          "date_text": "c. a. 130",
+          "date_normalized_start": 130,
+          "date_normalized_end": 130,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Proconsul of Asia under Hadrian; the inscription is dated to around 130 AD."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_C_Aquillius_Proculus",
+          "displayed_name": "C. Aquillius Proculus",
+          "normalized_name": "Gaius Aquillius Proculus",
+          "relation_context": "Proconsul of Asia, under whom Afranius Flavianus served as legatus.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_C_Vibius_Salutaris",
+          "displayed_name": "C. Vibius Salutaris",
+          "normalized_name": "Gaius Vibius Salutaris",
+          "relation_context": "Flavianus is mentioned in his Ephesian monument.",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma transcription contains a typo: 'P. AFRANIVS FLAVIANVS' should be 'P. AFRANIVS FLAVIANVS' (correct as per image, but 'AFRANIVS' is a minor OCR artifact; the image shows 'AFRANIVS' in small caps).",
+            "severity": "low",
+            "suggested_fix": "Use 'P. Afranius Flavianus' for displayed_name and 'Publius Afranius Flavianus' for normalized_name, but keep lemma as printed: 'P. AFRANIVS FLAVIANVS'."
+          },
+          {
+            "field": "governorship_factoids.exact_text",
+            "issue": "Exact text quote is slightly truncated. The image shows: 'Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3.' (includes 't. 3.').",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to: 'Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3.'"
+          },
+          {
+            "field": "governorship_factoids.province_normalized",
+            "issue": "Province normalized is correct, but ensure it matches the registry label exactly.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "career_factoids.car_A443_1.exact_text",
+            "issue": "Exact text for legatus pro praetore of Asia is truncated. The image shows: 'Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1.' (includes 't. 1.').",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to: 'Legatus pro praetore C. Aquillii Proculi proconsulis provinciae Asiae a. 103/104 t. 1.'"
+          },
+          {
+            "field": "career_factoids.car_A443_3.exact_text",
+            "issue": "Exact text for proconsul of Asia is truncated. The image shows: 'Proconsul provinciae Asiae imperante Hadriano t. 2, qui titulus...'.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to: 'Proconsul provinciae Asiae imperante Hadriano t. 2'"
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "Status marker 'consularis' is inferred but not explicitly stated in the entry. The entry mentions his consulship as inferred ('Consulatu c. a. 115 functum esse').",
+            "severity": "medium",
+            "suggested_fix": "Add a note clarifying that 'consularis' is inferred from the context of his proconsulship and consulship."
+          },
+          {
+            "field": "governorship_factoids.date_normalized_end",
+            "issue": "The date_normalized_end is set to 114, but the diploma only attests his governorship on September 1, 114. No end date is provided.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to null or add a note clarifying that the end date is unattested."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

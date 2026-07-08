@@ -1,0 +1,136 @@
+{
+  "document_notes": [
+    "Page 16 of the PIR volume containing entries 93 to 104.",
+    "Two entries (98 and 101) are relevant to the PROVINCIA corpus as they explicitly attest to legati pro praetore."
+  ],
+  "entries": [
+    {
+      "entry_id": "A_98",
+      "pir_reference": "A 98",
+      "lemma": "Q. ACVTIVS FAIENANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus pro praetore provinciae Lusitaniae.",
+      "segments": {
+        "lemma": "98 Q. ACVTIVS FAIENANVS (sic in t. teste Wickert)",
+        "name_variants": "Q. Acutius Faienanus",
+        "identification_and_sources": "t. Emeritae rep. Bull. ant. Fr. 1914, 105, 3.",
+        "offices_and_career": "legatus pro praetore provinciae Lusitaniae",
+        "governorship_attestation": "legatus pro praetore provinciae Lusitaniae primis imperii temporibus ut videtur",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "primis imperii temporibus ut videtur",
+        "bibliography_or_cross_references": "Bull. ant. Fr. 1914, 105, 3."
+      },
+      "main_person": {
+        "id": "person_98",
+        "displayed_name": "Q. ACVTIVS FAIENANVS",
+        "normalized_name": "Quintus Acutius Faienanus",
+        "pir_reference": "A 98",
+        "status_markers": [
+          "legatus pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_98_1",
+          "person_id": "person_98",
+          "exact_text": "legatus pro praetore provinciae Lusitaniae primis imperii temporibus ut videtur",
+          "normalized_office": "legatus pro praetore",
+          "province_text": "Lusitania",
+          "date_text": "primis imperii temporibus ut videtur",
+          "date_normalized_start": 14,
+          "date_normalized_end": 68,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Emerita (Mérida)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The cognomen Faienanus is noted as 'sic in t. teste Wickert'."
+      ]
+    },
+    {
+      "entry_id": "A_101",
+      "pir_reference": "A 101",
+      "lemma": "Q. ACVTIVS NERVA",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. Germaniae inferioris.",
+      "segments": {
+        "lemma": "101 Q. ACVTIVS NERVA",
+        "name_variants": "Q. Acutius Nerva, Acutius Nerva",
+        "identification_and_sources": "Plin. ep. 2, 12, 2; titulis a vexillationibus exercitus Germaniae inferioris... CIL XIII 7715. 7716. 7967.",
+        "offices_and_career": "consul designatus a. 100, consul suffectus eodem anno, Legatus Aug. pro pr. Germaniae inferioris",
+        "governorship_attestation": "Legatus Aug. pro pr. Germaniae inferioris paullo post, fortasse ab a. 101 usque ad a. 103/104, nominatur in titulis a vexillationibus exercitus Germaniae inferioris, q(uae) s(ub) Q. Acut(io) s(unt), Herculi Saxano dedicatis XIII 7715. 7716. 7967.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "consul designatus a. 100 in senatu sententiam dicit Plin. ep. 2, 12, 2... consul igitur suffectus eodem anno.",
+        "bibliography_or_cross_references": "Plin. ep. 2, 12, 2; CIL XIII 7715, 7716, 7967."
+      },
+      "main_person": {
+        "id": "person_101",
+        "displayed_name": "Q. ACVTIVS NERVA",
+        "normalized_name": "Quintus Acutius Nerva",
+        "pir_reference": "A 101",
+        "status_markers": [
+          "consul suffectus",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_101_1",
+          "person_id": "person_101",
+          "exact_text": "Legatus Aug. pro pr. Germaniae inferioris paullo post, fortasse ab a. 101 usque ad a. 103/104",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Germania inferior",
+          "date_text": "paullo post [a. 100], fortasse ab a. 101 usque ad a. 103/104",
+          "date_normalized_start": 101,
+          "date_normalized_end": 104,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions of vexillations of the army of Germania inferior dedicated to Hercules Saxanus (CIL XIII 7715, 7716, 7967)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_101_1",
+          "person_id": "person_101",
+          "exact_text": "consul designatus a. 100 in senatu sententiam dicit Plin. ep. 2, 12, 2",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 100",
+          "date_normalized_start": 100,
+          "date_normalized_end": 100,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_101_2",
+          "person_id": "person_101",
+          "exact_text": "consul igitur suffectus eodem anno",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 100",
+          "date_normalized_start": 100,
+          "date_normalized_end": 100,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "document_notes": [
+    "The page image is numbered 276, although the prompt metadata refers to page 292."
+  ],
+  "entries": [
+    {
+      "entry_id": "1383",
+      "pir_reference": "A 1383",
+      "lemma": "AVFIDIVS CORESNIVS MARCELLVS agnomine ZMINTHIVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro'.",
+      "segments": {
+        "lemma": "AVFIDIVS CORESNIVS MARCELLVS agnomine ZMINTHIVS",
+        "name_variants": "Aufidius Coresnius Marcell(us) t. 3. Κορέσνιος Μάρκελλος t. 2. 4.",
+        "identification_and_sources": "Tituli: ei positi sunt publice Adadensis (Pisidiae) CIG 4379 d = IGR 3, 367 = D. 8838 (1), Sagalassensis IGR 3, 357 (2) ; memoratur in t. Bonnensi XIII 8035 (3) et Traianopolitano Iuliae Mamaeae Augustae posito Ann. ép. 1927, 75 (4).",
+        "offices_and_career": "Legatus legionis I Minerviae a. 222 (d. 25 m. April.) t. 3. Legatus (proconsulis ut videtur) pr. pr. (Lyciae et Pamphyliae) t. 1 (τὸν λαμπρότατον πρεσβευτὴν καὶ ἀντιστράτηγον). 2 ([τὸν] κράτιστον πρεσβευτὴν καὶ ἀντιστράτηγον). Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro t. 4.",
+        "governorship_attestation": "Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro t. 4.",
+        "family_and_social_relations": "Parentela nescio qua coniunctus videtur cum C. Aufidio Marcello consule II a. 226.",
+        "prosopographical_commentary": "Origine probabiliter Sagalassensis; nam cives huius oppidi eum appellant τὸν ἴδιον βουλευτὴν καὶ εὐεργέτην t. 2.",
+        "bibliography_or_cross_references": "CIG 4379 d = IGR 3, 367 = D. 8838; IGR 3, 357; CIL XIII 8035; Ann. ép. 1927, 75."
+      },
+      "main_person": {
+        "id": "person_1383",
+        "displayed_name": "AVFIDIVS CORESNIVS MARCELLVS agnomine ZMINTHIVS",
+        "normalized_name": "Aufidius Coresnius Marcellus",
+        "pir_reference": "A 1383",
+        "status_markers": [
+          "senator",
+          "legatus Aug. pr. pr."
+        ],
+        "notes": [
+          "Agnomen: Zminthius"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "factoid_1383_gov_1",
+          "person_id": "person_1383",
+          "exact_text": "Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Thracia",
+          "date_text": "sub Severo Alexandro",
+          "date_normalized_start": 222,
+          "date_normalized_end": 235,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Traianopolis (Ann. ép. 1927, 75)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "factoid_1383_car_1",
+          "person_id": "person_1383",
+          "exact_text": "Legatus legionis I Minerviae a. 222 (d. 25 m. April.)",
+          "normalized_office": "legatus legionis",
+          "province_text": "Germania Inferior",
+          "date_text": "a. 222 (d. 25 m. April.)",
+          "date_normalized_start": 222,
+          "date_normalized_end": 222,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in the Bonn inscription (CIL XIII 8035)."
+          ]
+        },
+        {
+          "factoid_id": "factoid_1383_car_2",
+          "person_id": "person_1383",
+          "exact_text": "Legatus (proconsulis ut videtur) pr. pr. (Lyciae et Pamphyliae)",
+          "normalized_office": "legatus proconsulis pro praetore",
+          "province_text": "Lycia et Pamphylia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions from Adada and Sagalassos as τὸν λαμπρότατον πρεσβευτὴν καὶ ἀντιστράτηγον and [τὸν] κράτιστον πρεσβευτὴν καὶ ἀντιστράτηγον."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_c_aufidius_marcellus",
+          "displayed_name": "C. Aufidius Marcellus",
+          "normalized_name": "Caius Aufidius Marcellus",
+          "relation_context": "Parentela nescio qua coniunctus videtur cum C. Aufidio Marcello consule II a. 226.",
+          "certainty": "medium",
+          "notes": [
+            "Consul II in 226 AD."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1383",
+          "target": "person_c_aufidius_marcellus",
+          "relation": "parentela coniunctus (videtur)",
+          "certainty": "medium",
+          "basis": "PIR² A 1383: 'Parentela nescio qua coniunctus videtur...'",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "Origine probabiliter Sagalassensis."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "document_notes": [
+    "Processed page 297 of PIR (AVRELIVS). Identified one entry relevant to the PROVINCIA corpus: 1465 ([A]vr(elivs) Basilevs)."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_1465",
+      "pir_reference": "A 1465",
+      "lemma": "[A]vr(elivs) Basilevs",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore (provinciae Galatiae) under Severus Alexander.",
+      "segments": {
+        "lemma": "[A]vr(elivs) Basilevs",
+        "name_variants": "[A]vr(elivs) Basilevs",
+        "identification_and_sources": "miliarius viae Tavio Amaseam III 14184².",
+        "offices_and_career": "legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro",
+        "governorship_attestation": "legatus Augusti pro praetore (provinciae Galatiae)",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Nescio an idem is qui sequitur.",
+        "bibliography_or_cross_references": "St."
+      },
+      "main_person": {
+        "id": "person_1465",
+        "displayed_name": "[A]vr(elivs) Basilevs",
+        "normalized_name": "Aurelius Basileus",
+        "pir_reference": "A 1465",
+        "status_markers": [
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Governor of Galatia under Severus Alexander."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1465_1",
+          "person_id": "person_1465",
+          "exact_text": "legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Galatia",
+          "date_text": "imperante Severo Alexandro",
+          "date_normalized_start": 222,
+          "date_normalized_end": 235,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on a milestone (miliarius) on the road from Tavium to Amaseia (CIL III 14184, 2)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The milestone CIL III 14184, 2 records his governorship of Galatia under Severus Alexander."
+      ]
+    }
+  ]
+}

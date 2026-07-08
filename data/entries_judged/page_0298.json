@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "Page 298 contains the entry for C. Avidius Cassius (PIR A 1402), which is the only entry on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_1402",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma transcription contains OCR error: 'c. avipivs cassivs' instead of 'c. avidivs cassivs'.",
+          "severity": "low",
+          "suggested_fix": "Correct lemma to 'C. AVIDIVS CASSIVS'."
+        },
+        {
+          "field": "pir_reference",
+          "issue": "PIR reference is correct, but the printed page shows '1402' at the start, not 'A 1402'.",
+          "severity": "low",
+          "suggested_fix": "Use '1402' as pir_reference to match the printed page exactly."
+        },
+        {
+          "field": "governorship_factoids.gov_1402_1.date_normalized_start",
+          "issue": "Date range 'ante a. 169 t. 5' is interpreted as starting in 165, but the text explicitly states 'nondum a. 163, quo Cn. Iulius Verus Syriam rexit'. The start date should not be earlier than 165, but the text suggests a tighter constraint.",
+          "severity": "medium",
+          "suggested_fix": "Adjust date_normalized_start to 166 to reflect the explicit mention of Cn. Iulius Verus governing until 165."
+        },
+        {
+          "field": "governorship_factoids.gov_1402_1.exact_text",
+          "issue": "The exact_text includes 'ὁ λαμπρότατος t. 1. 4. 7' which is not a direct quote but a parenthetical note in the text. The exact_text should be a verbatim quote.",
+          "severity": "low",
+          "suggested_fix": "Trim exact_text to: 'Legatus Augusti pro praetore (provinciae Syriae) t. 1—5. 7—10 (ὑπατικός t. 1.4.7.9 ; consularis t. 10). Vita 5. 6, ante a. 169 t. 5 (sed nondum a. 163, quo Cn. Iulius Verus Syriam rexit, qui usque ad annum 165 in hac provincia mansisse potest CIL III 199 = D. 5864), a. 169/70 t. 2. 4. 7, a. 170/1 vel postea t. 3, 171/2 t. 1.'"
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "Normalized name 'Gaius Avidius Cassius' is correct, but the printed page uses 'C.' as the praenomen, not 'Gaius'.",
+          "severity": "low",
+          "suggested_fix": "Use 'C. Avidius Cassius' as normalized_name to match the printed page's praenomen abbreviation."
+        },
+        {
+          "field": "related_persons.person_heliodorus.normalized_name",
+          "issue": "Normalized name 'C. Avidius Heliodorus' is speculative; the printed page only states 'filius (C. Avidii) Heliodori' without confirming Heliodorus's praenomen.",
+          "severity": "medium",
+          "suggested_fix": "Use 'Heliodorus' as normalized_name, removing the speculative 'C. Avidius'."
+        }
+      ]
+    }
+  ]
+}

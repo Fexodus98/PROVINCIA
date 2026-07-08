@@ -1,0 +1,144 @@
+{
+  "document_notes": [
+    "PIR page 282 contains entry 1402 for C. Avidius Cassius, who is explicitly attested as legatus Augusti pro praetore of Syria."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_1402",
+      "pir_reference": "A 1402",
+      "lemma": "C. AVIDIVS CASSIVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Augusti pro praetore of Syria (provinciae Syriae).",
+      "segments": {
+        "lemma": "1402 c. avidivs cassivs.",
+        "name_variants": "C. Avidius Cassius pap. 1. ostr. 1. 2. (Ἰουλόου Ἀουιδόου Κασσόου pap. 2 male lectum vel scriptum pro Γαόου Ἀουιδόου Κασσόου). Avidius Cassius t. 1—5. 7—10 ; .. .idius Cassius t. 11; Avid... t. 8; Avidius Cassius vel Avidius vel Cassius apud scriptores.",
+        "identification_and_sources": "Nominatur ut legatus provinciae in titulis Syriae graecis Wadd. 2212 (= Prentice Gr. and Latin inscr. 299, 380 a) (1). 2237 (2). 2331 (3). 2438 (4). 2525 (5). 2528 (6) = IGR 3, 1261. 1270. 1226. 1179. 1113. 1114. Princeton Exped. 3, A 2, 91, 155 = Ann. ép. 1911, 242 (7). Prentice l. c. 299, 381 (+ Wadd. 2214?) (8). Ann. ép. 1930, 140 (9), latino Princeton Exp. l. c. 5, 305, 666 = Ann. ép. 1909, 131 (10), in consulatu dipl. mil. III p. 889 (p. 1992) = IX 2995 (11). Papyri graecae BGU 7, 1584 c (1). Bull. inst. Eg. 7, 123 sq. (2). Ostraca: Thebanum Wilcken Ostr. 939 (1). P. Arch. 6, 213, rep. Elephantinae (2). Quae in vita Avidii Cassii traduntur (cf. quadr. tyr. 1, 1) ut quae magna ex parte ficta vel ad vitae Marci imitationem formata fide minime digna sunt, cf. Klebs Rh. Mus. 1888, 321—346. Lécrivain Et. sur l'hist. Aug. 93—97. 245—247. O. Th. Schulz Kaiserh. d. Antonine 130—146.",
+        "offices_and_career": "Consul (suffectus) cum Celso Planciano die 6. Maii inter a. 161 et 163 (vide infra), vel certe inter 161 et 168 dipl. mil. Bello Parthico a L. Vero exercitui praefectus Vologaesum vicit victumque persecutus Seleuciam captam incendit, Ctesiphonte domum regiam evertit (a. 163 vel 164 ad 165) Dio exc. 71, 2, 2—4. Vita Veri 8, 3. 4; 7, 1, cf. vit. Avid. Cass. 6, 5. Lucian. quom. hist. conscr. 31 (τὸ τρίτον τάγμα videtur esse legio III Gallica, cf. Ritterling RE 12, 1524 sq.). Iussus a Vero commentarios mittere Frontoni ad Ver. 2, 3 (2, 194 Haines = 131 N.), qui ad eum dedit epistulam gratulatoriam ad am. 1, 6 (2, 190.192 Haines = 178 N.).",
+        "governorship_attestation": "Legatus Augusti pro praetore (provinciae Syriae) t. 1—5. 7—10 (ὑπατικός t. 1.4.7.9 ; ὁ λαμπρότατος t. 1. 4. 7 ; consularis t. 10). Vita 5. 6, ante a. 169 t. 5 (sed nondum a. 163, quo Cn. Iulius Verus Syriam rexit, qui usque ad annum 165 in hac provincia mansisse potest CIL III 199 = D. 5864), a. 169/70 t. 2. 4. 7, a. 170/1 vel postea t. 3, 171/2 t. 1. (Haud recte ex t. 10 eum Arabiae praefuisse putat Ritterling Rh. Mus. 59, 194; RE 12, 1299. 1512).",
+        "family_and_social_relations": "Natione Syrus, Cyrrho oriundus, filius (C. Avidii) Heliodori vita Marci 25, 12. Dio-Xiph. 71, 22, 2; 31, 1.",
+        "prosopographical_commentary": "Nomina Avidii Cassii erasa sunt, sed tam leviter, ut facile legantur in t. 1. 2—5. 7. 8, exciderunt in t. 6. ... Quod rescriptum imperatoris Antonini ad eum citatur dig. 2, 14, 60, cave putes eum sub Pio praesidem provinciae fuisse, imperator qui rescripsit est Marcus post mortem Veri.",
+        "bibliography_or_cross_references": "cf. Klebs Rh. Mus. 1888, 321—346. Lécrivain Et. sur l'hist. Aug. 93—97. 245—247. O. Th. Schulz Kaiserh. d. Antonine 130—146. Ritterling Rh. Mus. 59, 194; RE 12, 1299. 1512."
+      },
+      "main_person": {
+        "id": "person_1402",
+        "displayed_name": "C. Avidius Cassius",
+        "normalized_name": "Gaius Avidius Cassius",
+        "pir_reference": "A 1402",
+        "status_markers": [
+          "consularis",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Natione Syrus, Cyrrho oriundus",
+          "Filius Heliodori"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1402_1",
+          "person_id": "person_1402",
+          "exact_text": "Legatus Augusti pro praetore (provinciae Syriae) t. 1—5. 7—10 (ὑπατικός t. 1.4.7.9 ; ὁ λαμπρότατος t. 1. 4. 7 ; consularis t. 10). Vita 5. 6, ante a. 169 t. 5 (sed nondum a. 163, quo Cn. Iulius Verus Syriam rexit, qui usque ad annum 165 in hac provincia mansisse potest CIL III 199 = D. 5864), a. 169/70 t. 2. 4. 7, a. 170/1 vel postea t. 3, 171/2 t. 1.",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Syria",
+          "date_text": "ante a. 169 t. 5 ... a. 169/70 t. 2. 4. 7, a. 170/1 vel postea t. 3, 171/2 t. 1",
+          "date_normalized_start": 165,
+          "date_normalized_end": 172,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in multiple inscriptions (t. 1-5, 7-10) and literary sources.",
+            "Nondum a. 163, quo Cn. Iulius Verus Syriam rexit."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1402_1",
+          "person_id": "person_1402",
+          "exact_text": "Consul (suffectus) cum Celso Planciano die 6. Maii inter a. 161 et 163 (vide infra), vel certe inter 161 et 168 dipl. mil.",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "inter a. 161 et 163, vel certe inter 161 et 168",
+          "date_normalized_start": 161,
+          "date_normalized_end": 168,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Consul suffectus with Celsus Plancianus."
+          ]
+        },
+        {
+          "factoid_id": "car_1402_2",
+          "person_id": "person_1402",
+          "exact_text": "Bello Parthico a L. Vero exercitui praefectus Vologaesum vicit victumque persecutus Seleuciam captam incendit, Ctesiphonte domum regiam evertit (a. 163 vel 164 ad 165)",
+          "normalized_office": "exercitui praefectus",
+          "province_text": null,
+          "date_text": "a. 163 vel 164 ad 165",
+          "date_normalized_start": 163,
+          "date_normalized_end": 165,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Commanded forces in the Parthian War under Lucius Verus."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_heliodorus",
+          "displayed_name": "Heliodorus",
+          "normalized_name": "C. Avidius Heliodorus",
+          "relation_context": "filius (C. Avidii) Heliodori",
+          "certainty": "high",
+          "notes": [
+            "Father of Avidius Cassius."
+          ]
+        },
+        {
+          "id": "person_celsus_plancianus",
+          "displayed_name": "Celsus Plancianus",
+          "normalized_name": "Celsus Plancianus",
+          "relation_context": "Consul (suffectus) cum Celso Planciano",
+          "certainty": "high",
+          "notes": [
+            "Consular colleague."
+          ]
+        },
+        {
+          "id": "person_cn_iulius_verus",
+          "displayed_name": "Cn. Iulius Verus",
+          "normalized_name": "Gnaeus Iulius Verus",
+          "relation_context": "Cn. Iulius Verus Syriam rexit, qui usque ad annum 165 in hac provincia mansisse potest",
+          "certainty": "high",
+          "notes": [
+            "Predecessor as governor of Syria."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1402",
+          "target": "person_heliodorus",
+          "relation": "son_of",
+          "certainty": "high",
+          "basis": "filius (C. Avidii) Heliodori",
+          "notes": []
+        },
+        {
+          "source": "person_1402",
+          "target": "person_celsus_plancianus",
+          "relation": "consular_colleague_of",
+          "certainty": "high",
+          "basis": "Consul (suffectus) cum Celso Planciano",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The name of Avidius Cassius was erased in several inscriptions (damnatio memoriae).",
+        "Ritterling incorrectly suggested he governed Arabia."
+      ]
+    }
+  ]
+}

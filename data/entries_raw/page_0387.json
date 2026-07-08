@@ -1,0 +1,165 @@
+{
+  "document_notes": [
+    "The page contains the continuation of the entry for C. Bruttius Praesens L. Fulvius Rusticus (cos. II 139), who is explicitly attested as Legatus Aug. pr. pr. of Galatia under Hadrian."
+  ],
+  "entries": [
+    {
+      "entry_id": "pir-b-164",
+      "pir_reference": "PIR B 164",
+      "lemma": "C. BRVTTIVS PRAESENS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Aug. pr. pr. (Galatiae) sub Hadriano'.",
+      "segments": {
+        "lemma": "C. Bruttius Praesens t. 2.",
+        "name_variants": "Br(u)ttio, Brittio, Βρουττ[ίου Πρα]ίσεντος, Βρούτιος, Βροῦτος, Bruttium, C. Bruttius Praesens",
+        "identification_and_sources": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161). Βρούτιος (sic cod. optimus), quem Romanis militibus in Armenia ut videtur praefuisse Suidas s. λύγος loco ex Arriano desumpto (Arr. Parth. fr. 85 Roos) tradit, idem probabiliter intellegendus est. quod monuit Roos Studia Arrianea 58 sq. ; ad eundem refert. Roos fragmentum sine auctoris nomine servatum a Suida s. ταύτῃ ubi traditur Βροῦτος.",
+        "offices_and_career": "Traiani bello Parthico tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse coniecit Roos, nihil tamen obstat quominus statuamus eum tune legioni alicui praefuisse. — Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1. Consul I (suffectus) a. inc. imperante Hadriano (hie fortasse [Pr]aesens consul cum Tor[quato?] VII 422). Consul II a.139 cum Antonino Aug. ll v.supra (geminati consulatus nota adest III 411. III p.936. VI 833. 31147. IX 2828. chronogr. a. 354 Chron. min. 1, 58. Victor. Aquit. ib. 694. Cassiodor. ib. 2, 142) ; m. Maio fasces etiamtum gesserunt, id quod apparel ex t. III 411 v. 7.",
+        "governorship_attestation": "Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.",
+        "family_and_social_relations": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165). Ad huius potius quam ad fili uxorem reltulerim 1.2: ...... (nomen feminae periit) C. Brutti Praesentis II cos. uxor, C. Brutti Praesentis cos. mater Aesculapio — — — testamento fieri iussit, C. Bruttius Praesens cos. C. Brutti Praesentis II cos. filius et heres posuit; nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat. Ad Bruttium hunc rettulit Pallu de Lessert Fast. Afr. 1, 201 t. Capsensem [Valjeriae Mar[ciae] Hostiliae Crispinae Moeciae Corneliae C. Brutti Praesentis proconsulis (Afrieae) uxori positum VIII 110, sed potius de uxore fili? eius cogitaverim (v. sub filio).",
+        "prosopographical_commentary": "Hic vel unus ex posteris C. Bruttius Praesens, qui nominatur in fistulis plumbeis IX 4906 cf. p.686. XV 7912 et in legulis IX p.686. XV 331 in agro Trebulano repertis. Bruttios Praesentes Trebulae Mutuescae fundos possedisse ex lapidibus quoque bi erutis apparet: IX 4915. 4920 (Brutti Praesentis ser.). 4943. Item praedia huie genti fuisse videntur Amiterni cf. 1.2. IX 4232 (C. Brut[ti Prae]sentis [L]) Venusiae IX 425. IG 14, 688 -- IGR 1, 464 ef. VI 7588 (Bruttio Venusino C. Bruttius Praesens patronus liberto cet.), «n Lucania Volceis cf. X 408. Plin. ep. 7, ὃ el Grumenti cf. X 238, Antii XV 7796. Romae Bruttiis domus fuit in regione lerlia: regio III continet ... domum Brutti (britti vel bryti vel bruti codd.) Praesentis curtosum urb., nol. reg. Jordan Form. urb. Rom. p. 49; Topogr. 2, 545, cf. Jordan-Hülsen 1, 3, 318.",
+        "bibliography_or_cross_references": "Plin. ep. 7, 3; CIL XIV 4091; CIL XV 2322; CIL III 411; CIL VI 833; CIL VI 31147; CIL IX 2828; CIL IX 4906; CIL XV 7912; CIL IX 4915; CIL IX 4920; CIL IX 4943; CIL IX 4232; CIL IX 425; IG 14, 688; IGR 1, 464; CIL VI 7588; CIL X 408; CIL X 238; CIL XV 7796."
+      },
+      "main_person": {
+        "id": "person-c-bruttius-praesens",
+        "displayed_name": "C. Bruttius Praesens (L. Fulvius Rusticus)",
+        "normalized_name": "Caius Bruttius Praesens",
+        "pir_reference": "PIR B 164",
+        "status_markers": [
+          "patricius",
+          "consularis"
+        ],
+        "notes": [
+          "Friend of Pliny the Younger, consul II in 139 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov-1",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "Legatus Aug. pr. pr. (Galatiae) sub Hadriano",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Galatiae",
+          "date_text": "sub Hadriano",
+          "date_normalized_start": 117,
+          "date_normalized_end": 138,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Galatia during the reign of Hadrian."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car-1",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse",
+          "normalized_office": "tribunus militum laticlavius",
+          "province_text": "Armenia",
+          "date_text": "Traiani bello Parthico",
+          "date_normalized_start": 114,
+          "date_normalized_end": 117,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Conjecture by Roos regarding military command in Armenia during Trajan's Parthian War."
+          ]
+        },
+        {
+          "factoid_id": "car-2",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "Consul I (suffectus) a. inc. imperante Hadriano",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "imperante Hadriano",
+          "date_normalized_start": 117,
+          "date_normalized_end": 138,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "First consulship, suffect, under Hadrian."
+          ]
+        },
+        {
+          "factoid_id": "car-3",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "Consul II a.139 cum Antonino Aug. ll",
+          "normalized_office": "consul II",
+          "province_text": null,
+          "date_text": "139",
+          "date_normalized_start": 139,
+          "date_normalized_end": 139,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Second consulship, ordinary, with Antoninus Pius."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person-bruttius-praesens-friend-pliny",
+          "displayed_name": "Bruttius Praesens (n. 161)",
+          "normalized_name": "Bruttius Praesens",
+          "relation_context": "Father of C. Bruttius Praesens",
+          "certainty": "medium",
+          "notes": [
+            "Friend of Pliny the Younger."
+          ]
+        },
+        {
+          "id": "person-c-bruttius-praesens-cos-153",
+          "displayed_name": "C. Bruttius Praesens cos. a. 153 (n. 165)",
+          "normalized_name": "Caius Bruttius Praesens",
+          "relation_context": "Son of C. Bruttius Praesens (cos. II 139)",
+          "certainty": "high",
+          "notes": [
+            "Consul in 153 AD."
+          ]
+        },
+        {
+          "id": "person-l-bruttius-quintius-crispinus",
+          "displayed_name": "L. Bruttium Quintium Crispinum cos. II a. 180",
+          "normalized_name": "Lucius Bruttius Quintius Crispinus",
+          "relation_context": "Grandson of C. Bruttius Praesens (cos. II 139)",
+          "certainty": "high",
+          "notes": [
+            "Consul in 180 AD."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person-c-bruttius-praesens",
+          "target": "person-bruttius-praesens-friend-pliny",
+          "relation": "son of",
+          "certainty": "medium",
+          "basis": "Filius videtur (Bruttii) Praesentis amici Plinii",
+          "notes": []
+        },
+        {
+          "source": "person-c-bruttius-praesens-cos-153",
+          "target": "person-c-bruttius-praesens",
+          "relation": "son of",
+          "certainty": "high",
+          "basis": "Pater sine dubio C. Bruttii Praesentis cos. a. 153",
+          "notes": []
+        },
+        {
+          "source": "person-l-bruttius-quintius-crispinus",
+          "target": "person-c-bruttius-praesens-cos-153",
+          "relation": "son of",
+          "certainty": "high",
+          "basis": "nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry details the career of C. Bruttius Praesens, highlighting his military service in Armenia, his governorship of Galatia, and his two consulships."
+      ]
+    }
+  ]
+}

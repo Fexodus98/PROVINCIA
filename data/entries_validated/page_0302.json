@@ -1,0 +1,187 @@
+{
+  "document_notes": [
+    "The page contains the continuation of the entry for C. Avidius Nigrinus (lemma on the preceding page) and the beginning of the entry for his daughter Avidia Plautia."
+  ],
+  "entries": [
+    {
+      "entry_id": "avidius_nigrinus",
+      "pir_reference": null,
+      "lemma": "C. AVIDIVS NIGRINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Aug. pr. pr.' of Moesia superior and 'legati Aug. pro praetore' of Achaia.",
+      "segments": {
+        "lemma": "AVIDIVS [NIGRINVS] (continued from p. 285)",
+        "name_variants": "Nigrinum, Nigrini",
+        "identification_and_sources": "vita Hadr. 7, 1; 7, 2. 3; 9, 3; 23, 10. Dio exc. 69, 2, 5. Dio 69, 2, 5. 6. v. Veri 1, 9.",
+        "offices_and_career": "Consul suffectus a. inc. sub Traiano. Consularis. Legatus Aug. pr. pr. Moesiae superioris potius quam Daciae. Legatus in Achaiam ad ordinandum vel corrigendum statum rerum publicarum.",
+        "governorship_attestation": "Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae (quod statuerunt Dessau aliique); nam etsi titulus positus est Sarmizegetusae, ex mentione legionis IIII Flaviae, quae in Moesia superiore tendebat, apparere videtur Nigrinum huius provinciae legatum fuisse. Tempus legationis... a. 117/118 ab Hadriano e provincia avocatum.",
+        "family_and_social_relations": "Hadrianus eum successorem sibimet destinavit... Sacrificanti Hadriano insidias paravit conscio sibi Lusio (Quieto) et multis aliis... Faventiae occisus a. 118. Father of Avidia Plautia.",
+        "prosopographical_commentary": "Discussion of his legation in Achaia (Mommsen CIL III p. 107, L. Aemilius Iuncus n. 355) and Moesia superior vs Dacia (Premerstein, Ritterling).",
+        "bibliography_or_cross_references": "Mommsen CIL III p. 107; L. Aemilio Iunco n. 355; Premerstein Klio Bhft. 8 p. 10 sq.; Ritterling RE 12, 1544; Journ. Rom. St. 1914, 13; Weber Untersuch. 2. Geschichte d. Kaisers Hadrian p. 78."
+      },
+      "main_person": {
+        "id": "person_avidius_nigrinus",
+        "displayed_name": "C. Avidius Nigrinus",
+        "normalized_name": "Caius Avidius Nigrinus",
+        "pir_reference": null,
+        "status_markers": [
+          "consularis",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Consul suffectus under Trajan",
+          "Executed in 118 AD"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_avidius_nigrinus",
+          "exact_text": "Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia superior",
+          "province_normalized": null,
+          "date_text": "a. 117/118",
+          "date_normalized_start": 117,
+          "date_normalized_end": 118,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Premerstein argued he was recalled from the province in 117/118 by Hadrian."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "person_avidius_nigrinus",
+          "exact_text": "Consul suffectus a. inc. sub Traiano",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "a. inc. sub Traiano",
+          "date_normalized_start": 98,
+          "date_normalized_end": 117,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_hadrianus",
+          "displayed_name": "Hadrianus",
+          "normalized_name": "Imperator Caesar Traianus Hadrianus Augustus",
+          "relation_context": "Recalled Nigrinus from province, designated him successor, then executed him.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_lusius_quietus",
+          "displayed_name": "Lusius (Quietus)",
+          "normalized_name": "Lusius Quietus",
+          "relation_context": "Conspirator with Nigrinus against Hadrian.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_avidia_plautia",
+          "displayed_name": "Avidia Plautia",
+          "normalized_name": "Avidia Plautia",
+          "relation_context": "Daughter of Nigrinus.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_ceionius_commodus",
+          "displayed_name": "L. Ceionius Commodus",
+          "normalized_name": "Lucius Ceionius Commodus",
+          "relation_context": "Son-in-law of Nigrinus (or stepson).",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_avidius_nigrinus",
+          "target": "person_avidia_plautia",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "Avidia Plautia Nigrini filia",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_nigrinus",
+          "target": "person_hadrianus",
+          "relation": "successor_of",
+          "certainty": "high",
+          "basis": "Hadrianus eum successorem sibimet destinavit... Sacrificanti Hadriano insidias paravit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry is a continuation from the previous page, but contains the critical governorship attestations for Moesia Superior and Achaia."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "pir_reference",
+            "issue": "PIR reference is missing. The entry starts with 'AVIDIVS' and the PIR number '286' is printed at the top of the page, indicating this is PIR² A 1404 (or similar).",
+            "severity": "medium",
+            "suggested_fix": "Set pir_reference to 'A 1404' (verify exact PIR number from the printed entry)."
+          },
+          {
+            "field": "lemma",
+            "issue": "Lemma in the proposal is 'C. AVIDIVS NIGRINVS', but the page shows 'AVIDIVS' (small caps) and the entry is a continuation. The full lemma should match the printed header, which is 'AVIDIVS' with the number '286' at the top, and the continuation implies 'C. Avidius Nigrinus'.",
+            "severity": "low",
+            "suggested_fix": "Set lemma to 'AVIDIVS' (small caps as printed) or 'C. Avidius Nigrinus' (full name), but ensure consistency with the printed page header."
+          },
+          {
+            "field": "governorship_factoids.gov_1.province_text",
+            "issue": "Province_text is 'Moesia superior', which is correct, but the exact_text includes 't. 8 Moesiae superioris potius quam Daciae'. The province_normalized should be 'Moesia superior'.",
+            "severity": "low",
+            "suggested_fix": "Province_normalized is correct as 'Moesia superior'. No change needed, but ensure province_normalized is set to 'Moesia superior'."
+          },
+          {
+            "field": "governorship_factoids.gov_1.date_normalized_start",
+            "issue": "Date_normalized_start is set to 117, but the text states 'a. 117/118 ab Hadriano e provincia avocatum'. The start date is not explicitly given, only the recall date.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to null or provide a note that the start date is uncertain. The recall date is 117/118."
+          },
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "Exact_text is too long and includes parenthetical commentary ('quod statuerunt Dessau aliique'). The verbatim quote should be tighter: 'Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae'.",
+            "severity": "low",
+            "suggested_fix": "Trim exact_text to 'Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae'."
+          },
+          {
+            "field": "governorship_factoids.gov_2.date_normalized_start",
+            "issue": "Date_normalized_start is set to 98, but the text says 'Traiani Hadrianique aetate' (Trajan and Hadrian's era, 98-138). The date range is too broad and speculative.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start and date_normalized_end to null, or narrow to 'Traiani Hadrianique aetate' with a note on uncertainty."
+          },
+          {
+            "field": "governorship_factoids.gov_2.exact_text",
+            "issue": "Exact_text is too long and includes commentary ('Mommsen's view...'). The verbatim quote should be: 'Nigrinum missum esse legatum in Achaiam ad ordinandum vel corrigendum statum rerum publicarum ... legati Aug. pro praetore extra ordinem Achaiam provinciam proconsulis loco regebant'.",
+            "severity": "low",
+            "suggested_fix": "Trim exact_text to the core phrase: 'Nigrinum missum esse legatum in Achaiam ad ordinandum vel corrigendum statum rerum publicarum ... legati Aug. pro praetore extra ordinem Achaiam provinciam proconsulis loco regebant'."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "Normalized_name is 'Caius Avidius Nigrinus', but the praenomen 'C.' is not explicitly attested in the text. The text uses 'Nigrinus' or 'Nigrinum'.",
+            "severity": "low",
+            "suggested_fix": "Set normalized_name to 'Avidius Nigrinus' or 'Gaius Avidius Nigrinus' (if 'C.' is attested elsewhere)."
+          },
+          {
+            "field": "related_persons",
+            "issue": "The relation_context for 'L. Ceionius Commodus' is 'Son-in-law of Nigrinus (or stepson)'. The text states 'Avidiam Plautiam sororem uterinam Aelii Caesaris fuisse' and 'recte generum Nigrini appellat', implying Ceionius Commodus was Nigrinus' son-in-law, not stepson.",
+            "severity": "medium",
+            "suggested_fix": "Update relation_context to 'Son-in-law of Nigrinus (married to his daughter Avidia Plautia)'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

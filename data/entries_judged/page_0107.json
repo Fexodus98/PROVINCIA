@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 107 (not 91) of PIR contains entry 544, which is explicitly attested as Legatus Augusti pro praetore of Arabia."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_544",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "pir_reference",
+          "issue": "The PIR reference is correct, but the lemma in the proposed JSON is 'C. ALLIVS FVSCIANVS' while the printed page shows 'c. ALLIVS FVSCIANVS' (lowercase 'c.').",
+          "severity": "low",
+          "suggested_fix": "Update lemma to 'c. Allius Fuscianus' and adjust displayed_name and normalized_name accordingly."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text 'Legatus Augusti pr. pr. (Arabiae)' is correct, but the parentheses around 'Arabiae' are not present in the printed text (it reads 'Legatus Augusti pr. pr. Arabiae').",
+          "severity": "low",
+          "suggested_fix": "Remove parentheses: 'Legatus Augusti pr. pr. Arabiae'."
+        },
+        {
+          "field": "governorship_factoids.date_normalized_start/end",
+          "issue": "The date range 'saec. II medii' is vague. The page does not provide exact dates, but the proposed range (130-170) is reasonable. However, this should be noted as an approximation.",
+          "severity": "medium",
+          "suggested_fix": "Add a note clarifying that the dates are approximate based on 'saec. II medii'."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Caius Allius Fuscianus' is correct, but the lemma uses 'C.' (Gaius) rather than 'Caius'.",
+          "severity": "low",
+          "suggested_fix": "Use 'Gaius Allius Fuscianus' for consistency with 'C.' abbreviation."
+        },
+        {
+          "field": "career_factoids.car_A_544_3.province_text",
+          "issue": "The province_text 'Italia' is not in the registry of provinces. The correct label should be null or a valid registry entry (e.g., 'Italia' is not a province but a region).",
+          "severity": "medium",
+          "suggested_fix": "Set province_text to null or clarify the region as 'Italia' in notes."
+        }
+      ]
+    }
+  ]
+}

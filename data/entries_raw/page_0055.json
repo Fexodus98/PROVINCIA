@@ -1,0 +1,490 @@
+{
+  "document_notes": [
+    "PIR² Volume 1, Page 39, entries 229 to 237."
+  ],
+  "entries": [
+    {
+      "entry_id": "229",
+      "pir_reference": "PIR² A 229",
+      "lemma": "Ael(ius) Paternianus",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Acting governor (agens vices legati) of Pannonia Inferior in 283/4.",
+      "segments": {
+        "lemma": "Ael(ius) Paternianus",
+        "name_variants": "Aelius Paternianus",
+        "identification_and_sources": "vir egregius, praefectus legionis II adiutricis agens vices legati a. 283/4 III 3469 i. Aquincensis.",
+        "offices_and_career": "praefectus legionis II adiutricis agens vices legati",
+        "governorship_attestation": "agens vices legati a. 283/4 III 3469 i. Aquincensis.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "CIL III 3469"
+      },
+      "main_person": {
+        "id": "person_229",
+        "displayed_name": "Ael(ius) Paternianus",
+        "normalized_name": "Aelius Paternianus",
+        "pir_reference": "PIR² A 229",
+        "status_markers": [
+          "vir egregius"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_229_1",
+          "person_id": "person_229",
+          "exact_text": "praefectus legionis II adiutricis agens vices legati a. 283/4",
+          "normalized_office": "agens vices legati",
+          "province_text": "Pannonia Inferior",
+          "date_text": "283/4",
+          "date_normalized_start": 283,
+          "date_normalized_end": 284,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Commanded legio II adiutrix at Aquincum and acted in place of the legatus."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "230",
+      "pir_reference": "PIR² A 230",
+      "lemma": "P. Aelius Peregrinus",
+      "relevance_to_provincia_corpus": "no",
+      "relevance_notes": "Son of Rasparaganus, king of the Sarmatians.",
+      "segments": {
+        "lemma": "P. Aelius Peregrinus",
+        "name_variants": "P. Aelius Peregrinus",
+        "identification_and_sources": "(P. Aeli) Rasparagani regis Sarmatarum filius, maritus Attiae Procilae V 33 (= D. 853) t. Polensis.",
+        "offices_and_career": "",
+        "governorship_attestation": "",
+        "family_and_social_relations": "Rasparagani regis Sarmatarum filius, maritus Attiae Procilae",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "CIL V 33 (= D. 853)"
+      },
+      "main_person": {
+        "id": "person_230",
+        "displayed_name": "P. Aelius Peregrinus",
+        "normalized_name": "Publius Aelius Peregrinus",
+        "pir_reference": "PIR² A 230",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_230_rel_1",
+          "displayed_name": "Rasparaganus",
+          "normalized_name": "Rasparaganus",
+          "relation_context": "father",
+          "certainty": "high",
+          "notes": [
+            "King of the Sarmatians."
+          ]
+        },
+        {
+          "id": "person_230_rel_2",
+          "displayed_name": "Attia Procila",
+          "normalized_name": "Attia Procila",
+          "relation_context": "wife",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_230",
+          "target": "person_230_rel_1",
+          "relation": "son of",
+          "certainty": "high",
+          "basis": "explicitly named as 'Rasparagani regis Sarmatarum filius'",
+          "notes": []
+        },
+        {
+          "source": "person_230",
+          "target": "person_230_rel_2",
+          "relation": "husband of",
+          "certainty": "high",
+          "basis": "explicitly named as 'maritus Attiae Procilae'",
+          "notes": []
+        }
+      ],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "231",
+      "pir_reference": "PIR² A 231",
+      "lemma": "P. Aelius Peregrinus Rogatus",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Praeses of Mauretania Caesariensis in 201 AD.",
+      "segments": {
+        "lemma": "P. Aelius Peregrinus Rogatus",
+        "name_variants": "P. Aelius Peregrinus Rogatus, Aelius Peregrinus, ....tio Peregrinus",
+        "identification_and_sources": "Tituli Mauretaniae Caesariensis VIII 8485 (1). 8991 (2). 9030 (3). 9359 (4). 9360, cf. 20 942 (5). 9361, ef. p. 980 (6). 10 979 = 20 982 (7). 20 575 (8). Ann. ép. 1902, 4 (9); 1911, 119, cf. Carcopino Bull. tr. hist. 1919, 172 (10), miliaria Mauretaniae VIII 22 602—4 (11). 22 611 (12). Bull. tr. hist. 1919, p. CCXIV (13).",
+        "offices_and_career": "Procurator Augustorum trium (Severi et Antonini Augustorum et Getae Caesaris), perfectissimus vir, a cognitionibus Augustorum trium.",
+        "governorship_attestation": "praeses provinciae Mauretaniae Caesariensis a. 201",
+        "family_and_social_relations": "P. f., Papiria",
+        "prosopographical_commentary": "Nomina plena integra t. 4, P. Aelius Peregrinus t. 2. 5. 7. 10. 11. 12, Aelius Peregrinus t. 8. 9, in ceteris frustula, ....tio Peregrino traditur t. 3.",
+        "bibliography_or_cross_references": "CIL VIII 8485, 8991, 9030, 9359, 9360, 20942, 9361, 10979, 20982, 20575; AE 1902, 4; 1911, 119; Bull. tr. hist. 1919"
+      },
+      "main_person": {
+        "id": "person_231",
+        "displayed_name": "P. Aelius Peregrinus Rogatus",
+        "normalized_name": "Publius Aelius Peregrinus Rogatus",
+        "pir_reference": "PIR² A 231",
+        "status_markers": [
+          "vir egregius",
+          "perfectissimus vir"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_231_1",
+          "person_id": "person_231",
+          "exact_text": "praeses (t. 4. 5. 9) provinciae Mauretaniae Caesariensis (1. 5) a. 201",
+          "normalized_office": "praeses",
+          "province_text": "Mauretania Caesariensis",
+          "date_text": "201",
+          "date_normalized_start": 201,
+          "date_normalized_end": 201,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_231_1",
+          "person_id": "person_231",
+          "exact_text": "Procurator Augustorum (t. 1. 2. 7. 8. 10—13, cf. 3. 6) trium t. 2. 8. 10—13 (sc. Severi et Antonini Augustorum et Getae Caesaris)",
+          "normalized_office": "procurator",
+          "province_text": "Mauretania Caesariensis",
+          "date_text": "Severi et Antonini Augustorum et Getae Caesaris",
+          "date_normalized_start": 198,
+          "date_normalized_end": 209,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_231_2",
+          "person_id": "person_231",
+          "exact_text": "a cognitionibus Augustorum trium",
+          "normalized_office": "a cognitionibus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "232",
+      "pir_reference": "PIR² A 232",
+      "lemma": "AELIVS PO(?)....",
+      "relevance_to_provincia_corpus": "uncertain",
+      "relevance_notes": "Possibly a legatus or quaestor in Lycaonia/Galatia (Iconium).",
+      "segments": {
+        "lemma": "AELIVS PO(?)....",
+        "name_variants": "Aelius Po...",
+        "identification_and_sources": "memoratur in frustulo male descripto prope Iconium reperto III 13 639, ubi v. 3 [q]uaest(or), v. 4 [l]e[g]at[us] extare videntur.",
+        "offices_and_career": "v. 3 [q]uaest(or), v. 4 [l]e[g]at[us] extare videntur.",
+        "governorship_attestation": "",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "CIL III 13639"
+      },
+      "main_person": {
+        "id": "person_232",
+        "displayed_name": "AELIVS PO(?)....",
+        "normalized_name": "Aelius Po...",
+        "pir_reference": "PIR² A 232",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [],
+      "career_factoids": [
+        {
+          "factoid_id": "car_232_1",
+          "person_id": "person_232",
+          "exact_text": "[l]e[g]at[us]",
+          "normalized_office": "legatus",
+          "province_text": "Galatia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "low",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "Found in a poorly described fragment near Iconium."
+          ]
+        },
+        {
+          "factoid_id": "car_232_2",
+          "person_id": "person_232",
+          "exact_text": "[q]uaest(or)",
+          "normalized_office": "quaestor",
+          "province_text": "Galatia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "low",
+          "evidence_type": "uncertain_reading",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "233",
+      "pir_reference": "PIR² A 233",
+      "lemma": "P. Ael(ius) Primianus",
+      "relevance_to_provincia_corpus": "no",
+      "relevance_notes": "Military officer and local defender in Mauretania Caesariensis.",
+      "segments": {
+        "lemma": "P. Ael(ius) Primianus",
+        "name_variants": "P. Aelius Primianus",
+        "identification_and_sources": "P. f., Quirina, ex decurione alae Thracum, praepositus vexillationi equitum Maurorum, defensor provinciae suae (scil. Mauretaniae Caesariensis), tribunus cohortis quartae Sygambrorum, primopilus, tribunus cohortis quartae vigilum t. Auziensis, dedicatus a filia ut videtur P. Aelio Primo filio prius morte praevento a. 255 VIII 9045 = D. 2766. Incertum, num ad res ab eo gestas referendus sit tit. item Auziensis dedicatus a. 254 Iovi optimo maximo ob barbaros cesos ac fusos VIII 20 827 = D. 3000.",
+        "offices_and_career": "ex decurione alae Thracum, praepositus vexillationi equitum Maurorum, defensor provinciae suae, tribunus cohortis quartae Sygambrorum, primopilus, tribunus cohortis quartae vigilum",
+        "governorship_attestation": "",
+        "family_and_social_relations": "P. f., Quirina; father of P. Aelius Primus",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "CIL VIII 9045 = D. 2766; CIL VIII 20827 = D. 3000"
+      },
+      "main_person": {
+        "id": "person_233",
+        "displayed_name": "P. Ael(ius) Primianus",
+        "normalized_name": "Publius Aelius Primianus",
+        "pir_reference": "PIR² A 233",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_233_rel_1",
+          "displayed_name": "P. Aelius Primus",
+          "normalized_name": "Publius Aelius Primus",
+          "relation_context": "son",
+          "certainty": "medium",
+          "notes": [
+            "Died before his father."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_233",
+          "target": "person_233_rel_1",
+          "relation": "father of",
+          "certainty": "medium",
+          "basis": "dedicatus a filia ut videtur P. Aelio Primo filio prius morte praevento",
+          "notes": []
+        }
+      ],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "234",
+      "pir_reference": "PIR² A 234",
+      "lemma": "Aelius Priseus",
+      "relevance_to_provincia_corpus": "no",
+      "relevance_notes": "A private individual mentioned in the Digest for matricide.",
+      "segments": {
+        "lemma": "Aelius Priseus",
+        "name_variants": "Aelius Priscus",
+        "identification_and_sources": "furiosus matrem occidit sub Marco et Commodo imperatoribus dig. 1, 18, 14.",
+        "offices_and_career": "",
+        "governorship_attestation": "",
+        "family_and_social_relations": "matrem occidit",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "Dig. 1, 18, 14"
+      },
+      "main_person": {
+        "id": "person_234",
+        "displayed_name": "Aelius Priseus",
+        "normalized_name": "Aelius Priscus",
+        "pir_reference": "PIR² A 234",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "235",
+      "pir_reference": "PIR² A 235",
+      "lemma": "[AELI?]vs pRo[cvivs?]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Legatus Augusti pro praetore of Lycia et Pamphylia around 152 AD.",
+      "segments": {
+        "lemma": "[AELI?]vs pRo[cvivs?]",
+        "name_variants": "Aelius Proculus",
+        "identification_and_sources": "legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur, nominatur in t. mausolei Opramoae Rhodiapolitani Heberdey Opramoas p. 54 = IGR 3, 739 XX c. 68; num recte nomina suppleverit Heberdey, incertum.",
+        "offices_and_career": "legatus Augusti pro praetore Lyciae et Pamphyliae",
+        "governorship_attestation": "nominatur in t. mausolei Opramoae Rhodiapolitani",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "num recte nomina suppleverit Heberdey, incertum.",
+        "bibliography_or_cross_references": "IGR III 739 XX c. 68; Heberdey Opramoas p. 54"
+      },
+      "main_person": {
+        "id": "person_235",
+        "displayed_name": "[AELI?]vs pRo[cvivs?]",
+        "normalized_name": "Aelius Proculus",
+        "pir_reference": "PIR² A 235",
+        "status_markers": [],
+        "notes": [
+          "The restoration of the name is highly uncertain."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_235_1",
+          "person_id": "person_235",
+          "exact_text": "legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Lycia et Pamphylia",
+          "date_text": "152",
+          "date_normalized_start": 152,
+          "date_normalized_end": 152,
+          "certainty": "medium",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "Name restoration is uncertain, but the office and date are attested in the Opramoas monument."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_235_rel_1",
+          "displayed_name": "Opramoas",
+          "normalized_name": "Opramoas",
+          "relation_context": "mentioned in monument",
+          "certainty": "high",
+          "notes": [
+            "Benefactor of Rhodiapolis."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "236",
+      "pir_reference": "PIR² A 236",
+      "lemma": "AELIVS PROCVLVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Possibly legatus Augusti pro praetore of Cappadocia under Marcus Aurelius and Lucius Verus.",
+      "segments": {
+        "lemma": "AELIVS PROCVLVS",
+        "name_variants": "Aelius Proculus",
+        "identification_and_sources": "commemoratur in t. mutilo Marco et Vero Augustis a Comanensibus dedicato IGR 3, 106, fortasse legatus Aug. pr. pr. Cappadociae.",
+        "offices_and_career": "fortasse legatus Aug. pr. pr. Cappadociae",
+        "governorship_attestation": "commemoratur in t. mutilo Marco et Vero Augustis a Comanensibus dedicato",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "IGR III 106"
+      },
+      "main_person": {
+        "id": "person_236",
+        "displayed_name": "AELIVS PROCVLVS",
+        "normalized_name": "Aelius Proculus",
+        "pir_reference": "PIR² A 236",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_236_1",
+          "person_id": "person_236",
+          "exact_text": "fortasse legatus Aug. pr. pr. Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Cappadocia",
+          "date_text": "Marco et Vero Augustis",
+          "date_normalized_start": 161,
+          "date_normalized_end": 169,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Commemorated in a mutilated inscription dedicated to Marcus Aurelius and Lucius Verus by the Comanenses."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    },
+    {
+      "entry_id": "237",
+      "pir_reference": "PIR² A 237",
+      "lemma": "T. Aelius Proculus",
+      "relevance_to_provincia_corpus": "no",
+      "relevance_notes": "Imperial freedman (libertus a rationibus).",
+      "segments": {
+        "lemma": "T. Aelius Proculus",
+        "name_variants": "T. Aelius Proculus",
+        "identification_and_sources": "Augusti libertus a rationibus XV 5309, 23. 28 fistulae aquariae Ostienses.",
+        "offices_and_career": "Augusti libertus a rationibus",
+        "governorship_attestation": "",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "CIL XV 5309"
+      },
+      "main_person": {
+        "id": "person_237",
+        "displayed_name": "T. Aelius Proculus",
+        "normalized_name": "Titus Aelius Proculus",
+        "pir_reference": "PIR² A 237",
+        "status_markers": [
+          "Augusti libertus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [],
+      "career_factoids": [
+        {
+          "factoid_id": "car_237_1",
+          "person_id": "person_237",
+          "exact_text": "Augusti libertus a rationibus",
+          "normalized_office": "a rationibus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    }
+  ]
+}

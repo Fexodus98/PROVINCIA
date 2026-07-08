@@ -1,0 +1,93 @@
+{
+  "document_notes": [
+    "Page 164 of PIR contains one entry (851) that explicitly matches the criteria for the PROVINCIA corpus (legatus Aug. pr. pr. of Cappadocia). Entry 849 mentions 'legatus pr. pr. provinciae Africae', which refers to a legatus proconsulis in a senatorial province, not a legatus Augusti pro praetore, and is therefore excluded."
+  ],
+  "entries": [
+    {
+      "entry_id": "851",
+      "pir_reference": "A 851",
+      "lemma": "ANTONIVS MEMMIVS HIERO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. (Cappadociae) sub Philippis.",
+      "segments": {
+        "lemma": "ANTONIVS MEMMIVS HIERO",
+        "name_variants": "ANTONIVS MEMMIVS HIERO",
+        "identification_and_sources": "nominatur in miliariis Cappadociae III 6914. 6915. 6941. 6942. 6946. 6947. 6955 = 12212. 12165. 12180 (?). 12181. 12192. 12199. 12206.",
+        "offices_and_career": "legatus Aug. pr. pr. (Cappadociae) sub Philippis",
+        "governorship_attestation": "legatus Aug. pr. pr. (Cappadociae) sub Philippis, nominatur in miliariis Cappadociae III 6914. 6915. 6941. 6942. 6946. 6947. 6955 = 12212. 12165. 12180 (?). 12181. 12192. 12199. 12206.",
+        "family_and_social_relations": "Fortasse idem qui praecedit (850 M. Ant(onius) Mem......).",
+        "prosopographical_commentary": "Fortasse idem qui praecedit.",
+        "bibliography_or_cross_references": "CIL III 6914, 6915, 6941, 6942, 6946, 6947, 6955 = 12212, 12165, 12180 (?), 12181, 12192, 12199, 12206."
+      },
+      "main_person": {
+        "id": "person_851",
+        "displayed_name": "ANTONIVS MEMMIVS HIERO",
+        "normalized_name": "Antonius Memmius Hiero",
+        "pir_reference": "A 851",
+        "status_markers": [
+          "vir clarissimus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_851_1",
+          "person_id": "person_851",
+          "exact_text": "legatus Aug. pr. pr. (Cappadociae) sub Philippis",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cappadocia",
+          "province_normalized": null,
+          "date_text": "sub Philippis",
+          "date_normalized_start": 244,
+          "date_normalized_end": 249,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on multiple milestones in Cappadocia during the reign of the Philip emperors (244-249 AD)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_850",
+          "displayed_name": "M. ANT(ONIVS) MEM......",
+          "normalized_name": "Marcus Antonius Memmius",
+          "relation_context": "Fortasse idem qui praecedit.",
+          "certainty": "medium",
+          "notes": [
+            "PIR suggests that Antonius Memmius Hiero might be identical to the person in entry 850."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [
+        "The entry suggests a possible identity with the preceding entry 850 (M. Ant(onius) Mem......)."
+      ],
+      "review": {
+        "verdict": "confirm",
+        "problems": [
+          {
+            "field": "governorship_factoids.0.exact_text",
+            "issue": "The exact_text 'legatus Aug. pr. pr. (Cappadociae) sub Philippis' is slightly truncated. The image shows 'legatus Aug. pr. pr. (Cappadociae) sub Philippis,' with a comma after 'Philippis'.",
+            "severity": "low",
+            "suggested_fix": "Include the comma: 'legatus Aug. pr. pr. (Cappadociae) sub Philippis,'"
+          },
+          {
+            "field": "governorship_factoids.0.date_normalized_end",
+            "issue": "The end date of 249 is inferred from the reign of Philip the Younger, but the image does not explicitly state this. The certainty should be noted as inferred.",
+            "severity": "low",
+            "suggested_fix": "Add a note clarifying that the end date is inferred from the reign of Philip the Younger."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status marker 'vir clarissimus' is not explicitly stated in the entry. It is inferred from the office of legatus Augusti pro praetore, but this should be noted.",
+            "severity": "low",
+            "suggested_fix": "Add a note that 'vir clarissimus' is inferred from the office held."
+          }
+        ]
+      },
+      "needs_review": false
+    }
+  ]
+}

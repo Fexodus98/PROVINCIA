@@ -1,0 +1,56 @@
+{
+  "document_notes": [
+    "Page 346 of PIR contains entries for the Baebii family, including L. Baebius Caecilianus (entry 14), who is relevant to the PROVINCIA corpus as legatus Augustorum pro praetore of Pannonia inferior."
+  ],
+  "entries": [
+    {
+      "entry_id": "pir-b-14",
+      "pir_reference": "B 14",
+      "lemma": "L. BAEBIVS CAECILIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Augustorum pro praetore of Pannonia inferior in 199 AD.",
+      "segments": {
+        "lemma": "L. BAEBIVS CAECILIANVS",
+        "name_variants": "L. Baebius Caecilianus, Baebius Caecilianus",
+        "identification_and_sources": "nominatur in miliarits Pannoniae inferioris III 3706 (1), 3733 (2), in titulis Intercisae rep. D. 9155 (3), Arch. Ertesitö 1909, 245 = Ann. ép. 1910, 140 (4).",
+        "offices_and_career": "Legatus Augustorum pro praetore (Pannoniae inferioris)",
+        "governorship_attestation": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "Gr."
+      },
+      "main_person": {
+        "id": "person-l-baebius-caecilianus",
+        "displayed_name": "L. BAEBIVS CAECILIANVS",
+        "normalized_name": "Lucius Baebius Caecilianus",
+        "pir_reference": "B 14",
+        "status_markers": [
+          "senator",
+          "vir clarissimus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "factoid-gov-b-14-pannonia-inf",
+          "person_id": "person-l-baebius-caecilianus",
+          "exact_text": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
+          "normalized_office": "legatus Augustorum pro praetore",
+          "province_text": "Pannonia inferior",
+          "date_text": "a. 199",
+          "date_normalized_start": 199,
+          "date_normalized_end": 199,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on milestones (miliaria) of Pannonia inferior and inscriptions from Intercisa."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": []
+    }
+  ]
+}

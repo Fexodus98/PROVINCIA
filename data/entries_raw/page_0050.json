@@ -1,0 +1,191 @@
+{
+  "document_notes": [
+    "Page 34 of PIR² contains entry 200 (L. Aelius Lamia), which is highly relevant due to the mention of his potential governorship of Pannonia as legatus Aug. pro pr."
+  ],
+  "entries": [
+    {
+      "entry_id": "pir_2_a_200",
+      "pir_reference": "PIR² A 200",
+      "lemma": "L. AELIVS LAMIA",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly discussed as a potential 'legatum Aug. pro pr. Pannoniae' (circa a. 10-13) based on a hypothesis by Maria Marchetti. Also mentions his father as 'legati Hispaniae a. 24 a. C.'",
+      "segments": {
+        "lemma": "200 L. AELIVS LAMIA, consul a. 3 p. C.",
+        "name_variants": "L. Aelius L. f. L. n. Lamia; Λ. Αἴλιος Λ. υἱ. Λαμίας; L. Aelius Lamia; L. Lamia; Λαμία; Λαμίου; Λαμμία; [L. Aelius] L. f. Lam[ia]; Λούκιος Λαμίας",
+        "identification_and_sources": "Fasti Capitolini; Dio ind. l. 55; CIL X 892 = D. 6393; CIL XV 4571 = D. 8581; CIL VI 36841 = D. 9337; L. Aelius Eph. ep. 8, 316 = D. 6387; Fasti Gabini (XIV 2801); Valerius Maximus 1, 8, 11; Cassiodorus Chron. min. 2, 136; Fasti Arvales; Malalas 231, 8 B; Epiphanius adv. haer. 2, 22; CIL VI 37058; CIL VI 16553; Punica inscription (Compt. rend. 1904, 553 = Clermont-Ganneau Recueil d'archéol. orient. 7, 88); Coins (Cohen 12, 338-340; Babelon Monn. rép. 1, 113; Willers Kupferpräg. 145 n. 177-179; Grueber Coins Br. Mus. 2, 88; Mattingly Br. Mus. 1, 40); Tacitus Ann. 4, 13; 6, 27; Dio 58, 19, 5; Velleius Paterculus 2, 116, 3; Horace Carm. 3, 17, 1; 1, 26, 8; 1, 36, 7; Epist. 1, 14, 6.",
+        "offices_and_career": "III vir aere argento auro flando feriundo; Praetor; XV vir [sacris faciundis]; Consul priore semestri a. p. C. 3; military commands in Germania and Illyricum; Legatus of Tiberius in Germany (a. 4-6 or 10-11); Legatus Aug. pro pr. Pannoniae (circa a. 10-13); Proconsul of Africa (before a. 17/18).",
+        "governorship_attestation": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.",
+        "family_and_social_relations": "Filius L. Aelii Lamiae (legati Hispaniae a. 24 a. C.); nepos Lamiae (amici Ciceronis); frater Q. Aelii Lamiae.",
+        "prosopographical_commentary": "Discusses his lineage from Lamus (mythical ancestor mentioned by Horace). Analyzes his career under Augustus and Tiberius, specifically his military service in Germany and Illyricum under Tiberius, and the scholarly debate regarding his governorship of Pannonia and proconsulship of Africa.",
+        "bibliography_or_cross_references": "Borghesi 4, 455 sq.; Maria Marchetti Bull. com. 1912, 136 sq.; Ruhnken; Willers."
+      },
+      "main_person": {
+        "id": "person_aelii_lamia_200",
+        "displayed_name": "L. Aelius Lamia",
+        "normalized_name": "Lucius Aelius Lamia",
+        "pir_reference": "PIR² A 200",
+        "status_markers": [
+          "consul",
+          "patricius",
+          "XVvir sacris faciundis",
+          "IIIvir a.a.a.f.f."
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "fact_lamia_pannonia",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Pannonia",
+          "date_text": "circa a. 10—13",
+          "date_normalized_start": 10,
+          "date_normalized_end": 13,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Reconstructed governorship proposed by Maria Marchetti."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "fact_lamia_triumvir",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "III vir aere argento auro flando feriundo",
+          "normalized_office": "triumvir monetalis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_praetor",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "Praetor",
+          "normalized_office": "praetor",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_consul",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "consul a. 3 p. C.",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "a. 3 p. C.",
+          "date_normalized_start": 3,
+          "date_normalized_end": 3,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_germania_illyricum",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "in Germania Illyricoque et mox in Africa splendidissimis functus ministeriis... Tiberii legatum in Germania a. 4-6 fuisse... parti exercitus Germanici praefuerit",
+          "normalized_office": "legatus",
+          "province_text": "Germania, Illyricum",
+          "date_text": "a. 4-6 / a. 10 et 11",
+          "date_normalized_start": 4,
+          "date_normalized_end": 11,
+          "relevance_to_governorship": "high",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Velleius Paterculus 2, 116, 3 mentions his services in Germany and Illyricum."
+          ]
+        },
+        {
+          "factoid_id": "fact_lamia_proconsul_africa",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "Proconsul Africae t. 3. Tac. a. 4, 13. Vell. l. l., certe ante a. 17/18",
+          "normalized_office": "proconsul",
+          "province_text": "Africa",
+          "date_text": "certe ante a. 17/18",
+          "date_normalized_start": 15,
+          "date_normalized_end": 17,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_aelii_lamia_father",
+          "displayed_name": "L. Aelius Lamia",
+          "normalized_name": "Lucius Aelius Lamia",
+          "relation_context": "Father, legatus of Hispania in 24 BC",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_lamia_grandfather",
+          "displayed_name": "Lamia",
+          "normalized_name": "Aelius Lamia",
+          "relation_context": "Grandfather, friend of Cicero",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_q_aelius_lamia",
+          "displayed_name": "Q. Aelius Lamia",
+          "normalized_name": "Quintus Aelius Lamia",
+          "relation_context": "Brother",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_m_servilius",
+          "displayed_name": "M. Servilius",
+          "normalized_name": "Marcus Servilius",
+          "relation_context": "Consular colleague in 3 AD",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_aelii_lamia_father",
+          "relation": "son of",
+          "certainty": "high",
+          "basis": "L. f. L. n. fasti Capitol.: filius scilicet L. Aelii Lamiae legati Hispaniae a. 24 a. C.",
+          "notes": []
+        },
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_lamia_grandfather",
+          "relation": "grandson of",
+          "certainty": "high",
+          "basis": "nepos Lamiae amici Ciceronis",
+          "notes": []
+        },
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_q_aelius_lamia",
+          "relation": "brother of",
+          "certainty": "high",
+          "basis": "frater Q. Aelii Lamiae",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry provides a detailed overview of the career of L. Aelius Lamia, consul in 3 AD, highlighting his military commands under Tiberius and his proconsulship of Africa."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 130 (PIR² page 114) contains entries 668 to 673. Only entry 668 explicitly mentions a governorship with the formula 'legatus Aug. pr. pr. Syriae'."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "668",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text 'Libonem legatum Aug. pr. pr. Syriae fuisse putaverim' is correct but includes the author's conjecture ('putaverim'), which should be noted in the certainty field.",
+          "severity": "low",
+          "suggested_fix": "Retain exact_text but ensure certainty is marked as 'medium' or 'low' due to conjectural language."
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The date 'c. a. 163' is approximate. The normalized start date 162 is reasonable but not explicitly supported by the text.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 161 (start of the Parthian War) and date_normalized_end to 163, with a note on approximation."
+        },
+        {
+          "field": "governorship_factoids[0].province_normalized",
+          "issue": "Province normalized as 'Syria' is correct, but the text does not specify if this refers to the combined province or a subdivision.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'consularis' is inferred but not explicitly stated in the text. The text only mentions 'consul (suff. a. inc.)' as a prerequisite.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'consularis' or mark as inferred with a note."
+        },
+        {
+          "field": "career_factoids[1].date_normalized_start",
+          "issue": "The consulship date is marked as 'suff. a. inc.' (unknown suffect consulship year), so normalized dates should be null.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start and date_normalized_end to null for this factoid."
+        }
+      ]
+    }
+  ]
+}

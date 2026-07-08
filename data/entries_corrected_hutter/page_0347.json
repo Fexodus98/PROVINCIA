@@ -1,0 +1,98 @@
+{
+  "document_notes": [
+    "The page begins with a continuation of an entry from page 330, representing a vir clarissimus whose name is not fully preserved on this page but belongs to the gentilicium Aurelius (as indicated by the page header)."
+  ],
+  "entries": [
+    {
+      "entry_id": "Aurelius_continued_331",
+      "pir_reference": "A 1623",
+      "lemma": "[Aurelius ---]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The individual is explicitly attested as 'Legatus Aug. pr. pr. (Pannoniae inferioris)' and 'legatus Augustorum pro praetore' of Hispania citerior.",
+      "segments": {
+        "lemma": "Vir clarissimus t. 1—3.",
+        "name_variants": "",
+        "identification_and_sources": "t. 1, ubi nomina imperatoris cuiusdam erasa, esse videntur. ... t. 2. 3. ... (cf. Ritterling Archaeol. Értesitö 41, 1927 p. 88. 300 sq.).",
+        "offices_and_career": "Legatus Aug. pr. pr. (Pannoniae inferioris) t. 1 ... Praeses provinciae Hispaniae citerioris, legatus Augustorum pro praetore a. 283 t. 2. 3. Utri provinciae prius praefuerit, discerni nequit.",
+        "governorship_attestation": "Legatus Aug. pr. pr. (Pannoniae inferioris) t. 1 ... Praeses provinciae Hispaniae citerioris, legatus Augustorum pro praetore a. 283 t. 2. 3.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Utri provinciae prius praefuerit, discerni nequit.",
+        "bibliography_or_cross_references": "cf. Ritterling Archaeol. Értesitö 41, 1927 p. 88. 300 sq."
+      },
+      "main_person": {
+        "id": "person_aurelius_continued",
+        "displayed_name": "M. Aurelius Valentinianus",
+        "normalized_name": "M. Aurelius Valentinianus",
+        "pir_reference": "A 1623",
+        "status_markers": [
+          "vir clarissimus"
+        ],
+        "notes": [
+          "Entry continued from the preceding page (page 330)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_aurelius_continued",
+          "exact_text": "Legatus Aug. pr. pr. (Pannoniae inferioris)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia inferior",
+          "province_normalized": "Pannonia inferior",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscription 1 ('t. 1'), where the name of an emperor seems to have been erased."
+          ]
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_aurelius_continued",
+          "exact_text": "Praeses provinciae Hispaniae citerioris, legatus Augustorum pro praetore a. 283",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Hispania citerior",
+          "province_normalized": "Hispania citerior",
+          "date_text": "a. 283",
+          "date_normalized_start": 283,
+          "date_normalized_end": 283,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions 2 and 3 ('t. 2. 3.').",
+            "The text uses both 'Praeses provinciae Hispaniae citerioris' and 'legatus Augustorum pro praetore'."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_aurelius_valentinianus",
+          "displayed_name": "Aurelius Valentinianus",
+          "normalized_name": "Aurelius Valentinianus",
+          "relation_context": "Appended to the entry with a dash, possibly as a related or comparable official.",
+          "certainty": "medium",
+          "notes": [
+            "vir perfectissimus, praeses provinciae Dalmatiae, memoratur in t. Salonitano anni 303 (?) Ann. ép. 1922, 47."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [
+        "The chronological order of his two governorships (Pannonia inferior and Hispania citerior) cannot be determined ('Utri provinciae prius praefuerit, discerni nequit').",
+        "PIR-Nummer A 1623 (M. Aurelius Valentinianus) vom Eintragskopf S. 346 ergänzt.",
+        "Reihenfolge der beiden Statthalterschaften unbestimmt ('Utri provinciae prius praefuerit, discerni nequit').",
+        "Homonym-Warnung: 'Aurelius Valentinianus, vir perfectissimus, praeses Dalmatiae (a. 305)' ist eine EIGENE, ritterliche Person -- nicht PROVINCIA-relevant und nicht mit A 1623 zu verwechseln."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-01",
+        "note": "Orphan aufgelöst: PIR A 1623, Name gesetzt; beide Statthalterschaften (Pannonia inf., Hispania cit.) behalten; Homonym (praeses Dalmatiae) abgegrenzt."
+      },
+      "needs_review": false
+    }
+  ]
+}

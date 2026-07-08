@@ -1,0 +1,185 @@
+{
+  "document_notes": [
+    "Page 171 of PIR contains entry 883, which is highly relevant to the PROVINCIA corpus due to the explicit attestation of the governorship of Thracia."
+  ],
+  "entries": [
+    {
+      "entry_id": "883",
+      "pir_reference": "A 883",
+      "lemma": "M. ANTONIVS ZENO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Augusti pr. pr. Thraciae' under Antoninus Pius in the year 140.",
+      "segments": {
+        "lemma": "883 M. ANTONIVS ZENO, consul (suffectus) a. 148.",
+        "name_variants": "M. Antonius Zeno, M. A[vtwviog Ζήνων], [M. An]- tonius Zeno, Avr. Ζήνων, Ζήνων",
+        "identification_and_sources": "Nummi: 1) Perinthi in parte aversa ἐπὶ Avr. Ζήνωνος πρ(εσβευτοῦ) LeB(actod) ἀντ(ιστρατήγου) ΠΠερινθίων, in adversa a) θεὰ Φαυστεῖνα b) Αὐρήλιος Οὐῆρος Καῖσαρ... 2) Philippopolis... 3) Nicopolis... Consulatus eius commemoratur in dipl. mil. III p. 1985 = D. 2005 (1). — Ad hunc refertur t. mutilus Serdicensis Kalinka Ant. Denkm. in Bulg. p. 22 n. 26 = IGR 1, 1454... idem memorari videtur in fragmento tituli Thuggensis VIII 1480 cf. p. 2616 (3).",
+        "offices_and_career": "consul (suffectus) a. 148. Legatus Augusti pr. pr. Thraciae imperante Antonino Pio... Proc[onsul Africae]... quinto decimo fere anno post consulatum.",
+        "governorship_attestation": "Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140 i. 2; nummos Perinthiorum cum in- scriptione θεὰ Φαυστεῖνα post morlem Faustinae Augustae i. e. non ante a. 140 cusos esse censuit Kubitschek Num. Ztschr. 44, 1911, 155.",
+        "family_and_social_relations": "Ex posteris videtur eius qui praecedit [882]. Idem videtur M. Antonius Zeno, maritus Antiae Marcellinae, quae posuit t. urbanum VI 36 848; Zenonis et Marcellinae filius nescio an fuerit M. Antonius Antius Lupus (n. 812).",
+        "prosopographical_commentary": "The entry discusses the identification of the governor of Thrace with the consul of 148 and the proconsul of Africa, as well as his family connections.",
+        "bibliography_or_cross_references": "Stein Thracia p. 19; Imhoof-Blumer Monn. gr. p. 44; Br. Mus. Thracia p. 161; Ant. Münz. Nordgriech. 1, 1 p. 349; Kubitschek Num. Ztschr. 44, 1911, 155."
+      },
+      "main_person": {
+        "id": "person_883",
+        "displayed_name": "M. Antonius Zeno",
+        "normalized_name": "Marcus Antonius Zeno",
+        "pir_reference": "A 883",
+        "status_markers": [
+          "consul",
+          "legatus Augusti pro praetore",
+          "proconsul"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_883_1",
+          "person_id": "person_883",
+          "exact_text": "Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Thracia",
+          "province_normalized": null,
+          "date_text": "anno 140",
+          "date_normalized_start": 140,
+          "date_normalized_end": 140,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on provincial coinage of Perinthus, Philippopolis, and Nicopolis."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_883_1",
+          "person_id": "person_883",
+          "exact_text": "consul (suffectus) a. 148",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 148",
+          "date_normalized_start": 148,
+          "date_normalized_end": 148,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Consulship recorded in military diploma (dipl. mil. III p. 1985 = D. 2005)."
+          ]
+        },
+        {
+          "factoid_id": "car_883_2",
+          "person_id": "person_883",
+          "exact_text": "Proc[onsul Africae] ... quinto decimo fere anno post consulatum",
+          "normalized_office": "proconsul",
+          "province_text": "Africa",
+          "date_text": "quinto decimo fere anno post consulatum",
+          "date_normalized_start": 162,
+          "date_normalized_end": 163,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_882",
+          "displayed_name": "M. Antonius Zeno",
+          "normalized_name": "Marcus Antonius Zeno",
+          "relation_context": "Ex posteris videtur eius qui praecedit",
+          "certainty": "medium",
+          "notes": [
+            "Ancestor of the same name, priest of Laodicea under Claudius and Nero."
+          ]
+        },
+        {
+          "id": "person_antiae_marcellinae",
+          "displayed_name": "Antia Marcellina",
+          "normalized_name": "Antia Marcellina",
+          "relation_context": "maritus Antiae Marcellinae",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_812",
+          "displayed_name": "M. Antonius Antius Lupus",
+          "normalized_name": "Marcus Antonius Antius Lupus",
+          "relation_context": "Zenonis et Marcellinae filius nescio an fuerit",
+          "certainty": "low",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_883",
+          "target": "person_882",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Ex posteris videtur eius qui praecedit",
+          "notes": []
+        },
+        {
+          "source": "person_883",
+          "target": "person_antiae_marcellinae",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "maritus Antiae Marcellinae",
+          "notes": []
+        },
+        {
+          "source": "person_883",
+          "target": "person_812",
+          "relation": "parent_of",
+          "certainty": "low",
+          "basis": "Zenonis et Marcellinae filius nescio an fuerit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry links several epigraphic and numismatic attestations across Thrace, Rome, and Africa to reconstruct the career of M. Antonius Zeno."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma transcription contains a typographical error: 'M. ANTONIVS ZENO' should be 'M. Antonius Zeno' (no 'V' in 'Antonius'). The printed text shows 'M. Antonius Zeno'.",
+            "severity": "low",
+            "suggested_fix": "Correct lemma to 'M. Antonius Zeno'."
+          },
+          {
+            "field": "main_person.displayed_name",
+            "issue": "Displayed name contains the same typographical error as the lemma: 'M. Antonius Zeno' should be used instead of 'M. ANTONIVS ZENO'.",
+            "severity": "low",
+            "suggested_fix": "Correct displayed_name to 'M. Antonius Zeno'."
+          },
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "The exact_text 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140' is slightly truncated and does not match the full printed quote. The printed text reads: 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140 i. 2; nummos Perinthiorum cum inscriptione...'.",
+            "severity": "medium",
+            "suggested_fix": "Update exact_text to include the full quote: 'Legatus Augusti pr. pr. Thraciae imperante Antonino Pio nummi, anno 140 i. 2; nummos Perinthiorum cum inscriptione θεὰ Φαυστεῖνα post mortem Faustinae Augustae i. e. non ante a. 140 cusos esse censuit'."
+          },
+          {
+            "field": "governorship_factoids[0].date_normalized_end",
+            "issue": "The date_normalized_end is set to 140, but the text suggests the governorship may have extended beyond this year (e.g., 'non ante a. 140'). The exact end date is not specified, so it should be left open or noted as uncertain.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to null or add a note about uncertainty."
+          },
+          {
+            "field": "career_factoids[1].date_normalized_start",
+            "issue": "The proconsulship of Africa is dated to 'quinto decimo fere anno post consulatum' (ca. 163), but the normalized start date is set to 162. This is slightly off given the approximation 'fere'.",
+            "severity": "low",
+            "suggested_fix": "Adjust date_normalized_start to 163 to match the approximation in the text."
+          },
+          {
+            "field": "related_persons[0].id",
+            "issue": "The related person ID 'person_882' is not unique or descriptive. It should reflect the PIR reference (A 882) for clarity.",
+            "severity": "low",
+            "suggested_fix": "Update ID to 'person_A_882'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source_page": 252,
+  "entries": [
+    {
+      "entry_id": "1180",
+      "pir_reference": "A 1180",
+      "lemma": "[...... a?]rToRivs",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. (Moesiae inferioris) in a. 120.",
+      "segments": {
+        "lemma": "[...... a?]rToRivs",
+        "name_variants": "[...... a?]rToRivs",
+        "identification_and_sources": "III 7539 = 12493 = IGR 1, 606 t. bilinguis Tomitanus.",
+        "offices_and_career": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+        "governorship_attestation": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "The name is partially restored as Artorius.",
+        "bibliography_or_cross_references": "III 7539 = 12493 = IGR 1, 606"
+      },
+      "main_person": {
+        "id": "person_1180",
+        "displayed_name": "[...... a?]rToRivs",
+        "normalized_name": "[...... A?]rtorius",
+        "pir_reference": "A 1180",
+        "status_markers": [
+          "senator",
+          "vir consularis"
+        ],
+        "notes": [
+          "Governor of Moesia Inferior in 120 AD.",
+          "Wahrscheinlich identisch mit G. Ummidius Quadratus Sallustius Sertorius (PIR2 V 907) — dieselbe Inschrift CIL III 7539 belegt beide; Namensrest wohl 'Se]rtorius', nicht 'A]rtorius'. sameAs-Kandidat.",
+          "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1180_1",
+          "person_id": "person_1180",
+          "exact_text": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "province_normalized": "Moesia inferior",
+          "date_text": "a. 120",
+          "date_normalized_start": 120,
+          "date_normalized_end": 120,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in a bilingual inscription from Tomis (CIL III 7539 = 12493 = IGR I 606).",
+            "Nur fuer a. 120 bezeugt (Punktbeleg CIL III 7539 = IGR I 606, Tomi); genaue Amtsdauer unbekannt."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The nomen is reconstructed as Artorius based on the remaining letters."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#19: Moesia inferior; sameAs PIR V 907 (CIL III 7539); province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 252
+    }
+  ]
+}

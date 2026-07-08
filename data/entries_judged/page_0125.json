@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "Page 125 of PIR2 (printed as 109), containing entries 639 to 648. Only entry 643 (L. Annius Fabianus) is explicitly attested as legatus Augusti pro praetore provinciae Daciae."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "643",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].province_text",
+          "issue": "Province text 'Dacia' is correct, but the normalized province should be 'Dacia' (not 'Tres Daciae' or other variants) as the text does not specify a subdivision.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "Date 'ante imperatorem Marcum' is correctly interpreted as before 161 AD, but the certainty of the end date should be marked as 'medium' due to the lack of a precise year.",
+          "severity": "low",
+          "suggested_fix": "Change certainty to 'medium'."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text is slightly truncated. The full quote from the image is: 'legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius) publice honoratur III 1455 = 7972 t. Sarmizegetusensi.'",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to include 'publice honoratur III 1455 = 7972 t. Sarmizegetusensi.' at the end."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "Status marker 'vir clarissimus' is not explicitly attested in the entry text. The text does not mention this title for L. Annius Fabianus.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'vir clarissimus' from status_markers."
+        },
+        {
+          "field": "career_factoids[1].province_text",
+          "issue": "The province_text 'Britannia' for 'tribunus legionis II Augustae' is inferred but not explicitly stated in the text. The legion II Augusta was stationed in Britannia, but this is not directly mentioned in the entry.",
+          "severity": "low",
+          "suggested_fix": "Add a note clarifying the inference or set province_text to null."
+        },
+        {
+          "field": "career_factoids[6].province_text",
+          "issue": "The province_text 'Iudaea' for 'legatus legionis X Fretensis' is inferred but not explicitly stated in the text. The legion X Fretensis was stationed in Iudaea, but this is not directly mentioned in the entry.",
+          "severity": "low",
+          "suggested_fix": "Add a note clarifying the inference or set province_text to null."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "source_page": 61,
+  "entries": [
+    {
+      "entry_id": "PIR_A_271",
+      "pir_reference": "A 271",
+      "lemma": "AELIVS TRICCIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus Augustorum pro praetore Pannoniae inferioris.",
+      "segments": {
+        "lemma": "271 AELIVS TRICCIANVS.",
+        "name_variants": "Sic III 10644 nomina. quamquam. erasa, legi possunt ; plus minus evanida vel mutila in alus miliariis Pannoniae inferioris III 3720. 3724. 3725. 10618. 10629. 10635. 10637. 10644. 10647. 143542. Δέκκιον Τρικκιανόν Dio 78, 19, 3, ubi nomen fortasse corruptum, celerum Τρικκιανός, Recianus vila Carac. 6, 7.",
+        "identification_and_sources": "Miles in exercitu Pannonico et θυρωρός (ostiarius, cf. Espérandieu ILG 1, 107 = D. 9074) legati Pannoniae Dio 78, 13, 4.",
+        "offices_and_career": "Praefectus legionis secundae Parthicae a. 217 Caracallam in expeditionem Parthicam comitatus, conscius caedis eius vita Carac. 6, 7 (verba qui equitibus extraordinariis praeerat non ad eum, sed ad Iulium Martialem spectare vidit Domaszewski Rh. Mus. 57, 507 sq.); etiamtum sub Macrino legioni in monte Albano tendenti prae- fuit nimia severitate Dio 78, 13, 4; 79, 4, 3. A Macrino (in senatum adlectus) legatus in Pannoniam missus Dio 78, 13, 3;",
+        "governorship_attestation": "legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Ab Elagabalo occisus est Dio 79, 4, 8 (quae sequuntur non ad eum pertinent, cf. Boissevain in editione).",
+        "bibliography_or_cross_references": "St."
+      },
+      "main_person": {
+        "id": "person_271",
+        "displayed_name": "Aelius Triccianus",
+        "normalized_name": "Aelius Triccianus",
+        "pir_reference": "A 271",
+        "status_markers": [
+          "senator"
+        ],
+        "notes": [
+          "Rose from the ranks (miles, ostiarius) to senatorial status under Macrinus."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_271_1",
+          "person_id": "person_271",
+          "exact_text": "legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia inferior",
+          "province_normalized": "Pannonia inferior",
+          "date_text": "sub Macrino et Diadumeniano",
+          "date_normalized_start": 217,
+          "date_normalized_end": 218,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on multiple milestones (miliaria) of Pannonia inferior.",
+            "Regierung Macrinus (Apr 217 - Jun 218); Diadumenianus Augustus ab Mai 218 ('Augustorum')."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_271_1",
+          "person_id": "person_271",
+          "exact_text": "Miles in exercitu Pannonico et θυρωρός (ostiarius ... ) legati Pannoniae",
+          "normalized_office": "miles / ostiarius legati",
+          "province_text": "Pannonia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_271_2",
+          "person_id": "person_271",
+          "exact_text": "Praefectus legionis secundae Parthicae a. 217",
+          "normalized_office": "praefectus legionis",
+          "province_text": null,
+          "date_text": "a. 217",
+          "date_normalized_start": 217,
+          "date_normalized_end": 217,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_271_3",
+          "person_id": "person_271",
+          "exact_text": "A Macrino (in senatum adlectus)",
+          "normalized_office": "adlectus in senatum",
+          "province_text": null,
+          "date_text": "sub Macrino",
+          "date_normalized_start": 217,
+          "date_normalized_end": 218,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_271_4",
+          "person_id": "person_271",
+          "exact_text": "legatus in Pannoniam missus",
+          "normalized_office": "legatus",
+          "province_text": "Pannonia",
+          "date_text": "sub Macrino",
+          "date_normalized_start": 217,
+          "date_normalized_end": 218,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_macrinus",
+          "displayed_name": "Macrinus",
+          "normalized_name": "M. Opellius Severus Macrinus",
+          "relation_context": "Emperor who adlected Triccianus to the senate and appointed him governor.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_diadumenianus",
+          "displayed_name": "Diadumenianus",
+          "normalized_name": "M. Opellius Antoninus Diadumenianus",
+          "relation_context": "Co-emperor mentioned on milestones of Triccianus' governorship.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_caracalla",
+          "displayed_name": "Caracalla",
+          "normalized_name": "M. Aurelius Antoninus (Caracalla)",
+          "relation_context": "Emperor whose murder Triccianus was privy to.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_elagabalus",
+          "displayed_name": "Elagabalus",
+          "normalized_name": "M. Aurelius Antoninus (Elagabalus)",
+          "relation_context": "Emperor who ordered the execution of Triccianus.",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_271",
+          "target": "person_macrinus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "A Macrino (in senatum adlectus) legatus in Pannoniam missus",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "Aelius Triccianus is a notable example of rapid social mobility under Macrinus, rising from a low-ranking soldier to a senatorial governor of Pannonia inferior."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "L3: Pannonia inferior; Amt-Status entfernt; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 61
+    }
+  ]
+}

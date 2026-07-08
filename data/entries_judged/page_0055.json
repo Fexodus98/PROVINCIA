@@ -1,0 +1,130 @@
+{
+  "page_notes": [
+    "PIR² Volume 1, Page 39, entries 229 to 237. All entries are present on the page image."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "229",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].province_text",
+          "issue": "Province text should be 'Pannonia inferior' (lowercase 'i' in 'inferior' as per the image).",
+          "severity": "low",
+          "suggested_fix": "Change 'Pannonia Inferior' to 'Pannonia inferior'."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "Exact text is slightly truncated. The image shows 'agens vices legati a. 283/4 III 3469 i. Aquincensis.'",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to 'agens vices legati a. 283/4 III 3469 i. Aquincensis'."
+        },
+        {
+          "field": "governorship_factoids[0].normalized_office",
+          "issue": "Normalized office should reflect the full formula 'agens vices legati' as per the image.",
+          "severity": "low",
+          "suggested_fix": "Change 'agens vices legati' to 'agens vices legati' (no change needed, but ensure it matches the full formula)."
+        }
+      ]
+    },
+    {
+      "entry_id": "230",
+      "verdict": "confirm",
+      "problems": []
+    },
+    {
+      "entry_id": "231",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "Exact text is truncated. The image shows 'praeses (t. 4. 5. 9) provinciae Mauretaniae Caesariensis (1. 5) a. 201 t. 3.'",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to 'praeses (t. 4. 5. 9) provinciae Mauretaniae Caesariensis (1. 5) a. 201'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "Status marker 'vir egregius' is supported by the image ('Vir egregius t. 2. 10.').",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    },
+    {
+      "entry_id": "232",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "career_factoids[0].province_text",
+          "issue": "Province 'Galatia' is inferred but not explicitly stated in the image. The fragment is near Iconium, which is in Lycaonia (Galatia region).",
+          "severity": "medium",
+          "suggested_fix": "Change province_text to 'Lycaonia' or 'Galatia (region)' if the registry allows. Otherwise, set to null."
+        },
+        {
+          "field": "career_factoids[0].certainty",
+          "issue": "Certainty is low due to uncertain reading and lack of explicit province mention.",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    },
+    {
+      "entry_id": "233",
+      "verdict": "confirm",
+      "problems": []
+    },
+    {
+      "entry_id": "234",
+      "verdict": "confirm",
+      "problems": []
+    },
+    {
+      "entry_id": "235",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "Exact text should include the full reference to the Opramoas monument as per the image: 'legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur, nominatur in t. mausolei Opramoae Rhodiapolitani Heberdey Opramoas p. 54 = IGR 3, 739 XX c. 68'.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to match the full quote from the image."
+        },
+        {
+          "field": "governorship_factoids[0].province_normalized",
+          "issue": "Province 'Lycia et Pamphylia' is correct and matches the registry.",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    },
+    {
+      "entry_id": "236",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "Exact text should match the image: 'fortasse legatus Aug. pr. pr. Cappadociae'.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to 'fortasse legatus Aug. pr. pr. Cappadociae'."
+        },
+        {
+          "field": "governorship_factoids[0].province_normalized",
+          "issue": "Province 'Cappadocia' is correct and matches the registry.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids[0].certainty",
+          "issue": "Certainty is medium due to the speculative nature of the office ('fortasse').",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    },
+    {
+      "entry_id": "237",
+      "verdict": "confirm",
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "page_notes": [
+    "The page contains the continuation of the entry for P. Aelius Severianus Maximus (PIR² A 260) at the top, which is the only entry explicitly attesting a legatus Augusti pro praetore on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A_260",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_2.province_normalized",
+          "issue": "The province 'Thracia' is not explicitly attested for P. Aelius Severianus Maximus as legatus Augusti pro praetore. The text states the governorship is doubted by the PIR author and is inferred by other scholars, not confirmed.",
+          "severity": "medium",
+          "suggested_fix": "Set province_normalized to null for gov_2, as the evidence is low certainty and the PIR author explicitly doubts this governorship."
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_end",
+          "issue": "The end date for the inferred Thracia governorship is too broad (210). The text does not provide any date range beyond 'post consulatum (post a. 194)'.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_end to null or a more conservative estimate (e.g., 200) if a range must be provided."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact_text is slightly truncated and does not match the verbatim quote from the page. The page reads: 'Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1'. The proposed exact_text omits 'miliariis' and some punctuation.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to: 'Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente miliar[iis]... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1'."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'consularis' is not explicitly stated in the text for the governorship of Arabia. It is inferred from the consulship, but the text does not use the term 'consularis' for this period.",
+          "severity": "low",
+          "suggested_fix": "Remove 'consularis' from status_markers or add a note clarifying the inference."
+        }
+      ]
+    }
+  ]
+}

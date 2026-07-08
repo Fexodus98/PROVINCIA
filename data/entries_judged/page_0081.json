@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 81 of PIR² Volume I contains entries 381 to 388. Only entry 382 (M. Aemilius Macer Saturninus) is explicitly attested as 'Legatus Augusti pro praetore' of Numidia."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_382",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text is too long and includes extraneous details (e.g., 't. 1—16, a. 172 t. 2, inter annos 172 et 174 t. 1, a. 174 t. 3. 4. 7. 9'). The quote should be restricted to the core formula.",
+          "severity": "low",
+          "suggested_fix": "Use a more concise quote: 'Legatus Augusti pro praetore (provinciae Numidiae)'"
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The start date is given as 172, but the text specifies 'a. 172 t. 2' and 'inter annos 172 et 174 t. 1'. The exact start year is not definitively 172.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 172 with a note about uncertainty: 'a. 172 or shortly thereafter'."
+        },
+        {
+          "field": "governorship_factoids[0].date_normalized_end",
+          "issue": "The end date is given as 174, but the text specifies 'a. 174 t. 3. 4. 7. 9' and 'consul (suffectus) eodem anno t. 4'. The governorship may have ended slightly before or after 174.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 174 with a note about uncertainty: 'a. 174 or shortly before'."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Marcus Aemilius Macer Saturninus' is correct but could be more precise. The text uses 'M. Aemilius Macer Saturninus' as the primary form.",
+          "severity": "low",
+          "suggested_fix": "Use 'M. Aemilius Macer Saturninus' for normalized_name to match the primary form in the text."
+        },
+        {
+          "field": "related_persons[1].id",
+          "issue": "The related person ID 'person_A_Dinarchus' is inconsistent with the PIR reference style used elsewhere (e.g., 'person_A383').",
+          "severity": "low",
+          "suggested_fix": "Use 'person_A382_Dinarchus' or similar for consistency."
+        }
+      ]
+    }
+  ]
+}

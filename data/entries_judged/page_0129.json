@@ -1,0 +1,39 @@
+{
+  "page_notes": [
+    "The page contains the continuation of the entry for L. Annius Italicus (PIR² A 659) from the previous page, explicitly attesting his governorship of Moesia inferior in AD 224.",
+    "No other entries on this page explicitly attest a legatus Augusti pro praetore governorship."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "A 659",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "The lemma is reconstructed as '[L. ANNIVS ITALICVS]' but the page does not show the full lemma header (it is a continuation). The proposed lemma should reflect the visible text or lack thereof.",
+          "severity": "low",
+          "suggested_fix": "Set lemma to null or indicate it is a continuation from the previous page (e.g., 'Continuation of L. Annius Italicus')."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text 'legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4' is slightly truncated. The image shows 'legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4.' (note the period at the end).",
+          "severity": "low",
+          "suggested_fix": "Add the period at the end of exact_text: 'legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4.'"
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Lucius Annius Italicus' is plausible but the image does not explicitly provide the praenomen 'Lucius' for Italicus in this entry. The praenomen is inferred from the filiation 'L. Annius L. f. Quirina Italicus'.",
+          "severity": "low",
+          "suggested_fix": "Retain 'Lucius Annius Italicus' but add a note clarifying the inference."
+        },
+        {
+          "field": "related_persons",
+          "issue": "The relation to L. Annius Italicus Rutilianus (person_A660) is marked as 'medium' certainty, but the text states 'Incertum utrum hic an filius Italicus, qui L. Annio Italico Rutiliano filio posuit t. sepulcralem XI 5808 Iguvinum.' This suggests the relationship is uncertain and may not be direct.",
+          "severity": "medium",
+          "suggested_fix": "Clarify the uncertainty in the notes and consider downgrading the relation to 'low' certainty or rephrasing the relation_context to 'possible grandson or son'."
+        }
+      ]
+    }
+  ]
+}

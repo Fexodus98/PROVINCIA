@@ -1,0 +1,214 @@
+{
+  "source_page": 301,
+  "entries": [
+    {
+      "entry_id": "1408",
+      "pir_reference": "A 1408",
+      "lemma": "c. AVIDIVS NIGRINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'leg. Aug. pr. pr.' in an inscription from Sarmizegetusa (CIL III 7904 = D. 2417) and as 'Legatus Aug. pr. pr.' / 'leg. Aug. pro pr.' / '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος' in bilingual inscriptions from Delphi.",
+      "segments": {
+        "lemma": "1408 c. AVIDIVS NIGRINVS, filius probabiliter eius qui praecedit. (v. sub hoc).",
+        "name_variants": "C. Avidius Nigrinus, [C. Avi]dius Nigrinus, ᾿Αουίδιος Νιγρῖνος",
+        "identification_and_sources": "Ad eum pertinere videntur: monumentum Delphicum continens decreta bilinguia ex parte tantum servata [C.] Avidii Nigrini de finibus terrae sacrae Delphorum (1—6) et principium epistulae graecae ab eodem Nigrino ad Delphos datae (7) Ditt. Syll.3 827 A—G, pars latina III 567 = 7303 cf. p. 987 (nova fragmenta adhuc inedita, commemorat Bourguet De rebus Delph. p. 69); ara posita Sarmizegetusae a centurione legionis IIII F(laviae) f(elicis) exerc(itatore) eq(uitum) sing(ularium) C. Avidi Nigrini leg. Aug. pr. pr. III 7904 = D. 2417 (8) (errore editores hunc titulum propter literarum formam saeculo p. C. tertio attribuerunt; v. infra). Nominatur praeterea in t. Antiatino sepulcrali C. Avidii Laconis Avidiae Plautiae Nigrini filiae liberti X 6706 = D. 8217 (9). — Nigrinus vita Hadr. 7, 1. 2; 23, 10. Dio exc. 69, 2, 5.",
+        "offices_and_career": "Hic fortasse Nigrinus tribunus plebis a. 105, qui saepius memoratur in epistulis Plinii (5, 13, 6; 20, 6; 7, 6, 2. 4; ‘Nigrinum optimum virum’ 7, 6, 2). Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. t. 1 cf. t. 5; ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος t. 7) sententias tulit ex iussu optimi principis de finium controversiis inter Delphos et civitates finitimas t. 1—6 [X?] k. Octobr. t. 1 cf. t. 2, X k. Octobres Elatiae t. 3 cf. t. 4, [VI] idu[s Octobr. Eleusi]ne t. 5. Neque quo tempore neque quo iure has sententias tulerit, ex titulis apparet,",
+        "governorship_attestation": "Attested as legatus Augusti pro praetore in Dacia (Sarmizegetusa: 'C. Avidi Nigrini leg. Aug. pr. pr.') and in Achaia/Delphi ('Legatus Aug. pr. pr.', '[C. Avi]dio Nigrino leg. Aug. pro pr.', '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος').",
+        "family_and_social_relations": "Filius probabiliter Avidii Nigrini senioris (1407). Father of Avidia Plautia (implied by her libertus C. Avidius Laco). Father-in-law of the father of Lucius Verus ('cuius pater Nigrini (minoris) gener dicitur').",
+        "prosopographical_commentary": "Discusses his identity as the tribunus plebis of 105 mentioned by Pliny, and his role as imperial commissioner settling boundary disputes in Greece under Trajan.",
+        "bibliography_or_cross_references": "Ditt. Syll.3 827 A—G; CIL III 567 = 7303; CIL III 7904 = D. 2417; CIL X 6706 = D. 8217; Plin. Ep. 5, 13, 6; 20, 6; 7, 6, 2. 4; SHA Hadr. 7, 1. 2; 23, 10; Dio exc. 69, 2, 5."
+      },
+      "main_person": {
+        "id": "person_1408",
+        "displayed_name": "C. Avidius Nigrinus",
+        "normalized_name": "Gaius Avidius Nigrinus",
+        "pir_reference": "A 1408",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": [
+          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5)."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1408_achaia",
+          "person_id": "person_1408",
+          "exact_text": "Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. ... ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Achaia",
+          "province_normalized": "Achaia",
+          "date_text": "legatus Aug. pr. pr. extra ordinem (Delphi-Grenzstreit), sub finem imperii Traiani, c. 114-117",
+          "date_normalized_start": 114,
+          "date_normalized_end": 117,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)."
+          ]
+        },
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_1408",
+          "exact_text": "Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia superior",
+          "province_normalized": "Moesia superior",
+          "date_text": "bis 117/118 ('ab Hadriano e provincia avocatum', dann hingerichtet); Beginn ungewiss (~116)",
+          "date_normalized_start": 116,
+          "date_normalized_end": 118,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Premerstein argued he was recalled from the province in 117/118 by Hadrian.",
+            "Domaszewski (CIL III 7904): Statthalter jener Provinz, zu deren Heer die legio IV Flavia Felix gehoerte = Moesia superior. Dedikant M. Calventius Viator war Centurio der legio IV Flavia Felix; Fundort Sarmizegetusa/Dacia allein nicht entscheidend (equites singulares konnten einen Ausbilder aus dem Heer einer Nachbarprovinz haben). Daher wahrscheinlicher Moesia superior; Dacia nicht sicher auszuschliessen ('potius quam Daciae'). Viator spaeter unter den equites singulares Hadriani in Gerasa (129/130 oder 131/132).",
+            "Dublette-Faktoid 'Dacia' (gleicher Beleg CIL III 7904) entfernt."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1408_tribunate",
+          "person_id": "person_1408",
+          "exact_text": "tribunus plebis a. 105",
+          "normalized_office": "tribunus plebis",
+          "province_text": "Roma",
+          "date_text": "a. 105",
+          "date_normalized_start": 105,
+          "date_normalized_end": 105,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Tentatively identified with the Nigrinus praised in Pliny's letters."
+          ]
+        },
+        {
+          "factoid_id": "car_1",
+          "person_id": "person_1408",
+          "exact_text": "Consul suffectus a. inc. sub Traiano",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "a. inc. sub Traiano",
+          "date_normalized_start": 98,
+          "date_normalized_end": 117,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1407",
+          "displayed_name": "Avidius Nigrinus",
+          "normalized_name": "Avidius Nigrinus",
+          "relation_context": "filius probabiliter eius qui praecedit",
+          "certainty": "medium",
+          "notes": [
+            "Proconsul of Achaia under Domitian."
+          ]
+        },
+        {
+          "id": "person_avidia_plautia",
+          "displayed_name": "Avidia Plautia",
+          "normalized_name": "Avidia Plautia",
+          "relation_context": "Avidiae Plautiae Nigrini filiae",
+          "certainty": "high",
+          "notes": [
+            "Daughter of C. Avidius Nigrinus."
+          ]
+        },
+        {
+          "id": "person_pater_veri",
+          "displayed_name": "pater Veri Augusti",
+          "normalized_name": "Lucius Aelius Caesar",
+          "relation_context": "cuius pater Nigrini (minoris) gener dicitur",
+          "certainty": "high",
+          "notes": [
+            "Son-in-law of C. Avidius Nigrinus."
+          ]
+        },
+        {
+          "id": "person_hadrianus",
+          "displayed_name": "Hadrianus",
+          "normalized_name": "Imperator Caesar Traianus Hadrianus Augustus",
+          "relation_context": "Recalled Nigrinus from province, designated him successor, then executed him.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_lusius_quietus",
+          "displayed_name": "Lusius (Quietus)",
+          "normalized_name": "Lusius Quietus",
+          "relation_context": "Conspirator with Nigrinus against Hadrian.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_ceionius_commodus",
+          "displayed_name": "L. Ceionius Commodus",
+          "normalized_name": "Lucius Ceionius Commodus",
+          "relation_context": "Son-in-law of Nigrinus (or stepson).",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1408",
+          "target": "person_1407",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "filius probabiliter eius qui praecedit",
+          "notes": []
+        },
+        {
+          "source": "person_avidia_plautia",
+          "target": "person_1408",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Avidiae Plautiae Nigrini filiae",
+          "notes": []
+        },
+        {
+          "source": "person_pater_veri",
+          "target": "person_1408",
+          "relation": "related_to",
+          "certainty": "high",
+          "basis": "cuius pater Nigrini (minoris) gener dicitur",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_nigrinus",
+          "target": "person_avidia_plautia",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "Avidia Plautia Nigrini filia",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_nigrinus",
+          "target": "person_hadrianus",
+          "relation": "successor_of",
+          "certainty": "high",
+          "basis": "Hadrianus eum successorem sibimet destinavit... Sacrificanti Hadriano insidias paravit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his governorship in Dacia, both dating to the late reign of Trajan.",
+        "The entry is a continuation from the previous page, but contains the critical governorship attestations for Moesia Superior and Achaia.",
+        "Merged continuation fragment 'avidius_nigrinus' (page 302) into this entry."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#24: Dacia-Dublette geloescht; Moesia superior (medium, Domaszewski); Achaia c.114-117; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 301
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "page_notes": [
+    "Page 53 (image 69) contains only one full entry, PIR A 338 (L. AEMILIVS CARVS), which is highly relevant to the PROVINCIA corpus due to multiple attested governorships as legatus Augusti pro praetore."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_338",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_A338_arabia.exact_text",
+          "issue": "The exact_text includes a reference to 't. 1. 3. 7' which is not part of the direct quote from the image. The direct quote is 'Legatus Aug. pro praetore provinciae Arabiae'.",
+          "severity": "low",
+          "suggested_fix": "Use 'Legatus Aug. pro praetore provinciae Arabiae' as exact_text."
+        },
+        {
+          "field": "governorship_factoids.gov_A338_arabia.province_normalized",
+          "issue": "province_normalized is correct, but the province_text should strictly match the casus in the image ('Arabiae').",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_A338_lugdunensis.exact_text",
+          "issue": "The exact_text includes 'legatus Aug. pr. pr. censitor provinciae Lugdunensis', which is correct, but the normalized_office should reflect the full title 'legatus Augusti pro praetore censitor'.",
+          "severity": "low",
+          "suggested_fix": "Update normalized_office to 'legatus Augusti pro praetore censitor'."
+        },
+        {
+          "field": "governorship_factoids.gov_A338_dacia.province_normalized",
+          "issue": "province_normalized is 'Tres Daciae', which is correct, but the province_text should be 'III Daciarum' to match the image.",
+          "severity": "low",
+          "suggested_fix": "Update province_text to 'III Daciarum'."
+        },
+        {
+          "field": "governorship_factoids.gov_A338_dacia.exact_text",
+          "issue": "The exact_text 'Legatus Aug. pr. pr. III Daciarum' is correct, but the image shows 'Legatus Aug. pr. pr. III Daciarum' without the full stop after 'pr.'.",
+          "severity": "low",
+          "suggested_fix": "Use 'Legatus Aug. pr. pr. III Daciarum' as exact_text."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers include 'consularis', which is supported by the text ('qui consularis rexit hanc provinciam'), but the term is not explicitly used in the lemma or early career. This should be noted as inferred.",
+          "severity": "low",
+          "suggested_fix": "Add a note indicating 'consularis' is inferred from the text."
+        },
+        {
+          "field": "governorship_factoids.gov_A338_cappadocia.date_normalized_start",
+          "issue": "The date_normalized_start is set to 150, but the text only states 'certe ante M. Sedatium Severianum, qui hanc provinciam rexit usque ad annum 161 p. C.'. The start date is not explicitly given.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to null or add a note clarifying the uncertainty."
+        },
+        {
+          "field": "governorship_factoids.gov_A338_arabia.date_normalized_end",
+          "issue": "The date_normalized_end is set to 150, but the text states 'ante a. 150', meaning before 150 AD, not inclusive of 150 AD.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 149."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "document_notes": [
+    "Page 215 processed. Entry 1089 is relevant because it explicitly mentions the father of the subject, C. Arrius Antoninus, as 'leg. Aug. pr. pr. Daciarum'."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_1089",
+      "pir_reference": "A 1089",
+      "lemma": "C. ARRIVS ANTONINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The entry explicitly identifies the father of the subject, C. Arrius Antoninus, as 'leg. Aug. pr. pr. Daciarum'.",
+      "segments": {
+        "lemma": "1089 c. ARRIVS ANTONINVS",
+        "name_variants": "C. Arrius Antoninus",
+        "identification_and_sources": "filius C. Arri Antonini leg. Aug. pr. pr. Daciarum, honoratur publice t. Sarmizegetusensi (v. sub patre). Idem ni fallor Arrius Antoninus, patruus et tutor Arri Honorati aetate Septimii Severi Ulp. dig. 36, 1, 38, 1 neque diversus Arrius Ant....., cuius uxor ....lia Crispina nominatur in actis ludorum saecularium a. 204 VI 32331.",
+        "offices_and_career": "honoratur publice t. Sarmizegetusensi (v. sub patre).",
+        "governorship_attestation": "filius C. Arri Antonini leg. Aug. pr. pr. Daciarum",
+        "family_and_social_relations": "filius C. Arri Antonini ... patruus et tutor Arri Honorati ... uxor ....lia Crispina ... Nescio an ab eo originem duxerint Arrii Antoninus Maximus Pacatus fratres (VIII 7032); cf. stemma supra propositum.",
+        "prosopographical_commentary": "Idem ni fallor Arrius Antoninus, patruus et tutor Arri Honorati aetate Septimii Severi... Nescio an ab eo originem duxerint Arrii Antoninus Maximus Pacatus fratres...",
+        "bibliography_or_cross_references": "Ulp. dig. 36, 1, 38, 1; CIL VI 32331; CIL VIII 7032"
+      },
+      "main_person": {
+        "id": "person_1089_main",
+        "displayed_name": "C. ARRIVS ANTONINVS",
+        "normalized_name": "C. Arrius Antoninus",
+        "pir_reference": "A 1089",
+        "status_markers": [
+          "clarissimus"
+        ],
+        "notes": [
+          "Son of the consular C. Arrius Antoninus, governor of Dacia."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1089_1",
+          "person_id": "person_1089_father",
+          "exact_text": "C. Arri Antonini leg. Aug. pr. pr. Daciarum",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Daciarum",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Sarmizegetusa honoring his son."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_1089_father",
+          "displayed_name": "C. Arrius Antoninus",
+          "normalized_name": "C. Arrius Antoninus",
+          "relation_context": "Father of the main person, governor of Dacia.",
+          "certainty": "high",
+          "notes": [
+            "leg. Aug. pr. pr. Daciarum"
+          ]
+        },
+        {
+          "id": "person_1089_ward",
+          "displayed_name": "Arrius Honoratus",
+          "normalized_name": "Arrius Honoratus",
+          "relation_context": "Ward (pupillus) and nephew of the main person.",
+          "certainty": "high",
+          "notes": [
+            "aetate Septimii Severi"
+          ]
+        },
+        {
+          "id": "person_1089_wife",
+          "displayed_name": "[...]lia Crispina",
+          "normalized_name": "lia Crispina",
+          "relation_context": "Wife of the main person.",
+          "certainty": "high",
+          "notes": [
+            "nominatur in actis ludorum saecularium a. 204"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1089_main",
+          "target": "person_1089_father",
+          "relation": "son of",
+          "certainty": "high",
+          "basis": "filius C. Arri Antonini",
+          "notes": []
+        },
+        {
+          "source": "person_1089_main",
+          "target": "person_1089_ward",
+          "relation": "patruus et tutor of",
+          "certainty": "high",
+          "basis": "patruus et tutor Arri Honorati",
+          "notes": []
+        },
+        {
+          "source": "person_1089_wife",
+          "target": "person_1089_main",
+          "relation": "wife of",
+          "certainty": "high",
+          "basis": "cuius uxor ....lia Crispina",
+          "notes": []
+        }
+      ],
+      "entry_notes": []
+    }
+  ]
+}

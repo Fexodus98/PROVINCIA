@@ -1,0 +1,74 @@
+{
+  "page_notes": [
+    "Page 29 of PIR (Aelius) contains the continuation of the entry for P. Aelius Hadrianus (PIR² A 184), the future emperor Hadrian. The entry spans multiple pages, and this page details his career up to his consulship and governorships."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_184_cont",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact text 'Legatus Augusti pro praetore Pannoniae inferioris' is not a verbatim quote from the page. The page reads: 'Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1)'",
+          "severity": "low",
+          "suggested_fix": "Use the exact quote: 'Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1)'"
+        },
+        {
+          "field": "governorship_factoids.gov_1.province_normalized",
+          "issue": "The province_normalized is correct, but the province_text should match the exact case and form in the source: 'Pannoniae inferioris' (genitive).",
+          "severity": "low",
+          "suggested_fix": "Update province_text to 'Pannoniae inferioris'"
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_start",
+          "issue": "The start date of 106 is inferred but not explicitly stated. The text only mentions the governorship occurred before his consulship in 108.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 107 (more conservative estimate) or add a note about the uncertainty."
+        },
+        {
+          "field": "governorship_factoids.gov_2.exact_text",
+          "issue": "The exact text 'legatus Syriae certe a. 117' is not a verbatim quote. The page reads: 'legatus Syriae certe a. 117 (sed vide infra) v. 4, 6.'",
+          "severity": "low",
+          "suggested_fix": "Use the exact quote: 'legatus Syriae certe a. 117 (sed vide infra) v. 4, 6.'"
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_end",
+          "issue": "The end date is set to 117, but the text suggests he was legatus of Syria at the time of Trajan's death in August 117, implying he may have continued beyond this date.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 118 or add a note about the uncertainty."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'patricius' is not supported by the text on this page. Hadrian was not a patrician by birth but was granted patrician status later, which is not mentioned here.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'patricius' from status_markers."
+        },
+        {
+          "field": "career_factoids.car_3.date_normalized_start",
+          "issue": "The date 'extremis Domitiani temporibus' is normalized to 95-96, but Domitian's reign ended in September 96. The normalization should reflect this.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_end to 96."
+        },
+        {
+          "field": "career_factoids.car_4.date_normalized_start",
+          "issue": "The date 'a. 97' is normalized to 97, but the text does not specify if this was early or late in the year. The certainty should reflect this.",
+          "severity": "low",
+          "suggested_fix": "Add a note about the uncertainty of the exact timing within the year."
+        },
+        {
+          "field": "career_factoids.car_7.date_normalized_end",
+          "issue": "The end date for 'legatus legionis I Minerviae piae fidelis' is set to 106, but the text does not specify an end date, only that it was during the 'Secunda expeditione Dacica'.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 106 with a note about the uncertainty or adjust to 105-106."
+        },
+        {
+          "field": "career_factoids.car_9.date_normalized_start",
+          "issue": "The start date for 'legatus expeditionis Parthicae' is set to 114, but the text says 'tempore destinatus', which is vague. The normalization should reflect this.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 113 or add a note about the uncertainty."
+        }
+      ]
+    }
+  ]
+}

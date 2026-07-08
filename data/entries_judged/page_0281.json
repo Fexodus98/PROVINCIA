@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 265 of PIR² (A) contains entries for ATILIVS: M. Atilius Postumus Bradua (1303), T. Atilius Rufus (1304), and T. Atilius Rufus Titianus (1305). Only T. Atilius Rufus (1304) is explicitly attested as legatus Augusti pro praetore for Pannonia and Syria Palaestina."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "1304",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[1].province_text",
+          "issue": "Province text should be 'Syriae Palestinae' as explicitly stated in the source, not 'Syria'.",
+          "severity": "medium",
+          "suggested_fix": "Change province_text to 'Syriae Palestinae' and province_normalized to 'Syria Palaestina'."
+        },
+        {
+          "field": "governorship_factoids[1].date_text",
+          "issue": "Date range 'a. 83-84' is inferred but not explicitly stated in the text. The text mentions 'a. 83 miliarius' and 'in provincia obiit anno 84', but no explicit start date for Syria governorship.",
+          "severity": "low",
+          "suggested_fix": "Adjust date_text to 'a. 83-84 (inferred)' and clarify in notes."
+        },
+        {
+          "field": "governorship_factoids[1].exact_text",
+          "issue": "exact_text 'Legatus Aug. pro pr. Syriae' is incomplete. The source explicitly states 'Legatus Aug. pro pr. Syriae Palestine'.",
+          "severity": "medium",
+          "suggested_fix": "Update exact_text to 'Legatus Aug. pro pr. Syriae Palestine'."
+        },
+        {
+          "field": "governorship_factoids[1].province_normalized",
+          "issue": "province_normalized should be 'Syria Palaestina' to match the registry label, not 'Syria'.",
+          "severity": "medium",
+          "suggested_fix": "Change province_normalized to 'Syria Palaestina'."
+        },
+        {
+          "field": "segments.governorship_attestation",
+          "issue": "The attestation text includes 'Palestine' which is omitted in the proposed exact_text for the Syria governorship.",
+          "severity": "medium",
+          "suggested_fix": "Ensure 'Palestine' is included in the exact_text for Syria governorship."
+        }
+      ]
+    }
+  ]
+}

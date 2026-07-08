@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "Page 289 is the continuation of the entry for T. Avidius Quietus (PIR² A 1410), which begins on the previous page. The legateship of Britannia is explicitly attested here."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "pir_a_1410",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact_text includes 't. 6, si recte ut videtur editores in dipl. mil. cognomen Quieti suppleverunt', which is not part of the direct attestation formula but an editorial note. The verbatim quote should exclude this.",
+          "severity": "low",
+          "suggested_fix": "Use 'Legatus Aug. pr. pr. Britanniae a. 98 (vel 99)' as exact_text."
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_end",
+          "issue": "The date range 'a. 98 (vel 99)' is correctly transcribed, but the normalized_end is set to 99. The certainty is medium, so this is acceptable, but the note should reflect the uncertainty.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "career_factoids.career_2.date_normalized_start",
+          "issue": "The proconsulship of Achaia is dated 'sub Domitiano (ad a. 95)' in the text, but the normalized_start is set to 81 (start of Domitian's reign). The text suggests a narrower range around 95 AD.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 94 and date_normalized_end to 96 to reflect the text's 'ad a. 95' more accurately."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers include 'consularis', but the text states 'Quo ex loco haud plane apparet utrum consularis an praetorius lunc censuerit'. The marker should reflect this uncertainty.",
+          "severity": "medium",
+          "suggested_fix": "Replace 'consularis' with 'consularis (uncertain)' or add a note about the uncertainty."
+        },
+        {
+          "field": "related_persons.person_avidius_quietus_jr.relation_context",
+          "issue": "The relation_context 'Huius puto filius Avidius Quietus' is correctly transcribed, but the certainty is marked as 'medium'. The text uses 'puto' (I think), which supports this certainty level, but the note should reflect the speculative nature.",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    }
+  ]
+}

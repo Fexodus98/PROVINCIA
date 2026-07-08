@@ -1,0 +1,63 @@
+{
+  "page_notes": [
+    "Page 97 of PIR1 Volume 1 contains only entry 477 starting on the previous page and continuing here. The entry is relevant due to the explicit mention of 'legatus Aug. pr. pr. Ponti et Bithyniae'.",
+    "No other entries on this page contain explicit attestations of the legatus Augusti pro praetore formula."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "477",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_477_1.province_text",
+          "issue": "Province text should be 'Ponti et Bithyniae' (genitive case) to match the exact quote and registry label 'Pontus et Bithynia'.",
+          "severity": "low",
+          "suggested_fix": "Change province_text to 'Ponti et Bithyniae' and ensure province_normalized is 'Pontus et Bithynia'."
+        },
+        {
+          "field": "governorship_factoids.gov_477_1.exact_text",
+          "issue": "The exact_text 'legatus Aug. pr. pr. Ponti et Bithyniae' is slightly off; the image shows 'legatus Aug. pr. pr. Ponti et Bithyniae' (with 'Aug.' abbreviated, not 'Aug') and no space after 'pr.'.",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to 'legatus Aug. pr. pr. Ponti et Bithyniae'."
+        },
+        {
+          "field": "governorship_factoids.gov_477_1.date_text",
+          "issue": "The date_text 'post consulatum (suff. a. inc.)' is not directly supported by the text. The text says 'consul (suff. a. inc.) ante legationem Ponti et Bithyniae ut videtur', implying the governorship is after the consulship but no explicit 'post consulatum' phrase is used.",
+          "severity": "medium",
+          "suggested_fix": "Update date_text to 'ante legationem Ponti et Bithyniae ut videtur' or clarify based on the exact wording."
+        },
+        {
+          "field": "governorship_factoids.gov_477_2.province_text",
+          "issue": "The province_text 'Asturia et Callaecia' is not a valid registry label. The correct normalized form is 'Hispania citerior' or 'Hispania' (Asturia and Callaecia were part of Hispania citerior).",
+          "severity": "medium",
+          "suggested_fix": "Set province_normalized to 'Hispania citerior' and adjust province_text to 'Asturiae et Callaeciae' (genitive case)."
+        },
+        {
+          "field": "governorship_factoids.gov_477_3.province_normalized",
+          "issue": "The province_normalized 'Achaia' is correct, but the province_text should be 'Achaiae' (genitive case) to match the exact quote.",
+          "severity": "low",
+          "suggested_fix": "Update province_text to 'Achaiae'."
+        },
+        {
+          "field": "governorship_factoids.gov_477_4.province_text",
+          "issue": "The province_text 'Asia' should be 'Asia' (genitive case: 'Asia') to match the exact quote.",
+          "severity": "low",
+          "suggested_fix": "Update province_text to 'Asia'."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Lucius Albinius Saturninus' is plausible but the image shows 'L. ALBINIVS SATVRNINVS'. The praenomen 'Lucius' is not explicitly attested here, though it is likely correct.",
+          "severity": "low",
+          "suggested_fix": "Retain 'Lucius Albinius Saturninus' but note the praenomen is not explicitly given on this page."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_marker 'consularis' is inferred from the consulship but not explicitly stated in the text. The text only mentions 'consul (suff. a. inc.)'.",
+          "severity": "low",
+          "suggested_fix": "Remove 'consularis' or add a note explaining the inference."
+        }
+      ]
+    }
+  ]
+}

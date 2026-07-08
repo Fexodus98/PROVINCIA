@@ -1,0 +1,62 @@
+{
+  "page_notes": [
+    "Page 77 contains the continuation of the entry for M. Aemilius Lepidus (PIR² A 369), which begins on the previous page. Entries 370 and 371 are present but not relevant to the PROVINCIA corpus."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_369",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_A369_pannonia.exact_text",
+          "issue": "The exact_text 'legatus Augusti pro praetore provinciam Pannoniam rexit' is not a verbatim quote from the page. The text states 'qui legatus Augusti pro praetore provinciam Pannoniam rexit' (parenthetical and speculative).",
+          "severity": "medium",
+          "suggested_fix": "Use the exact quote: 'qui legatus Augusti pro praetore provinciam Pannoniam rexit' and clarify the speculative nature in notes."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_pannonia.certainty",
+          "issue": "The certainty is overstated as 'medium'. The text explicitly states 'Fortasse primus fuit' (perhaps the first), indicating low certainty.",
+          "severity": "medium",
+          "suggested_fix": "Change certainty to 'low'."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_pannonia.date_normalized_start",
+          "issue": "The date 'circa a. 8-9 p. C.' is inferred but not explicitly stated. The text mentions events in a. 8 and a. 9 but does not directly date the legation.",
+          "severity": "medium",
+          "suggested_fix": "Clarify in notes that the date is inferred from the context of events in a. 8-9."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_hispania.normalized_office",
+          "issue": "The normalized_office 'legatus divi Augusti et Tiberii pro praetore' is correct but overly specific. The text uses 'legatus igitur divi Augusti et Tiberii pr. pr.', which is an abbreviation.",
+          "severity": "low",
+          "suggested_fix": "Use 'legatus Augusti pro praetore' for consistency with other entries."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_asia",
+          "issue": "The governorship of Asia is not a legatus Augusti pro praetore position but a proconsulship, which is outside the PROVINCIA corpus scope.",
+          "severity": "high",
+          "suggested_fix": "Remove this factoid from governorship_factoids as it is not relevant to the corpus. Retain it in career_factoids if desired."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_marker 'patricius' is not explicitly attested in the text. While likely, it should not be included without direct evidence.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'patricius' from status_markers unless explicitly attested elsewhere."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_hispania.province_normalized",
+          "issue": "The province_normalized is missing. It should be 'Hispania citerior'.",
+          "severity": "low",
+          "suggested_fix": "Add 'province_normalized': 'Hispania citerior'."
+        },
+        {
+          "field": "governorship_factoids.gov_A369_pannonia.province_normalized",
+          "issue": "The province_normalized is missing. It should be 'Pannonia'.",
+          "severity": "low",
+          "suggested_fix": "Add 'province_normalized': 'Pannonia'."
+        }
+      ]
+    }
+  ]
+}

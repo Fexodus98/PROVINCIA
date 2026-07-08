@@ -1,0 +1,175 @@
+{
+  "document_notes": [
+    "Page 65 of PIR² Volume I contains entry 382 (M. Aemilius Macer Saturninus), who is explicitly attested as Legatus Augusti pro praetore of Numidia."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_382",
+      "pir_reference": "PIR² A 382",
+      "lemma": "M. AEMILIVS MACER SATVRNINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Augusti pro praetore (provinciae Numidiae)' in the text.",
+      "segments": {
+        "lemma": "382 M. AEMILIVS MACER SATVRNINVS",
+        "name_variants": "M. Aemilius Macer Saturninus, M. Aemilius Macer",
+        "identification_and_sources": "consul (suffectus) a. 174, dedicavit in legatione Numidica titulos Lambaesitanum Ann. ép. 1914, 39 (1), Verecundenses VIII 4209 = 18 497 (2), 4210 (3), Thamugadensem VIII 17 869 (4), Cuiculitanum Bull. tr. hist. 1915, 124 (5); memoratur in titulis Lambaesitanis VIII 2546 (6), 2654 (7), Masculitano Bull. tr. hist. 1901, 309 (8), Mauretaniae Caesariensis Eph. ep. 5, 1043 (9), in titulis filiorum VIII 2730 = 18123 (10), 2731 (11), 4228 (12), 4229 (13), Bull. tr. hist. 1915, p. CLXVI (14), ib. 1916, p. CCXL (15). Ad eum rettulit Pallu de Lessert Fast. d. prov. Afr. 1, 387 titulum mutilum VIII 17972, ubi ex nominibus extat ...nino (16). Nomina plena extant vel certe restituta sunt t. 1-8. M. Aemilius Macer t. 9-15.",
+        "offices_and_career": "Clarissimus vir t. 5. 9. 12. 13. Legatus Augusti pro praetore (provinciae Numidiae) t. 1-16, a. 172 t. 2, inter annos 172 et 174 t. 1, a. 174 t. 3. 4. 7. 9; consul designatus a. 174 t. 3. 7, consul (suffectus) eodem anno t. 4. Patronus coloniae Thamugadensis t. 4, Verecundensium t. 2, Cuiculitanorum t. 5.",
+        "governorship_attestation": "Legatus Augusti pro praetore (provinciae Numidiae) t. 1-16, a. 172 t. 2, inter annos 172 et 174 t. 1, a. 174 t. 3. 4. 7. 9. In legatione Numidiae videtur successor fuisse C. Modii Iusti legati a. 171, decessor A. Iulii Pompilii Pisonis legati a. 176.",
+        "family_and_social_relations": "Filii: M. Aemilius Macer Saturninus t. 11. 13. 15, M. Aemilius Macer Dinarchus t. 10. 12. 14. Probabiliter parentela coniunctus cum M. Aemilio Macro Faustiniano, cf. n. 379, 381.",
+        "prosopographical_commentary": "In legatione Numidiae videtur successor fuisse C. Modii Iusti legati a. 171, decessor A. Iulii Pompilii Pisonis legati a. 176.",
+        "bibliography_or_cross_references": "Pallu de Lessert Fast. d. prov. Afr. 1, 387; cf. n. 379, n. 381."
+      },
+      "main_person": {
+        "id": "person_A382",
+        "displayed_name": "M. Aemilius Macer Saturninus",
+        "normalized_name": "Marcus Aemilius Macer Saturninus",
+        "pir_reference": "PIR² A 382",
+        "status_markers": [
+          "vir clarissimus",
+          "consularis"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A382_1",
+          "person_id": "person_A382",
+          "exact_text": "Legatus Augusti pro praetore (provinciae Numidiae) t. 1—16, a. 172 t. 2, inter annos 172 et 174 t. 1, a. 174 t. 3. 4. 7. 9",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Numidia",
+          "date_text": "a. 172 - 174",
+          "date_normalized_start": 172,
+          "date_normalized_end": 174,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Videtur successor fuisse C. Modii Iusti legati a. 171, decessor A. Iulii Pompilii Pisonis legati a. 176."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A382_1",
+          "person_id": "person_A382",
+          "exact_text": "consul (suffectus) a. 174",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "174",
+          "date_normalized_start": 174,
+          "date_normalized_end": 174,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A382_2",
+          "person_id": "person_A382",
+          "exact_text": "consul designatus a. 174",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "174",
+          "date_normalized_start": 174,
+          "date_normalized_end": 174,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A382_3",
+          "person_id": "person_A382",
+          "exact_text": "Patronus coloniae Thamugadensis t. 4, Verecundensium t. 2, Cuiculitanorum t. 5",
+          "normalized_office": "patronus civitatis",
+          "province_text": "Numidia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Patron of Thamugadi, Verecunda, and Cuicul."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A381",
+          "displayed_name": "M. Aemilius Macer Faustinianus",
+          "normalized_name": "Marcus Aemilius Macer Faustinianus",
+          "relation_context": "probabiliter parentela coniunctus",
+          "certainty": "medium",
+          "notes": [
+            "PIR² A 381"
+          ]
+        },
+        {
+          "id": "person_A383",
+          "displayed_name": "M. Aemilius Macer Saturninus",
+          "normalized_name": "Marcus Aemilius Macer Saturninus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": [
+            "PIR² A 383"
+          ]
+        },
+        {
+          "id": "person_A_Dinarchus",
+          "displayed_name": "M. Aemilius Macer Dinarchus",
+          "normalized_name": "Marcus Aemilius Macer Dinarchus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_M_Iustus",
+          "displayed_name": "C. Modius Iustus",
+          "normalized_name": "Caius Modius Iustus",
+          "relation_context": "predecessor in Numidia",
+          "certainty": "medium",
+          "notes": [
+            "legatus a. 171"
+          ]
+        },
+        {
+          "id": "person_P_Piso",
+          "displayed_name": "A. Iulius Pompilius Piso",
+          "normalized_name": "Aulus Iulius Pompilius Piso",
+          "relation_context": "successor in Numidia",
+          "certainty": "medium",
+          "notes": [
+            "legatus a. 176"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A382",
+          "target": "person_A383",
+          "relation": "parent",
+          "certainty": "high",
+          "basis": "Filii: M. Aemilius Macer Saturninus",
+          "notes": []
+        },
+        {
+          "source": "person_A382",
+          "target": "person_A_Dinarchus",
+          "relation": "parent",
+          "certainty": "high",
+          "basis": "Filii: ... M. Aemilius Macer Dinarchus",
+          "notes": []
+        },
+        {
+          "source": "person_A382",
+          "target": "person_A381",
+          "relation": "relative",
+          "certainty": "medium",
+          "basis": "probabiliter parentela coniunctus",
+          "notes": []
+        }
+      ],
+      "entry_notes": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page_notes": [
+    "Page 280 (296 in the image) contains entries for c. Aufidius Victorinus (1394) and Aufidius Umber (1395). The entry for Aufidius Umber (1395) is fully visible and relevant. The entry for c. Aufidius Victorinus (1394) is partially visible but does not contain any explicit governorship formula for the person himself."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_1395",
+      "verdict": "confirm",
+      "problems": [
+        {
+          "field": "governorship_factoids.0.exact_text",
+          "issue": "The exact_text includes 'ut videtur', which is an editorial interpolation, not part of the verbatim quote from the page.",
+          "severity": "low",
+          "suggested_fix": "Use the verbatim quote: 'Legatus Aug. pro praetore Cappadociae et Galatiae, anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101; successor videtur fuisse T. Pomponii Bassi.'"
+        },
+        {
+          "field": "governorship_factoids.0.date_normalized_start",
+          "issue": "The date range 100/101 is correct, but the certainty should reflect the 'ut videtur' (as seen) in the text.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "related_persons.0.normalized_name",
+          "issue": "The normalized name 'Titus Pomponius Bassus' is correct but not explicitly given in the text. The text only mentions 'T. Pomponii Bassi'.",
+          "severity": "low",
+          "suggested_fix": "Use 'T. Pomponius Bassus' to match the text more closely."
+        }
+      ]
+    }
+  ]
+}

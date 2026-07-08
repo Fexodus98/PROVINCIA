@@ -1,0 +1,57 @@
+{
+  "page_notes": [
+    "Page number is clearly 142 as per the header, not 158 as stated in the prompt.",
+    "Only entry 754 (Q. ANTISTIVS ADVENTVS POSTVMIVS AQVILINVS) is relevant for the PROVINCIA corpus on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_754",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].date_normalized_start",
+          "issue": "The date 'post a. 164' is too vague. The entry explicitly states he was legatus legionis II adiutricis in 164, and the governorship of Arabia is attested at Bostra (III 92) and Gerasa (IGR 3, 1368), but no exact year is given for the governorship.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 165 and date_normalized_end to 175 (approximate range based on career progression and Parthian War context)."
+        },
+        {
+          "field": "governorship_factoids[0].province_normalized",
+          "issue": "The province_normalized is correct (Arabia), but the province_text should be 'Arabiae' to match the exact Latin genitive case in the text.",
+          "severity": "low",
+          "suggested_fix": "Change province_text to 'Arabiae'."
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text is correct but could be more precise by including the full stop at the end: 'Legatus Aug. pr. pr. provinciae Arabiae.'",
+          "severity": "low",
+          "suggested_fix": "Add a full stop at the end of exact_text."
+        },
+        {
+          "field": "career_factoids[6].province_text",
+          "issue": "The province_text for 'legatus pr. pr. provinciae Africae' is given as 'Africa', but the correct normalized form is 'Africa proconsularis'.",
+          "severity": "medium",
+          "suggested_fix": "Change province_text to 'Africa proconsularis'."
+        },
+        {
+          "field": "career_factoids[8].province_text",
+          "issue": "The province_text for 'legatus Aug. legionis VI ferratae' is given as 'Syria Palaestina', but the text does not specify the province. The legion was stationed in Syria, but the exact province is not attested here.",
+          "severity": "medium",
+          "suggested_fix": "Set province_text to null or 'Syria' (broader province label)."
+        },
+        {
+          "field": "career_factoids[9].province_text",
+          "issue": "The province_text for 'legatus Aug. leg. II adiutricis a. 164' is given as 'Pannonia Inferior', but the text does not specify the province. The legion was stationed in Pannonia Inferior, but this is not explicitly stated in the entry.",
+          "severity": "medium",
+          "suggested_fix": "Set province_text to null or add a note clarifying the assumption."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers include 'consularis', but the entry does not explicitly state he reached the consulship. The consulship is only implied by the high offices (e.g., governorship of Arabia).",
+          "severity": "medium",
+          "suggested_fix": "Add a note clarifying the assumption or remove 'consularis' if not explicitly attested."
+        }
+      ]
+    }
+  ]
+}

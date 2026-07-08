@@ -1,0 +1,74 @@
+{
+  "page_notes": [
+    "Page 213 of PIR², containing the continuation of the entry for C. Arrius Antoninus (PIR² A 1088). The entry starts on the previous page (212) and ends on this page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_1088",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "Lemma transcription contains 'ARRIVS' instead of 'ARRIUS' (italic 'i' misread as 'v').",
+          "severity": "medium",
+          "suggested_fix": "Change lemma to 'C. ARRIUS ANTONINUS'."
+        },
+        {
+          "field": "governorship_factoids.gov_1.province_text",
+          "issue": "Province_text 'Cappadocia' is correct, but province_normalized should be 'Cappadocia' (already correct in registry).",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_start",
+          "issue": "Date range '170-175' is slightly broad; the text specifies 'ante a. 175 vel eo ipso anno t. 11'.",
+          "severity": "medium",
+          "suggested_fix": "Adjust date_normalized_start to 173 (t. 9) and date_normalized_end to 175."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "Exact_text 'Legatus Aug. pr. pr. Cappadociae' is correct but omits the 'preses (sic) p(rovinciae)' note, which is part of the attestation.",
+          "severity": "low",
+          "suggested_fix": "Include 'preses (sic) p(rovinciae)' in notes or exact_text if possible."
+        },
+        {
+          "field": "governorship_factoids.gov_2.province_text",
+          "issue": "Province_text 'Tres Daciae' is correct, but province_normalized should be 'Tres Daciae' (already correct in registry).",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_start",
+          "issue": "Date range '175-177' is inferred but not explicitly stated. The text says 'post Cappadociam' and references t. 2, 6, 7.",
+          "severity": "medium",
+          "suggested_fix": "Clarify in notes that dates are inferred from 'post Cappadociam' and t. references."
+        },
+        {
+          "field": "governorship_factoids.gov_2.exact_text",
+          "issue": "Exact_text 'Legatus Aug. pr. pr. co(n)s(ularis) trium Daciarum' is correct but could include the full 't. 2. 6. 7; leg. Aug. pr. pr. t. 4' for completeness.",
+          "severity": "low",
+          "suggested_fix": "Extend exact_text to include 't. 2. 6. 7; leg. Aug. pr. pr. t. 4'."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "Normalized_name 'C. Arrius Antoninus' is correct, but displayed_name should match the lemma style: 'C. ARRIUS ANTONINUS'.",
+          "severity": "low",
+          "suggested_fix": "Update displayed_name to 'C. ARRIUS ANTONINUS'."
+        },
+        {
+          "field": "related_persons.person_cornelius_fronto.normalized_name",
+          "issue": "Normalized_name 'M. Cornelius Fronto' is correct but not explicitly stated in the text (only 'Cornelius Fronto').",
+          "severity": "low",
+          "suggested_fix": "Add 'M.' to normalized_name if certain, or note uncertainty."
+        },
+        {
+          "field": "career_factoids.car_5.notes",
+          "issue": "Curator Tifernatium Tiberinorum is marked 'fortasse' (perhaps) in the text, but certainty is set to 'medium'.",
+          "severity": "medium",
+          "suggested_fix": "Update certainty to 'low' or add 'fortasse' to notes explicitly."
+        }
+      ]
+    }
+  ]
+}

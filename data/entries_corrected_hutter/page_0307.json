@@ -1,0 +1,63 @@
+{
+  "source_page": 307,
+  "entries": [
+    {
+      "entry_id": "1421",
+      "pir_reference": "A 1421",
+      "lemma": "...... R. AVITVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. Germaniae superioris.",
+      "segments": {
+        "lemma": "...... R. AVITVS",
+        "name_variants": "...... R. AVITVS",
+        "identification_and_sources": "memoratur in t. Mogontiacensi XIII 6762.",
+        "offices_and_career": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213",
+        "governorship_attestation": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213, memoratur in t. Mogontiacensi XIII 6762.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "ut videtur a. 213",
+        "bibliography_or_cross_references": "t. Mogontiacensi XIII 6762"
+      },
+      "main_person": {
+        "id": "person_1421",
+        "displayed_name": "...... R. AVITVS",
+        "normalized_name": "[---]r. Avitus",
+        "pir_reference": "A 1421",
+        "status_markers": [
+          "senator"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1421_1",
+          "person_id": "person_1421",
+          "exact_text": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Germaniae superioris",
+          "province_normalized": "Germania superior",
+          "date_text": "ut videtur a. 213",
+          "date_normalized_start": 213,
+          "date_normalized_end": 213,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Mogontiacum (CIL XIII 6762).",
+            "a. 213 ut videtur, Punktbeleg Mainz CIL XIII 6762; Provinz durch Fundort Mainz gestuetzt."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "L4: Germania superior; Amt-Status -> senator; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 307
+    }
+  ]
+}

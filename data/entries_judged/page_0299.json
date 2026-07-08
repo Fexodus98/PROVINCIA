@@ -1,0 +1,74 @@
+{
+  "page_notes": [
+    "The page is page 283 of the PIR, containing the continuation of the entry for C. Avidius Cassius (PIR² A 1402). The lemma 'AVIDIVS' is a header, not the start of a new entry. The PIR reference number is not printed at the start of this page but is implied as A 1402 from the previous page."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "avidius_cassius_cont",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "pir_reference",
+          "issue": "PIR reference is null but should be 'A 1402' as this is the continuation of that entry.",
+          "severity": "medium",
+          "suggested_fix": "Set pir_reference to 'A 1402'."
+        },
+        {
+          "field": "lemma",
+          "issue": "Lemma 'AVIDIVS [CASSIVS]' is not exactly as printed. The page shows 'AVIDIVS' as a header, and the lemma is implied as 'C. Avidius Cassius' from the previous page.",
+          "severity": "low",
+          "suggested_fix": "Set lemma to 'C. Avidius Cassius' or 'Avidius Cassius' to match the authoritative source."
+        },
+        {
+          "field": "governorship_factoids.gov_1.province_text",
+          "issue": "Province_text 'Syria' is correct, but province_normalized is missing in the factoid.",
+          "severity": "low",
+          "suggested_fix": "Add 'province_normalized': 'Syria' to the factoid."
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_end",
+          "issue": "Date_normalized_end is set to 175, but the text suggests his governorship ended with his rebellion in 175, not necessarily at the start of the year.",
+          "severity": "low",
+          "suggested_fix": "Clarify the end date as '175' with a note that it ended with his rebellion."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "Exact_text is slightly truncated. The full quote is 'Syriam administrat ... nomine legati Augusti pro praetore v. supra.'",
+          "severity": "low",
+          "suggested_fix": "Use the full quote: 'Syriam administrat ... nomine legati Augusti pro praetore v. supra.'"
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "Status marker 'rector totius Orientis' is included but not explicitly tied to the governorship of Syria. The text states he was 'rector totius Orientis' after Lucius Verus left in 166 AD, which may imply a broader command.",
+          "severity": "medium",
+          "suggested_fix": "Clarify in notes that 'rector totius Orientis' is a broader command encompassing Syria and other provinces."
+        },
+        {
+          "field": "career_factoids.car_1.date_normalized_end",
+          "issue": "Date_normalized_end for 'rector totius Orientis' is set to 175, but this role likely ended with his rebellion in 175, not necessarily spanning the entire period.",
+          "severity": "low",
+          "suggested_fix": "Set date_normalized_end to 175 with a note that the role ended with his rebellion."
+        },
+        {
+          "field": "career_factoids.car_2.normalized_office",
+          "issue": "Normalized_office 'dux' is not explicitly supported by the text. The text states he 'compressed' the Bucolic rebellion, but does not specify his title during this action.",
+          "severity": "medium",
+          "suggested_fix": "Set normalized_office to 'legatus Augusti pro praetore' or 'governor' with a note that his exact title during this action is unclear."
+        },
+        {
+          "field": "career_factoids.car_2.province_text",
+          "issue": "Province_text 'Aegyptus' is correct, but province_normalized is missing.",
+          "severity": "low",
+          "suggested_fix": "Add 'province_normalized': 'Aegyptus' to the factoid."
+        },
+        {
+          "field": "career_factoids.car_3.normalized_office",
+          "issue": "Normalized_office 'usurpator' is correct but not a standard office. This is more of a descriptive term.",
+          "severity": "low",
+          "suggested_fix": "Retain 'usurpator' but add a note clarifying it is not an official office."
+        }
+      ]
+    }
+  ]
+}

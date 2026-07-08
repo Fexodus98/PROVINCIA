@@ -1,0 +1,86 @@
+{
+  "source_page": 337,
+  "entries": [
+    {
+      "entry_id": "1570",
+      "pir_reference": "A 1570",
+      "lemma": "Aur(elius) Petrus",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The entry explicitly discusses whether Aurelius Petrus was a 'legatus Aug. pr. pr.' or an equestrian 'praeses' of the province of Arabia.",
+      "segments": {
+        "lemma": "Aur(elius) Petrus",
+        "name_variants": "Aur(elius) Petrus, Αὐρ. Πέτρος",
+        "identification_and_sources": "memoratur in t. Bostreno CIG 4649 = IGR 3, 1324, melius Princeton Univ. Syria 3 A 4, 239, 546: ἐκ προνοίας Αὐρ. Πέτρου τοῦ δια[σημ.] ἡγεμ(όνος) cet.",
+        "offices_and_career": "praeses (provinciae Arabiae) a. 173 aerae Bostrenae i.e. a. 278/279 p. C. Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.",
+        "governorship_attestation": "Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "The editor notes the uncertainty of his status, specifically whether he held the senatorial rank of legatus Augusti pro praetore or the equestrian rank of praeses (indicated by the restored title διασημότατος ἡγεμών).",
+        "bibliography_or_cross_references": "CIG 4649 = IGR 3, 1324; Princeton Univ. Syria 3 A 4, 239, 546"
+      },
+      "main_person": {
+        "id": "person_1570",
+        "displayed_name": "Aur(elius) Petrus",
+        "normalized_name": "Aurelius Petrus",
+        "pir_reference": "A 1570",
+        "status_markers": [
+          "praeses",
+          "vir perfectissimus"
+        ],
+        "notes": [
+          "Governed the province of Arabia in 278/279 AD.",
+          "'vir perfectissimus' (diasemotatos) belegt -> Hinweis auf moeglichen Ritterrang, nicht gesicherter senatorischer Status."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1570_1",
+          "person_id": "person_1570",
+          "exact_text": "Incertum utrum legatus Aug. pr. pr. fuerit an praeses dignitatis equestris.",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": "Arabia",
+          "date_text": "a. 173 aerae Bostrenae i.e. a. 278/279 p. C.",
+          "date_normalized_start": 278,
+          "date_normalized_end": 279,
+          "certainty": "low",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "The title legatus Aug. pr. pr. is proposed as an alternative possibility to equestrian praeses, but is marked as uncertain.",
+            "Arabia seit 106 n. Chr. kaiserliche Provinz. Fuer Aur. Petrus (278/279, hegemon/praeses Arabiae) bleibt unsicher, ob legatus Augusti pro praetore oder ritterlicher praeses; die Inschrift nennt ihn diasemotatos (= perfectissimus, ritterlich). Unter Vorbehalt aufgenommen — koennte leg. Aug. pr. pr. gewesen sein."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1570_1",
+          "person_id": "person_1570",
+          "exact_text": "praeses (provinciae Arabiae) a. 173 aerae Bostrenae i.e. a. 278/279 p. C.",
+          "normalized_office": "praeses provinciae",
+          "province_text": "Arabia",
+          "date_text": "a. 278/279 p. C.",
+          "date_normalized_start": 278,
+          "date_normalized_end": 279,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested as ἡγεμών (praeses) in the Bostra inscription."
+          ]
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [
+        "The date 173 of the Bostran era corresponds to 278/279 AD."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "#26: Arabia unter Vorbehalt (Amt unsicher: leg. Aug. pr. pr. oder ritterl. praeses); province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 337
+    }
+  ]
+}

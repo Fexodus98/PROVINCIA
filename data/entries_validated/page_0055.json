@@ -1,0 +1,156 @@
+{
+  "document_notes": [
+    "PIR² Volume 1, Page 39, entries 229 to 237."
+  ],
+  "entries": [
+    {
+      "entry_id": "235",
+      "pir_reference": "A 235",
+      "lemma": "[AELI?]vs pRo[cvivs?]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Legatus Augusti pro praetore of Lycia et Pamphylia around 152 AD.",
+      "segments": {
+        "lemma": "[AELI?]vs pRo[cvivs?]",
+        "name_variants": "Aelius Proculus",
+        "identification_and_sources": "legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur, nominatur in t. mausolei Opramoae Rhodiapolitani Heberdey Opramoas p. 54 = IGR 3, 739 XX c. 68; num recte nomina suppleverit Heberdey, incertum.",
+        "offices_and_career": "legatus Augusti pro praetore Lyciae et Pamphyliae",
+        "governorship_attestation": "nominatur in t. mausolei Opramoae Rhodiapolitani",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "num recte nomina suppleverit Heberdey, incertum.",
+        "bibliography_or_cross_references": "IGR III 739 XX c. 68; Heberdey Opramoas p. 54"
+      },
+      "main_person": {
+        "id": "person_235",
+        "displayed_name": "[AELI?]vs pRo[cvivs?]",
+        "normalized_name": "Aelius Proculus",
+        "pir_reference": "A 235",
+        "status_markers": [],
+        "notes": [
+          "The restoration of the name is highly uncertain."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_235_1",
+          "person_id": "person_235",
+          "exact_text": "legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Lycia et Pamphylia",
+          "province_normalized": null,
+          "date_text": "152",
+          "date_normalized_start": 152,
+          "date_normalized_end": 152,
+          "certainty": "medium",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "Name restoration is uncertain, but the office and date are attested in the Opramoas monument."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_235_rel_1",
+          "displayed_name": "Opramoas",
+          "normalized_name": "Opramoas",
+          "relation_context": "mentioned in monument",
+          "certainty": "high",
+          "notes": [
+            "Benefactor of Rhodiapolis."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "Exact text should include the full reference to the Opramoas monument as per the image: 'legatus Augusti pro praetore Lyciae et Pamphyliae temporibus Antonini Pii, anno 152 ut videtur, nominatur in t. mausolei Opramoae Rhodiapolitani Heberdey Opramoas p. 54 = IGR 3, 739 XX c. 68'.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to match the full quote from the image."
+          },
+          {
+            "field": "governorship_factoids[0].province_normalized",
+            "issue": "Province 'Lycia et Pamphylia' is correct and matches the registry.",
+            "severity": "low",
+            "suggested_fix": null
+          }
+        ]
+      },
+      "needs_review": true
+    },
+    {
+      "entry_id": "236",
+      "pir_reference": "A 236",
+      "lemma": "AELIVS PROCVLVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Possibly legatus Augusti pro praetore of Cappadocia under Marcus Aurelius and Lucius Verus.",
+      "segments": {
+        "lemma": "AELIVS PROCVLVS",
+        "name_variants": "Aelius Proculus",
+        "identification_and_sources": "commemoratur in t. mutilo Marco et Vero Augustis a Comanensibus dedicato IGR 3, 106, fortasse legatus Aug. pr. pr. Cappadociae.",
+        "offices_and_career": "fortasse legatus Aug. pr. pr. Cappadociae",
+        "governorship_attestation": "commemoratur in t. mutilo Marco et Vero Augustis a Comanensibus dedicato",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "IGR III 106"
+      },
+      "main_person": {
+        "id": "person_236",
+        "displayed_name": "AELIVS PROCVLVS",
+        "normalized_name": "Aelius Proculus",
+        "pir_reference": "A 236",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_236_1",
+          "person_id": "person_236",
+          "exact_text": "fortasse legatus Aug. pr. pr. Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Cappadocia",
+          "province_normalized": null,
+          "date_text": "Marco et Vero Augustis",
+          "date_normalized_start": 161,
+          "date_normalized_end": 169,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Commemorated in a mutilated inscription dedicated to Marcus Aurelius and Lucius Verus by the Comanenses."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "Exact text should match the image: 'fortasse legatus Aug. pr. pr. Cappadociae'.",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to 'fortasse legatus Aug. pr. pr. Cappadociae'."
+          },
+          {
+            "field": "governorship_factoids[0].province_normalized",
+            "issue": "Province 'Cappadocia' is correct and matches the registry.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids[0].certainty",
+            "issue": "Certainty is medium due to the speculative nature of the office ('fortasse').",
+            "severity": "low",
+            "suggested_fix": null
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

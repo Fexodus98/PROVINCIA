@@ -1,0 +1,79 @@
+{
+  "source_page": 371,
+  "entries": [
+    {
+      "entry_id": "59",
+      "pir_reference": "B 59",
+      "lemma": "BASILA",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. Galatiae'.",
+      "segments": {
+        "lemma": "BASILA",
+        "name_variants": "(ΒΑΣΙΛΑ traditur)",
+        "identification_and_sources": "CIG 4039 = Dit. Or. Gr. 33; probabiliter idem atque T. Helvius Basila, cf. Rostowzew Mel. Boissier 422.",
+        "offices_and_career": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
+        "governorship_attestation": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio CIG 4039 = Dit. Or. Gr. 33",
+        "family_and_social_relations": "probabiliter idem atque T. Helvius Basila",
+        "prosopographical_commentary": "ut videtur imperante Tiberio... probabiliter idem atque T. Helvius Basila",
+        "bibliography_or_cross_references": "CIG 4039 = Dit. Or. Gr. 33; Rostowzew Mel. Boissier 422."
+      },
+      "main_person": {
+        "id": "person_basila",
+        "displayed_name": "BASILA",
+        "normalized_name": "Basila",
+        "pir_reference": "B 59",
+        "status_markers": [
+          "senator"
+        ],
+        "notes": [
+          "Probably identical with T. Helvius Basila"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_59_galatia",
+          "person_id": "person_basila",
+          "exact_text": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Galatia",
+          "province_normalized": "Galatia",
+          "date_text": "imperante Tiberio",
+          "date_normalized_start": 14,
+          "date_normalized_end": 37,
+          "certainty": "low",
+          "evidence_type": "explicit",
+          "notes": [
+            "The governorship is qualified with 'ut videtur' (as it seems).",
+            "imperante Tiberio (14-37), ut videtur.",
+            "probabiliter idem atque T. Helvius Basila (cf. Rostowzew Mel. Boissier 422). sameAs-Kandidat."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_t_helvius_basila",
+          "displayed_name": "T. Helvius Basila",
+          "normalized_name": "Titus Helvius Basila",
+          "relation_context": "probabiliter idem atque",
+          "certainty": "medium",
+          "notes": [
+            "Mentioned as probably identical to Basila."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [
+        "The Greek inscription CIG 4039 (Dittenberger, OGIS 533) records the name as ΒΑΣΙΛΑ."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "L5: Galatia; certainty medium->low ('ut videtur'); Amt-Status -> senator; Identitaet T. Helvius Basila; province_normalized gesetzt."
+      },
+      "needs_review": false,
+      "source_page": 371
+    }
+  ]
+}

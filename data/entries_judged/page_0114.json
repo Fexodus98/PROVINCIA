@@ -1,0 +1,56 @@
+{
+  "page_notes": [
+    "Page 98 contains the continuation of the entry for Sex. Anicius Faustus (PIR² A 595) from page 97. The entry for PIR² A 596 is present but not relevant to the PROVINCIA corpus as it does not attest a governorship. The entry for PIR² A 597 begins on this page but is not relevant based on visible text."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "PIR_A_595",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1.province_normalized",
+          "issue": "Province normalized as 'Numidia' is correct, but the registry label should be 'Numidia' (not 'Africa proconsularis' or other variants). Confirmed from text: 'Legatus Augusti vel Augustorum pro praetore (Numidiae)'",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.gov_1.date_normalized_end",
+          "issue": "The date range for the Numidia governorship is given as 196-197, but the text explicitly states the governorship continued until 201 (e.g., 'a. 201 t. 1 a. b.'). The end date should be extended to 201.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_end to 201."
+        },
+        {
+          "field": "governorship_factoids.gov_3",
+          "issue": "The proconsulship of Asia (gov_3) is not explicitly attested for Sex. Anicius Faustus in the visible text. The text states Macrinus sent him to replace Asprus, but it is unclear if Elagabalus ratified this appointment ('Quod num Elagabalus ratum habuerit, ignoramus'). This introduces uncertainty about whether he actually held the office.",
+          "severity": "high",
+          "suggested_fix": "Remove gov_3 or mark certainty as 'low' and add a note about the uncertainty of Elagabalus' ratification."
+        },
+        {
+          "field": "governorship_factoids.gov_1.exact_text",
+          "issue": "The exact_text for gov_1 is truncated and does not include the full context of the governorship duration (e.g., 'a. 201 t. 1 a. b.').",
+          "severity": "low",
+          "suggested_fix": "Expand exact_text to include: 'Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197 (cum Caracalla Caesar dictus sit, nondum imperator destinatus) t. 22, a. 197 t. 15. 20. 23, a. 199 t. 21. 24. 25. 26, a. 200 t. 19, a. 201 t. 1 a. b.'"
+        },
+        {
+          "field": "governorship_factoids.gov_2.date_normalized_start",
+          "issue": "The date range for Moesia superior (gov_2) is given as 202-207, but the text notes that the 'numeri annorum tribuniciae potestatis corrupti sunt,' indicating uncertainty about the exact years. The proposed range is reasonable but should be flagged for uncertainty.",
+          "severity": "low",
+          "suggested_fix": "Add a note about the corrupted tribunitian power numbers and the resulting uncertainty in the date range."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'patronus' is supported by the text ('Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum'), but this is not included in the status_markers array.",
+          "severity": "low",
+          "suggested_fix": "Add 'patronus' to the status_markers array."
+        },
+        {
+          "field": "related_persons",
+          "issue": "The related person 'PIR_A_596' is correctly identified as a possible son, but the relation_context in the proposed JSON does not match the exact text. The text states: 'Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.' The proposed relation_context is a paraphrase.",
+          "severity": "low",
+          "suggested_fix": "Update relation_context to: 'Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "document_notes": [
+    "Page 80 contains the continuation of the entry for Q. Aiacius Modestus Crescentianus (PIR2 A 470), which contains explicit attestations of governorships in Arabia and Germania Superior."
+  ],
+  "entries": [
+    {
+      "entry_id": "entry_A470",
+      "pir_reference": "A 470",
+      "lemma": "Q. AIACIVS MODESTVS CRESCENTIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pr. pr. Arabiae' and 'pro praetore Germaniae superioris'.",
+      "segments": {
+        "lemma": "Ostiensium; ceterum Modestus fasti. — Q. Aiacius [Mo]destus Crescentia[nus] t. 1. Q. Aiacius Modestus t. 5. Aiacius Modestus t. 2. 4. [A]iá[κι]- ος Μόδεστος t. 3.",
+        "name_variants": "Q. Aiacius [Mo]destus Crescentia[nus], Q. Aiacius Modestus, [A]iá[κι]ος Μόδεστος",
+        "identification_and_sources": "Clarissimus vir t. 5. XV vir sacris faciundis a. 204 t. 4.",
+        "offices_and_career": "consul (designatus) t. 3 (ubi perperam editores restituerunt ὑπ[ατικού], immo supplendum videtur ὑπ[άτου ἀποδεδειγμένου]); Consul suffectus anno incerto. Consul II ordinarius a. 228 cum M. Maecio Probo v. supra (iterationis nota extat III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392, omittitur in fastorum laterculis paene omnibus et in titulis non paucis).",
+        "governorship_attestation": "(Legatus Aug. pr. pr. Arabiae) ... Legatus Augustorum duorum t. 2 Augustorum trium t. 1 pro praetore Germaniae superioris t. 1. 2; inde apparet eum a. 209 provinciae praefuisse; fortasse annis quoque praecedentibus vel subsequentibus eodem munere functus est.",
+        "family_and_social_relations": "Q. Aiacius Censorinus clarissimus vir, qui in eadem fistula nominatur, t. 5, fortasse frater eius. Iuniam Aiaciam Modestam Q. Aradi Rufini uxorem (XV 8088) filiam Modesti putaverim.",
+        "prosopographical_commentary": "qui t. cum positus sit Imp. Caes. M. Aurelio Antonino Aug., Modestus non ante a. p. C. 198 provinciam rexerit necesse est. ... Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας] t. Pergameni IGR 4, 872.",
+        "bibliography_or_cross_references": "III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392"
+      },
+      "main_person": {
+        "id": "person_A470",
+        "displayed_name": "Q. Aiacius [Mo]destus Crescentia[nus]",
+        "normalized_name": "Quintus Aiacius Modestus Crescentianus",
+        "pir_reference": "A 470",
+        "status_markers": [
+          "clarissimus vir",
+          "XV vir sacris faciundis",
+          "consul II ordinarius"
+        ],
+        "notes": [
+          "Consul II ordinarius in 228 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A470_1",
+          "person_id": "person_A470",
+          "exact_text": "Legatus Aug. pr. pr. Arabiae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": null,
+          "date_text": "non ante a. p. C. 198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 204,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The text notes: 'Modestus non ante a. p. C. 198 provinciam rexerit necesse est.'"
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A470_1",
+          "person_id": "person_A470",
+          "exact_text": "XV vir sacris faciundis a. 204",
+          "normalized_office": "quindecimvir sacris faciundis",
+          "province_text": null,
+          "date_text": "a. 204",
+          "date_normalized_start": 204,
+          "date_normalized_end": 204,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A470_2",
+          "person_id": "person_A470",
+          "exact_text": "consul (designatus)",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A470_3",
+          "person_id": "person_A470",
+          "exact_text": "Consul suffectus",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "anno incerto",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A470_4",
+          "person_id": "person_A470",
+          "exact_text": "Consul II ordinarius a. 228",
+          "normalized_office": "consul II ordinarius",
+          "province_text": null,
+          "date_text": "a. 228",
+          "date_normalized_start": 228,
+          "date_normalized_end": 228,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_A470_5",
+          "person_id": "person_A470",
+          "exact_text": "ἀνθύπατος sc. ᾿Ασίας",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "low",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας]"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A471",
+          "displayed_name": "Iunia Aiacia Modesta",
+          "normalized_name": "Iunia Aiacia Modesta",
+          "relation_context": "filiam Modesti putaverim",
+          "certainty": "medium",
+          "notes": [
+            "Daughter of Q. Aiacius Modestus Crescentianus?"
+          ]
+        },
+        {
+          "id": "person_Aiacius_Censorinus",
+          "displayed_name": "Q. Aiacius Censorinus",
+          "normalized_name": "Quintus Aiacius Censorinus",
+          "relation_context": "fortasse frater eius",
+          "certainty": "medium",
+          "notes": [
+            "Named in the same lead pipe (fistula) inscription."
+          ]
+        },
+        {
+          "id": "person_Aradius_Rufinus",
+          "displayed_name": "Q. Aradius Rufinus",
+          "normalized_name": "Quintus Aradius Rufinus",
+          "relation_context": "husband of Iunia Aiacia Modesta",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_Maecius_Probus",
+          "displayed_name": "M. Maecius Probus",
+          "normalized_name": "Marcus Maecius Probus",
+          "relation_context": "consul II ordinarius colleague in 228",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A470",
+          "target": "person_A471",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "filiam Modesti putaverim",
+          "notes": []
+        },
+        {
+          "source": "person_A470",
+          "target": "person_Aiacius_Censorinus",
+          "relation": "sibling_of",
+          "certainty": "medium",
+          "basis": "fortasse frater eius",
+          "notes": []
+        },
+        {
+          "source": "person_Aradius_Rufinus",
+          "target": "person_A471",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "uxorem (XV 8088)",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry for Q. Aiacius Modestus Crescentianus begins on the previous page and concludes on page 80."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids[0].date_normalized_end",
+            "issue": "The date range for Arabia governorship is too broad. The text states 'Modestus non ante a. p. C. 198 provinciam rexerit necesse est' but does not provide an explicit end date. The proposed end date (204) is inferred from the XV vir sacris faciundis office in 204, but this is not directly supported by the text.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to null or adjust to a more conservative range (e.g., 200-204) with a note explaining the inference."
+          },
+          {
+            "field": "governorship_factoids[1].exact_text",
+            "issue": "The exact_text for Germania Superior governorship is overly verbose. The text states 'Legatus Augustorum duorum t. 2 Augustorum trium t. 1 pro praetore Germaniae superioris', but the key phrase is 'pro praetore Germaniae superioris'.",
+            "severity": "low",
+            "suggested_fix": "Shorten exact_text to 'pro praetore Germaniae superioris' or 'Legatus Augustorum pro praetore Germaniae superioris'."
+          },
+          {
+            "field": "governorship_factoids[1].date_normalized_end",
+            "issue": "The text suggests the governorship may have extended beyond 209 ('fortasse annis quoque praecedentibus vel subsequentibus eodem munere functus est'), but the proposed date range is limited to 209.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to 210 or add a note about the possibility of a longer tenure."
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Quintus Aiacius Modestus Crescentianus' is correct but the lemma shows '[Mo]destus Crescentia[nus]' with missing letters. The displayed_name should reflect the lemma's uncertainty.",
+            "severity": "low",
+            "suggested_fix": "Update displayed_name to 'Q. Aiacius [Mo]destus Crescentia[nus]' to match the lemma."
+          },
+          {
+            "field": "career_factoids[4].province_normalized",
+            "issue": "The province_normalized for the proconsulship of Asia is missing. The text states 'ἀνθύ[πατος sc. ᾿Ασίας]', which refers to Asia.",
+            "severity": "low",
+            "suggested_fix": "Set province_normalized to 'Asia'."
+          },
+          {
+            "field": "related_persons[3].id",
+            "issue": "The related person 'M. Maecius Probus' is listed as a consul colleague but is not explicitly mentioned in the text as a relation to Q. Aiacius Modestus Crescentianus beyond the shared consulship. This is not a direct relation.",
+            "severity": "medium",
+            "suggested_fix": "Remove 'M. Maecius Probus' from related_persons or clarify the relation as 'consul colleague' without implying a direct personal relation."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

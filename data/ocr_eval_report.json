@@ -1,0 +1,258 @@
+{
+  "summary": {
+    "pages": 25,
+    "micro_cer": 0.02033027413941608,
+    "micro_wer": 0.10524405733986572,
+    "macro_cer": 0.02013823321135648,
+    "macro_wer": 0.10394521366957032,
+    "worst_pages_by_cer": [
+      {
+        "page": 269,
+        "cer": 0.038
+      },
+      {
+        "page": 329,
+        "cer": 0.031
+      },
+      {
+        "page": 207,
+        "cer": 0.0288
+      },
+      {
+        "page": 257,
+        "cer": 0.028
+      },
+      {
+        "page": 164,
+        "cer": 0.0243
+      }
+    ]
+  },
+  "pages": [
+    {
+      "gt_chars": 2825,
+      "gt_words": 440,
+      "char_edits": 54,
+      "word_edits": 44,
+      "cer": 0.01911504424778761,
+      "wer": 0.1,
+      "page": 29
+    },
+    {
+      "gt_chars": 2860,
+      "gt_words": 469,
+      "char_edits": 63,
+      "word_edits": 64,
+      "cer": 0.022027972027972027,
+      "wer": 0.13646055437100213,
+      "page": 48
+    },
+    {
+      "gt_chars": 2838,
+      "gt_words": 458,
+      "char_edits": 55,
+      "word_edits": 42,
+      "cer": 0.01937984496124031,
+      "wer": 0.09170305676855896,
+      "page": 52
+    },
+    {
+      "gt_chars": 2768,
+      "gt_words": 435,
+      "char_edits": 67,
+      "word_edits": 43,
+      "cer": 0.024205202312138727,
+      "wer": 0.09885057471264368,
+      "page": 71
+    },
+    {
+      "gt_chars": 2393,
+      "gt_words": 381,
+      "char_edits": 35,
+      "word_edits": 31,
+      "cer": 0.014625992478061012,
+      "wer": 0.08136482939632546,
+      "page": 89
+    },
+    {
+      "gt_chars": 1204,
+      "gt_words": 187,
+      "char_edits": 20,
+      "word_edits": 13,
+      "cer": 0.016611295681063124,
+      "wer": 0.06951871657754011,
+      "page": 94
+    },
+    {
+      "gt_chars": 2917,
+      "gt_words": 480,
+      "char_edits": 54,
+      "word_edits": 43,
+      "cer": 0.018512170037709975,
+      "wer": 0.08958333333333333,
+      "page": 125
+    },
+    {
+      "gt_chars": 3037,
+      "gt_words": 517,
+      "char_edits": 53,
+      "word_edits": 55,
+      "cer": 0.017451432334540665,
+      "wer": 0.10638297872340426,
+      "page": 139
+    },
+    {
+      "gt_chars": 2913,
+      "gt_words": 496,
+      "char_edits": 62,
+      "word_edits": 55,
+      "cer": 0.021283899759697907,
+      "wer": 0.11088709677419355,
+      "page": 147
+    },
+    {
+      "gt_chars": 2875,
+      "gt_words": 529,
+      "char_edits": 70,
+      "word_edits": 63,
+      "cer": 0.02434782608695652,
+      "wer": 0.11909262759924386,
+      "page": 164
+    },
+    {
+      "gt_chars": 2811,
+      "gt_words": 482,
+      "char_edits": 34,
+      "word_edits": 36,
+      "cer": 0.012095339736748489,
+      "wer": 0.07468879668049792,
+      "page": 189
+    },
+    {
+      "gt_chars": 2637,
+      "gt_words": 404,
+      "char_edits": 76,
+      "word_edits": 62,
+      "cer": 0.02882062950322336,
+      "wer": 0.15346534653465346,
+      "page": 207
+    },
+    {
+      "gt_chars": 2570,
+      "gt_words": 419,
+      "char_edits": 34,
+      "word_edits": 31,
+      "cer": 0.013229571984435798,
+      "wer": 0.07398568019093078,
+      "page": 223
+    },
+    {
+      "gt_chars": 2793,
+      "gt_words": 452,
+      "char_edits": 55,
+      "word_edits": 51,
+      "cer": 0.019692087361260293,
+      "wer": 0.11283185840707964,
+      "page": 240
+    },
+    {
+      "gt_chars": 2856,
+      "gt_words": 431,
+      "char_edits": 80,
+      "word_edits": 48,
+      "cer": 0.028011204481792718,
+      "wer": 0.11136890951276102,
+      "page": 257
+    },
+    {
+      "gt_chars": 2871,
+      "gt_words": 500,
+      "char_edits": 109,
+      "word_edits": 75,
+      "cer": 0.03796586555207245,
+      "wer": 0.15,
+      "page": 269
+    },
+    {
+      "gt_chars": 2628,
+      "gt_words": 406,
+      "char_edits": 45,
+      "word_edits": 38,
+      "cer": 0.017123287671232876,
+      "wer": 0.09359605911330049,
+      "page": 277
+    },
+    {
+      "gt_chars": 2240,
+      "gt_words": 374,
+      "char_edits": 44,
+      "word_edits": 40,
+      "cer": 0.019642857142857142,
+      "wer": 0.10695187165775401,
+      "page": 285
+    },
+    {
+      "gt_chars": 2763,
+      "gt_words": 456,
+      "char_edits": 44,
+      "word_edits": 46,
+      "cer": 0.015924719507781397,
+      "wer": 0.10087719298245613,
+      "page": 293
+    },
+    {
+      "gt_chars": 3029,
+      "gt_words": 485,
+      "char_edits": 55,
+      "word_edits": 56,
+      "cer": 0.018157807857378673,
+      "wer": 0.1154639175257732,
+      "page": 305
+    },
+    {
+      "gt_chars": 2647,
+      "gt_words": 430,
+      "char_edits": 47,
+      "word_edits": 47,
+      "cer": 0.01775595013222516,
+      "wer": 0.10930232558139535,
+      "page": 316
+    },
+    {
+      "gt_chars": 2972,
+      "gt_words": 475,
+      "char_edits": 92,
+      "word_edits": 74,
+      "cer": 0.03095558546433378,
+      "wer": 0.15578947368421053,
+      "page": 329
+    },
+    {
+      "gt_chars": 2364,
+      "gt_words": 374,
+      "char_edits": 44,
+      "word_edits": 33,
+      "cer": 0.018612521150592216,
+      "wer": 0.08823529411764706,
+      "page": 341
+    },
+    {
+      "gt_chars": 2940,
+      "gt_words": 510,
+      "char_edits": 40,
+      "word_edits": 39,
+      "cer": 0.013605442176870748,
+      "wer": 0.07647058823529412,
+      "page": 357
+    },
+    {
+      "gt_chars": 2587,
+      "gt_words": 432,
+      "char_edits": 37,
+      "word_edits": 31,
+      "cer": 0.014302280633938926,
+      "wer": 0.07175925925925926,
+      "page": 371
+    }
+  ]
+}

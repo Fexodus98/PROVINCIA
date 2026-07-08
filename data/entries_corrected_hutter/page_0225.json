@@ -1,0 +1,97 @@
+{
+  "source_page": 225,
+  "entries": [
+    {
+      "entry_id": "PIR_1070",
+      "pir_reference": "A 1070",
+      "lemma": "M. ARRANIVS VENVSTVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. (exercitus Africani)'.",
+      "segments": {
+        "lemma": "M. ARRANIVS VENVSTVS",
+        "name_variants": "..... us Venustus",
+        "identification_and_sources": "memoratur in t. filii M. Arranii Venusti Bassiliani clarissimi pueri Ammaedarensi Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37.",
+        "offices_and_career": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166 VIII 4195 t. Verecundae rep.",
+        "governorship_attestation": "legatus Aug. pr. pr. (exercitus Africani)",
+        "family_and_social_relations": "Father of M. Arranius Venustus Bassilianus (1071).",
+        "prosopographical_commentary": "Nescio an idem sit ..... us Venustus, legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166.",
+        "bibliography_or_cross_references": "Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37; VIII 4195."
+      },
+      "main_person": {
+        "id": "person_1070",
+        "displayed_name": "M. Arranius Venustus",
+        "normalized_name": "Marcus Arranius Venustus",
+        "pir_reference": "A 1070",
+        "status_markers": [
+          "consul designatus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1070_1",
+          "person_id": "person_1070",
+          "exact_text": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "exercitus Africanus",
+          "province_normalized": "Numidia",
+          "date_text": "a. 165/166 (Thomasson); consul designatus a. 166",
+          "date_normalized_start": 165,
+          "date_normalized_end": 166,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "De facto — wenn nicht de iure (Numidia wurde erst in severischer Zeit eigene kaiserliche Provinz) — Statthalter von Numidia als Befehlshaber der legio III Augusta (exercitus Africani). Moeglicherweise identisch mit der in CIL VIII 4195 (Verecunda) genannten Person (PIR: \"Nescio an idem sit\"). Bengt E. Thomasson, \"Die Statthalter der roemischen Provinzen Nordafrikas von Augustus bis Diokletian\" (S. 181), fuehrt einen Venustus als Statthalter Numidiens fuer 165/166. Personenidentitaet nicht voellig gesichert -> certainty=medium."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1070_1",
+          "person_id": "person_1070",
+          "exact_text": "consul designatus a. 166",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 166",
+          "date_normalized_start": 166,
+          "date_normalized_end": 166,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1071",
+          "displayed_name": "M. Arranius Venustus Bassilianus",
+          "normalized_name": "Marcus Arranius Venustus Bassilianus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": [
+            "clarissimus puer"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1070",
+          "target": "person_1071",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "filii M. Arranii Venusti Bassiliani",
+          "notes": []
+        }
+      ],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-06",
+        "note": "Als de-facto-Statthalter von Numidia (Befehlshaber legio III Augusta) mit certainty=medium aufgenommen; Belege CIL VIII 4195 und Thomasson S.181 (165/166); Identitaet mit A 1070 nicht voellig gesichert."
+      },
+      "needs_review": false,
+      "source_page": 225
+    }
+  ]
+}

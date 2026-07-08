@@ -1,0 +1,77 @@
+{
+  "document_notes": [
+    "Page 164 of PIR contains one entry (851) that explicitly matches the criteria for the PROVINCIA corpus (legatus Aug. pr. pr. of Cappadocia). Entry 849 mentions 'legatus pr. pr. provinciae Africae', which refers to a legatus proconsulis in a senatorial province, not a legatus Augusti pro praetore, and is therefore excluded."
+  ],
+  "entries": [
+    {
+      "entry_id": "851",
+      "pir_reference": "A 851",
+      "lemma": "ANTONIVS MEMMIVS HIERO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as legatus Aug. pr. pr. (Cappadociae) sub Philippis.",
+      "segments": {
+        "lemma": "ANTONIVS MEMMIVS HIERO",
+        "name_variants": "ANTONIVS MEMMIVS HIERO",
+        "identification_and_sources": "nominatur in miliariis Cappadociae III 6914. 6915. 6941. 6942. 6946. 6947. 6955 = 12212. 12165. 12180 (?). 12181. 12192. 12199. 12206.",
+        "offices_and_career": "legatus Aug. pr. pr. (Cappadociae) sub Philippis",
+        "governorship_attestation": "legatus Aug. pr. pr. (Cappadociae) sub Philippis, nominatur in miliariis Cappadociae III 6914. 6915. 6941. 6942. 6946. 6947. 6955 = 12212. 12165. 12180 (?). 12181. 12192. 12199. 12206.",
+        "family_and_social_relations": "Fortasse idem qui praecedit (850 M. Ant(onius) Mem......).",
+        "prosopographical_commentary": "Fortasse idem qui praecedit.",
+        "bibliography_or_cross_references": "CIL III 6914, 6915, 6941, 6942, 6946, 6947, 6955 = 12212, 12165, 12180 (?), 12181, 12192, 12199, 12206."
+      },
+      "main_person": {
+        "id": "person_851",
+        "displayed_name": "ANTONIVS MEMMIVS HIERO",
+        "normalized_name": "Antonius Memmius Hiero",
+        "pir_reference": "A 851",
+        "status_markers": [
+          "vir clarissimus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_851_1",
+          "person_id": "person_851",
+          "exact_text": "legatus Aug. pr. pr. (Cappadociae) sub Philippis",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Cappadocia",
+          "date_text": "sub Philippis",
+          "date_normalized_start": 244,
+          "date_normalized_end": 249,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on multiple milestones in Cappadocia during the reign of the Philip emperors (244-249 AD)."
+          ]
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_850",
+          "displayed_name": "M. ANT(ONIVS) MEM......",
+          "normalized_name": "Marcus Antonius Memmius",
+          "relation_context": "Fortasse idem qui praecedit.",
+          "certainty": "medium",
+          "notes": [
+            "PIR suggests that Antonius Memmius Hiero might be identical to the person in entry 850."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_851",
+          "target": "person_850",
+          "relation": "possibly identical to",
+          "certainty": "medium",
+          "basis": "Fortasse idem qui praecedit.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry suggests a possible identity with the preceding entry 850 (M. Ant(onius) Mem......)."
+      ]
+    }
+  ]
+}

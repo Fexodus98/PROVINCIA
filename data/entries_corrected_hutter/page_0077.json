@@ -1,0 +1,191 @@
+{
+  "source_page": 77,
+  "entries": [
+    {
+      "entry_id": "PIR_A_369",
+      "pir_reference": "A 369",
+      "lemma": "M. AEMILIVS LEPIDVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'legatus Augusti pro praetore provinciam Pannoniam rexit' and 'legatus igitur divi Augusti et Tiberii pr. pr. Hispaniae citerioris'.",
+      "segments": {
+        "lemma": "M. AEMILIVS LEPIDVS",
+        "name_variants": "M. Lepidus, [Aemi]lio [Le]pido",
+        "identification_and_sources": "Filius Paulli Aemili Lepidi consulis a. 720 = 34 et Corneliae Propert. 5, 11, 63, cf. fast. Capitol., Dionis ind. l. 55.",
+        "offices_and_career": "Consul a. 6 p. C. cum L. Arruntio, v. supra, ex kal. Iuliis cum L. Nonio Asprenate fasti Capitol., Praenest., Not. sc. 1902, 268. Herzog n. 83. 84. Autumno a. 8 cum Tiberius Pannoniis subactis exercitum in hiberna reduxisset, omnibus copiis a Caesare praefectus est Vell. 2, 114, 5; a. 9 parti exercitus a Tiberio praepositus Dio 56, 12, 2. Res bene gessit praedaque onustus pervenit ad Caesarem Vell. 2, 115, 2; ornamentis triumphalibus donatus Vell. 115, 3, cf. Dio 56, 17, 2. Fortasse primus fuit, qui legatus Augusti pro praetore provinciam Pannoniam rexit (id quod statuit Ritterling Arch. epigr. Mitt. 20, 6 sq.); ad hanc legationem frustulum t. Dalmatici III 13885 (cf. p. 2328/12) referre voluit Patsch supplens [Aemi]lio [Le]pido. Hispanias exercitumque in iis cum a. 14 cum imperio obtineret, in summa pace et quiete continuit Vell. 2, 125, 5, legatus igitur divi Augusti et Tiberii pr. pr. Hispaniae citerioris; huic fortasse positus est t. Uxamensis II 2820 (cf. n. 366). A. 17 Tiberius bona Aemiliae Musae Lepido, cuius e domo videbatur, tradidit, nobilitatem pecunia iuvandam praefatus Tac. a. 2, 48. A. 21 in Asiam missus, quamquam Sex. Pompeius eum ut socordem inopem et maioribus suis dedecorum eoque Asiae sorte depellendum incusaverat Tac. 3, 32; proconsul Asiae a. 21/22 cf. nummos. A. 22 quamquam pecuniae modicus, basilicam Pauli, avitum decus, propria pecunia firmavit ornavitque Tac. 3, 72. A. 36 vel paulo ante mortuum esse apparet ex Tac. a. 6, 40. Laudes eius Vell. 2, 114, 5. 125, 5. Tac. a. 3, 32. Aristo philosophus eius Sen. ep. 29, 6.",
+        "governorship_attestation": "Fortasse primus fuit, qui legatus Augusti pro praetore provinciam Pannoniam rexit (id quod statuit Ritterling Arch. epigr. Mitt. 20, 6 sq.); ad hanc legationem frustulum t. Dalmatici III 13885 (cf. p. 2328/12) referre voluit Patsch supplens [Aemi]lio [Le]pido. Hispanias exercitumque in iis cum a. 14 cum imperio obtineret, in summa pace et quiete continuit Vell. 2, 125, 5, legatus igitur divi Augusti et Tiberii pr. pr. Hispaniae citerioris; huic fortasse positus est t. Uxamensis II 2820 (cf. n. 366).",
+        "family_and_social_relations": "Filius Paulli Aemili Lepidi consulis a. 720 = 34 et Corneliae Propert. 5, 11, 63, cf. fast. Capitol., Dionis ind. l. 55. A. 17 Tiberius bona Aemiliae Musae Lepido, cuius e domo videbatur, tradidit, nobilitatem pecunia iuvandam praefatus Tac. a. 2, 48. Aemilia Lepida filia Druso Caesari Germanici filio nupta Tac. 6, 40 cf. titulum Pudentis M. Lepidi liberti grammatici, procuratoris Lepidae VI 9449; ob hanc causam et quod ipse per matrem Scriboniae nepos fuit et fratris uxor divi Augusti neptis, Lepidus a Velleio 2, 114, 5 vir nomini ac fortunae [Caesarum] proximus nominatur.",
+        "prosopographical_commentary": "Laudes eius Vell. 2, 114, 5. 125, 5. Tac. a. 3, 32. Aristo philosophus eius Sen. ep. 29, 6.",
+        "bibliography_or_cross_references": "Vell. 2, 114, 5; 115, 2-3; 125, 5. Dio 56, 12, 2; 17, 2. Tac. Ann. 2, 48; 3, 32; 3, 72; 6, 40. Sen. ep. 29, 6. CIL III 13885. CIL II 2820."
+      },
+      "main_person": {
+        "id": "person_A369",
+        "displayed_name": "M. Aemilius Lepidus",
+        "normalized_name": "Marcus Aemilius Lepidus",
+        "pir_reference": "A 369",
+        "status_markers": [
+          "consularis"
+        ],
+        "notes": [
+          "Consul in 6 AD",
+          "Proconsul of Asia 21/22 AD"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A369_pannonia",
+          "person_id": "person_A369",
+          "exact_text": "qui legatus Augusti pro praetore provinciam Pannoniam rexit",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia",
+          "province_normalized": "Pannonia",
+          "date_text": "circa a. 8-9 p. C.",
+          "date_normalized_start": 8,
+          "date_normalized_end": 9,
+          "certainty": "low",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Ritterling argues he was the first leg. Aug. pr. pr. of Pannonia.",
+            "Datierung a. 8/9 aus Kontext erschlossen; Text: 'Fortasse primus fuit'."
+          ]
+        },
+        {
+          "factoid_id": "gov_A369_hispania",
+          "person_id": "person_A369",
+          "exact_text": "legatus igitur divi Augusti et Tiberii pr. pr. Hispaniae citerioris",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Hispania citerior",
+          "date_text": "a. 14",
+          "date_normalized_start": 14,
+          "date_normalized_end": 14,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Vell. 2, 125, 5 mentions him holding command in the Spains in 14 AD.",
+            "In Stufe 5 fälschlich verworfen (Formel nicht wörtlich zusammenhängend); manuell wieder aufgenommen."
+          ],
+          "province_normalized": "Hispania citerior"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_A369_cos",
+          "person_id": "person_A369",
+          "exact_text": "Consul a. 6 p. C.",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "6 p. C.",
+          "date_normalized_start": 6,
+          "date_normalized_end": 6,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Consul with L. Arruntius"
+          ]
+        },
+        {
+          "factoid_id": "car_A369_praefectus",
+          "person_id": "person_A369",
+          "exact_text": "omnibus copiis a Caesare praefectus est",
+          "normalized_office": "praefectus",
+          "province_text": "Pannonia",
+          "date_text": "a. 8",
+          "date_normalized_start": 8,
+          "date_normalized_end": 8,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Vell. 2, 114, 5"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_Paullus_Aemilius_Lepidus",
+          "displayed_name": "Paullus Aemilius Lepidus",
+          "normalized_name": "Paullus Aemilius Lepidus",
+          "relation_context": "Father",
+          "certainty": "high",
+          "notes": [
+            "Consul 34 BC"
+          ]
+        },
+        {
+          "id": "person_Cornelia",
+          "displayed_name": "Cornelia",
+          "normalized_name": "Cornelia",
+          "relation_context": "Mother",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_Aemilia_Lepida",
+          "displayed_name": "Aemilia Lepida",
+          "normalized_name": "Aemilia Lepida",
+          "relation_context": "Daughter",
+          "certainty": "high",
+          "notes": [
+            "Married to Drusus Caesar"
+          ]
+        },
+        {
+          "id": "person_Drusus_Caesar",
+          "displayed_name": "Drusus Caesar",
+          "normalized_name": "Drusus Caesar",
+          "relation_context": "Son-in-law",
+          "certainty": "high",
+          "notes": [
+            "Son of Germanicus"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A369",
+          "target": "person_Paullus_Aemilius_Lepidus",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Filius Paulli Aemili Lepidi consulis...",
+          "notes": []
+        },
+        {
+          "source": "person_A369",
+          "target": "person_Cornelia",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "...et Corneliae",
+          "notes": []
+        },
+        {
+          "source": "person_Aemilia_Lepida",
+          "target": "person_A369",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Aemilia Lepida filia... Lepidus... proximus nominatur",
+          "notes": []
+        },
+        {
+          "source": "person_Aemilia_Lepida",
+          "target": "person_Drusus_Caesar",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Druso Caesari Germanici filio nupta",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "This entry is a continuation of A 369 from the previous page, but contains the crucial governorship details for Pannonia and Hispania Citerior.",
+        "Prokonsulat Asiae (proconsul Asiae a. 21/22) ist kein leg. Aug. pr. pr. -> nicht als Statthalterschaft geführt."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-01",
+        "note": "Asia (Prokonsulat) draußen; Hispania citerior wieder aufgenommen; Pannonia certainty=low + wörtliches Zitat; 'patricius' entfernt."
+      },
+      "needs_review": false,
+      "source_page": 77
+    }
+  ]
+}

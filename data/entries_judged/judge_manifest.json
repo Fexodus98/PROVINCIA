@@ -1,0 +1,438 @@
+[
+  {
+    "page": 55,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0055.json",
+    "verdicts": [
+      "minor_issues",
+      "confirm",
+      "minor_issues",
+      "minor_issues",
+      "confirm",
+      "confirm",
+      "minor_issues",
+      "minor_issues",
+      "confirm"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 60,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0060.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 61,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0061.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 69,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0069.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 70,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0070.json",
+    "verdicts": [
+      "confirm",
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 77,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0077.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 81,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0081.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 91,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0091.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 96,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0096.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 97,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0097.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 104,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0104.json",
+    "verdicts": [
+      "minor_issues",
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 106,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0106.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 107,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0107.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 114,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0114.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 115,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0115.json",
+    "verdicts": [
+      "confirm"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 125,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0125.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 129,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0129.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 130,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0130.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 152,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0152.json",
+    "verdicts": [
+      "confirm",
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 158,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0158.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 159,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0159.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 166,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0166.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 172,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0172.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 179,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0179.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 180,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0180.json",
+    "verdicts": [
+      "confirm"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 187,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0187.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 225,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0225.json",
+    "verdicts": [
+      "confirm",
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 229,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0229.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 231,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0231.json",
+    "verdicts": [
+      "major_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 238,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0238.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 252,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0252.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 281,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0281.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 283,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0283.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 284,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0284.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 285,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0285.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 287,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0287.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 288,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0288.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 292,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0292.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 296,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0296.json",
+    "verdicts": [
+      "confirm"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 298,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0298.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 299,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0299.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 301,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0301.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 302,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0302.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 305,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0305.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 307,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0307.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 313,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0313.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 1
+  },
+  {
+    "page": 330,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0330.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 337,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0337.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 341,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0341.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 347,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0347.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 362,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0362.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 371,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0371.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  },
+  {
+    "page": 387,
+    "judged_json": "C:\\Users\\flori\\OneDrive - Universität Graz\\_Projects\\_FelixHutter\\PARS_I_A-B\\PARS_I_A-B\\entries_judged\\page_0387.json",
+    "verdicts": [
+      "minor_issues"
+    ],
+    "missed": 0
+  }
+]

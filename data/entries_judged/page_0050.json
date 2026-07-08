@@ -1,0 +1,50 @@
+{
+  "page_notes": [
+    "Page 34 of PIR² (AELIVS 200) contains the entry for L. Aelius Lamia. The entry explicitly discusses his potential governorship of Pannonia as 'legatus Aug. pro pr.' based on a hypothesis by Maria Marchetti."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "pir_2_a_200",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids[0].province_normalized",
+          "issue": "The province 'Pannonia' is not listed in the normalized registry as a standalone province. The correct normalized form should be 'Pannonia superior' or 'Pannonia inferior', but the text does not specify. The entry uses 'Pannonia' as a general term.",
+          "severity": "low",
+          "suggested_fix": "Pannonia"
+        },
+        {
+          "field": "governorship_factoids[0].certainty",
+          "issue": "The certainty is marked as 'medium', but the text explicitly states this is a hypothesis ('censuit Maria Marchetti'), so 'low' would be more accurate.",
+          "severity": "low",
+          "suggested_fix": "low"
+        },
+        {
+          "field": "governorship_factoids[0].exact_text",
+          "issue": "The exact_text is slightly truncated. The full quote from the image is: 'eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.'",
+          "severity": "low",
+          "suggested_fix": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq."
+        },
+        {
+          "field": "career_factoids[3].province_text",
+          "issue": "The province_text 'Germania, Illyricum' is not normalized. 'Germania' is not a province in the registry, and 'Illyricum' is not listed. The correct normalized forms are 'Germania superior' or 'Germania inferior' for Germania, and 'Dalmatia' or 'Pannonia' for Illyricum, but the text is not specific.",
+          "severity": "medium",
+          "suggested_fix": null
+        },
+        {
+          "field": "career_factoids[3].date_normalized_end",
+          "issue": "The date_normalized_end is set to 11, but the text mentions 'a. 4-6 / a. 10 et 11', which is ambiguous. The end date should reflect the uncertainty.",
+          "severity": "medium",
+          "suggested_fix": 11
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status marker 'patricius' is not explicitly supported by the text on this page. The text does not mention his patrician status.",
+          "severity": "medium",
+          "suggested_fix": null
+        }
+      ]
+    }
+  ]
+}

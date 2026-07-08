@@ -1,0 +1,153 @@
+{
+  "document_notes": [
+    "Page 267 of PIR. Contains entry 1322 (Q. Atrius Clonius) which is highly relevant to the PROVINCIA corpus."
+  ],
+  "entries": [
+    {
+      "entry_id": "1322",
+      "pir_reference": "A 1322",
+      "lemma": "Q. ATRIVS CLONIVS.",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Aug. pro praetore provinciae Thraciae under Caracalla.",
+      "segments": {
+        "lemma": "Q. ATRIVS CLONIVS.",
+        "name_variants": "Tituli: ei positus est Tarraconensis II 4111 = D. 1176 (1) ; nominatur in fastis collegii alicuius sacerdotalis VI 2004 (2), in t. Philippopolitano IGR 1, 717 cf. 1468 (3), in cippo terminali prope Philippopolim reperto Ann. ép. 1929, 14 (4). — Q. Atrius Clonius t. 1. K. Ἄτριος Κλόνιος t. 2. 4. [Q.] Atrius Clonius t. 2. Atrius Clonius dig. 26, 10, 7, 2.",
+        "identification_and_sources": "Attested in inscriptions from Tarraconensis (CII 4111 = D. 1176), Rome (CIL VI 2004), Philippopolis (IGR 1, 717 cf. 1468; Ann. ép. 1929, 14), and in the Digest (dig. 26, 10, 7, 2).",
+        "offices_and_career": "Anno 200 cooptatus in collegium sacerdotum nescio quod ex maioribus (fortasse inter sodales Flaviales) t. 2. Epistula Severi et Antonini ad Atrium Clonium citatur ab Ulpiano l. 1 de omn. tribunal. dig. 26, 10, 7, 2; fortasse tunc fuit praetor tutelaris, ut coniecit Stein Thrac. p. 52.",
+        "governorship_attestation": "Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "Discusses his priesthood cooptation in 200 AD, his possible office as praetor tutelaris, and his governorship of Thrace under Caracalla.",
+        "bibliography_or_cross_references": "Stein Thrac. p. 52."
+      },
+      "main_person": {
+        "id": "person_1322",
+        "displayed_name": "Q. Atrius Clonius",
+        "normalized_name": "Quintus Atrius Clonius",
+        "pir_reference": "A 1322",
+        "status_markers": [
+          "senator",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1322_1",
+          "person_id": "person_1322",
+          "exact_text": "Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Thracia",
+          "province_normalized": null,
+          "date_text": "regnante (Severo) Antonino",
+          "date_normalized_start": 198,
+          "date_normalized_end": 217,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Thrace during the reign of Caracalla (Severus Antoninus)."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1322_1",
+          "person_id": "person_1322",
+          "exact_text": "Anno 200 cooptatus in collegium sacerdotum nescio quod ex maioribus (fortasse inter sodales Flaviales)",
+          "normalized_office": "sodalis Flavialis",
+          "province_text": "Roma",
+          "date_text": "Anno 200",
+          "date_normalized_start": 200,
+          "date_normalized_end": 200,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Coopted into a major priesthood, possibly the sodales Flaviales."
+          ]
+        },
+        {
+          "factoid_id": "car_1322_2",
+          "person_id": "person_1322",
+          "exact_text": "fortasse tunc fuit praetor tutelaris",
+          "normalized_office": "praetor tutelaris",
+          "province_text": "Roma",
+          "date_text": "circa 200",
+          "date_normalized_start": 200,
+          "date_normalized_end": 205,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Conjectured by Stein based on the citation in Ulpian."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_caracalla",
+          "displayed_name": "(Severus) Antoninus",
+          "normalized_name": "Caracalla",
+          "relation_context": "Emperor under whom Q. Atrius Clonius served as legatus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [],
+      "entry_notes": [],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma in the printed page is 'Q. ATRIVS CLONIVS.' (with a period), but proposed JSON omits the period.",
+            "severity": "low",
+            "suggested_fix": "Add the period to the lemma: 'Q. ATRIVS CLONIVS.'"
+          },
+          {
+            "field": "pir_reference",
+            "issue": "PIR reference is correct as 'A 1322', but the printed page shows it as the entry number, not explicitly prefixed with 'A'. This is a minor formatting issue.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.exact_text",
+            "issue": "The exact_text 'Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino' is correct but includes a typo in the printed page: '¢. 7. 4' (likely an OCR error for 't. 1. 4').",
+            "severity": "low",
+            "suggested_fix": "Use 'Legatus Aug. pro praetore provinciae Thraciae t. 1. 4, regnante (Severo) Antonino' as the exact quote."
+          },
+          {
+            "field": "governorship_factoids.date_normalized_start",
+            "issue": "The date range 198-217 for Caracalla's reign is correct, but the text specifies 'regnante (Severo) Antonino', which refers to Caracalla (211-217). The start date should be 211, not 198.",
+            "severity": "medium",
+            "suggested_fix": "Adjust date_normalized_start to 211."
+          },
+          {
+            "field": "governorship_factoids.date_normalized_end",
+            "issue": "The end date of 217 is correct for Caracalla's reign.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "main_person.normalized_name",
+            "issue": "The normalized_name 'Quintus Atrius Clonius' is correct, but the praenomen 'Quintus' is not explicitly attested in the lemma or text. The lemma shows 'Q.' which is abbreviated.",
+            "severity": "low",
+            "suggested_fix": "Use 'Q. Atrius Clonius' for normalized_name to reflect the abbreviation."
+          },
+          {
+            "field": "career_factoids[0].normalized_office",
+            "issue": "The normalized_office 'sodalis Flavialis' is inferred ('fortasse inter sodales Flaviales'), but the text does not explicitly confirm this. The certainty should be lower.",
+            "severity": "medium",
+            "suggested_fix": "Set certainty to 'low' for this factoid."
+          },
+          {
+            "field": "career_factoids[1].date_normalized_start",
+            "issue": "The date range 200-205 for 'praetor tutelaris' is speculative. The text only suggests 'fortasse tunc fuit praetor tutelaris'.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start and date_normalized_end to null or adjust certainty to 'low'."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

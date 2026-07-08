@@ -1,0 +1,218 @@
+{
+  "document_notes": [
+    "Page 213 of PIR, containing the continuation of the entry for C. Arrius Antoninus (PIR² A 1088)."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_1088",
+      "pir_reference": "A 1088",
+      "lemma": "C. ARRIVS ANTONINVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Aug. pr. pr. Cappadociae and Legatus Aug. pr. pr. co(n)s(ularis) trium Daciarum.",
+      "segments": {
+        "lemma": "ARRIVS [ANTONINVS]",
+        "name_variants": "C. Arrius Antoninus",
+        "identification_and_sources": "Fronto ad am. 2,7 p. 192 N. = 2 p. 176, 1 Haines; 2,8 p. 199 N. = 2 p. 188 Haines; Tertull. ad Scap. 5; vita Pert. 3,7; vita Comm. 7,1.",
+        "offices_and_career": "Consul suffectus a. fere 170. Legatus Aug. pr. pr. Cappadociae. Legatus Aug. pr. pr. co(n)s(ularis) trium Daciarum. Proconsul Asiae c. a. 184/185. Curator Ariminiensium, curator Nolanorum, curator Tifernatium Tiberinorum. Augur, sodalis Marcianus Antoninianus. Patronus Concordiensium, patronus IIII coloniarum (Cirtensium).",
+        "governorship_attestation": "Legatus Aug. pr. pr. Cappadociae t. 9—11 preses (sic) p(rovinciae) t. 11 ante a. 175 vel eo ipso anno t. 11... Legatus Aug. pr. pr. co(n)s(ularis) trium Daciarum t. 2. 6. 7; leg. Aug. pr. pr. t. 4.",
+        "family_and_social_relations": "Calpurnia Quadratilla uxor. C. Arrius Antoninus, C. Arrius Quadratus filii. Cornelius Fronto (whom he observed as a parent).",
+        "prosopographical_commentary": "Discussion of his governorships of Cappadocia and Dacia, his proconsulship of Asia and the persecution of Christians mentioned by Tertullian, his accusation by Pertinax, and his death under Commodus due to Cleander's plots.",
+        "bibliography_or_cross_references": "Cumont (Studia Pont. 3, 119); Daicovici I. l.; Waddington Fast. As. n. 157; Heer Philol. Suppl. 9, 80 sq.; Haines."
+      },
+      "main_person": {
+        "id": "person_arrius_antoninus",
+        "displayed_name": "C. Arrius Antoninus",
+        "normalized_name": "C. Arrius Antoninus",
+        "pir_reference": "A 1088",
+        "status_markers": [
+          "consularis",
+          "patronus"
+        ],
+        "notes": [
+          "Consul suffectus c. 170",
+          "Proconsul of Asia c. 184/185"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "Legatus Aug. pr. pr. Cappadociae",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Cappadocia",
+          "date_text": "ante a. 175 vel eo ipso anno",
+          "date_normalized_start": 170,
+          "date_normalized_end": 175,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "preses (sic) p(rovinciae)"
+          ]
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "Legatus Aug. pr. pr. co(n)s(ularis) trium Daciarum",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Tres Daciae",
+          "date_text": "post Cappadociam",
+          "date_normalized_start": 175,
+          "date_normalized_end": 177,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "co(n)s(ularis) trium Daciarum"
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "Consul suffectus",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. fere 170",
+          "date_normalized_start": 170,
+          "date_normalized_end": 170,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_2",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "Proconsul Asiae",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": "c. a. 184/185",
+          "date_normalized_start": 184,
+          "date_normalized_end": 185,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "vita Com. 7,1",
+            "Tertull. ad Scap. 5"
+          ]
+        },
+        {
+          "factoid_id": "car_3",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "curator Ariminiensium",
+          "normalized_office": "curator civitatis",
+          "province_text": "Ariminum",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_4",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "curator Nolanorum",
+          "normalized_office": "curator civitatis",
+          "province_text": "Nola",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_5",
+          "person_id": "person_arrius_antoninus",
+          "exact_text": "curator Tifernatium Tiberinorum",
+          "normalized_office": "curator civitatis",
+          "province_text": "Tifernum Tiberinum",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "fortasse"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_calpurnia_quadratilla",
+          "displayed_name": "Calpurnia Quadratilla",
+          "normalized_name": "Calpurnia Quadratilla",
+          "relation_context": "uxor",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_c_arrius_antoninus_filius",
+          "displayed_name": "C. Arrius Antoninus",
+          "normalized_name": "C. Arrius Antoninus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_c_arrius_quadratus",
+          "displayed_name": "C. Arrius Quadratus",
+          "normalized_name": "C. Arrius Quadratus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_cornelius_fronto",
+          "displayed_name": "Cornelius Fronto",
+          "normalized_name": "M. Cornelius Fronto",
+          "relation_context": "observed as parent (parentem observavit)",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_arrius_antoninus",
+          "target": "person_calpurnia_quadratilla",
+          "relation": "spouse",
+          "certainty": "high",
+          "basis": "Calpurnia Quadratilla uxor",
+          "notes": []
+        },
+        {
+          "source": "person_arrius_antoninus",
+          "target": "person_c_arrius_antoninus_filius",
+          "relation": "parent",
+          "certainty": "high",
+          "basis": "C. Arrius Antoninus ... filii",
+          "notes": []
+        },
+        {
+          "source": "person_arrius_antoninus",
+          "target": "person_c_arrius_quadratus",
+          "relation": "parent",
+          "certainty": "high",
+          "basis": "C. Arrius Quadratus filii",
+          "notes": []
+        },
+        {
+          "source": "person_arrius_antoninus",
+          "target": "person_cornelius_fronto",
+          "relation": "social_client_or_adoptee",
+          "certainty": "high",
+          "basis": "Cornelium Frontonem non secus quam parentem observavit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry starts on the previous page (212) and concludes on page 213."
+      ]
+    }
+  ]
+}

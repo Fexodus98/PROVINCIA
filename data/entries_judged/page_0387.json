@@ -1,0 +1,69 @@
+{
+  "page_notes": [
+    "The page contains the continuation of the entry for C. Bruttius Praesens (PIR B 164), explicitly attested as 'Legatus Aug. pr. pr. (Galatiae) sub Hadriano'.",
+    "No other entries on this page explicitly attest a person as legatus Augusti pro praetore."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "pir-b-164",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "lemma",
+          "issue": "The lemma in the proposed JSON is 'C. BRVTTIVS PRAESENS', but the printed page shows 'C. Bruttius Praesens t. 2.' as the lemma header.",
+          "severity": "low",
+          "suggested_fix": "Update lemma to 'C. Bruttius Praesens t. 2.' to match the printed page."
+        },
+        {
+          "field": "pir_reference",
+          "issue": "The PIR reference is correct as 'PIR B 164', but the printed page shows 't. 2.' indicating this is the second part of the entry. This should be noted.",
+          "severity": "low",
+          "suggested_fix": "Add 't. 2.' to the pir_reference or note it in the entry metadata."
+        },
+        {
+          "field": "governorship_factoids.exact_text",
+          "issue": "The exact_text 'Legatus Aug. pr. pr. (Galatiae) sub Hadriano' is correct but could be more precise by including the full stop and 't. 1.' as shown on the page: '— Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.'",
+          "severity": "low",
+          "suggested_fix": "Update exact_text to '— Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.'"
+        },
+        {
+          "field": "governorship_factoids.province_normalized",
+          "issue": "The province_normalized 'Galatia' is correct, but the province_text 'Galatiae' is in the genitive case, which is accurate per the page.",
+          "severity": "low",
+          "suggested_fix": null
+        },
+        {
+          "field": "governorship_factoids.date_normalized_start/end",
+          "issue": "The date range '117-138' for 'sub Hadriano' is reasonable but not explicitly bounded on the page. The page only states 'sub Hadriano' without further precision.",
+          "severity": "medium",
+          "suggested_fix": "Clarify in notes that the date range is inferred from Hadrian's reign (117-138 AD)."
+        },
+        {
+          "field": "main_person.status_markers",
+          "issue": "The status_markers include 'patricius', but the page does not explicitly state that C. Bruttius Praesens was a patrician. This should be verified or removed.",
+          "severity": "medium",
+          "suggested_fix": "Remove 'patricius' from status_markers unless explicitly supported by the text."
+        },
+        {
+          "field": "career_factoids.car-1.date_normalized_start/end",
+          "issue": "The date range '114-117' for 'Traiani bello Parthico' is reasonable but not explicitly stated on the page. The page only mentions 'Traiani bello Parthico' without specific years.",
+          "severity": "medium",
+          "suggested_fix": "Clarify in notes that the date range is inferred from Trajan's Parthian War (114-117 AD)."
+        },
+        {
+          "field": "related_persons.person-bruttius-praesens-friend-pliny",
+          "issue": "The relation 'son of' for 'Bruttius Praesens (n. 161)' is based on 'Filius videtur (Bruttii) Praesentis amici Plinii', which is speculative ('videtur'). The certainty should reflect this.",
+          "severity": "medium",
+          "suggested_fix": "Update certainty to 'low' or clarify the speculative nature in notes."
+        },
+        {
+          "field": "related_persons.person-c-bruttius-praesens-cos-153",
+          "issue": "The displayed_name 'C. Bruttius Praesens cos. a. 153 (n. 165)' is correct, but the page refers to this person as 'C. Bruttii Praesentis cos. a. 153 (n. 165)' (genitive). The relation context 'son of' is supported by 'Pater sine dubio C. Bruttii Praesentis cos. a. 153'.",
+          "severity": "low",
+          "suggested_fix": null
+        }
+      ]
+    }
+  ]
+}

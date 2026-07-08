@@ -1,0 +1,44 @@
+{
+  "page_notes": [
+    "The page contains entries for Avidius Nigrinus (PIR A 1407) and C. Avidius Nigrinus (PIR A 1408). Only A 1408 is explicitly attested as 'legatus Augusti pro praetore' in Dacia and Achaia. A 1407 is described as a proconsul of Achaia, not a legatus Aug. pr. pr."
+  ],
+  "missed_entries": [],
+  "judgments": [
+    {
+      "entry_id": "1408",
+      "verdict": "minor_issues",
+      "problems": [
+        {
+          "field": "governorship_factoids.gov_1408_dacia.date_normalized_start",
+          "issue": "The date 'sub finem ut videtur imperii Traiani' is interpreted as 112-117, but the text does not provide explicit start/end years. The certainty of 112 as the start year is not directly supported by the image.",
+          "severity": "medium",
+          "suggested_fix": "Set date_normalized_start to 115 or null, as the text only suggests 'sub finem' (late reign of Trajan)."
+        },
+        {
+          "field": "governorship_factoids.gov_1408_dacia.exact_text",
+          "issue": "The exact_text 'C. Avidi Nigrini leg. Aug. pr. pr.' is correct, but the trailing period is missing in the proposed JSON.",
+          "severity": "low",
+          "suggested_fix": "Add a period at the end: 'C. Avidi Nigrini leg. Aug. pr. pr.'."
+        },
+        {
+          "field": "governorship_factoids.gov_1408_achaia.exact_text",
+          "issue": "The exact_text is overly verbose and includes non-verbatim elements (e.g., '[C. Avi]dio Nigrino leg. Aug. pro pr. ...'). The image shows specific formulas: 'Legatus Aug. pr. pr.' and '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος'.",
+          "severity": "medium",
+          "suggested_fix": "Split into two exact_text entries: 'Legatus Aug. pr. pr.' and '᾿Αουίδιος Νιγρῖνος, πρεσβευτης Σεβαστος ἀντιστράτηγος' (or closest verbatim from the image)."
+        },
+        {
+          "field": "main_person.normalized_name",
+          "issue": "The normalized_name 'Gaius Avidius Nigrinus' is not explicitly stated in the text. The lemma shows 'c. AVIDIVS NIGRINVS' (abbreviated praenomen).",
+          "severity": "low",
+          "suggested_fix": "Use 'C. Avidius Nigrinus' to match the lemma abbreviation."
+        },
+        {
+          "field": "career_factoids.career_1408_tribunate.certainty",
+          "issue": "The tribunus plebis identification is tentative ('Hic fortasse Nigrinus tribunus plebis a. 105'). The proposed certainty 'medium' is too high.",
+          "severity": "medium",
+          "suggested_fix": "Set certainty to 'low' or 'tentative'."
+        }
+      ]
+    }
+  ]
+}

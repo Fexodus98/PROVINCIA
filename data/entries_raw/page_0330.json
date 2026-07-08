@@ -1,0 +1,132 @@
+{
+  "document_notes": [
+    "The page image shows page number 314, although the prompt metadata refers to page 330.",
+    "The entry for L. Aurelius Gallus (cos. 198) is continued from the preceding page; the lemma header itself is on the previous page, but the text on this page contains the crucial governorship attestation for Moesia inferior."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_1498",
+      "pir_reference": "A 1498",
+      "lemma": "L. AVRELIVS GALLVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris)' under Septimius Severus and Caracalla.",
+      "segments": {
+        "lemma": "[L. AVRELIVS GALLVS]",
+        "name_variants": "L. Aur[elius Gal]lus, Αὐρή(λιος) Γάλλος, Αὐρ. Γάλλος, Αὐρ. Γάλλου, ὑπ. Αὐρ. Γάλλου",
+        "identification_and_sources": "Coins of Nicopolis ad Istrum (Νικοπολειτῶν πρὸς Ἴστρον) mentioning ὑπ. Αὐρ. Γάλλου / ὑπ. Αὐρ. Γάλλ. / ὑπ. Αὐ. Γάλλου. Inscriptions: XIV 4562, 2 (fasti), IGR 3, 848 (Cilicia, corrected), VI 36936, VI 31133.",
+        "offices_and_career": "Consul ordinarius in a. 198 with P. Martius Saturninus (XIV 4562, 2). Perhaps curator aedium sacrarum vel operum publicorum (VI 31133).",
+        "governorship_attestation": "Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi, id quod inde colligitur, quod in nummis comparet Fulvia Plautilla.",
+        "family_and_social_relations": "Filius videtur L. Aurelii Galli consulis a. 174. Parentela cum his Aureliis Gallis coniunctus fuisse videtur L. Iunius L. f. Gal(eria) Aurelius Neratius Gallus Fulvius Macer VI 1433.",
+        "prosopographical_commentary": "Discussion of the coins of Nicopolis ad Istrum and the reading of the governor's name (ὑπ. Αὐρ. Γάλλου). Discussion of the fasti and the correction of IGR 3, 848.",
+        "bibliography_or_cross_references": "Ruzicka Num. Z. p. 141sq., Grose l. l. 2, 173 n. 4398, Macdonald Hunter. Coll. 1 p. 414, 9, Cesano Annuario di Atene 3, 174, Ant. Münz. n. 1654-1659, 1536, 1632, Pick, M. Britschkoff Ath. Mitt. l. l. p. 118."
+      },
+      "main_person": {
+        "id": "person_l_aurelius_gallus",
+        "displayed_name": "L. Aurelius Gallus",
+        "normalized_name": "Lucius Aurelius Gallus",
+        "pir_reference": "A 1498",
+        "status_markers": [
+          "vir clarissimus",
+          "consularis"
+        ],
+        "notes": [
+          "Consul ordinarius in A.D. 198."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_l_aurelius_gallus_moesia_inf",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi",
+          "normalized_office": "legatus Augusti pro praetore",
+          "province_text": "Moesia inferior",
+          "date_text": "intra a. 202—205",
+          "date_normalized_start": 202,
+          "date_normalized_end": 205,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on coins of Nicopolis ad Istrum during the joint reign of Septimius Severus and Caracalla, featuring Fulvia Plautilla."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_l_aurelius_gallus_cos",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "Consul ordinarius a. 198 cum P. Martio Saturnino",
+          "normalized_office": "consul ordinarius",
+          "province_text": null,
+          "date_text": "198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 198,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in fasti (CIL XIV 4562, 2)."
+          ]
+        },
+        {
+          "factoid_id": "career_l_aurelius_gallus_curator",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "curator aedium sacrarum vel operum publicorum in fragmento t. urbani VI 31133",
+          "normalized_office": "curator aedium sacrarum et operum publicorum",
+          "province_text": "Roma",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "PIR notes: 'Hic fortasse Aurelius G....., qui memoratur ut curator...'"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_l_aurelius_gallus_cos_174",
+          "displayed_name": "L. Aurelius Gallus (cos. 174)",
+          "normalized_name": "Lucius Aurelius Gallus",
+          "relation_context": "Filius videtur L. Aurelii Galli consulis a. 174",
+          "certainty": "medium",
+          "notes": [
+            "Presumed father of the main person."
+          ]
+        },
+        {
+          "id": "person_l_iunius_aurelius_neratius_gallus",
+          "displayed_name": "L. Iunius L. f. Gal. Aurelius Neratius Gallus Fulvius Macer",
+          "normalized_name": "Lucius Iunius Aurelius Neratius Gallus Fulvius Macer",
+          "relation_context": "Parentela cum his Aureliis Gallis coniunctus fuisse videtur",
+          "certainty": "medium",
+          "notes": [
+            "Attested in CIL VI 1433."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_l_aurelius_gallus",
+          "target": "person_l_aurelius_gallus_cos_174",
+          "relation": "son of",
+          "certainty": "medium",
+          "basis": "Filius videtur L. Aurelii Galli consulis a. 174",
+          "notes": []
+        },
+        {
+          "source": "person_l_iunius_aurelius_neratius_gallus",
+          "target": "person_l_aurelius_gallus",
+          "relation": "relative of",
+          "certainty": "medium",
+          "basis": "Parentela cum his Aureliis Gallis coniunctus fuisse videtur",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the reading of the governor's name on the coins of Nicopolis ad Istrum, rejecting the reading of a praenomen 'A.' or 'L.' before Aurelius on the coins, attributing it to punctuation errors."
+      ]
+    }
+  ]
+}

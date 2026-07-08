@@ -1,0 +1,222 @@
+{
+  "document_notes": [
+    "PIR2 page 109, containing entries 639 to 648. Entry 643 (L. Annius Fabianus) is relevant to the PROVINCIA corpus as legatus Augusti pr. pr. provinciae Daciae."
+  ],
+  "entries": [
+    {
+      "entry_id": "643",
+      "pir_reference": "A 643",
+      "lemma": "L. ANNIVS FABIANVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as legatus Augusti pr. pr. provinciae Daciae.",
+      "segments": {
+        "lemma": "L. ANNIVS FABIANVS",
+        "name_variants": "L. Annius Fabianus",
+        "identification_and_sources": "publice honoratur III 1455 = 7972 t. Sarmizegetusensi.",
+        "offices_and_career": "III vir capitalis, tribunus legionis II Augustae, quaestor urbanus, tribunus plebis, praetor, curator viae Latinae, legatus legionis X Fretensis, legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius)",
+        "governorship_attestation": "legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius) publice honoratur III 1455 = 7972 t. Sarmizegetusensi.",
+        "family_and_social_relations": "Avus videtur eius qui sequitur.",
+        "prosopographical_commentary": "Governed Dacia before Marcus Aurelius (ante imperatorem Marcum) as a praetorian legate.",
+        "bibliography_or_cross_references": "CIL III 1455 = 7972."
+      },
+      "main_person": {
+        "id": "person_643",
+        "displayed_name": "L. Annius Fabianus",
+        "normalized_name": "Lucius Annius Fabianus",
+        "pir_reference": "A 643",
+        "status_markers": [
+          "senator",
+          "vir clarissimus"
+        ],
+        "notes": [
+          "Grandfather of L. Annius Fabianus, consul in 201 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_643_1",
+          "person_id": "person_643",
+          "exact_text": "legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Dacia",
+          "province_normalized": null,
+          "date_text": "ante imperatorem Marcum",
+          "date_normalized_start": null,
+          "date_normalized_end": 161,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in an inscription from Sarmizegetusa (CIL III 1455 = 7972). Governed before the reign of Marcus Aurelius (161-180 AD) as a praetorian legate."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_643_1",
+          "person_id": "person_643",
+          "exact_text": "III vir capitalis",
+          "normalized_office": "triumvir capitalis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_2",
+          "person_id": "person_643",
+          "exact_text": "tribunus legionis II Augustae",
+          "normalized_office": "tribunus militum legionis II Augustae",
+          "province_text": "Britannia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_3",
+          "person_id": "person_643",
+          "exact_text": "quaestor urbanus",
+          "normalized_office": "quaestor urbanus",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_4",
+          "person_id": "person_643",
+          "exact_text": "tribunus plebis",
+          "normalized_office": "tribunus plebis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_5",
+          "person_id": "person_643",
+          "exact_text": "praetor",
+          "normalized_office": "praetor",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_6",
+          "person_id": "person_643",
+          "exact_text": "curator viae Latinae",
+          "normalized_office": "curator viae Latinae",
+          "province_text": "Italia",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_643_7",
+          "person_id": "person_643",
+          "exact_text": "legatus legionis X Fretensis",
+          "normalized_office": "legatus legionis X Fretensis",
+          "province_text": "Iudaea",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_644",
+          "displayed_name": "L. Annius Fabianus",
+          "normalized_name": "Lucius Annius Fabianus",
+          "relation_context": "grandson (eius qui sequitur)",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 201 AD."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_643",
+          "target": "person_644",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Avus videtur eius qui sequitur.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "PIR2 A 643"
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids[0].province_text",
+            "issue": "Province text 'Dacia' is correct, but the normalized province should be 'Dacia' (not 'Tres Daciae' or other variants) as the text does not specify a subdivision.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids[0].date_normalized_end",
+            "issue": "Date 'ante imperatorem Marcum' is correctly interpreted as before 161 AD, but the certainty of the end date should be marked as 'medium' due to the lack of a precise year.",
+            "severity": "low",
+            "suggested_fix": "Change certainty to 'medium'."
+          },
+          {
+            "field": "governorship_factoids[0].exact_text",
+            "issue": "The exact_text is slightly truncated. The full quote from the image is: 'legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius) publice honoratur III 1455 = 7972 t. Sarmizegetusensi.'",
+            "severity": "low",
+            "suggested_fix": "Update exact_text to include 'publice honoratur III 1455 = 7972 t. Sarmizegetusensi.' at the end."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "Status marker 'vir clarissimus' is not explicitly attested in the entry text. The text does not mention this title for L. Annius Fabianus.",
+            "severity": "medium",
+            "suggested_fix": "Remove 'vir clarissimus' from status_markers."
+          },
+          {
+            "field": "career_factoids[1].province_text",
+            "issue": "The province_text 'Britannia' for 'tribunus legionis II Augustae' is inferred but not explicitly stated in the text. The legion II Augusta was stationed in Britannia, but this is not directly mentioned in the entry.",
+            "severity": "low",
+            "suggested_fix": "Add a note clarifying the inference or set province_text to null."
+          },
+          {
+            "field": "career_factoids[6].province_text",
+            "issue": "The province_text 'Iudaea' for 'legatus legionis X Fretensis' is inferred but not explicitly stated in the text. The legion X Fretensis was stationed in Iudaea, but this is not directly mentioned in the entry.",
+            "severity": "low",
+            "suggested_fix": "Add a note clarifying the inference or set province_text to null."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

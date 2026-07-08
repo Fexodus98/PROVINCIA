@@ -1,0 +1,290 @@
+{
+  "document_notes": [
+    "Page 29 of PIR (Aelius) containing the continuation of the entry for the emperor Hadrian (P. Aelius Hadrianus)."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_184_cont",
+      "pir_reference": "A 184",
+      "lemma": "AELIVS [HADRIANVS]",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as 'Legatus Augusti pro praetore Pannoniae inferioris' and 'legatus Syriae'.",
+      "segments": {
+        "lemma": "AELIVS [HADRIANVS] (continued)",
+        "name_variants": "Hadrianus, P. Aelius Hadrianus",
+        "identification_and_sources": "Pater eius Adriae ortus epit., Hadria ortos maiores suos apud Italicam Scipionum temporibus resedisse Hadrianus ipse commemorat vita 1, 1. Decimo aetatis anno patre orbatus Ulpium Traianum praetorem tunc, qui postea imperium tenuit, et P. Acilium Attianum (male traditur Caelium Tatianum vel simile) equitem Romanum tutores habuit vita 1, 4; 2, 2; 4, 2; 9, 3. Dio 69, 1, 1. 2.",
+        "offices_and_career": "decemvir stlitibus iudicandis vita 2, 2. t. 1. Praefectus feriarum Latinarum, sevir turmae equitum Romanorum t. 1. Tribunus legionis secundae adiutricis piae fidelis t. 1. Vita 2, 2; post hoc in Moesiam inferiorem translatus extremis Domitiani temporibus vita 2, 3, tribunus legionis quintae Macedonicae t. 1, tribunus legionis XXII primigeniae piae fidelis t. 1, a. 97... Quaestor imperatoris Traiani a. 101 v. 3, 1. t. 1 et comes expeditionis Dacicae v. 3, 2. t. 1... Post quaesturam ab actis senatus v. 3, 2. Tribunus plebis a. 105 v. 3, 4. t. 1. Secunda expeditione Dacica legatus legionis I Minerviae piae fidelis v. 3, 6. t. 1 eodemque tempore praetor t. 1, praetor factus est 'sub Surano bis et Serviano iterum consulibus' v. 3, 8... Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1), Sarmatas compressit, ob res bene gestas consul est factus vita 3, 10. Consul (t. 1) suffectus (Dio 69, 1, 2) d. 22 m. Iun. a. 108... Septemvir epulonum, sodalis Augustalis certe a. 112 t. 1. Archon Athenis t. 1... Plotinae favore legatus expeditionis Parthicae tempore destinatus v. 4, 1, legatus Syriae certe a. 117 (sed vide infra) v. 4, 6. Consul designatus II... consul II a. 118. A Traiano adoptatus, d. 9 Aug. 117...",
+        "governorship_attestation": "Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1)... legatus Syriae certe a. 117 (sed vide infra) v. 4, 6.",
+        "family_and_social_relations": "Pater eius Adriae ortus... Ulpium Traianum praetorem tunc... et P. Acilium Attianum... tutores habuit... Plotinae favore legatus expeditionis Parthicae... A Traiano adoptatus...",
+        "prosopographical_commentary": "Discussion of the dates of his praetorship and consulship, noting potential confusion in the sources regarding the consulships of Sura, Servianus, and Senecio.",
+        "bibliography_or_cross_references": "Dio 69, 1, 1; Appian l.c.; vita 1, 1; IG 3, 1096; IG 7, 2879; Cohen; Mattingly-Sydenham; P. Strack Unters. zur röm. Reichspräg."
+      },
+      "main_person": {
+        "id": "person_hadrianus",
+        "displayed_name": "P. Aelius Hadrianus (imperator Caesar Traianus Hadrianus Augustus)",
+        "normalized_name": "Publius Aelius Hadrianus",
+        "pir_reference": "A 184",
+        "status_markers": [
+          "senator",
+          "consularis",
+          "patricius",
+          "imperator"
+        ],
+        "notes": [
+          "The future emperor Hadrian."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_hadrianus",
+          "exact_text": "Legatus Augusti pro praetore Pannoniae inferioris",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannonia inferior",
+          "province_normalized": null,
+          "date_text": "before consulship of 108",
+          "date_normalized_start": 106,
+          "date_normalized_end": 108,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Sarmatas compressit, ob res bene gestas consul est factus."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "person_hadrianus",
+          "exact_text": "decemvir stlitibus iudicandis",
+          "normalized_office": "decemvir stlitibus iudicandis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_2",
+          "person_id": "person_hadrianus",
+          "exact_text": "Tribunus legionis secundae adiutricis piae fidelis",
+          "normalized_office": "tribunus militum legionis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_3",
+          "person_id": "person_hadrianus",
+          "exact_text": "tribunus legionis quintae Macedonicae",
+          "normalized_office": "tribunus militum legionis",
+          "province_text": "Moesia inferior",
+          "date_text": "extremis Domitiani temporibus",
+          "date_normalized_start": 95,
+          "date_normalized_end": 96,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_4",
+          "person_id": "person_hadrianus",
+          "exact_text": "tribunus legionis XXII primigeniae piae fidelis",
+          "normalized_office": "tribunus militum legionis",
+          "province_text": "Germania superior",
+          "date_text": "a. 97",
+          "date_normalized_start": 97,
+          "date_normalized_end": 97,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_5",
+          "person_id": "person_hadrianus",
+          "exact_text": "Quaestor imperatoris Traiani",
+          "normalized_office": "quaestor",
+          "province_text": null,
+          "date_text": "a. 101",
+          "date_normalized_start": 101,
+          "date_normalized_end": 101,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_6",
+          "person_id": "person_hadrianus",
+          "exact_text": "Tribunus plebis",
+          "normalized_office": "tribunus plebis",
+          "province_text": null,
+          "date_text": "a. 105",
+          "date_normalized_start": 105,
+          "date_normalized_end": 105,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_7",
+          "person_id": "person_hadrianus",
+          "exact_text": "legatus legionis I Minerviae piae fidelis",
+          "normalized_office": "legatus legionis",
+          "province_text": null,
+          "date_text": "Secunda expeditione Dacica",
+          "date_normalized_start": 105,
+          "date_normalized_end": 106,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_8",
+          "person_id": "person_hadrianus",
+          "exact_text": "Consul suffectus",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "d. 22 m. Iun. a. 108",
+          "date_normalized_start": 108,
+          "date_normalized_end": 108,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_9",
+          "person_id": "person_hadrianus",
+          "exact_text": "legatus expeditionis Parthicae",
+          "normalized_office": "legatus",
+          "province_text": null,
+          "date_text": "tempore destinatus",
+          "date_normalized_start": 114,
+          "date_normalized_end": 117,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_traianus",
+          "displayed_name": "Traianus (Ulpium Traianum)",
+          "normalized_name": "Marcus Ulpius Traianus",
+          "relation_context": "Tutor of Hadrian, later adoptive father and emperor.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_attianus",
+          "displayed_name": "P. Acilius Attianus",
+          "normalized_name": "Publius Acilius Attianus",
+          "relation_context": "Tutor of Hadrian.",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_plotina",
+          "displayed_name": "Plotina",
+          "normalized_name": "Pompeia Plotina",
+          "relation_context": "Favored Hadrian, helping him secure military and political appointments.",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_hadrianus",
+          "target": "person_traianus",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "tutores habuit... A Traiano adoptatus",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "This page contains the detailed career of the future emperor Hadrian prior to his accession in 117 AD."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "The exact text 'Legatus Augusti pro praetore Pannoniae inferioris' is not a verbatim quote from the page. The page reads: 'Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1)'",
+            "severity": "low",
+            "suggested_fix": "Use the exact quote: 'Legatus Augusti pro praetore Pannoniae inferioris (v. 3, 9. t. 1)'"
+          },
+          {
+            "field": "governorship_factoids.gov_1.province_normalized",
+            "issue": "The province_normalized is correct, but the province_text should match the exact case and form in the source: 'Pannoniae inferioris' (genitive).",
+            "severity": "low",
+            "suggested_fix": "Update province_text to 'Pannoniae inferioris'"
+          },
+          {
+            "field": "governorship_factoids.gov_1.date_normalized_start",
+            "issue": "The start date of 106 is inferred but not explicitly stated. The text only mentions the governorship occurred before his consulship in 108.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to 107 (more conservative estimate) or add a note about the uncertainty."
+          },
+          {
+            "field": "governorship_factoids.gov_2.exact_text",
+            "issue": "The exact text 'legatus Syriae certe a. 117' is not a verbatim quote. The page reads: 'legatus Syriae certe a. 117 (sed vide infra) v. 4, 6.'",
+            "severity": "low",
+            "suggested_fix": "Use the exact quote: 'legatus Syriae certe a. 117 (sed vide infra) v. 4, 6.'"
+          },
+          {
+            "field": "governorship_factoids.gov_2.date_normalized_end",
+            "issue": "The end date is set to 117, but the text suggests he was legatus of Syria at the time of Trajan's death in August 117, implying he may have continued beyond this date.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to 118 or add a note about the uncertainty."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status marker 'patricius' is not supported by the text on this page. Hadrian was not a patrician by birth but was granted patrician status later, which is not mentioned here.",
+            "severity": "medium",
+            "suggested_fix": "Remove 'patricius' from status_markers."
+          },
+          {
+            "field": "career_factoids.car_3.date_normalized_start",
+            "issue": "The date 'extremis Domitiani temporibus' is normalized to 95-96, but Domitian's reign ended in September 96. The normalization should reflect this.",
+            "severity": "low",
+            "suggested_fix": "Set date_normalized_end to 96."
+          },
+          {
+            "field": "career_factoids.car_4.date_normalized_start",
+            "issue": "The date 'a. 97' is normalized to 97, but the text does not specify if this was early or late in the year. The certainty should reflect this.",
+            "severity": "low",
+            "suggested_fix": "Add a note about the uncertainty of the exact timing within the year."
+          },
+          {
+            "field": "career_factoids.car_7.date_normalized_end",
+            "issue": "The end date for 'legatus legionis I Minerviae piae fidelis' is set to 106, but the text does not specify an end date, only that it was during the 'Secunda expeditione Dacica'.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_end to 106 with a note about the uncertainty or adjust to 105-106."
+          },
+          {
+            "field": "career_factoids.car_9.date_normalized_start",
+            "issue": "The start date for 'legatus expeditionis Parthicae' is set to 114, but the text says 'tempore destinatus', which is vague. The normalization should reflect this.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to 113 or add a note about the uncertainty."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}

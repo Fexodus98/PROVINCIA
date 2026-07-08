@@ -1,0 +1,196 @@
+{
+  "document_notes": [
+    "Page 289 contains the continuation of the entry for T. Avidius Quietus (PIR² A 1410), who is attested as legatus Aug. pr. pr. of Britannia."
+  ],
+  "entries": [
+    {
+      "entry_id": "pir_a_1410",
+      "pir_reference": "A 1410",
+      "lemma": "AVIDIVS QVIETVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly named as 'Legatus Aug. pr. pr. Britanniae a. 98 (vel 99)'.",
+      "segments": {
+        "lemma": "AVIDIVS QVIETVS",
+        "name_variants": "T. Avidius Quietus, Quietus",
+        "identification_and_sources": "Plin. ep. 9, 13, 15; 6, 29, 1. Plutarchus de frat. amore, quaest. conv. 2, 1, 5. Macrob. 7, 3, 15. IG 5, 1. CIL XI 660.",
+        "offices_and_career": "legatus legionis VIII Augustae, proconsul Achaiae sub Domitiano, legatus Aug. pr. pr. Britanniae a. 98 (vel 99).",
+        "governorship_attestation": "Legatus Aug. pr. pr. Britanniae a. 98 (vel 99) t. 6, si recte ut videtur editores in dipl. mil. cognomen Quieti suppleverunt.",
+        "family_and_social_relations": "Frater Avidii Nigrini. Amicus Plutarchi, Plinii, Sosii Senecionis. Familiaris Thraseae Paeti, Aufidii Modesti, Arriae et Fanniae. Pater Avidii Quieti (proconsul Asiae sub Hadriano).",
+        "prosopographical_commentary": "Discussion of his proconsulship of Achaia, his consulship (possibly in 97), and his properties in Rome (Esquiliae, Quirinalis) and Sardinia.",
+        "bibliography_or_cross_references": "cf. n. 1407, 1409, 1401, 1405."
+      },
+      "main_person": {
+        "id": "person_avidius_quietus",
+        "displayed_name": "T. Avidius Quietus",
+        "normalized_name": "Titus Avidius Quietus",
+        "pir_reference": "A 1410",
+        "status_markers": [
+          "senator",
+          "consularis"
+        ],
+        "notes": [
+          "Friend of Pliny the Younger and Plutarch."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_avidius_quietus",
+          "exact_text": "Legatus Aug. pr. pr. Britanniae a. 98 (vel 99)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Britannia",
+          "province_normalized": null,
+          "date_text": "a. 98 (vel 99)",
+          "date_normalized_start": 98,
+          "date_normalized_end": 99,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "The cognomen Quietus is restored by editors in the military diploma."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1",
+          "person_id": "person_avidius_quietus",
+          "exact_text": "legatus legionis VIII Augustae",
+          "normalized_office": "legatus legionis",
+          "province_text": null,
+          "date_text": "circa hoc tempus",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Earlier scholars incorrectly thought he governed Thrace under Domitian."
+          ]
+        },
+        {
+          "factoid_id": "career_2",
+          "person_id": "person_avidius_quietus",
+          "exact_text": "Proconsul Achaiae t. 1 sub Domitiano",
+          "normalized_office": "proconsul",
+          "province_text": "Achaia",
+          "date_text": "sub Domitiano (ad a. 95)",
+          "date_normalized_start": 81,
+          "date_normalized_end": 96,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Dated to around 95 AD by Pomtow."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_avidius_nigrinus",
+          "displayed_name": "Avidius Nigrinus",
+          "normalized_name": "Avidius Nigrinus",
+          "relation_context": "Frater (Avidii) Nigrini",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_avidius_quietus_jr",
+          "displayed_name": "Avidius Quietus",
+          "normalized_name": "Avidius Quietus",
+          "relation_context": "Huius puto filius Avidius Quietus, proconsul Asiae temporibus Hadriani",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_plutarchus",
+          "displayed_name": "Plutarchus",
+          "normalized_name": "Plutarchus",
+          "relation_context": "Amicus Plutarchi",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_plinius",
+          "displayed_name": "Plinius",
+          "normalized_name": "C. Plinius Caecilius Secundus",
+          "relation_context": "Plinium unice dilexit et probavit",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_avidius_quietus",
+          "target": "person_avidius_nigrinus",
+          "relation": "sibling_of",
+          "certainty": "high",
+          "basis": "Frater (Avidii) Nigrini",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_quietus_jr",
+          "target": "person_avidius_quietus",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Huius puto filius Avidius Quietus",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_quietus",
+          "target": "person_plutarchus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "Amicus Plutarchi",
+          "notes": []
+        },
+        {
+          "source": "person_avidius_quietus",
+          "target": "person_plinius",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "Plinium unice dilexit et probavit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses his career, family, and social circle, including his friendship with Plutarch and Pliny."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "governorship_factoids.gov_1.exact_text",
+            "issue": "The exact_text includes 't. 6, si recte ut videtur editores in dipl. mil. cognomen Quieti suppleverunt', which is not part of the direct attestation formula but an editorial note. The verbatim quote should exclude this.",
+            "severity": "low",
+            "suggested_fix": "Use 'Legatus Aug. pr. pr. Britanniae a. 98 (vel 99)' as exact_text."
+          },
+          {
+            "field": "governorship_factoids.gov_1.date_normalized_end",
+            "issue": "The date range 'a. 98 (vel 99)' is correctly transcribed, but the normalized_end is set to 99. The certainty is medium, so this is acceptable, but the note should reflect the uncertainty.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "career_factoids.career_2.date_normalized_start",
+            "issue": "The proconsulship of Achaia is dated 'sub Domitiano (ad a. 95)' in the text, but the normalized_start is set to 81 (start of Domitian's reign). The text suggests a narrower range around 95 AD.",
+            "severity": "medium",
+            "suggested_fix": "Set date_normalized_start to 94 and date_normalized_end to 96 to reflect the text's 'ad a. 95' more accurately."
+          },
+          {
+            "field": "main_person.status_markers",
+            "issue": "The status_markers include 'consularis', but the text states 'Quo ex loco haud plane apparet utrum consularis an praetorius lunc censuerit'. The marker should reflect this uncertainty.",
+            "severity": "medium",
+            "suggested_fix": "Replace 'consularis' with 'consularis (uncertain)' or add a note about the uncertainty."
+          },
+          {
+            "field": "related_persons.person_avidius_quietus_jr.relation_context",
+            "issue": "The relation_context 'Huius puto filius Avidius Quietus' is correctly transcribed, but the certainty is marked as 'medium'. The text uses 'puto' (I think), which supports this certainty level, but the note should reflect the speculative nature.",
+            "severity": "low",
+            "suggested_fix": null
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
+}
