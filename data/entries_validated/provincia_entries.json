@@ -2156,6 +2156,7 @@
         },
         {
           "factoid_id": "gov_2_pann_sup",
+          "person_id": "person_534",
           "province_text": "Pannonia superior",
           "province_normalized": "Pannonia superior",
           "normalized_office": "legatus Augusti pro praetore provinciae",

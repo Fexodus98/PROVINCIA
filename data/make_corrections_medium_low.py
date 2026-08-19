@@ -179,7 +179,8 @@ emit(e)
 e = get("A 534")
 setf(e, "gov_534_1", province_normalized="Galatia",
      date_text="temp. Antoninus Pius, Commodus oder Caracalla (Antoninus Severi filius)")
-ps = {"factoid_id": "gov_2_pann_sup", "province_text": "Pannonia superior", "province_normalized": "Pannonia superior",
+ps = {"factoid_id": "gov_2_pann_sup", "person_id": "person_534",
+      "province_text": "Pannonia superior", "province_normalized": "Pannonia superior",
       "normalized_office": TARGET, "certainty": "low", "evidence_type": "inferred_from_context",
       "exact_text": "videtur fuisse legatus Pannoniae superioris", "date_text": None,
       "date_normalized_start": None, "date_normalized_end": None,
