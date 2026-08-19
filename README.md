@@ -44,10 +44,13 @@ pip install -r requirements.txt
 # Tesseract-OCR muss separat installiert sein (lat+eng Sprachpakete).
 # Ein Mistral-API-Key wird über eine Umgebungsvariable erwartet (kein Key im Code).
 
-# Beispiel (Pfade über Umgebungsvariablen):
-export PROVINCIA_BASE_DIR=/pfad/zu/data
-export PROVINCIA_OUTPUT_DIR=/pfad/zu/data
+# Vom Repository-Stamm aus; standardmaessig wird ausschliesslich data/ verwendet:
 python pipeline/06_json_to_rdf.py     # baut den RDF-Graphen aus data/entries_validated/
+
+# Optional koennen Eingabe und Datenverzeichnis explizit ueberschrieben werden:
+export PROVINCIA_INPUT_PDF=/pfad/zu/pir_band.pdf
+export PROVINCIA_OUTPUT_DIR=/pfad/zu/separaten_daten
+export PROVINCIA_DATA_DIR=/pfad/zu/separaten_daten
 ```
 
 Die Stufen sind einzeln lauffähig; die Reihenfolge ist 1 → 2 → 3 → 4 → 4b → 5 → (Review) → 6 → 7/8.

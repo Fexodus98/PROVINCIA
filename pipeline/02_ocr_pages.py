@@ -5,7 +5,7 @@ import json
 import subprocess
 from pathlib import Path
 
-from config import OCR_TSV_DIR, OCR_TXT_DIR, PAGES_DIR, TESSERACT_CMD, TESS_LANG, TESS_OEM, TESS_PSM, ensure_output_dirs
+from config import OCR_TSV_DIR, OCR_TXT_DIR, OUTPUT_DIR, PAGES_DIR, TESSERACT_CMD, TESS_LANG, TESS_OEM, TESS_PSM, ensure_output_dirs
 
 
 def list_page_images() -> list[Path]:
@@ -67,9 +67,9 @@ def main() -> None:
         manifest.append(
             {
                 "page": page_no,
-                "image_path": str(image_path),
-                "txt_path": str(txt_path),
-                "tsv_path": str(tsv_path),
+                "image_path": image_path.relative_to(OUTPUT_DIR).as_posix(),
+                "txt_path": txt_path.relative_to(OUTPUT_DIR).as_posix(),
+                "tsv_path": tsv_path.relative_to(OUTPUT_DIR).as_posix(),
                 "text_length": len(txt),
                 "word_boxes": count_nonempty_words(tsv),
             }

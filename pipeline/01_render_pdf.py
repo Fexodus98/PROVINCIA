@@ -5,7 +5,7 @@ from pathlib import Path
 
 import fitz
 
-from config import INPUT_PDF, PAGE_LIMIT, PAGES_DIR, RENDER_DPI, ensure_output_dirs
+from config import INPUT_PDF, OUTPUT_DIR, PAGE_LIMIT, PAGES_DIR, RENDER_DPI, ensure_output_dirs
 
 
 def render_pdf(pdf_path: Path, dpi: int, page_limit: int = 0) -> list[dict]:
@@ -24,7 +24,7 @@ def render_pdf(pdf_path: Path, dpi: int, page_limit: int = 0) -> list[dict]:
         manifest.append(
             {
                 "page": idx + 1,
-                "image_path": str(out_path),
+                "image_path": out_path.relative_to(OUTPUT_DIR).as_posix(),
                 "width": pix.width,
                 "height": pix.height,
                 "dpi": dpi,

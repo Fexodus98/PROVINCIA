@@ -4,9 +4,12 @@ import os
 from pathlib import Path
 
 # --- Core paths -------------------------------------------------------------
-BASE_DIR = Path(os.environ.get("PROVINCIA_BASE_DIR", Path.cwd()))
+# Defaults are anchored at this checkout instead of the caller's working
+# directory. This prevents accidental writes to an unrelated output/ folder.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(os.environ.get("PROVINCIA_BASE_DIR", REPO_ROOT))
 INPUT_PDF = Path(os.environ.get("PROVINCIA_INPUT_PDF", BASE_DIR / "input" / "pir_band.pdf"))
-OUTPUT_DIR = Path(os.environ.get("PROVINCIA_OUTPUT_DIR", BASE_DIR / "output"))
+OUTPUT_DIR = Path(os.environ.get("PROVINCIA_OUTPUT_DIR", REPO_ROOT / "data"))
 
 PAGES_DIR = OUTPUT_DIR / "pages"
 OCR_TXT_DIR = OUTPUT_DIR / "ocr_txt"

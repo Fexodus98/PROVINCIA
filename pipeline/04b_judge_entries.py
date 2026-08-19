@@ -17,6 +17,8 @@ from config import (
     ENTRIES_RAW_DIR,
     MISTRAL_JUDGE_MODEL,
     MISTRAL_MAX_TOKENS,
+    OCR_TXT_DIR,
+    PAGES_DIR,
     ensure_output_dirs,
 )
 from llm_mistral import chat_with_image, get_client
@@ -161,10 +163,13 @@ def main() -> None:
             print(f"[SKIP] page {page_no}: not in candidate list")
             continue
         proposal = json.loads(raw_path.read_text(encoding="utf-8"))
-        ocr_text = Path(record["txt_path"]).read_text(encoding="utf-8")
+        # Manifest paths may originate on another machine. The page number is
+        # stable, so use it to resolve assets inside the active data directory.
+        ocr_text = (OCR_TXT_DIR / f"page_{page_no:04d}.txt").read_text(encoding="utf-8")
+        image_path = PAGES_DIR / f"page_{page_no:04d}.png"
         print(f"[JUDGE] page {page_no} ({len(proposal.get('entries', []))} entries)")
         try:
-            judged = judge_page(client, page_no, proposal, Path(record["image_path"]), ocr_text)
+            judged = judge_page(client, page_no, proposal, image_path, ocr_text)
         except Exception as exc:
             print(f"[FAIL] page {page_no}: {type(exc).__name__}: {exc}")
             failures.append({"page": page_no, "error": f"{type(exc).__name__}: {exc}"})

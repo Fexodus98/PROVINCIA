@@ -11,6 +11,8 @@ from config import (
     ENTRY_SCHEMA,
     MISTRAL_MAX_TOKENS,
     MISTRAL_MODEL,
+    OCR_TXT_DIR,
+    PAGES_DIR,
     ensure_output_dirs,
 )
 from llm_mistral import chat_with_image, get_client
@@ -76,8 +78,10 @@ def load_candidates() -> list[dict[str, Any]]:
 
 def extract_page(client, page_record: dict[str, Any]) -> dict[str, Any]:
     page_no = page_record["page"]
-    ocr_text = Path(page_record["txt_path"]).read_text(encoding="utf-8")
-    image_path = Path(page_record["image_path"])
+    # Manifest paths may record the machine on which OCR was produced.
+    # Resolve assets from the active data directory using the stable page id.
+    ocr_text = (OCR_TXT_DIR / f"page_{page_no:04d}.txt").read_text(encoding="utf-8")
+    image_path = PAGES_DIR / f"page_{page_no:04d}.png"
 
     prompt = USER_TEMPLATE.format(
         page_no=page_no,

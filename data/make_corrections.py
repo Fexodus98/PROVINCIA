@@ -4,9 +4,12 @@ vollständige per-Seite-JSONs nach entries_corrected_hutter/.
 Basis: entries_validated/ (Stand vor Korrektur); entry_id bleibt unverändert
 (dient apply_corrections als Match-Schlüssel)."""
 import json
+import os
 from pathlib import Path
 
-BASE = Path(r"C:\Users\hutterf\OneDrive\Desktop\Felix\Master\Masterarbeit\Wachter\hutter\PARS_I_A-B")
+# Standardmaessig immer den data/-Ordner dieses Repositories verwenden.
+# PROVINCIA_DATA_DIR erlaubt gefahrlose Tests mit einer separaten Kopie.
+BASE = Path(os.environ.get("PROVINCIA_DATA_DIR", Path(__file__).resolve().parent))
 VAL = BASE/"entries_validated"; RAW = BASE/"entries_raw"; OUT = BASE/"entries_corrected_hutter"
 OUT.mkdir(exist_ok=True)
 TODAY = "2026-07-01"

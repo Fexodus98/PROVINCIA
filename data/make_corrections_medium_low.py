@@ -9,11 +9,14 @@ status_marker; exact_text von Quellenangaben säubern; Datierungs-/ID-Notizen.
 Hinweis: Stufe 6 verarbeitet KEINE relations/career_factoids — die betreffenden
 Beschlüsse wirken nur im JSON, nicht im Graphen.
 """
-import json, re, copy, sys
+import json, re, copy, sys, os
 from pathlib import Path
 
-BASE = Path(r"C:\Users\hutterf\OneDrive\Desktop\Felix\Master\Masterarbeit\Wachter\hutter\PARS_I_A-B")
-PIPE = Path(r"C:\Users\hutterf\OneDrive\Desktop\Felix\Master\Masterarbeit\Wachter\hutter\provincia_pipeline")
+# Standardmaessig immer dieses Repository verwenden. PROVINCIA_DATA_DIR
+# erlaubt gefahrlose Tests mit einer separaten Datenkopie.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+BASE = Path(os.environ.get("PROVINCIA_DATA_DIR", REPO_ROOT / "data"))
+PIPE = REPO_ROOT / "pipeline"
 AGG = json.loads((BASE/"entries_validated"/"provincia_entries.json").read_text(encoding="utf-8"))
 OUT = BASE/"entries_corrected_hutter"; OUT.mkdir(exist_ok=True)
 TODAY = "2026-07-06"

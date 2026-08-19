@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 
-from config import CANDIDATES_DIR, CONTEXT_WINDOW, FORMULA_PATTERNS, OCR_TXT_DIR, ensure_output_dirs
+from config import CANDIDATES_DIR, CONTEXT_WINDOW, FORMULA_PATTERNS, OCR_TXT_DIR, OUTPUT_DIR, ensure_output_dirs
 
 
 def surrounding_context(text: str, start: int, end: int, width: int) -> str:
@@ -39,8 +39,8 @@ def main() -> None:
         if hits:
             page_record = {
                 "page": page_no,
-                "txt_path": str(txt_path),
-                "image_path": str((txt_path.parent.parent / "pages" / f"page_{page_no:04d}.png")),
+                "txt_path": txt_path.relative_to(OUTPUT_DIR).as_posix(),
+                "image_path": (txt_path.parent.parent / "pages" / f"page_{page_no:04d}.png").relative_to(OUTPUT_DIR).as_posix(),
                 "hits": hits,
             }
             results.append(page_record)
