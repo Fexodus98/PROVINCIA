@@ -75,7 +75,18 @@
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_534",
+          "target": "person_535",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "Fortasse non diversus ab eo qui sequitur; Potest idem esse is, qui praecedit.",
+          "notes": [
+            "PIR betrachtet die Identifizierung von A 534 mit A 535 als plausibel, aber unsicher; beide Einträge und Personenkennungen bleiben getrennt."
+          ]
+        }
+      ],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",

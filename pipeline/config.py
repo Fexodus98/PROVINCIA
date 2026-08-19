@@ -156,6 +156,7 @@ ALLOWED_RELATIONS = {
     "successor_of",
     "associated_with",
     "office_holder_of",
+    "possibly_same_as",
 }
 
 ENTRY_SCHEMA = {
@@ -330,7 +331,7 @@ ENTRY_SCHEMA = {
                             "properties": {
                                 "source": {"type": "string"},
                                 "target": {"type": "string"},
-                                "relation": {"type": "string"},
+                                "relation": {"type": "string", "enum": sorted(ALLOWED_RELATIONS)},
                                 "certainty": {"type": "string", "enum": ["high", "medium", "low"]},
                                 "basis": {"type": "string"},
                                 "notes": {"type": "array", "items": {"type": "string"}},

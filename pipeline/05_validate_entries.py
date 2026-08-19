@@ -25,6 +25,11 @@ FORMULA_RE = re.compile(
 # ALLOWED_RELATIONS vocabulary. Keys are matched lower-cased and substring-wise,
 # so "son-in-law of" is checked before "son of".
 RELATION_ALIAS_RULES: list[tuple[str, str]] = [
+    # uncertain person identity
+    ("possibly identical", "possibly_same_as"),
+    ("possibly the same", "possibly_same_as"),
+    ("possibly same", "possibly_same_as"),
+    ("may be identical", "possibly_same_as"),
     # in-law and extended family → related_to (no specific vocabulary slot)
     ("in-law", "related_to"),
     ("in law", "related_to"),

@@ -191,6 +191,12 @@ ps = {"factoid_id": "gov_2_pann_sup", "person_id": "person_534",
                 "PIR wechselseitig: bei 534 'Fortasse non diversus ab eo qui sequitur', bei 535 'Potest idem esse is, qui praecedit'. sameAs-Kandidat."]}
 addf(e, ps)
 e["main_person"]["status_markers"] = ["senator"]
+e["relations"] = [{
+    "source": "person_534", "target": "person_535", "relation": "possibly_same_as", "certainty": "medium",
+    "basis": "Fortasse non diversus ab eo qui sequitur; Potest idem esse is, qui praecedit.",
+    "notes": ["PIR betrachtet die Identifizierung von A 534 mit A 535 als plausibel, aber unsicher; "
+              "beide Einträge und Personenkennungen bleiben getrennt."],
+}]
 review(e, "#10: Galatia + Pannonia superior (low, erschlossen CIL III 14356^4); Identitaet A 535; Amt-Status -> senator; province_normalized gesetzt.")
 emit(e)
 
