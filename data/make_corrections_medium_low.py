@@ -95,9 +95,10 @@ emit(e)
 # #2 A 260 — Thracia (erschlossen) aufnehmen; Amt-Status raus
 e = get("A 260")
 setf(e, "gov_1", province_normalized="Arabia")
-th = {"factoid_id": "gov_2_thracia", "province_text": "Thracia", "province_normalized": "Thracia",
+th = {"factoid_id": "gov_2_thracia", "person_id": "P_Aelius_Severianus_Maximus_A260",
+      "province_text": "Thracia", "province_normalized": "Thracia",
       "normalized_office": TARGET, "certainty": "low", "evidence_type": "inferred_from_context",
-      "exact_text": "(erschlossen, nicht direkt bezeugt — s. Notiz)",
+      "exact_text": "Severianum post consulatum legatum provinciae Thraciae fuisse viri docti e titulo 2 filio Perinthi dicato collegerunt (cf. Stein Thracia p. 39 sq.), dubito num iure",
       "date_text": "nach Arabia (nach 194); konsularisch", "date_normalized_start": None, "date_normalized_end": None,
       "notes": ["Von A. Stein erschlossen: Ehreninschrift Perinth (IGR I 794 = AEM VIII 217,43) fuer den Sohn A 261 "
                 "nennt den Vater lamprotatos hypatikos (vir clarissimus consularis); da A 260 Statthalter von Arabia "

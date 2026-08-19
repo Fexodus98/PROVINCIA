@@ -383,7 +383,7 @@
     ont:dateText "nach Arabia (nach 194); konsularisch" ;
     ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-260> ;
     ont:evidenceType "inferred_from_context" ;
-    ont:exactText "(erschlossen, nicht direkt bezeugt — s. Notiz)" ;
+    ont:exactText "Severianum post consulatum legatum provinciae Thraciae fuisse viri docti e titulo 2 filio Perinthi dicato collegerunt (cf. Stein Thracia p. 39 sq.), dubito num iure" ;
     ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
     ont:note "Von A. Stein erschlossen: Ehreninschrift Perinth (IGR I 794 = AEM VIII 217,43) fuer den Sohn A 261 nennt den Vater lamprotatos hypatikos (vir clarissimus consularis); da A 260 Statthalter von Arabia (193/194, praetorisch) und hier Konsular ist, verwaltete er Thracia (konsularisch) nach Arabia. Erschlossen, nicht direkt bezeugt." ;
     ont:province <https://provincia.uni-graz.at/resource/province/thracia> .
