@@ -356,7 +356,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_novia_crispina",
           "relation": "spouse_of",
           "certainty": "high",
@@ -372,7 +372,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_mundicius_burrus",
           "relation": "sibling_of",
           "certainty": "medium",
@@ -380,7 +380,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_antistius_burrus",
           "relation": "parent_of",
           "certainty": "medium",
@@ -388,7 +388,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_agathopus",
           "relation": "associated_with",
           "certainty": "high",
@@ -404,8 +404,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#15: Arabia/Germania inf./Britannia (province_normalized gesetzt); Datierungen praezisiert; 'patricius' ergaenzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Relation source IDs normalized from person_A754 to the main-person ID person_754."
       },
       "needs_review": false,
       "source_page": 158

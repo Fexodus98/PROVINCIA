@@ -67,13 +67,14 @@
           ]
         },
         {
-          "id": "person_sex_anicius_faustus",
-          "displayed_name": "Sex. Anicio Fausto",
+          "id": "person_A596",
+          "displayed_name": "SEX. ANICIVS FAVSTVS",
           "normalized_name": "Sextus Anicius Faustus",
-          "relation_context": "possibly identical with him",
+          "pir_reference": "A 596",
+          "relation_context": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
           "certainty": "medium",
           "notes": [
-            "PIR n. 596"
+            "PIR A 596; possible son of A 595 and possibly identical with A 599."
           ]
         },
         {
@@ -103,16 +104,26 @@
           "certainty": "medium",
           "basis": "Huius ni fallor filius Sex. Cocceius Anicius Faustus Paulinus qui sequitur.",
           "notes": []
+        },
+        {
+          "source": "person_599",
+          "target": "person_A596",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
+          "notes": [
+            "A 596 remains a separate PIR person node; A 595 is modeled separately as his possible father."
+          ]
         }
       ],
       "entry_notes": [
         "The entry links this governor to the prominent family of the Anicii, suggesting a lineage from the consul of 198 and identifying his son as the proconsul of Africa (n. 600)."
       ],
       "review": {
-        "verdict": "human_confirmed",
+        "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "Ungeflaggt; am Seitenbild verifiziert (Amt und Provinz korrekt); province_normalized zur Konsistenz ergaenzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 599/A 596 possibly_same_as added; A 595 kept separately as possible father of A 596."
       },
       "needs_review": false,
       "source_page": 115

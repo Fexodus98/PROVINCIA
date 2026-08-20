@@ -17,7 +17,10 @@ VERDICT_RANK = {"confirm": 0, "minor_issues": 1, "major_issues": 2, "reject": 3}
 
 TARGET_OFFICE = "legatus Augusti pro praetore provinciae"
 FORMULA_RE = re.compile(
-    r"leg(?:atus|\.)\s+(?:aug\.|augusti|augustorum|augg\.)\s+(?:pro\s+praetore|pr\.\s*pr\.)",
+    r"leg(?:atus|ati|atum|ato|\.)\s+"
+    r"(?:aug\.|augusti|augustorum|augg\.)"
+    r"(?:\s+vel\s+(?:aug\.|augusti|augustorum|augg\.))?\s+"
+    r"(?:pro\s+praetore|pro\s+pr\.?|pr\.?\s*pr\.?)",
     flags=re.IGNORECASE,
 )
 
@@ -30,6 +33,10 @@ RELATION_ALIAS_RULES: list[tuple[str, str]] = [
     ("possibly the same", "possibly_same_as"),
     ("possibly same", "possibly_same_as"),
     ("may be identical", "possibly_same_as"),
+    # resolved person identity
+    ("certainly identical", "same_as"),
+    ("is identical to", "same_as"),
+    ("same person as", "same_as"),
     # in-law and extended family → related_to (no specific vocabulary slot)
     ("in-law", "related_to"),
     ("in law", "related_to"),
@@ -312,6 +319,13 @@ def clean_entry(entry: dict[str, Any]) -> dict[str, Any] | None:
         or pir_reference_from_entry_id(entry.get("entry_id"))
     )
 
+    related_persons = []
+    for related in ensure_list(entry.get("related_persons")):
+        related = dict(related)
+        if "pir_reference" in related:
+            related["pir_reference"] = normalize_pir_reference(related.get("pir_reference"))
+        related_persons.append(related)
+
     return {
         "entry_id": str(entry.get("entry_id", "")).strip() or "e1",
         "pir_reference": pir_ref,
@@ -338,7 +352,7 @@ def clean_entry(entry: dict[str, Any]) -> dict[str, Any] | None:
         },
         "governorship_factoids": gov_factoids,
         "career_factoids": ensure_list(entry.get("career_factoids")),
-        "related_persons": ensure_list(entry.get("related_persons")),
+        "related_persons": related_persons,
         "relations": relations,
         "entry_notes": ensure_list(entry.get("entry_notes")),
     }

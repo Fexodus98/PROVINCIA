@@ -1066,23 +1066,35 @@
       ],
       "related_persons": [
         {
-          "id": "person_345",
-          "displayed_name": "L. Aemilius Fron....",
+          "id": "person_A345",
+          "displayed_name": "L. AEMILIVS FRON....",
           "normalized_name": "Lucius Aemilius Fron...",
-          "relation_context": "Possibly identical to L. Aem[ilius] Fron[tinus] (346)",
+          "pir_reference": "A 345",
+          "relation_context": "Fortasse idem qui praecedit.",
           "certainty": "medium",
           "notes": [
-            "Fortasse idem qui praecedit."
+            "PIR A 345; the two PIR entries remain separate."
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_346",
+          "target": "person_A345",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "Fortasse idem qui praecedit.",
+          "notes": [
+            "A 346 may be identical with the preceding PIR entry A 345; no merge was performed."
+          ]
+        }
+      ],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#4: Gallia Lugdunensis; normalized_name 'Frontinus vel Fronto' + name_variants; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 345/A 346 as possibly_same_as; separate PIR identities retained."
       },
       "needs_review": false,
       "source_page": 70
@@ -1583,7 +1595,7 @@
         "offices_and_career": "consul (designatus) t. 3 (ubi perperam editores restituerunt ὑπ[ατικού], immo supplendum videtur ὑπ[άτου ἀποδεδειγμένου]); Consul suffectus anno incerto. Consul II ordinarius a. 228 cum M. Maecio Probo v. supra (iterationis nota extat III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392, omittitur in fastorum laterculis paene omnibus et in titulis non paucis).",
         "governorship_attestation": "(Legatus Aug. pr. pr. Arabiae) ... Legatus Augustorum duorum t. 2 Augustorum trium t. 1 pro praetore Germaniae superioris t. 1. 2; inde apparet eum a. 209 provinciae praefuisse; fortasse annis quoque praecedentibus vel subsequentibus eodem munere functus est.",
         "family_and_social_relations": "Q. Aiacius Censorinus clarissimus vir, qui in eadem fistula nominatur, t. 5, fortasse frater eius. Iuniam Aiaciam Modestam Q. Aradi Rufini uxorem (XV 8088) filiam Modesti putaverim.",
-        "prosopographical_commentary": "qui t. cum positus sit Imp. Caes. M. Aurelio Antonino Aug., Modestus non ante a. p. C. 198 provinciam rexerit necesse est. ... Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας] t. Pergameni IGR 4, 872.",
+        "prosopographical_commentary": "qui t. cum positus sit Imp. Caes. M. Aurelio Antonino Aug., Modestus non ante a. p. C. 198 provinciam rexerit necesse est. ... Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας] t. Pergameni IGR 4, 372.",
         "bibliography_or_cross_references": "III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392"
       },
       "main_person": {
@@ -1746,6 +1758,17 @@
           "relation_context": "consul II ordinarius colleague in 228",
           "certainty": "high",
           "notes": []
+        },
+        {
+          "id": "person_A468",
+          "displayed_name": "Q. AI......",
+          "normalized_name": null,
+          "pir_reference": "A 468",
+          "relation_context": "Plane incertum, num idem sit ...; vide num idem sit Q. Aiacius Modestus Crescentianus.",
+          "certainty": "low",
+          "notes": [
+            "Fragmentary PIR A 468, attested in IGR IV 372; the nomen may also be Aelius or Aemilius."
+          ]
         }
       ],
       "relations": [
@@ -1772,6 +1795,16 @@
           "certainty": "high",
           "basis": "uxorem (XV 8088)",
           "notes": []
+        },
+        {
+          "source": "person_A470",
+          "target": "person_A468",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "A 468: 'Vide num idem sit Q. Aiacius Modestus Crescentianus'; A 470: 'Plane incertum, num idem sit ...'",
+          "notes": [
+            "Very uncertain identification because the nomen in IGR IV 372 is fragmentary."
+          ]
         }
       ],
       "entry_notes": [
@@ -1780,8 +1813,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#7: Germania superior wieder aufgenommen (Stufe-5-Fehlausfall); Arabia-Ende null; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 468 identified as the fragmentary comparison entry for A 470; IGR IV 372 corrected; low-confidence possibly_same_as."
       },
       "needs_review": false,
       "source_page": 96
@@ -2003,15 +2036,31 @@
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Arabia",
           "province_normalized": "Arabia",
-          "date_text": "a. 209 (?, umstritten)",
-          "date_normalized_start": 209,
-          "date_normalized_end": 209,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Attested in a Gerasene inscription (IGR 3, 1371). His identification in Wadd. 2460 (dated to 209 AD) is conjectured based on the ending '...ητιανοῦ', but this is debated and could potentially refer to Syria instead of Arabia.",
-            "'dubito num recte' — Datierung 209 umstritten (evtl. Syria statt Arabia).",
-            "Moegliche Identitaet mit A 735 ([.....]us Antianus/Avitianus): PIR erwaegt bei A 735 Lesung 'Avitianus' (cf. n. 519). Entity-Resolution-Kandidat."
+            "The governorship of Arabia is securely attested by the Gerasene inscription IGR III 1371.",
+            "The conjectural identification in Wadd. 2460 and its date of 209 do not date this secure Arabia factoid."
+          ]
+        },
+        {
+          "factoid_id": "gov_519_2_syria",
+          "person_id": "person_519",
+          "exact_text": "hunc nominatum fuisse in t. posito a. 209, Wadd. 2460, ubi nomina legati perierunt praeter ....ητιανοῦ, suspicati sunt Bruennow et Domaszewski; qui simul monuerunt fieri posse ut non Arabiae sed Syriae legatus in hoc t. memoratus sit",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syria",
+          "province_normalized": "Syria",
+          "date_text": "a. 209 (conjectural attribution of Wadd. 2460)",
+          "date_normalized_start": 209,
+          "date_normalized_end": 209,
+          "certainty": "low",
+          "evidence_type": "uncertain_reading",
+          "notes": [
+            "Both the identification of the fragmentary name ...ητιανοῦ with A 519 and the assignment of the inscription to Syria are conjectural.",
+            "The PIR author explicitly adds 'dubito num recte'."
           ]
         }
       ],
@@ -2063,6 +2112,17 @@
           "relation_context": "Possibly father-in-law of L. Alfenus Avitianus.",
           "certainty": "medium",
           "notes": []
+        },
+        {
+          "id": "person_735",
+          "displayed_name": ".....VS ANTIANVS",
+          "normalized_name": "[.....]us Antianus",
+          "pir_reference": "A 735",
+          "relation_context": "At A 735 Ritterling conjectured Avitianus instead of Antianus and referred to A 519.",
+          "certainty": "low",
+          "notes": [
+            "Identity rests on a conjectural restoration of the damaged nomen."
+          ]
         }
       ],
       "relations": [
@@ -2105,8 +2165,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#9: Arabia; date_text '209 (?, umstritten)'; Identitaetsnotiz A 735; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Arabia separated from the conjectural Syria/Wadd. 2460 factoid; A 735 identity candidate retained at low confidence."
       },
       "needs_review": false,
       "source_page": 104
@@ -2182,7 +2242,8 @@
           "certainty": "medium",
           "notes": [
             "PIR A 535, possibly identical to P. Alfius Maximus (A 534)."
-          ]
+          ],
+          "pir_reference": "A 535"
         }
       ],
       "relations": [
@@ -2201,8 +2262,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#10: Galatia + Pannonia superior (low, erschlossen CIL III 14356^4); Identitaet A 535; Amt-Status -> senator; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing A 534/A 535 possibly_same_as confirmed; target PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 106
@@ -2302,16 +2363,39 @@
           ]
         }
       ],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_A545",
+          "displayed_name": "C. ALLIVS C. F. FVSCVS",
+          "normalized_name": "Gaius Allius Fuscus",
+          "pir_reference": "A 545",
+          "relation_context": "Huius filius fortasse C. Allius C. f. Fuscus.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 545; possible, not certain, son of A 544."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A_544",
+          "target": "person_A545",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Huius filius fortasse C. Allius C. f. Fuscus.",
+          "notes": [
+            "Possible father-son relation; not an identity relation."
+          ]
+        }
+      ],
       "entry_notes": [
         "The identification of the Gerasene governor with the Ostian patron is highly probable."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#11: Arabia; Datierung (saec. II medii) gilt dem Konsulat, nicht der Statthalterschaft -> Daten null; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Possible parent relation A 544 -> A 545 added."
       },
       "needs_review": false,
       "source_page": 107
@@ -2382,13 +2466,14 @@
           ]
         },
         {
-          "id": "person_sex_anicius_faustus",
-          "displayed_name": "Sex. Anicio Fausto",
+          "id": "person_A596",
+          "displayed_name": "SEX. ANICIVS FAVSTVS",
           "normalized_name": "Sextus Anicius Faustus",
-          "relation_context": "possibly identical with him",
+          "pir_reference": "A 596",
+          "relation_context": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
           "certainty": "medium",
           "notes": [
-            "PIR n. 596"
+            "PIR A 596; possible son of A 595 and possibly identical with A 599."
           ]
         },
         {
@@ -2418,16 +2503,26 @@
           "certainty": "medium",
           "basis": "Huius ni fallor filius Sex. Cocceius Anicius Faustus Paulinus qui sequitur.",
           "notes": []
+        },
+        {
+          "source": "person_599",
+          "target": "person_A596",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
+          "notes": [
+            "A 596 remains a separate PIR person node; A 595 is modeled separately as his possible father."
+          ]
         }
       ],
       "entry_notes": [
         "The entry links this governor to the prominent family of the Anicii, suggesting a lineage from the consul of 198 and identifying his son as the proconsul of Africa (n. 600)."
       ],
       "review": {
-        "verdict": "human_confirmed",
+        "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "Ungeflaggt; am Seitenbild verifiziert (Amt und Provinz korrekt); province_normalized zur Konsistenz ergaenzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 599/A 596 possibly_same_as added; A 595 kept separately as possible father of A 596."
       },
       "needs_review": false,
       "source_page": 115
@@ -2917,14 +3012,37 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_519",
+          "displayed_name": "L. ALFENVS AVITIANVS",
+          "normalized_name": "Lucius Alfenus Avitianus",
+          "pir_reference": "A 519",
+          "relation_context": "pro Antianus fortasse legendum Avitianus (cf. L. Alfenum Avitianum supra n. 519)",
+          "certainty": "low",
+          "notes": [
+            "Ritterling's identification depends on the conjectural reading Avitianus."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_735",
+          "target": "person_519",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "pro Antianus fortasse legendum Avitianus (cf. L. Alfenum Avitianum supra n. 519)",
+          "notes": [
+            "The two PIR entries remain distinct; no certainty is transferred to the governorship of Pannonia inferior."
+          ]
+        }
+      ],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#14: Pannonia inferior; Datierung 'non ante Commodum' (start 180, statt Judge 161-180); moegl. = A 519; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 735/A 519 as low-confidence possibly_same_as based on a conjectural name reading."
       },
       "needs_review": false,
       "source_page": 152
@@ -3284,7 +3402,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_novia_crispina",
           "relation": "spouse_of",
           "certainty": "high",
@@ -3300,7 +3418,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_mundicius_burrus",
           "relation": "sibling_of",
           "certainty": "medium",
@@ -3308,7 +3426,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_antistius_burrus",
           "relation": "parent_of",
           "certainty": "medium",
@@ -3316,7 +3434,7 @@
           "notes": []
         },
         {
-          "source": "person_A754",
+          "source": "person_754",
           "target": "person_agathopus",
           "relation": "associated_with",
           "certainty": "high",
@@ -3332,8 +3450,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#15: Arabia/Germania inf./Britannia (province_normalized gesetzt); Datierungen praezisiert; 'patricius' ergaenzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Relation source IDs normalized from person_A754 to the main-person ID person_754."
       },
       "needs_review": false,
       "source_page": 158
@@ -3414,7 +3532,8 @@
           "certainty": "medium",
           "notes": [
             "PIR A 817, vir clarissimus, patronus coloniae Canusii a. 223."
-          ]
+          ],
+          "pir_reference": "A 817"
         }
       ],
       "relations": [
@@ -3433,8 +3552,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#16: Cilicia; exact 'sine dubio'; 'vir clarissimus' behalten (lamprotatos); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing possible parent relation A 816 -> A 817 confirmed; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 172
@@ -3589,13 +3708,14 @@
       ],
       "related_persons": [
         {
-          "id": "person_882",
+          "id": "person_A882",
           "displayed_name": "M. Antonius Zeno",
           "normalized_name": "Marcus Antonius Zeno",
-          "relation_context": "Ex posteris videtur eius qui praecedit",
+          "pir_reference": "A 882",
+          "relation_context": "Ex posteris videtur eius qui praecedit.",
           "certainty": "medium",
           "notes": [
-            "Ancestor of the same name, priest of Laodicea under Claudius and Nero."
+            "PIR A 882; probable ancestor, without a more specific generation."
           ]
         },
         {
@@ -3618,7 +3738,7 @@
       "relations": [
         {
           "source": "person_883",
-          "target": "person_882",
+          "target": "person_A882",
           "relation": "related_to",
           "certainty": "medium",
           "basis": "Ex posteris videtur eius qui praecedit",
@@ -3647,8 +3767,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#17: Thracia; Ende null ('non ante a.140'); exact praezisiert; Amt-Status entfernt; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing probable ancestor relation A 882/A 883 retained as related_to; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 187
@@ -3804,12 +3924,15 @@
           "notes": []
         },
         {
-          "id": "person_c_arrius_antoninus_filius",
-          "displayed_name": "C. Arrius Antoninus",
-          "normalized_name": "C. Arrius Antoninus",
-          "relation_context": "filius",
+          "id": "person_A1089",
+          "displayed_name": "C. ARRIVS ANTONINVS",
+          "normalized_name": "Gaius Arrius Antoninus",
+          "pir_reference": "A 1089",
+          "relation_context": "C. Arrius Antoninus ... filius.",
           "certainty": "high",
-          "notes": []
+          "notes": [
+            "PIR A 1089; not a governor. The Daciae governorship belongs to his father A 1088."
+          ]
         },
         {
           "id": "person_c_arrius_quadratus",
@@ -3839,7 +3962,7 @@
         },
         {
           "source": "person_arrius_antoninus",
-          "target": "person_c_arrius_antoninus_filius",
+          "target": "person_A1089",
           "relation": "parent_of",
           "certainty": "high",
           "basis": "C. Arrius Antoninus ... filii",
@@ -3868,8 +3991,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#18: Cappadocia c.174-177 (Judge-Ende 175 widerlegt via t.9 post Nov 176); Tres Daciae ab 177; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1089 retained only as the son/relation target of governor A 1088; Daciae remains assigned to A 1088."
       },
       "needs_review": false,
       "source_page": 229
@@ -3893,7 +4016,7 @@
       "main_person": {
         "id": "person_1180",
         "displayed_name": "[...... a?]rToRivs",
-        "normalized_name": "[...... A?]rtorius",
+        "normalized_name": "Gaius Ummidius Quadratus Sallustius Sertorius",
         "pir_reference": "A 1180",
         "status_markers": [
           "senator",
@@ -3901,8 +4024,8 @@
         ],
         "notes": [
           "Governor of Moesia Inferior in 120 AD.",
-          "Wahrscheinlich identisch mit G. Ummidius Quadratus Sallustius Sertorius (PIR2 V 907) — dieselbe Inschrift CIL III 7539 belegt beide; Namensrest wohl 'Se]rtorius', nicht 'A]rtorius'. sameAs-Kandidat.",
-          "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz)."
+          "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz).",
+          "The later PIR entry V 907 resolves the fragmentary A 1180 attestation as Gaius Ummidius Quadratus Sallustius Sertorius; the surviving name ending is Se]rtorius."
         ]
       },
       "governorship_factoids": [
@@ -3925,16 +4048,40 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_V907",
+          "displayed_name": "C. VMMIDIVS QVADRATVS S[ALLVSTIVS?] SERTORIVS",
+          "normalized_name": "Gaius Ummidius Quadratus Sallustius Sertorius",
+          "pir_reference": "V 907",
+          "relation_context": "The new fragment assigns the inscription and the material formerly placed under A 1180 to V 907.",
+          "certainty": "high",
+          "notes": [
+            "V 907 is not otherwise modeled in the current A-B pilot corpus.",
+            "The later PIR wording ('ita ut omnia ... ad eum pertineant') resolves the identity."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1180",
+          "target": "person_V907",
+          "relation": "same_as",
+          "certainty": "high",
+          "basis": "ita ut omnia, quae supra A 1180 de [A?]rtorio scripta sunt, ad eum pertineant",
+          "notes": [
+            "Resolved identity based on the new inscription fragment; V 907 remains an external PIR target in the A-B pilot."
+          ]
+        }
+      ],
       "entry_notes": [
         "The nomen is reconstructed as Artorius based on the remaining letters."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#19: Moesia inferior; sameAs PIR V 907 (CIL III 7539); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1180/V 907 recorded as resolved same_as (high); normalized historical name assigned to A 1180."
       },
       "needs_review": false,
       "source_page": 252
@@ -4190,24 +4337,27 @@
       ],
       "related_persons": [
         {
-          "id": "person_1342",
+          "id": "person_A1342",
           "displayed_name": "L. Attidius Cornelianus (1342)",
           "normalized_name": "Lucius Attidius Cornelianus",
           "relation_context": "filius vel nepos eius qui praecedit",
           "certainty": "medium",
           "notes": [
             "Son or grandson of the main person."
-          ]
+          ],
+          "pir_reference": "A 1342"
         }
       ],
       "relations": [
         {
           "source": "person_A1341",
-          "target": "person_1342",
-          "relation": "parent_of",
+          "target": "person_A1342",
+          "relation": "related_to",
           "certainty": "medium",
-          "basis": "filius vel nepos eius qui praecedit",
-          "notes": []
+          "basis": "Pater vel avus eius qui sequitur; filius vel nepos eius qui praecedit.",
+          "notes": [
+            "A 1341 is either father or grandfather of A 1342; the exact generation is unresolved."
+          ]
         }
       ],
       "entry_notes": [
@@ -4216,8 +4366,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#21: Arabia wieder aufgenommen (Stufe-5-Fehlausfall); Syria exact gekuerzt; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1341/A 1342 changed from parent_of to related_to because father or grandfather are alternatives."
       },
       "needs_review": false,
       "source_page": 287
@@ -4759,7 +4909,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_nigrinus",
+          "source": "person_1408",
           "target": "person_avidia_plautia",
           "relation": "parent_of",
           "certainty": "high",
@@ -4767,7 +4917,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_nigrinus",
+          "source": "person_1408",
           "target": "person_hadrianus",
           "relation": "successor_of",
           "certainty": "high",
@@ -4783,8 +4933,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#24: Dacia-Dublette geloescht; Moesia superior (medium, Domaszewski); Achaia c.114-117; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Relation source IDs normalized from person_avidius_nigrinus to the main-person ID person_1408."
       },
       "needs_review": false,
       "source_page": 301
@@ -4881,12 +5031,15 @@
           "notes": []
         },
         {
-          "id": "person_avidius_quietus_jr",
-          "displayed_name": "Avidius Quietus",
+          "id": "person_A1409",
+          "displayed_name": "AVIDIVS QVIETVS",
           "normalized_name": "Avidius Quietus",
-          "relation_context": "Huius puto filius Avidius Quietus, proconsul Asiae temporibus Hadriani",
+          "pir_reference": "A 1409",
+          "relation_context": "Filius probabiliter T. Avidii Quieti qui sequitur.",
           "certainty": "medium",
-          "notes": []
+          "notes": [
+            "PIR A 1409; probable son of A 1410."
+          ]
         },
         {
           "id": "person_plutarchus",
@@ -4915,7 +5068,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_quietus_jr",
+          "source": "person_A1409",
           "target": "person_avidius_quietus",
           "relation": "child_of",
           "certainty": "medium",
@@ -4946,8 +5099,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#25: Britannia (medium); Thracia-Irrtum notiert; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing probable son relation identified explicitly as A 1409 -> A 1410."
       },
       "needs_review": false,
       "source_page": 305
@@ -5055,8 +5208,52 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_A1466",
+          "displayed_name": "M. Aurelius Basileus",
+          "normalized_name": "Marcus Aurelius Basileus",
+          "pir_reference": "A 1466",
+          "relation_context": "Nescio an idem is qui sequitur; idem fortasse aut is qui praecedit aut qui sequitur.",
+          "certainty": "low",
+          "notes": [
+            "A 1466 may be A 1465 or A 1467; the alternatives are not cumulative."
+          ]
+        },
+        {
+          "id": "person_A1467",
+          "displayed_name": "Aurel(ius) Basileus",
+          "normalized_name": "Aurelius Basileus",
+          "pir_reference": "A 1467",
+          "relation_context": "A 1466: idem fortasse ... qui sequitur.",
+          "certainty": "low",
+          "notes": [
+            "PIR A 1467, prefect of Egypt; external relation target, not a governor in the PROVINCIA sense."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1465",
+          "target": "person_A1466",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "Nescio an idem is qui sequitur.",
+          "notes": [
+            "First of two alternatives stated for A 1466."
+          ]
+        },
+        {
+          "source": "person_A1466",
+          "target": "person_A1467",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "Idem fortasse aut is qui praecedit aut qui sequitur.",
+          "notes": [
+            "Second alternative stated for A 1466; no A 1465/A 1467 edge is inferred."
+          ]
+        }
+      ],
       "entry_notes": [
         "The milestone CIL III 14184, 2 records his governorship of Galatia under Severus Alexander."
       ],
@@ -5090,7 +5287,13 @@
         ]
       },
       "needs_review": false,
-      "source_page": 313
+      "source_page": 313,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "Alternative low-confidence identity edges A 1465/A 1466 and A 1466/A 1467 added; non-transitivity documented."
+      }
     },
     {
       "entry_id": "1570",
@@ -5282,25 +5485,37 @@
       "career_factoids": [],
       "related_persons": [
         {
-          "id": "person_t_helvius_basila",
-          "displayed_name": "T. Helvius Basila",
+          "id": "person_H67",
+          "displayed_name": "T. HELVIVS BASILA",
           "normalized_name": "Titus Helvius Basila",
-          "relation_context": "probabiliter idem atque",
+          "pir_reference": "H 67",
+          "relation_context": "probabiliter idem atque T. Helvius Basila; idem ut videtur Basila supra B 59",
           "certainty": "medium",
           "notes": [
-            "Mentioned as probably identical to Basila."
+            "PIR H 67 is not otherwise modeled in the current A-B pilot corpus."
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_basila",
+          "target": "person_H67",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "B 59: 'probabiliter idem atque T. Helvius Basila'; H 67: 'Idem ut videtur Basila supra B 59'",
+          "notes": [
+            "H 67 remains an external person target; no node merge was performed."
+          ]
+        }
+      ],
       "entry_notes": [
         "The Greek inscription CIG 4039 (Dittenberger, OGIS 533) records the name as ΒΑΣΙΛΑ."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "L5: Galatia; certainty medium->low ('ut videtur'); Amt-Status -> senator; Identitaet T. Helvius Basila; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "B 59/H 67 possibly_same_as added; H 67 retained as an external PIR target."
       },
       "needs_review": false,
       "source_page": 371
@@ -5404,23 +5619,25 @@
       ],
       "related_persons": [
         {
-          "id": "person-bruttius-praesens-friend-pliny",
-          "displayed_name": "Bruttius Praesens (n. 161)",
+          "id": "person_B161",
+          "displayed_name": "(BRVTTIVS) PRAESENS",
           "normalized_name": "Bruttius Praesens",
-          "relation_context": "Father of C. Bruttius Praesens",
+          "pir_reference": "B 161",
+          "relation_context": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161).",
           "certainty": "medium",
           "notes": [
-            "Friend of Pliny the Younger."
+            "PIR B 161; probable father of B 164."
           ]
         },
         {
-          "id": "person-c-bruttius-praesens-cos-153",
-          "displayed_name": "C. Bruttius Praesens cos. a. 153 (n. 165)",
-          "normalized_name": "Caius Bruttius Praesens",
-          "relation_context": "Son of C. Bruttius Praesens (cos. II 139)",
+          "id": "person_B165",
+          "displayed_name": "C. BRVTTIVS PRAESENS",
+          "normalized_name": "Gaius Bruttius Praesens",
+          "pir_reference": "B 165",
+          "relation_context": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165).",
           "certainty": "high",
           "notes": [
-            "Consul in 153 AD."
+            "PIR B 165; certain son of B 164."
           ]
         },
         {
@@ -5437,14 +5654,14 @@
       "relations": [
         {
           "source": "person-c-bruttius-praesens",
-          "target": "person-bruttius-praesens-friend-pliny",
+          "target": "person_B161",
           "relation": "child_of",
           "certainty": "medium",
           "basis": "Filius videtur (Bruttii) Praesentis amici Plinii",
           "notes": []
         },
         {
-          "source": "person-c-bruttius-praesens-cos-153",
+          "source": "person_B165",
           "target": "person-c-bruttius-praesens",
           "relation": "child_of",
           "certainty": "high",
@@ -5453,7 +5670,7 @@
         },
         {
           "source": "person-l-bruttius-quintius-crispinus",
-          "target": "person-c-bruttius-praesens-cos-153",
+          "target": "person_B165",
           "relation": "child_of",
           "certainty": "high",
           "basis": "nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat.",
@@ -5467,8 +5684,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#28: Galatia; 'patricius' entfernt (nicht belegt); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing genealogy normalized as B 161 probable father of B 164 and B 164 certain father of B 165."
       },
       "needs_review": false,
       "source_page": 387
@@ -5706,13 +5923,14 @@
           ]
         },
         {
-          "id": "person_t_avidius_quietus",
-          "displayed_name": "T. Avidius Quietus",
+          "id": "person_A1410",
+          "displayed_name": "T. AVIDIVS QVIETVS",
           "normalized_name": "Titus Avidius Quietus",
-          "relation_context": "possible confusion / comparison",
-          "certainty": "medium",
+          "pir_reference": "A 1410",
+          "relation_context": "Hunc non diversum ... coniecit Benndorf ... vix recte.",
+          "certainty": "low",
           "notes": [
-            "Benndorf identified him with Quietus the proconsul and friend of Plutarch, but the author suggests looking under T. Avidius Quietus instead."
+            "Rejected identification hypothesis: PIR judges Benndorf's equation as 'vix recte'. No possibly_same_as edge is created."
           ]
         }
       ],
@@ -5734,8 +5952,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-01",
-        "note": "Orphan aufgelöst: PIR A 1592 zugewiesen; Statthalterschaft Lycia et Pamphylia behalten."
+        "reviewed_on": "2026-08-20",
+        "note": "Rejected A 1592/A 1410 identity documented as a note only; no positive possibly_same_as relation."
       },
       "needs_review": false,
       "source_page": 341
@@ -5901,7 +6119,8 @@
           "certainty": "high",
           "notes": [
             "clarissimus puer"
-          ]
+          ],
+          "pir_reference": "A 1071"
         }
       ],
       "relations": [
@@ -5918,11 +6137,424 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "Als de-facto-Statthalter von Numidia (Befehlshaber legio III Augusta) mit certainty=medium aufgenommen; Belege CIL VIII 4195 und Thomasson S.181 (165/166); Identitaet mit A 1070 nicht voellig gesichert."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing parent relation A 1070 -> A 1071 confirmed; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 225
+    },
+    {
+      "entry_id": "PIR_A_595",
+      "pir_reference": "A 595",
+      "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Augusti vel Augustorum pro praetore (Numidiae)' and 'Legatus Augustorum pro pr. (Moesiae superioris)'.",
+      "segments": {
+        "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+        "name_variants": "Ἀνίκιος Φῆστος (librariorum errore) Dio 78, 22, 2. Φαῦστος ib. § 4.",
+        "identification_and_sources": "18068 (13). 18255 (14). 18256 (15). Bull. tr. hist. 1911, 99 (16) ; ib. 100 (17); 1919, 85 (18). D. 9097 (19), Thamugadensibus VIII 17870 (= D. 446) (20). 17871 (21), Cirtensi VIII 19495 (22), Arsacalitano VIII 6048 (23), Cuiculitanis Bull. tr. hist. 1916, 233 (24) ; ib. 1911, 115 (25), Suburburano ib. 1917, 342 (26), Mauretano VIII 8796 cf. 18021 (27); ad eum pertinere videtur frustulum Lambaesitanum VIII 18078 (28) ; incertum num eius nomen recte restituatur in t. Numidiae VIII 2466 cf. 17954 (29); cf. Pallu de Lessert Fast. 1, 406—417. Dedicavit in legatione Moesiaca titulos III 1685 (30). 1686 (31). Nomina plena extant sive recte restituta sunt in titulis omnibus.",
+        "offices_and_career": "Clarissimus vir... Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8 (nomina consulum anni 197, quae leguntur in t. 4, non ad tituli dedicationem sed ad collationem pecuniae spectare videntur; cf. Stout Governors of Moes. 36 sq.); consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25 (ubi Severus errore dicitur cos. III). Faustus cum consul designatus fuerit a. 198, eodem anno fasces in legatione Numidica gesserit necesse est; itaque in t. 11. 13. 21 (posito a. 199) non co(n)s(ul) sed co(n)s(ularis) amplissimus legendum (item co(n)s(ularis) in t. 1 a. b. 2 b.). Severus in sortitione proconsulatus (Africae vel Asiae) eum praeteriit Dio 78, 22, 4 (Dionem errasse et Antoninum intelligendum esse statuit Waddington Fast. As. n. 169 sine idonea causa). A. 217 Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit et, cum exiguum anni proconsularis spatium ei remaneret, mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset Dio 78, 22, 2. 4. Quod num Elagabalus ratum habuerit, ignoramus.",
+        "governorship_attestation": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197 (cum Caracalla Caesar dictus sit, nondum imperator destinatus) t. 22, a. 197 t. 15. 20. 23, a. 199 t. 21. 24. 25. 26, a. 200 t. 19, a. 201 t. 1 a. b. 2 a. b. (de t. 4 v. infra). Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30 (numeri annorum tribuniciae potestatis corrupti sunt). 31.",
+        "family_and_social_relations": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius. Anicii, qui aetate labente floruerunt, ab eo originem duxisse videntur.",
+        "prosopographical_commentary": "The text discusses the chronology of his governorship in Numidia, arguing that since he was consul designatus in 198, he must have held the fasces in Numidia in that same year. It also notes the error in Dio regarding the proconsulship of Asia under Macrinus, and discusses the debate over whether Severus or Antoninus passed him over in the sortition.",
+        "bibliography_or_cross_references": "cf. Pallu de Lessert Fast. 1, 406—417; Stout Governors of Moes. 36 sq.; Waddington Fast. As. n. 169; cf. sub Anicio Fausto Paulino."
+      },
+      "main_person": {
+        "id": "person_A595",
+        "displayed_name": "Sex. Anicius Faustus",
+        "normalized_name": "Sextus Anicius Faustus",
+        "pir_reference": "A 595",
+        "status_markers": [
+          "clarissimus vir",
+          "consularis",
+          "patronus"
+        ],
+        "notes": [
+          "Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_A595",
+          "exact_text": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Numidia",
+          "date_text": "anno 196 vel priore semestri a. 197",
+          "date_normalized_start": 196,
+          "date_normalized_end": 201,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested from 196/197 through 201; the office is explicit."
+          ],
+          "province_normalized": "Numidia"
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_A595",
+          "exact_text": "Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia superior",
+          "date_text": "intra a. 202 et 207",
+          "date_normalized_start": 202,
+          "date_normalized_end": 207,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The office is explicit; the exact years 202-207 remain uncertain because the tribunician-power numerals are corrupt."
+          ],
+          "province_normalized": "Moesia superior"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "PIR_A_595",
+          "exact_text": "Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 198,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_2",
+          "person_id": "PIR_A_595",
+          "exact_text": "consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25",
+          "normalized_office": "consularis",
+          "province_text": null,
+          "date_text": "a. 199 - 200",
+          "date_normalized_start": 199,
+          "date_normalized_end": 200,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A596",
+          "displayed_name": "SEXTVS ANICIVS FAVSTVS",
+          "normalized_name": "Sextus Anicius Faustus",
+          "pir_reference": "A 596",
+          "relation_context": "Pater fortasse Sex. Anicii Fausti ... Anici consularis filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 596; possible son of A 595."
+          ]
+        },
+        {
+          "id": "PIR_C_Iulius_Asprus",
+          "displayed_name": "(C. Iulius) Asprus",
+          "normalized_name": "C. Iulius Asprus",
+          "relation_context": "Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "PIR_Aufidius_Fronto",
+          "displayed_name": "Aufidius Fronto",
+          "normalized_name": "M. Aufidius Fronto",
+          "relation_context": "mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A595",
+          "target": "person_A596",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.",
+          "notes": [
+            "Possible father-son relation; A 595 and A 596 are not identified with one another."
+          ]
+        }
+      ],
+      "entry_notes": [
+        "This entry is a continuation of PIR² A 595 from the previous page (page 97)."
+      ],
+      "source_page": 114,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 595 restored as governor of Numidia and Moesia superior; possible father of A 596 normalized to parent_of."
+      },
+      "needs_review": false
+    },
+    {
+      "entry_id": "668",
+      "pir_reference": "A 668",
+      "lemma": "M. ANNIVS LIBO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The entry explicitly discusses Marcus Annius Libo as 'legatum Aug. pr. pr. Syriae' during the Parthian War under Marcus Aurelius and Lucius Verus.",
+      "segments": {
+        "lemma": "M. ANNIVS LIBO, M. f. Gal(eria)",
+        "name_variants": "M. Annius Libo",
+        "identification_and_sources": "nominatur inter testes senatus consulti de Cyzicenis facti sub Antonino Pio III 7060 = D. 7190.",
+        "offices_and_career": "Filius sine dubio M. Annii Libonis consulis a. 128; idem videtur Libo patruelis imperatoris Marci ab eo temporibus belli Parthici legatus in Syriam missus, qui ibi periit subito morbo notis prope veneni existentibus (c. a. 163) vita Veri 9, 2.",
+        "governorship_attestation": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim; quod si recte ponitur antea consul (suff. a. inc.) fuerit necesse est.",
+        "family_and_social_relations": "Libonis uxorem invito Marco Verus dedit Agaclyto liberto ib. 9, 3. — Fortasse filius eius M. Annius Sabinus Libo, curator Lavinii. Nepos Libonis huius videtur M. Annius Flavius Libo consul a. 204.",
+        "prosopographical_commentary": "The author identifies him as the cousin (patruelis) of Emperor Marcus Aurelius, sent to Syria during the Parthian War, where he died under suspicious circumstances (suspected poisoning).",
+        "bibliography_or_cross_references": "CIL III 7060 = D. 7190. HA, Vita Veri 9, 2; 9, 3. Cf. M. Annius Flavius Libo."
+      },
+      "main_person": {
+        "id": "person_668",
+        "displayed_name": "M. Annius Libo",
+        "normalized_name": "Marcus Annius Libo",
+        "pir_reference": "A 668",
+        "status_markers": [
+          "patruelis imperatoris Marci",
+          "consularis"
+        ],
+        "notes": [
+          "Cousin of Marcus Aurelius, died in Syria c. 163 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_668_1",
+          "person_id": "person_668",
+          "exact_text": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syria",
+          "date_text": "c. a. 163",
+          "date_normalized_start": 162,
+          "date_normalized_end": 163,
+          "certainty": "low",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The governorship is a PIR inference ('putaverim'), not an explicit office attestation."
+          ],
+          "province_normalized": "Syria"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_668_1",
+          "person_id": "person_668",
+          "exact_text": "legatus in Syriam missus",
+          "normalized_office": "Legatus",
+          "province_text": "Syria",
+          "date_text": "temporibus belli Parthici",
+          "date_normalized_start": 161,
+          "date_normalized_end": 163,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in HA, Vita Veri 9, 2."
+          ]
+        },
+        {
+          "factoid_id": "car_668_2",
+          "person_id": "person_668",
+          "exact_text": "consul (suff. a. inc.)",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "suff. a. inc.",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Inferred as necessary prior to his consular governorship of Syria."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_668_father",
+          "displayed_name": "M. Annius Libo",
+          "normalized_name": "Marcus Annius Libo",
+          "relation_context": "father, consul in 128 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_668_son",
+          "displayed_name": "M. Annius Sabinus Libo",
+          "normalized_name": "Marcus Annius Sabinus Libo",
+          "relation_context": "possible son, curator Lavinii",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_A648",
+          "displayed_name": "M. ANNIVS FLAVIVS LIBO",
+          "normalized_name": "Marcus Annius Flavius Libo",
+          "pir_reference": "A 648",
+          "relation_context": "Nepos Libonis huius videtur; nepos, non filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 648; probable grandson, explicitly not son, of A 668."
+          ]
+        },
+        {
+          "id": "person_668_wife",
+          "displayed_name": "uxor Libonis",
+          "normalized_name": null,
+          "relation_context": "wife, remarried to Agaclytus by Lucius Verus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_668",
+          "target": "person_668_father",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Filius sine dubio M. Annii Libonis consulis a. 128",
+          "notes": []
+        },
+        {
+          "source": "person_668_son",
+          "target": "person_668",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Fortasse filius eius M. Annius Sabinus Libo",
+          "notes": []
+        },
+        {
+          "source": "person_668",
+          "target": "person_A648",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Nepos Libonis huius videtur; nepos, non filius.",
+          "notes": [
+            "Specific kinship: A 668 is the probable grandfather of A 648."
+          ]
+        },
+        {
+          "source": "person_668_wife",
+          "target": "person_668",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Libonis uxorem",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of Libo, cousin of Marcus Aurelius, sent to Syria during the Parthian War, and his sudden death, which was rumored to be by poison."
+      ],
+      "source_page": 130,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 668 restored as low-certainty governor of Syria; probable grandfather relation to A 648 added."
+      },
+      "needs_review": false
+    },
+    {
+      "entry_id": "PIR_A_836",
+      "pir_reference": "A 836",
+      "lemma": "ANTONIVS HIBERVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatum Augusti pr. pr.' of Moesia Inferior ('Moesiam inferiorem rexisse').",
+      "segments": {
+        "lemma": "ANTONIVS HIBERVS",
+        "name_variants": "ANTONIVS HIBERVS",
+        "identification_and_sources": "nominatur in epistula Severi et Antonini de immunitate Tyranorum data a. 201 III 781 = D. 423",
+        "offices_and_career": "gravissimus praeses, legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "governorship_attestation": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "family_and_social_relations": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "prosopographical_commentary": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "bibliography_or_cross_references": "III 781 = D. 423"
+      },
+      "main_person": {
+        "id": "person_836",
+        "displayed_name": "ANTONIVS HIBERVS",
+        "normalized_name": "Antonius Hiberus",
+        "pir_reference": "A 836",
+        "status_markers": [
+          "praeses",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_836_1",
+          "person_id": "person_836",
+          "exact_text": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "date_text": "aetate Antonini Pii vel divorum fratrum",
+          "date_normalized_start": 138,
+          "date_normalized_end": 169,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The office is inferred from the context; normalized dates cover Antoninus Pius and the divi fratres."
+          ],
+          "province_normalized": "Moesia inferior"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_836_1",
+          "person_id": "person_836",
+          "exact_text": "gravissimus praeses",
+          "normalized_office": "praeses",
+          "province_text": null,
+          "date_text": "a. 201",
+          "date_normalized_start": 201,
+          "date_normalized_end": 201,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Mentioned as 'gravissimus praeses' in an imperial letter of 201 AD."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A837",
+          "displayed_name": "M. ANTONIVS HIBERVS",
+          "normalized_name": "Marcus Antonius Hiberus",
+          "pir_reference": "A 837",
+          "relation_context": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 837; probably identical, but retained as a separate person node."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_836",
+          "target": "person_A837",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "A 836: 'Probabiliter non diversus ...'; A 837: 'Probabiliter idem qui praecedit.'",
+          "notes": [
+            "No merge; both PIR entries remain distinct."
+          ]
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of the governor Antonius Hiberus, linking him probably to the consul of 133 AD."
+      ],
+      "source_page": 179,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 836 restored as governor of Moesia inferior; A 836/A 837 possibly_same_as added."
+      },
+      "needs_review": false
     }
   ]
 }

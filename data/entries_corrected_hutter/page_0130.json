@@ -1,0 +1,173 @@
+{
+  "document_notes": [
+    "Page 114 contains entries 668 to 673. Only entry 668 is relevant to the PROVINCIA corpus as it explicitly discusses a governorship with the formula 'legatum Aug. pr. pr. Syriae'."
+  ],
+  "entries": [
+    {
+      "entry_id": "668",
+      "pir_reference": "A 668",
+      "lemma": "M. ANNIVS LIBO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The entry explicitly discusses Marcus Annius Libo as 'legatum Aug. pr. pr. Syriae' during the Parthian War under Marcus Aurelius and Lucius Verus.",
+      "segments": {
+        "lemma": "M. ANNIVS LIBO, M. f. Gal(eria)",
+        "name_variants": "M. Annius Libo",
+        "identification_and_sources": "nominatur inter testes senatus consulti de Cyzicenis facti sub Antonino Pio III 7060 = D. 7190.",
+        "offices_and_career": "Filius sine dubio M. Annii Libonis consulis a. 128; idem videtur Libo patruelis imperatoris Marci ab eo temporibus belli Parthici legatus in Syriam missus, qui ibi periit subito morbo notis prope veneni existentibus (c. a. 163) vita Veri 9, 2.",
+        "governorship_attestation": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim; quod si recte ponitur antea consul (suff. a. inc.) fuerit necesse est.",
+        "family_and_social_relations": "Libonis uxorem invito Marco Verus dedit Agaclyto liberto ib. 9, 3. — Fortasse filius eius M. Annius Sabinus Libo, curator Lavinii. Nepos Libonis huius videtur M. Annius Flavius Libo consul a. 204.",
+        "prosopographical_commentary": "The author identifies him as the cousin (patruelis) of Emperor Marcus Aurelius, sent to Syria during the Parthian War, where he died under suspicious circumstances (suspected poisoning).",
+        "bibliography_or_cross_references": "CIL III 7060 = D. 7190. HA, Vita Veri 9, 2; 9, 3. Cf. M. Annius Flavius Libo."
+      },
+      "main_person": {
+        "id": "person_668",
+        "displayed_name": "M. Annius Libo",
+        "normalized_name": "Marcus Annius Libo",
+        "pir_reference": "A 668",
+        "status_markers": [
+          "patruelis imperatoris Marci",
+          "consularis"
+        ],
+        "notes": [
+          "Cousin of Marcus Aurelius, died in Syria c. 163 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_668_1",
+          "person_id": "person_668",
+          "exact_text": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syria",
+          "date_text": "c. a. 163",
+          "date_normalized_start": 162,
+          "date_normalized_end": 163,
+          "certainty": "low",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The governorship is a PIR inference ('putaverim'), not an explicit office attestation."
+          ],
+          "province_normalized": "Syria"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_668_1",
+          "person_id": "person_668",
+          "exact_text": "legatus in Syriam missus",
+          "normalized_office": "Legatus",
+          "province_text": "Syria",
+          "date_text": "temporibus belli Parthici",
+          "date_normalized_start": 161,
+          "date_normalized_end": 163,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in HA, Vita Veri 9, 2."
+          ]
+        },
+        {
+          "factoid_id": "car_668_2",
+          "person_id": "person_668",
+          "exact_text": "consul (suff. a. inc.)",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "suff. a. inc.",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Inferred as necessary prior to his consular governorship of Syria."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_668_father",
+          "displayed_name": "M. Annius Libo",
+          "normalized_name": "Marcus Annius Libo",
+          "relation_context": "father, consul in 128 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_668_son",
+          "displayed_name": "M. Annius Sabinus Libo",
+          "normalized_name": "Marcus Annius Sabinus Libo",
+          "relation_context": "possible son, curator Lavinii",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_A648",
+          "displayed_name": "M. ANNIVS FLAVIVS LIBO",
+          "normalized_name": "Marcus Annius Flavius Libo",
+          "pir_reference": "A 648",
+          "relation_context": "Nepos Libonis huius videtur; nepos, non filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 648; probable grandson, explicitly not son, of A 668."
+          ]
+        },
+        {
+          "id": "person_668_wife",
+          "displayed_name": "uxor Libonis",
+          "normalized_name": null,
+          "relation_context": "wife, remarried to Agaclytus by Lucius Verus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_668",
+          "target": "person_668_father",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Filius sine dubio M. Annii Libonis consulis a. 128",
+          "notes": []
+        },
+        {
+          "source": "person_668_son",
+          "target": "person_668",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Fortasse filius eius M. Annius Sabinus Libo",
+          "notes": []
+        },
+        {
+          "source": "person_668",
+          "target": "person_A648",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Nepos Libonis huius videtur; nepos, non filius.",
+          "notes": [
+            "Specific kinship: A 668 is the probable grandfather of A 648."
+          ]
+        },
+        {
+          "source": "person_668_wife",
+          "target": "person_668",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Libonis uxorem",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of Libo, cousin of Marcus Aurelius, sent to Syria during the Parthian War, and his sudden death, which was rumored to be by poison."
+      ],
+      "source_page": 130,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 668 restored as low-certainty governor of Syria; probable grandfather relation to A 648 added."
+      },
+      "needs_review": false
+    }
+  ]
+}

@@ -72,7 +72,8 @@
           "certainty": "medium",
           "notes": [
             "PIR A 535, possibly identical to P. Alfius Maximus (A 534)."
-          ]
+          ],
+          "pir_reference": "A 535"
         }
       ],
       "relations": [
@@ -91,8 +92,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#10: Galatia + Pannonia superior (low, erschlossen CIL III 14356^4); Identitaet A 535; Amt-Status -> senator; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing A 534/A 535 possibly_same_as confirmed; target PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 106

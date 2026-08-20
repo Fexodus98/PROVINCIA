@@ -52,25 +52,37 @@
       "career_factoids": [],
       "related_persons": [
         {
-          "id": "person_t_helvius_basila",
-          "displayed_name": "T. Helvius Basila",
+          "id": "person_H67",
+          "displayed_name": "T. HELVIVS BASILA",
           "normalized_name": "Titus Helvius Basila",
-          "relation_context": "probabiliter idem atque",
+          "pir_reference": "H 67",
+          "relation_context": "probabiliter idem atque T. Helvius Basila; idem ut videtur Basila supra B 59",
           "certainty": "medium",
           "notes": [
-            "Mentioned as probably identical to Basila."
+            "PIR H 67 is not otherwise modeled in the current A-B pilot corpus."
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_basila",
+          "target": "person_H67",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "B 59: 'probabiliter idem atque T. Helvius Basila'; H 67: 'Idem ut videtur Basila supra B 59'",
+          "notes": [
+            "H 67 remains an external person target; no node merge was performed."
+          ]
+        }
+      ],
       "entry_notes": [
         "The Greek inscription CIG 4039 (Dittenberger, OGIS 533) records the name as ΒΑΣΙΛΑ."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "L5: Galatia; certainty medium->low ('ut videtur'); Amt-Status -> senator; Identitaet T. Helvius Basila; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "B 59/H 67 possibly_same_as added; H 67 retained as an external PIR target."
       },
       "needs_review": false,
       "source_page": 371

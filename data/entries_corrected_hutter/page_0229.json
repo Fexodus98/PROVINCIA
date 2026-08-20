@@ -152,12 +152,15 @@
           "notes": []
         },
         {
-          "id": "person_c_arrius_antoninus_filius",
-          "displayed_name": "C. Arrius Antoninus",
-          "normalized_name": "C. Arrius Antoninus",
-          "relation_context": "filius",
+          "id": "person_A1089",
+          "displayed_name": "C. ARRIVS ANTONINVS",
+          "normalized_name": "Gaius Arrius Antoninus",
+          "pir_reference": "A 1089",
+          "relation_context": "C. Arrius Antoninus ... filius.",
           "certainty": "high",
-          "notes": []
+          "notes": [
+            "PIR A 1089; not a governor. The Daciae governorship belongs to his father A 1088."
+          ]
         },
         {
           "id": "person_c_arrius_quadratus",
@@ -187,7 +190,7 @@
         },
         {
           "source": "person_arrius_antoninus",
-          "target": "person_c_arrius_antoninus_filius",
+          "target": "person_A1089",
           "relation": "parent_of",
           "certainty": "high",
           "basis": "C. Arrius Antoninus ... filii",
@@ -216,8 +219,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#18: Cappadocia c.174-177 (Judge-Ende 175 widerlegt via t.9 post Nov 176); Tres Daciae ab 177; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1089 retained only as the son/relation target of governor A 1088; Daciae remains assigned to A 1088."
       },
       "needs_review": false,
       "source_page": 229

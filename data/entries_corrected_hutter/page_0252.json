@@ -20,7 +20,7 @@
       "main_person": {
         "id": "person_1180",
         "displayed_name": "[...... a?]rToRivs",
-        "normalized_name": "[...... A?]rtorius",
+        "normalized_name": "Gaius Ummidius Quadratus Sallustius Sertorius",
         "pir_reference": "A 1180",
         "status_markers": [
           "senator",
@@ -28,8 +28,8 @@
         ],
         "notes": [
           "Governor of Moesia Inferior in 120 AD.",
-          "Wahrscheinlich identisch mit G. Ummidius Quadratus Sallustius Sertorius (PIR2 V 907) — dieselbe Inschrift CIL III 7539 belegt beide; Namensrest wohl 'Se]rtorius', nicht 'A]rtorius'. sameAs-Kandidat.",
-          "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz)."
+          "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz).",
+          "The later PIR entry V 907 resolves the fragmentary A 1180 attestation as Gaius Ummidius Quadratus Sallustius Sertorius; the surviving name ending is Se]rtorius."
         ]
       },
       "governorship_factoids": [
@@ -52,16 +52,40 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_V907",
+          "displayed_name": "C. VMMIDIVS QVADRATVS S[ALLVSTIVS?] SERTORIVS",
+          "normalized_name": "Gaius Ummidius Quadratus Sallustius Sertorius",
+          "pir_reference": "V 907",
+          "relation_context": "The new fragment assigns the inscription and the material formerly placed under A 1180 to V 907.",
+          "certainty": "high",
+          "notes": [
+            "V 907 is not otherwise modeled in the current A-B pilot corpus.",
+            "The later PIR wording ('ita ut omnia ... ad eum pertineant') resolves the identity."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1180",
+          "target": "person_V907",
+          "relation": "same_as",
+          "certainty": "high",
+          "basis": "ita ut omnia, quae supra A 1180 de [A?]rtorio scripta sunt, ad eum pertineant",
+          "notes": [
+            "Resolved identity based on the new inscription fragment; V 907 remains an external PIR target in the A-B pilot."
+          ]
+        }
+      ],
       "entry_notes": [
         "The nomen is reconstructed as Artorius based on the remaining letters."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#19: Moesia inferior; sameAs PIR V 907 (CIL III 7539); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1180/V 907 recorded as resolved same_as (high); normalized historical name assigned to A 1180."
       },
       "needs_review": false,
       "source_page": 252

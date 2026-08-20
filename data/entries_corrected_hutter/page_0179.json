@@ -1,0 +1,107 @@
+{
+  "document_notes": [
+    "Page 163 of PIR contains entry 836, which explicitly mentions a legatus Augusti pro praetore of Moesia Inferior."
+  ],
+  "entries": [
+    {
+      "entry_id": "PIR_A_836",
+      "pir_reference": "A 836",
+      "lemma": "ANTONIVS HIBERVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatum Augusti pr. pr.' of Moesia Inferior ('Moesiam inferiorem rexisse').",
+      "segments": {
+        "lemma": "ANTONIVS HIBERVS",
+        "name_variants": "ANTONIVS HIBERVS",
+        "identification_and_sources": "nominatur in epistula Severi et Antonini de immunitate Tyranorum data a. 201 III 781 = D. 423",
+        "offices_and_career": "gravissimus praeses, legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "governorship_attestation": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "family_and_social_relations": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "prosopographical_commentary": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "bibliography_or_cross_references": "III 781 = D. 423"
+      },
+      "main_person": {
+        "id": "person_836",
+        "displayed_name": "ANTONIVS HIBERVS",
+        "normalized_name": "Antonius Hiberus",
+        "pir_reference": "A 836",
+        "status_markers": [
+          "praeses",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_836_1",
+          "person_id": "person_836",
+          "exact_text": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "date_text": "aetate Antonini Pii vel divorum fratrum",
+          "date_normalized_start": 138,
+          "date_normalized_end": 169,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The office is inferred from the context; normalized dates cover Antoninus Pius and the divi fratres."
+          ],
+          "province_normalized": "Moesia inferior"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_836_1",
+          "person_id": "person_836",
+          "exact_text": "gravissimus praeses",
+          "normalized_office": "praeses",
+          "province_text": null,
+          "date_text": "a. 201",
+          "date_normalized_start": 201,
+          "date_normalized_end": 201,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Mentioned as 'gravissimus praeses' in an imperial letter of 201 AD."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A837",
+          "displayed_name": "M. ANTONIVS HIBERVS",
+          "normalized_name": "Marcus Antonius Hiberus",
+          "pir_reference": "A 837",
+          "relation_context": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 837; probably identical, but retained as a separate person node."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_836",
+          "target": "person_A837",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "A 836: 'Probabiliter non diversus ...'; A 837: 'Probabiliter idem qui praecedit.'",
+          "notes": [
+            "No merge; both PIR entries remain distinct."
+          ]
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of the governor Antonius Hiberus, linking him probably to the consul of 133 AD."
+      ],
+      "source_page": 179,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 836 restored as governor of Moesia inferior; A 836/A 837 possibly_same_as added."
+      },
+      "needs_review": false
+    }
+  ]
+}

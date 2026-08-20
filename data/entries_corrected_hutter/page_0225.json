@@ -70,7 +70,8 @@
           "certainty": "high",
           "notes": [
             "clarissimus puer"
-          ]
+          ],
+          "pir_reference": "A 1071"
         }
       ],
       "relations": [
@@ -87,8 +88,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "Als de-facto-Statthalter von Numidia (Befehlshaber legio III Augusta) mit certainty=medium aufgenommen; Belege CIL VIII 4195 und Thomasson S.181 (165/166); Identitaet mit A 1070 nicht voellig gesichert."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing parent relation A 1070 -> A 1071 confirmed; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 225

@@ -20,7 +20,7 @@
         "bibliography_or_cross_references": "Ulp. dig. 36, 1, 38, 1; CIL VI 32331; CIL VIII 7032"
       },
       "main_person": {
-        "id": "person_1089_main",
+        "id": "person_A1089",
         "displayed_name": "C. ARRIVS ANTONINVS",
         "normalized_name": "C. Arrius Antoninus",
         "pir_reference": "A 1089",
@@ -35,13 +35,14 @@
       "career_factoids": [],
       "related_persons": [
         {
-          "id": "person_1089_father",
-          "displayed_name": "C. Arrius Antoninus",
-          "normalized_name": "C. Arrius Antoninus",
-          "relation_context": "Father of the main person, governor of Dacia.",
+          "id": "person_arrius_antoninus",
+          "displayed_name": "C. ARRIVS ANTONINVS",
+          "normalized_name": "Gaius Arrius Antoninus",
+          "pir_reference": "A 1088",
+          "relation_context": "filius C. Arri Antonini leg. Aug. pr. pr. Daciarum",
           "certainty": "high",
           "notes": [
-            "leg. Aug. pr. pr. Daciarum"
+            "The governorship of the Daciae belongs to A 1088, the father."
           ]
         },
         {
@@ -67,8 +68,8 @@
       ],
       "relations": [
         {
-          "source": "person_1089_main",
-          "target": "person_1089_father",
+          "source": "person_A1089",
+          "target": "person_arrius_antoninus",
           "relation": "child_of",
           "certainty": "high",
           "basis": "filius C. Arri Antonini",
@@ -76,7 +77,7 @@
         },
         {
           "source": "person_1089_wife",
-          "target": "person_1089_main",
+          "target": "person_A1089",
           "relation": "spouse_of",
           "certainty": "high",
           "basis": "cuius uxor ....lia Crispina",
@@ -89,8 +90,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-01",
-        "note": "A 1089 nicht relevant; Dacia-Faktoid entfernt (gehört Vater A 1088)."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1089 remains excluded as a governor but is preserved as the child node of A 1088."
       },
       "needs_review": false
     }

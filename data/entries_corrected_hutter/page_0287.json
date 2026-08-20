@@ -86,24 +86,27 @@
       ],
       "related_persons": [
         {
-          "id": "person_1342",
+          "id": "person_A1342",
           "displayed_name": "L. Attidius Cornelianus (1342)",
           "normalized_name": "Lucius Attidius Cornelianus",
           "relation_context": "filius vel nepos eius qui praecedit",
           "certainty": "medium",
           "notes": [
             "Son or grandson of the main person."
-          ]
+          ],
+          "pir_reference": "A 1342"
         }
       ],
       "relations": [
         {
           "source": "person_A1341",
-          "target": "person_1342",
-          "relation": "parent_of",
+          "target": "person_A1342",
+          "relation": "related_to",
           "certainty": "medium",
-          "basis": "filius vel nepos eius qui praecedit",
-          "notes": []
+          "basis": "Pater vel avus eius qui sequitur; filius vel nepos eius qui praecedit.",
+          "notes": [
+            "A 1341 is either father or grandfather of A 1342; the exact generation is unresolved."
+          ]
         }
       ],
       "entry_notes": [
@@ -112,8 +115,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#21: Arabia wieder aufgenommen (Stufe-5-Fehlausfall); Syria exact gekuerzt; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 1341/A 1342 changed from parent_of to related_to because father or grandfather are alternatives."
       },
       "needs_review": false,
       "source_page": 287

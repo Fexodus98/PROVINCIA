@@ -14,7 +14,7 @@
         "offices_and_career": "consul (designatus) t. 3 (ubi perperam editores restituerunt ὑπ[ατικού], immo supplendum videtur ὑπ[άτου ἀποδεδειγμένου]); Consul suffectus anno incerto. Consul II ordinarius a. 228 cum M. Maecio Probo v. supra (iterationis nota extat III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392, omittitur in fastorum laterculis paene omnibus et in titulis non paucis).",
         "governorship_attestation": "(Legatus Aug. pr. pr. Arabiae) ... Legatus Augustorum duorum t. 2 Augustorum trium t. 1 pro praetore Germaniae superioris t. 1. 2; inde apparet eum a. 209 provinciae praefuisse; fortasse annis quoque praecedentibus vel subsequentibus eodem munere functus est.",
         "family_and_social_relations": "Q. Aiacius Censorinus clarissimus vir, qui in eadem fistula nominatur, t. 5, fortasse frater eius. Iuniam Aiaciam Modestam Q. Aradi Rufini uxorem (XV 8088) filiam Modesti putaverim.",
-        "prosopographical_commentary": "qui t. cum positus sit Imp. Caes. M. Aurelio Antonino Aug., Modestus non ante a. p. C. 198 provinciam rexerit necesse est. ... Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας] t. Pergameni IGR 4, 872.",
+        "prosopographical_commentary": "qui t. cum positus sit Imp. Caes. M. Aurelio Antonino Aug., Modestus non ante a. p. C. 198 provinciam rexerit necesse est. ... Plane incertum, num idem sit Κόιντος Ai .... Λευκίου υἱός.... [κυινδεκί]μβερον, ἀνθύ[πατος sc. ᾿Ασίας] t. Pergameni IGR 4, 372.",
         "bibliography_or_cross_references": "III 4168. VI 13. IX 1538. XIV 2267. 4562, 6. XV 4118. Ann. ép. 1912, 165, in fastis Heraclianis Chron. min. 3, 392"
       },
       "main_person": {
@@ -177,6 +177,17 @@
           "relation_context": "consul II ordinarius colleague in 228",
           "certainty": "high",
           "notes": []
+        },
+        {
+          "id": "person_A468",
+          "displayed_name": "Q. AI......",
+          "normalized_name": null,
+          "pir_reference": "A 468",
+          "relation_context": "Plane incertum, num idem sit ...; vide num idem sit Q. Aiacius Modestus Crescentianus.",
+          "certainty": "low",
+          "notes": [
+            "Fragmentary PIR A 468, attested in IGR IV 372; the nomen may also be Aelius or Aemilius."
+          ]
         }
       ],
       "relations": [
@@ -203,6 +214,16 @@
           "certainty": "high",
           "basis": "uxorem (XV 8088)",
           "notes": []
+        },
+        {
+          "source": "person_A470",
+          "target": "person_A468",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "A 468: 'Vide num idem sit Q. Aiacius Modestus Crescentianus'; A 470: 'Plane incertum, num idem sit ...'",
+          "notes": [
+            "Very uncertain identification because the nomen in IGR IV 372 is fragmentary."
+          ]
         }
       ],
       "entry_notes": [
@@ -211,8 +232,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#7: Germania superior wieder aufgenommen (Stufe-5-Fehlausfall); Arabia-Ende null; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 468 identified as the fragmentary comparison entry for A 470; IGR IV 372 corrected; low-confidence possibly_same_as."
       },
       "needs_review": false,
       "source_page": 96

@@ -180,7 +180,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_nigrinus",
+          "source": "person_1408",
           "target": "person_avidia_plautia",
           "relation": "parent_of",
           "certainty": "high",
@@ -188,7 +188,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_nigrinus",
+          "source": "person_1408",
           "target": "person_hadrianus",
           "relation": "successor_of",
           "certainty": "high",
@@ -204,8 +204,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#24: Dacia-Dublette geloescht; Moesia superior (medium, Domaszewski); Achaia c.114-117; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Relation source IDs normalized from person_avidius_nigrinus to the main-person ID person_1408."
       },
       "needs_review": false,
       "source_page": 301

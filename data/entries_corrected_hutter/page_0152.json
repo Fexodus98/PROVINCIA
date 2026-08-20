@@ -50,14 +50,37 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_519",
+          "displayed_name": "L. ALFENVS AVITIANVS",
+          "normalized_name": "Lucius Alfenus Avitianus",
+          "pir_reference": "A 519",
+          "relation_context": "pro Antianus fortasse legendum Avitianus (cf. L. Alfenum Avitianum supra n. 519)",
+          "certainty": "low",
+          "notes": [
+            "Ritterling's identification depends on the conjectural reading Avitianus."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_735",
+          "target": "person_519",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "pro Antianus fortasse legendum Avitianus (cf. L. Alfenum Avitianum supra n. 519)",
+          "notes": [
+            "The two PIR entries remain distinct; no certainty is transferred to the governorship of Pannonia inferior."
+          ]
+        }
+      ],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#14: Pannonia inferior; Datierung 'non ante Commodum' (start 180, statt Judge 161-180); moegl. = A 519; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 735/A 519 as low-confidence possibly_same_as based on a conjectural name reading."
       },
       "needs_review": false,
       "source_page": 152

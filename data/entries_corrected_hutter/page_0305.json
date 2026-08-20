@@ -93,12 +93,15 @@
           "notes": []
         },
         {
-          "id": "person_avidius_quietus_jr",
-          "displayed_name": "Avidius Quietus",
+          "id": "person_A1409",
+          "displayed_name": "AVIDIVS QVIETVS",
           "normalized_name": "Avidius Quietus",
-          "relation_context": "Huius puto filius Avidius Quietus, proconsul Asiae temporibus Hadriani",
+          "pir_reference": "A 1409",
+          "relation_context": "Filius probabiliter T. Avidii Quieti qui sequitur.",
           "certainty": "medium",
-          "notes": []
+          "notes": [
+            "PIR A 1409; probable son of A 1410."
+          ]
         },
         {
           "id": "person_plutarchus",
@@ -127,7 +130,7 @@
           "notes": []
         },
         {
-          "source": "person_avidius_quietus_jr",
+          "source": "person_A1409",
           "target": "person_avidius_quietus",
           "relation": "child_of",
           "certainty": "medium",
@@ -158,8 +161,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#25: Britannia (medium); Thracia-Irrtum notiert; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing probable son relation identified explicitly as A 1409 -> A 1410."
       },
       "needs_review": false,
       "source_page": 305

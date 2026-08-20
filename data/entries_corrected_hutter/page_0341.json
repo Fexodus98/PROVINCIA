@@ -98,13 +98,14 @@
           ]
         },
         {
-          "id": "person_t_avidius_quietus",
-          "displayed_name": "T. Avidius Quietus",
+          "id": "person_A1410",
+          "displayed_name": "T. AVIDIVS QVIETVS",
           "normalized_name": "Titus Avidius Quietus",
-          "relation_context": "possible confusion / comparison",
-          "certainty": "medium",
+          "pir_reference": "A 1410",
+          "relation_context": "Hunc non diversum ... coniecit Benndorf ... vix recte.",
+          "certainty": "low",
           "notes": [
-            "Benndorf identified him with Quietus the proconsul and friend of Plutarch, but the author suggests looking under T. Avidius Quietus instead."
+            "Rejected identification hypothesis: PIR judges Benndorf's equation as 'vix recte'. No possibly_same_as edge is created."
           ]
         }
       ],
@@ -126,8 +127,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-01",
-        "note": "Orphan aufgelöst: PIR A 1592 zugewiesen; Statthalterschaft Lycia et Pamphylia behalten."
+        "reviewed_on": "2026-08-20",
+        "note": "Rejected A 1592/A 1410 identity documented as a note only; no positive possibly_same_as relation."
       },
       "needs_review": false,
       "source_page": 341

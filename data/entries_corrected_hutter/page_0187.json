@@ -81,13 +81,14 @@
       ],
       "related_persons": [
         {
-          "id": "person_882",
+          "id": "person_A882",
           "displayed_name": "M. Antonius Zeno",
           "normalized_name": "Marcus Antonius Zeno",
-          "relation_context": "Ex posteris videtur eius qui praecedit",
+          "pir_reference": "A 882",
+          "relation_context": "Ex posteris videtur eius qui praecedit.",
           "certainty": "medium",
           "notes": [
-            "Ancestor of the same name, priest of Laodicea under Claudius and Nero."
+            "PIR A 882; probable ancestor, without a more specific generation."
           ]
         },
         {
@@ -110,7 +111,7 @@
       "relations": [
         {
           "source": "person_883",
-          "target": "person_882",
+          "target": "person_A882",
           "relation": "related_to",
           "certainty": "medium",
           "basis": "Ex posteris videtur eius qui praecedit",
@@ -139,8 +140,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#17: Thracia; Ende null ('non ante a.140'); exact praezisiert; Amt-Status entfernt; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing probable ancestor relation A 882/A 883 retained as related_to; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 187

@@ -574,17 +574,27 @@
 <https://provincia.uni-graz.at/resource/factoid/pir-a-519-gov-519-1> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-519-person-519> ;
     ont:certainty "high" ;
-    ont:dateNormalizedEnd 209 ;
-    ont:dateNormalizedStart 209 ;
-    ont:dateText "a. 209 (?, umstritten)" ;
     ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-519> ;
     ont:evidenceType "explicit" ;
     ont:exactText "Legatus Augusti pro praetore provinciae Arabiae" ;
     ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
-    ont:note "'dubito num recte' — Datierung 209 umstritten (evtl. Syria statt Arabia).",
-        "Attested in a Gerasene inscription (IGR 3, 1371). His identification in Wadd. 2460 (dated to 209 AD) is conjectured based on the ending '...ητιανοῦ', but this is debated and could potentially refer to Syria instead of Arabia.",
-        "Moegliche Identitaet mit A 735 ([.....]us Antianus/Avitianus): PIR erwaegt bei A 735 Lesung 'Avitianus' (cf. n. 519). Entity-Resolution-Kandidat." ;
+    ont:note "The conjectural identification in Wadd. 2460 and its date of 209 do not date this secure Arabia factoid.",
+        "The governorship of Arabia is securely attested by the Gerasene inscription IGR III 1371." ;
     ont:province <https://provincia.uni-graz.at/resource/province/arabia> .
+
+<https://provincia.uni-graz.at/resource/factoid/pir-a-519-gov-519-2-syria> a ont:GovernorshipFactoid ;
+    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-519-person-519> ;
+    ont:certainty "low" ;
+    ont:dateNormalizedEnd 209 ;
+    ont:dateNormalizedStart 209 ;
+    ont:dateText "a. 209 (conjectural attribution of Wadd. 2460)" ;
+    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-519> ;
+    ont:evidenceType "uncertain_reading" ;
+    ont:exactText "hunc nominatum fuisse in t. posito a. 209, Wadd. 2460, ubi nomina legati perierunt praeter ....ητιανοῦ, suspicati sunt Bruennow et Domaszewski; qui simul monuerunt fieri posse ut non Arabiae sed Syriae legatus in hoc t. memoratus sit" ;
+    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
+    ont:note "Both the identification of the fragmentary name ...ητιανοῦ with A 519 and the assignment of the inscription to Syria are conjectural.",
+        "The PIR author explicitly adds 'dubito num recte'." ;
+    ont:province <https://provincia.uni-graz.at/resource/province/syria> .
 
 <https://provincia.uni-graz.at/resource/factoid/pir-a-534-gov-2-pann-sup> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-534-person-534> ;
@@ -619,6 +629,32 @@
     ont:note "Attested in inscriptions from Gerasa.",
         "In der PIR 'consul (suffectus anno incerto saec. II medii)' — die Klammer markiert Erschlossenes (belegt nur 'consul'); diese Datierung gilt dem KONSULAT, nicht der Statthalterschaft. Arabia-Statthalterschaft (CIL III 118 = 14156^3, Gerasa) faellt kurz vor das Konsulat (dort consul designatus). Moegliche Identitaet mit C. Allius C. f. Fuscianus (Ostia a. 140, a. 152)." ;
     ont:province <https://provincia.uni-graz.at/resource/province/arabia> .
+
+<https://provincia.uni-graz.at/resource/factoid/pir-a-595-gov-1> a ont:GovernorshipFactoid ;
+    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-595-person-a595> ;
+    ont:certainty "high" ;
+    ont:dateNormalizedEnd 201 ;
+    ont:dateNormalizedStart 196 ;
+    ont:dateText "anno 196 vel priore semestri a. 197" ;
+    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-595> ;
+    ont:evidenceType "explicit" ;
+    ont:exactText "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197" ;
+    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
+    ont:note "Attested from 196/197 through 201; the office is explicit." ;
+    ont:province <https://provincia.uni-graz.at/resource/province/numidia> .
+
+<https://provincia.uni-graz.at/resource/factoid/pir-a-595-gov-2> a ont:GovernorshipFactoid ;
+    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-595-person-a595> ;
+    ont:certainty "high" ;
+    ont:dateNormalizedEnd 207 ;
+    ont:dateNormalizedStart 202 ;
+    ont:dateText "intra a. 202 et 207" ;
+    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-595> ;
+    ont:evidenceType "explicit" ;
+    ont:exactText "Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30" ;
+    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
+    ont:note "The office is explicit; the exact years 202-207 remain uncertain because the tribunician-power numerals are corrupt." ;
+    ont:province <https://provincia.uni-graz.at/resource/province/moesia-superior> .
 
 <https://provincia.uni-graz.at/resource/factoid/pir-a-599-gov-599-1> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-599-person-599> ;
@@ -659,6 +695,19 @@
     ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
     ont:note "Attested on September 20, 224 AD." ;
     ont:province <https://provincia.uni-graz.at/resource/province/moesia-inferior> .
+
+<https://provincia.uni-graz.at/resource/factoid/pir-a-668-gov-668-1> a ont:GovernorshipFactoid ;
+    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-668-person-668> ;
+    ont:certainty "low" ;
+    ont:dateNormalizedEnd 163 ;
+    ont:dateNormalizedStart 162 ;
+    ont:dateText "c. a. 163" ;
+    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-668> ;
+    ont:evidenceType "inferred_from_context" ;
+    ont:exactText "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim" ;
+    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
+    ont:note "The governorship is a PIR inference ('putaverim'), not an explicit office attestation." ;
+    ont:province <https://provincia.uni-graz.at/resource/province/syria> .
 
 <https://provincia.uni-graz.at/resource/factoid/pir-a-731-gov-731-1> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-731-person-731> ;
@@ -736,6 +785,19 @@
     ont:note "Attested in inscriptions from Charadrus (IGR 3, 838) and possibly Olba (IGR 3, 848).",
         "Datierung = Zeitfenster der Inschrift IGR 3,838 (unter Sept. Severus, 198-209); genaue Amtsdauer nicht bestimmbar." ;
     ont:province <https://provincia.uni-graz.at/resource/province/cilicia> .
+
+<https://provincia.uni-graz.at/resource/factoid/pir-a-836-gov-836-1> a ont:GovernorshipFactoid ;
+    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-836-person-836> ;
+    ont:certainty "medium" ;
+    ont:dateNormalizedEnd 169 ;
+    ont:dateNormalizedStart 138 ;
+    ont:dateText "aetate Antonini Pii vel divorum fratrum" ;
+    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-836> ;
+    ont:evidenceType "inferred_from_context" ;
+    ont:exactText "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum" ;
+    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
+    ont:note "The office is inferred from the context; normalized dates cover Antoninus Pius and the divi fratres." ;
+    ont:province <https://provincia.uni-graz.at/resource/province/moesia-inferior> .
 
 <https://provincia.uni-graz.at/resource/factoid/pir-a-851-gov-851-1> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-851-person-851> ;
@@ -826,9 +888,9 @@
 <https://provincia.uni-graz.at/resource/person/pir-a-1180-person-1180> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-1180> ;
     ont:displayedName "[...... a?]rToRivs" ;
-    ont:normalizedName "[...... A?]rtorius" ;
+    ont:normalizedName "Gaius Ummidius Quadratus Sallustius Sertorius" ;
     ont:note "Governor of Moesia Inferior in 120 AD.",
-        "Wahrscheinlich identisch mit G. Ummidius Quadratus Sallustius Sertorius (PIR2 V 907) — dieselbe Inschrift CIL III 7539 belegt beide; Namensrest wohl 'Se]rtorius', nicht 'A]rtorius'. sameAs-Kandidat.",
+        "The later PIR entry V 907 resolves the fragmentary A 1180 attestation as Gaius Ummidius Quadratus Sallustius Sertorius; the surviving name ending is Se]rtorius.",
         "consularis aus dem Amt erschlossen (Moesia inferior = konsularische Provinz)." ;
     ont:pirReference "A 1180" ;
     ont:statusMarker "senator",
@@ -964,14 +1026,6 @@
     ont:statusMarker "consularis",
         "senator" .
 
-<https://provincia.uni-graz.at/resource/person/pir-a-519-person-519> a ont:Person ;
-    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-519> ;
-    ont:displayedName "L. Alfenus Avitianus" ;
-    ont:normalizedName "Lucius Alfenus Avitianus" ;
-    ont:pirReference "A 519" ;
-    ont:statusMarker "frater Arvalis",
-        "senator" .
-
 <https://provincia.uni-graz.at/resource/person/pir-a-544-person-a-544> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-544> ;
     ont:displayedName "C. Allius Fuscianus" ;
@@ -1006,6 +1060,15 @@
     ont:statusMarker "consularis",
         "senator" .
 
+<https://provincia.uni-graz.at/resource/person/pir-a-668-person-668> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-668> ;
+    ont:displayedName "M. Annius Libo" ;
+    ont:normalizedName "Marcus Annius Libo" ;
+    ont:note "Cousin of Marcus Aurelius, died in Syria c. 163 AD." ;
+    ont:pirReference "A 668" ;
+    ont:statusMarker "consularis",
+        "patruelis imperatoris Marci" .
+
 <https://provincia.uni-graz.at/resource/person/pir-a-731-person-731> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-731> ;
     ont:displayedName "P. Anteius Rufus" ;
@@ -1032,6 +1095,14 @@
     ont:pirReference "A 816" ;
     ont:statusMarker "senator",
         "vir clarissimus" .
+
+<https://provincia.uni-graz.at/resource/person/pir-a-836-person-836> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-836> ;
+    ont:displayedName "ANTONIVS HIBERVS" ;
+    ont:normalizedName "Antonius Hiberus" ;
+    ont:pirReference "A 836" ;
+    ont:statusMarker "legatus Augusti pro praetore",
+        "praeses" .
 
 <https://provincia.uni-graz.at/resource/person/pir-a-851-person-851> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-851> ;
@@ -1090,10 +1161,6 @@
 <https://provincia.uni-graz.at/resource/province/germania-inferior> a ont:Province ;
     rdfs:label "Germania inferior" ;
     ont:attestedForm "Germania inferior" .
-
-<https://provincia.uni-graz.at/resource/province/moesia-superior> a ont:Province ;
-    rdfs:label "Moesia superior" ;
-    ont:attestedForm "Moesia superior" .
 
 <https://provincia.uni-graz.at/resource/province/pannonia> a ont:Province ;
     rdfs:label "Pannonia" ;
@@ -1179,6 +1246,7 @@
     rdfs:label "[A]vr(elivs) Basilevs" ;
     ont:needsReview false ;
     ont:pirReference "A 1465" ;
+    ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 313 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
@@ -1262,14 +1330,6 @@
     ont:sourcePage 97 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
-<https://provincia.uni-graz.at/resource/entry/pir-a-519> a ont:PIREntry ;
-    rdfs:label "L. ALFENVS AVITIANVS" ;
-    ont:needsReview false ;
-    ont:pirReference "A 519" ;
-    ont:reviewVerdict "human_corrected" ;
-    ont:sourcePage 104 ;
-    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
-
 <https://provincia.uni-graz.at/resource/entry/pir-a-544> a ont:PIREntry ;
     rdfs:label "C. ALLIVS FVSCIANVS" ;
     ont:needsReview false ;
@@ -1282,7 +1342,7 @@
     rdfs:label "ANICIVS FAVSTVS PAVLINVS" ;
     ont:needsReview false ;
     ont:pirReference "A 599" ;
-    ont:reviewVerdict "human_confirmed" ;
+    ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 115 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
@@ -1300,6 +1360,14 @@
     ont:pirReference "A 659" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 129 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
+<https://provincia.uni-graz.at/resource/entry/pir-a-668> a ont:PIREntry ;
+    rdfs:label "M. ANNIVS LIBO" ;
+    ont:needsReview false ;
+    ont:pirReference "A 668" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 130 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/entry/pir-a-731> a ont:PIREntry ;
@@ -1324,6 +1392,14 @@
     ont:pirReference "A 816" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 172 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
+<https://provincia.uni-graz.at/resource/entry/pir-a-836> a ont:PIREntry ;
+    rdfs:label "ANTONIVS HIBERVS" ;
+    ont:needsReview false ;
+    ont:pirReference "A 836" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 179 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/entry/pir-a-851> a ont:PIREntry ;
@@ -1439,12 +1515,30 @@
         "clarissimus vir",
         "consul II ordinarius" .
 
+<https://provincia.uni-graz.at/resource/person/pir-a-519-person-519> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-519> ;
+    ont:displayedName "L. Alfenus Avitianus" ;
+    ont:normalizedName "Lucius Alfenus Avitianus" ;
+    ont:pirReference "A 519" ;
+    ont:statusMarker "frater Arvalis",
+        "senator" .
+
 <https://provincia.uni-graz.at/resource/person/pir-a-534-person-534> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-534> ;
     ont:displayedName "P. ALFIVS MAXIMVS" ;
     ont:normalizedName "Publius Alfius Maximus" ;
     ont:pirReference "A 534" ;
     ont:statusMarker "senator" .
+
+<https://provincia.uni-graz.at/resource/person/pir-a-595-person-a595> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-595> ;
+    ont:displayedName "Sex. Anicius Faustus" ;
+    ont:normalizedName "Sextus Anicius Faustus" ;
+    ont:note "Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum." ;
+    ont:pirReference "A 595" ;
+    ont:statusMarker "clarissimus vir",
+        "consularis",
+        "patronus" .
 
 <https://provincia.uni-graz.at/resource/province/britannia> a ont:Province ;
     rdfs:label "Britannia" ;
@@ -1468,10 +1562,9 @@
     rdfs:label "Lycia et Pamphylia" ;
     ont:attestedForm "Lycia et Pamphylia" .
 
-<https://provincia.uni-graz.at/resource/province/numidia> a ont:Province ;
-    rdfs:label "Numidia" ;
-    ont:attestedForm "Numidia",
-        "exercitus Africanus" .
+<https://provincia.uni-graz.at/resource/province/moesia-superior> a ont:Province ;
+    rdfs:label "Moesia superior" ;
+    ont:attestedForm "Moesia superior" .
 
 <https://provincia.uni-graz.at/resource/province/tres-daciae> a ont:Province ;
     rdfs:label "Tres Daciae" ;
@@ -1541,12 +1634,28 @@
     ont:sourcePage 96 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
+<https://provincia.uni-graz.at/resource/entry/pir-a-519> a ont:PIREntry ;
+    rdfs:label "L. ALFENVS AVITIANVS" ;
+    ont:needsReview false ;
+    ont:pirReference "A 519" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 104 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
 <https://provincia.uni-graz.at/resource/entry/pir-a-534> a ont:PIREntry ;
     rdfs:label "P. ALFIVS MAXIMVS" ;
     ont:needsReview false ;
     ont:pirReference "A 534" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 106 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
+<https://provincia.uni-graz.at/resource/entry/pir-a-595> a ont:PIREntry ;
+    rdfs:label "[SEX. ANICIVS FAVSTVS] (continued from page 97)" ;
+    ont:needsReview false ;
+    ont:pirReference "A 595" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 114 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/person/pir-a-754-person-754> a ont:Person ;
@@ -1561,13 +1670,10 @@
         "patricius",
         "senator" .
 
-<https://provincia.uni-graz.at/resource/province/moesia-inferior> a ont:Province ;
-    rdfs:label "Moesia inferior" ;
-    ont:attestedForm "Moesia inferior" .
-
-<https://provincia.uni-graz.at/resource/province/syria> a ont:Province ;
-    rdfs:label "Syria" ;
-    ont:attestedForm "Syria" .
+<https://provincia.uni-graz.at/resource/province/numidia> a ont:Province ;
+    rdfs:label "Numidia" ;
+    ont:attestedForm "Numidia",
+        "exercitus Africanus" .
 
 <https://provincia.uni-graz.at/resource/entry/pir-a-754> a ont:PIREntry ;
     rdfs:label "Q. ANTISTIVS ADVENTVS POSTVMIVS AQVILINVS" ;
@@ -1604,6 +1710,10 @@
     ont:attestedForm "Hispania citerior",
         "Hispaniam (citeriorem)" .
 
+<https://provincia.uni-graz.at/resource/province/moesia-inferior> a ont:Province ;
+    rdfs:label "Moesia inferior" ;
+    ont:attestedForm "Moesia inferior" .
+
 <https://provincia.uni-graz.at/resource/province/thracia> a ont:Province ;
     rdfs:label "Thracia" ;
     ont:attestedForm "Thracia" .
@@ -1627,6 +1737,10 @@
 <https://provincia.uni-graz.at/resource/province/cappadocia> a ont:Province ;
     rdfs:label "Cappadocia" ;
     ont:attestedForm "Cappadocia" .
+
+<https://provincia.uni-graz.at/resource/province/syria> a ont:Province ;
+    rdfs:label "Syria" ;
+    ont:attestedForm "Syria" .
 
 <https://provincia.uni-graz.at/resource/province/pannonia-inferior> a ont:Province ;
     rdfs:label "Pannonia inferior" ;

@@ -96,16 +96,39 @@
           ]
         }
       ],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_A545",
+          "displayed_name": "C. ALLIVS C. F. FVSCVS",
+          "normalized_name": "Gaius Allius Fuscus",
+          "pir_reference": "A 545",
+          "relation_context": "Huius filius fortasse C. Allius C. f. Fuscus.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 545; possible, not certain, son of A 544."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A_544",
+          "target": "person_A545",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Huius filius fortasse C. Allius C. f. Fuscus.",
+          "notes": [
+            "Possible father-son relation; not an identity relation."
+          ]
+        }
+      ],
       "entry_notes": [
         "The identification of the Gerasene governor with the Ostian patron is highly probable."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#11: Arabia; Datierung (saec. II medii) gilt dem Konsulat, nicht der Statthalterschaft -> Daten null; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Possible parent relation A 544 -> A 545 added."
       },
       "needs_review": false,
       "source_page": 107

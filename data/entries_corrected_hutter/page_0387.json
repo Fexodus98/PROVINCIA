@@ -100,23 +100,25 @@
       ],
       "related_persons": [
         {
-          "id": "person-bruttius-praesens-friend-pliny",
-          "displayed_name": "Bruttius Praesens (n. 161)",
+          "id": "person_B161",
+          "displayed_name": "(BRVTTIVS) PRAESENS",
           "normalized_name": "Bruttius Praesens",
-          "relation_context": "Father of C. Bruttius Praesens",
+          "pir_reference": "B 161",
+          "relation_context": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161).",
           "certainty": "medium",
           "notes": [
-            "Friend of Pliny the Younger."
+            "PIR B 161; probable father of B 164."
           ]
         },
         {
-          "id": "person-c-bruttius-praesens-cos-153",
-          "displayed_name": "C. Bruttius Praesens cos. a. 153 (n. 165)",
-          "normalized_name": "Caius Bruttius Praesens",
-          "relation_context": "Son of C. Bruttius Praesens (cos. II 139)",
+          "id": "person_B165",
+          "displayed_name": "C. BRVTTIVS PRAESENS",
+          "normalized_name": "Gaius Bruttius Praesens",
+          "pir_reference": "B 165",
+          "relation_context": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165).",
           "certainty": "high",
           "notes": [
-            "Consul in 153 AD."
+            "PIR B 165; certain son of B 164."
           ]
         },
         {
@@ -133,14 +135,14 @@
       "relations": [
         {
           "source": "person-c-bruttius-praesens",
-          "target": "person-bruttius-praesens-friend-pliny",
+          "target": "person_B161",
           "relation": "child_of",
           "certainty": "medium",
           "basis": "Filius videtur (Bruttii) Praesentis amici Plinii",
           "notes": []
         },
         {
-          "source": "person-c-bruttius-praesens-cos-153",
+          "source": "person_B165",
           "target": "person-c-bruttius-praesens",
           "relation": "child_of",
           "certainty": "high",
@@ -149,7 +151,7 @@
         },
         {
           "source": "person-l-bruttius-quintius-crispinus",
-          "target": "person-c-bruttius-praesens-cos-153",
+          "target": "person_B165",
           "relation": "child_of",
           "certainty": "high",
           "basis": "nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat.",
@@ -163,8 +165,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#28: Galatia; 'patricius' entfernt (nicht belegt); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing genealogy normalized as B 161 probable father of B 164 and B 164 certain father of B 165."
       },
       "needs_review": false,
       "source_page": 387

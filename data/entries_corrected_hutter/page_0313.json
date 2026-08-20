@@ -46,8 +46,52 @@
         }
       ],
       "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
+      "related_persons": [
+        {
+          "id": "person_A1466",
+          "displayed_name": "M. Aurelius Basileus",
+          "normalized_name": "Marcus Aurelius Basileus",
+          "pir_reference": "A 1466",
+          "relation_context": "Nescio an idem is qui sequitur; idem fortasse aut is qui praecedit aut qui sequitur.",
+          "certainty": "low",
+          "notes": [
+            "A 1466 may be A 1465 or A 1467; the alternatives are not cumulative."
+          ]
+        },
+        {
+          "id": "person_A1467",
+          "displayed_name": "Aurel(ius) Basileus",
+          "normalized_name": "Aurelius Basileus",
+          "pir_reference": "A 1467",
+          "relation_context": "A 1466: idem fortasse ... qui sequitur.",
+          "certainty": "low",
+          "notes": [
+            "PIR A 1467, prefect of Egypt; external relation target, not a governor in the PROVINCIA sense."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1465",
+          "target": "person_A1466",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "Nescio an idem is qui sequitur.",
+          "notes": [
+            "First of two alternatives stated for A 1466."
+          ]
+        },
+        {
+          "source": "person_A1466",
+          "target": "person_A1467",
+          "relation": "possibly_same_as",
+          "certainty": "low",
+          "basis": "Idem fortasse aut is qui praecedit aut qui sequitur.",
+          "notes": [
+            "Second alternative stated for A 1466; no A 1465/A 1467 edge is inferred."
+          ]
+        }
+      ],
       "entry_notes": [
         "The milestone CIL III 14184, 2 records his governorship of Galatia under Severus Alexander."
       ],
@@ -81,7 +125,13 @@
         ]
       },
       "needs_review": false,
-      "source_page": 313
+      "source_page": 313,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "Alternative low-confidence identity edges A 1465/A 1466 and A 1466/A 1467 added; non-transitivity documented."
+      }
     }
   ]
 }

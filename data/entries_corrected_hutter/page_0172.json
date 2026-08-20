@@ -77,7 +77,8 @@
           "certainty": "medium",
           "notes": [
             "PIR A 817, vir clarissimus, patronus coloniae Canusii a. 223."
-          ]
+          ],
+          "pir_reference": "A 817"
         }
       ],
       "relations": [
@@ -96,8 +97,8 @@
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#16: Cilicia; exact 'sine dubio'; 'vir clarissimus' behalten (lamprotatos); province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "Existing possible parent relation A 816 -> A 817 confirmed; PIR reference made explicit."
       },
       "needs_review": false,
       "source_page": 172

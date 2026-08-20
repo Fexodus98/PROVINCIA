@@ -69,23 +69,35 @@
       ],
       "related_persons": [
         {
-          "id": "person_345",
-          "displayed_name": "L. Aemilius Fron....",
+          "id": "person_A345",
+          "displayed_name": "L. AEMILIVS FRON....",
           "normalized_name": "Lucius Aemilius Fron...",
-          "relation_context": "Possibly identical to L. Aem[ilius] Fron[tinus] (346)",
+          "pir_reference": "A 345",
+          "relation_context": "Fortasse idem qui praecedit.",
           "certainty": "medium",
           "notes": [
-            "Fortasse idem qui praecedit."
+            "PIR A 345; the two PIR entries remain separate."
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_346",
+          "target": "person_A345",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "Fortasse idem qui praecedit.",
+          "notes": [
+            "A 346 may be identical with the preceding PIR entry A 345; no merge was performed."
+          ]
+        }
+      ],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#4: Gallia Lugdunensis; normalized_name 'Frontinus vel Fronto' + name_variants; province_normalized gesetzt."
+        "reviewed_on": "2026-08-20",
+        "note": "A 345/A 346 as possibly_same_as; separate PIR identities retained."
       },
       "needs_review": false,
       "source_page": 70

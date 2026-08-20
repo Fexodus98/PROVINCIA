@@ -40,7 +40,7 @@ _AUG = r"Aug(?:ustorum|usti|g\.|\.)"
 _PR = r"(?:pro\s+praetore|pro\s+pr\.?|pr\.?\s*pr\.?)"
 _GAP = r"\s+"
 FORMULA_PATTERNS = [
-    rf"{_LEG}{_GAP}{_AUG}{_GAP}{_PR}",
+    rf"{_LEG}{_GAP}{_AUG}(?:{_GAP}vel{_GAP}{_AUG})?{_GAP}{_PR}",
 ]
 CONTEXT_WINDOW = int(os.environ.get("PROVINCIA_CONTEXT_WINDOW", "160"))
 
@@ -160,6 +160,7 @@ ALLOWED_RELATIONS = {
     "associated_with",
     "office_holder_of",
     "possibly_same_as",
+    "same_as",
 }
 
 ENTRY_SCHEMA = {
@@ -312,6 +313,7 @@ ENTRY_SCHEMA = {
                                 "id": {"type": "string"},
                                 "displayed_name": {"type": "string"},
                                 "normalized_name": {"type": ["string", "null"]},
+                                "pir_reference": {"type": ["string", "null"]},
                                 "relation_context": {"type": "string"},
                                 "certainty": {"type": "string", "enum": ["high", "medium", "low"]},
                                 "notes": {"type": "array", "items": {"type": "string"}},
