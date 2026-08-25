@@ -1,10 +1,9 @@
 {
-  "document_notes": [
-    "The page contains the continuation of the entry for L. Antistius Vetus (PIR² A 776), which contains explicit governorship formulas for Germania Superior. It also contains entries 777 and 778, which are not relevant to the PROVINCIA corpus."
-  ],
+  "source_page": 166,
+  "document_notes": "Human-reviewed correction for PIR A 776; entry starts on page_0165.",
   "entries": [
     {
-      "entry_id": "A_776",
+      "entry_id": "PIR_A_776",
       "pir_reference": "A 776",
       "lemma": "L. ANTISTIVS VETVS",
       "relevance_to_provincia_corpus": "yes",
@@ -40,18 +39,19 @@
           "factoid_id": "F_G_A_776_1",
           "person_id": "P_A_776",
           "exact_text": "Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55 ... legatus Aug. pro pr. a. 56 t. 1",
-          "source_page": 166,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Germania superior",
-          "province_normalized": null,
+          "province_text": "Germaniae superioris",
           "date_text": "a. 55-56",
           "date_normalized_start": 55,
           "date_normalized_end": 56,
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Governed Germania Superior as legatus Aug. pro pr."
-          ]
+            "Governed Germania Superior as legatus Aug. pro pr.",
+            "The governorship is secure, but the beginning in AD 55 is only probable ('probabiliter iam a. 55'); the legateship in AD 56 is explicit."
+          ],
+          "province_normalized": "Germania superior",
+          "source_page": 166
         }
       ],
       "career_factoids": [
@@ -181,42 +181,14 @@
       "entry_notes": [
         "The entry for L. Antistius Vetus is continued from the previous page (149). Only the text on page 150 is analyzed here."
       ],
+      "source_page": 165,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "governorship_factoids[0].exact_text",
-            "issue": "The exact_text is not a verbatim quote; it combines two separate passages and includes ellipsis.",
-            "severity": "low",
-            "suggested_fix": "Use two separate factoids: 'Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55' and 'legatus Aug. pro pr. a. 56 t. 1'."
-          },
-          {
-            "field": "governorship_factoids[0].date_normalized_start",
-            "issue": "The start date is inferred as 'probabiliter iam a. 55', but the certainty is not reflected in the normalized date.",
-            "severity": "medium",
-            "suggested_fix": "Set certainty to 'medium' for the start date of 55."
-          },
-          {
-            "field": "governorship_factoids[0].province_text",
-            "issue": "The province_text 'Germania superior' is correct, but the parentheses in the original text are omitted.",
-            "severity": "low",
-            "suggested_fix": "Use 'Germaniae superioris' to match the original text exactly."
-          },
-          {
-            "field": "career_factoids[1].date_normalized_start",
-            "issue": "The proconsulship date is given as 'anno 64/65 ut videtur', but the normalized dates are 64-65 without reflecting the uncertainty.",
-            "severity": "medium",
-            "suggested_fix": "Set certainty to 'medium' for the proconsulship dates."
-          },
-          {
-            "field": "main_person.status_markers",
-            "issue": "The status marker 'proconsul' is included, but the proconsulship of Asia is not explicitly tied to the governorship of Germania Superior and is less relevant.",
-            "severity": "low",
-            "suggested_fix": "Consider removing 'proconsul' from status_markers if focusing strictly on legateship."
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 776 confirmed as governor of Germania superior in AD 55-56; entry spans page_0165-page_0166."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

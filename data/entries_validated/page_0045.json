@@ -39,6 +39,7 @@
           "factoid_id": "gov_1",
           "person_id": "person_hadrianus",
           "exact_text": "Legatus Augusti pro praetore Pannoniae inferioris",
+          "source_page": 45,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Pannonia inferior",
           "province_normalized": null,

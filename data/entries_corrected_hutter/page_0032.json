@@ -1,15 +1,13 @@
 {
-  "document_notes": [
-    "Page 16 of the PIR volume containing entries 93 to 104.",
-    "Two entries (98 and 101) are relevant to the PROVINCIA corpus as they explicitly attest to legati pro praetore."
-  ],
+  "source_page": 32,
+  "document_notes": "Human-reviewed correction for PIR A 101.",
   "entries": [
     {
-      "entry_id": "A_101",
+      "entry_id": "PIR_A_101",
       "pir_reference": "A 101",
       "lemma": "Q. ACVTIVS NERVA",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. Germaniae inferioris.",
+      "relevance_notes": "Governor of Germania inferior, probably AD 101-103/104.",
       "segments": {
         "lemma": "101 Q. ACVTIVS NERVA",
         "name_variants": "Q. Acutius Nerva, Acutius Nerva",
@@ -36,18 +34,19 @@
           "factoid_id": "gov_101_1",
           "person_id": "person_101",
           "exact_text": "Legatus Aug. pro pr. Germaniae inferioris paullo post, fortasse ab a. 101 usque ad a. 103/104",
-          "source_page": 32,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Germania inferior",
-          "province_normalized": null,
+          "province_text": "Germaniae inferioris",
           "date_text": "paullo post [a. 100], fortasse ab a. 101 usque ad a. 103/104",
           "date_normalized_start": 101,
           "date_normalized_end": 104,
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Attested in inscriptions of vexillations of the army of Germania inferior dedicated to Hercules Saxanus (CIL XIII 7715, 7716, 7967)."
-          ]
+            "Attested in inscriptions of vexillations of the army of Germania inferior dedicated to Hercules Saxanus (CIL XIII 7715, 7716, 7967).",
+            "The governorship is securely attested; only its dating is uncertain: PIR says 'fortasse ab a. 101 usque ad a. 103/104'."
+          ],
+          "province_normalized": "Germania inferior",
+          "source_page": 32
         }
       ],
       "career_factoids": [
@@ -83,28 +82,12 @@
       "related_persons": [],
       "relations": [],
       "entry_notes": [],
+      "source_page": 32,
       "review": {
-        "verdict": "confirm",
-        "problems": [
-          {
-            "field": "governorship_factoids.0.exact_text",
-            "issue": "The exact_text includes 'paullo post, fortasse ab a. 101 usque ad a. 103/104', which is partially commentary. The direct quote is 'Legatus Aug. pro pr. Germaniae inferioris'.",
-            "severity": "medium",
-            "suggested_fix": "Use 'Legatus Aug. pro pr. Germaniae inferioris' as exact_text and move 'paullo post, fortasse ab a. 101 usque ad a. 103/104' to notes."
-          },
-          {
-            "field": "governorship_factoids.0.date_normalized_start",
-            "issue": "The start date '101' is speculative ('fortasse ab a. 101').",
-            "severity": "low",
-            "suggested_fix": null
-          },
-          {
-            "field": "governorship_factoids.0.date_normalized_end",
-            "issue": "The end date '104' is speculative ('usque ad a. 103/104').",
-            "severity": "low",
-            "suggested_fix": null
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 101 confirmed as governor of Germania inferior; correct scan page is page_0032 (printed page 16)."
       },
       "needs_review": false
     }

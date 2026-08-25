@@ -1,10 +1,9 @@
 {
-  "document_notes": [
-    "Page 265 of PIR contains entries for ATILIVS, specifically M. Atilius Postumus Bradua (1303), T. Atilius Rufus (1304), and T. Atilius Rufus Titianus (1305). Only T. Atilius Rufus (1304) is relevant to the PROVINCIA corpus as he is explicitly attested as legatus Aug. pro pr. of Pannonia and Syria."
-  ],
+  "source_page": 281,
+  "document_notes": "Human-reviewed correction for PIR A 1304; corrects the proposed A 1305 attribution.",
   "entries": [
     {
-      "entry_id": "1304",
+      "entry_id": "PIR_A_1304",
       "pir_reference": "A 1304",
       "lemma": "T. ATILIVS RVFVS",
       "relevance_to_provincia_corpus": "yes",
@@ -35,10 +34,8 @@
           "factoid_id": "gov_1304_1",
           "person_id": "person_1304",
           "exact_text": "Legatus Aug. pro pr. Pannoniae a. 80",
-          "source_page": 281,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Pannonia",
-          "province_normalized": null,
+          "province_text": "Pannoniae",
           "date_text": "a. 80",
           "date_normalized_start": 80,
           "date_normalized_end": 80,
@@ -46,16 +43,16 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested by military diploma dated 13 June 80 AD (dipl. mil. datum d. 13. m. Iunii a. 80)."
-          ]
+          ],
+          "source_page": 281,
+          "province_normalized": "Pannonia"
         },
         {
           "factoid_id": "gov_1304_2",
           "person_id": "person_1304",
           "exact_text": "Legatus Aug. pro pr. Syriae",
-          "source_page": 281,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Syria",
-          "province_normalized": null,
+          "province_text": "Syriae",
           "date_text": "a. 83-84",
           "date_normalized_start": 83,
           "date_normalized_end": 84,
@@ -64,7 +61,9 @@
           "notes": [
             "Attested by a milestone (cippus miliarius) published in Palestine Explor. Fund 1924, 94 = AE 1925, 95.",
             "Died in office in the province in 84 AD according to Tacitus (Agr. 40)."
-          ]
+          ],
+          "source_page": 281,
+          "province_normalized": "Syria"
         }
       ],
       "career_factoids": [
@@ -92,7 +91,8 @@
           "certainty": "medium",
           "notes": [
             "Consul in 127 AD."
-          ]
+          ],
+          "pir_reference": "A 1305"
         }
       ],
       "relations": [
@@ -106,42 +106,14 @@
         }
       ],
       "entry_notes": [],
+      "source_page": 281,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "governorship_factoids[1].province_text",
-            "issue": "Province text should be 'Syriae Palestinae' as explicitly stated in the source, not 'Syria'.",
-            "severity": "medium",
-            "suggested_fix": "Change province_text to 'Syriae Palestinae' and province_normalized to 'Syria Palaestina'."
-          },
-          {
-            "field": "governorship_factoids[1].date_text",
-            "issue": "Date range 'a. 83-84' is inferred but not explicitly stated in the text. The text mentions 'a. 83 miliarius' and 'in provincia obiit anno 84', but no explicit start date for Syria governorship.",
-            "severity": "low",
-            "suggested_fix": "Adjust date_text to 'a. 83-84 (inferred)' and clarify in notes."
-          },
-          {
-            "field": "governorship_factoids[1].exact_text",
-            "issue": "exact_text 'Legatus Aug. pro pr. Syriae' is incomplete. The source explicitly states 'Legatus Aug. pro pr. Syriae Palestine'.",
-            "severity": "medium",
-            "suggested_fix": "Update exact_text to 'Legatus Aug. pro pr. Syriae Palestine'."
-          },
-          {
-            "field": "governorship_factoids[1].province_normalized",
-            "issue": "province_normalized should be 'Syria Palaestina' to match the registry label, not 'Syria'.",
-            "severity": "medium",
-            "suggested_fix": "Change province_normalized to 'Syria Palaestina'."
-          },
-          {
-            "field": "segments.governorship_attestation",
-            "issue": "The attestation text includes 'Palestine' which is omitted in the proposed exact_text for the Syria governorship.",
-            "severity": "medium",
-            "suggested_fix": "Ensure 'Palestine' is included in the exact_text for Syria governorship."
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1304 (not A 1305) confirmed as governor of Pannonia in AD 80 and Syria in AD 83-84; A 1305 remains only a probable grandson."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

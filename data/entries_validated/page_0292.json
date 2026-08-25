@@ -37,6 +37,7 @@
           "factoid_id": "factoid_1383_gov_1",
           "person_id": "person_1383",
           "exact_text": "Legatus Aug. pr. pr. provinciae Thraciae sub Severo Alexandro",
+          "source_page": 292,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Thracia",
           "province_normalized": null,

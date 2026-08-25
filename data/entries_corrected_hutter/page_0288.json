@@ -1,10 +1,9 @@
 {
-  "document_notes": [
-    "Processed page 272 of PIR. Found one entry relevant to the PROVINCIA corpus: Q. Attius Celer (1350)."
-  ],
+  "source_page": 288,
+  "document_notes": "Human-reviewed correction for PIR A 1350.",
   "entries": [
     {
-      "entry_id": "PIR_1350",
+      "entry_id": "PIR_A_1350",
       "pir_reference": "A 1350",
       "lemma": "Q. ATTIVS CELER",
       "relevance_to_provincia_corpus": "yes",
@@ -32,10 +31,8 @@
           "factoid_id": "gov_1350_1",
           "person_id": "person_1350",
           "exact_text": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano",
-          "source_page": 288,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Thracia",
-          "province_normalized": null,
+          "province_text": "Thraciae",
           "date_text": "sub Gordiano",
           "date_normalized_start": 238,
           "date_normalized_end": 244,
@@ -43,7 +40,9 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on milestones (miliaria) in Thrace."
-          ]
+          ],
+          "province_normalized": "Thracia",
+          "source_page": 288
         }
       ],
       "career_factoids": [],
@@ -65,52 +64,27 @@
           "notes": []
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_1350",
+          "target": "person_gordianus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "sub Gordiano",
+          "notes": []
+        }
+      ],
       "entry_notes": [
         "The entry discusses the correction of the name from Cattius to Q. Attius based on epigraphic evidence."
       ],
+      "source_page": 288,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "lemma",
-            "issue": "Lemma transcription contains a typo: 'Q. ATTIVS CELER' should be 'Q. Attius Celer' (no all-caps, correct spacing and 'u' instead of 'V').",
-            "severity": "low",
-            "suggested_fix": "Use 'Q. Attius Celer' as lemma."
-          },
-          {
-            "field": "segments.governorship_attestation",
-            "issue": "The exact_text 'Legatus Aug. pro pr. provinciae Thraciae sub Gordiano' is correct but slightly truncated. The full printed text is 'Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4; cf. Stein l. l. p. 66 sq.'.",
-            "severity": "low",
-            "suggested_fix": "Extend exact_text to include 't. 1—4; cf. Stein l. l. p. 66 sq.' for full verbatim accuracy."
-          },
-          {
-            "field": "governorship_factoids.0.province_text",
-            "issue": "Province text 'Thracia' is correct in content but should match the printed casus: 'Thraciae' (genitive).",
-            "severity": "low",
-            "suggested_fix": "Use 'Thraciae' in province_text."
-          },
-          {
-            "field": "governorship_factoids.0.date_normalized_end",
-            "issue": "The end date of 244 is inferred from Gordian III's death, but the text only says 'sub Gordiano' without specifying the exact end year. This is a minor over-interpretation.",
-            "severity": "medium",
-            "suggested_fix": "Set date_normalized_end to null or add a note about the uncertainty."
-          },
-          {
-            "field": "main_person.normalized_name",
-            "issue": "Normalized name 'Quintus Attius Celer' is plausible but the praenomen 'Quintus' is not explicitly given in the printed text (only 'Q.').",
-            "severity": "low",
-            "suggested_fix": "Use 'Q. Attius Celer' as normalized_name or add a note about the praenomen expansion."
-          },
-          {
-            "field": "related_persons.0.relation_context",
-            "issue": "The relation_context for Cattius Celer is slightly misleading. The text says Stein doubts the reading, not that Cattius Celer is a direct relation. The comparison is epigraphic, not familial or career-related.",
-            "severity": "medium",
-            "suggested_fix": "Clarify relation_context: 'Stein compares the epigraphic reading to Cattius Celer of tituli IX 2778 due to doubts about the transcription.'"
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1350 confirmed as governor of Thracia under Gordian III (AD 238-244)."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

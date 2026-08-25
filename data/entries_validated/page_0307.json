@@ -34,6 +34,7 @@
           "factoid_id": "gov_1421_1",
           "person_id": "person_1421",
           "exact_text": "legatus Aug. pr. pr. Germaniae superioris ut videtur a. 213",
+          "source_page": 307,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Germaniae superioris",
           "province_normalized": null,

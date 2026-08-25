@@ -37,6 +37,7 @@
           "factoid_id": "gov_1",
           "person_id": "P_Aelius_Severianus_Maximus_A260",
           "exact_text": "Legatus Aug. pro praetore provinciae Arabiae t. 1, a. 193 Pertinace imperium obtinente... item a. 194 imperante Septimio Severo... Consul designatus etiamtum legatus Arabiae t. 1",
+          "source_page": 60,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Arabia",
           "province_normalized": null,

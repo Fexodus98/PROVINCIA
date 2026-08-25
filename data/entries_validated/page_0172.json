@@ -37,6 +37,7 @@
           "factoid_id": "gov_A816_cilicia",
           "person_id": "person_A816",
           "exact_text": "legatus Aug. pr. pr. provinciae Ciliciae",
+          "source_page": 172,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Cilicia",
           "province_normalized": null,

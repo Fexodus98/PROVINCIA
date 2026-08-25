@@ -35,6 +35,7 @@
           "factoid_id": "gov_A1395_01",
           "person_id": "person_A1395",
           "exact_text": "Legatus Aug. pro praetore Cappadociae et Galatiae ut videtur, anno aerae Neocaesareae tricesimo septimo i.e. a. p. C. 100/101",
+          "source_page": 296,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Cappadocia et Galatia",
           "province_normalized": null,

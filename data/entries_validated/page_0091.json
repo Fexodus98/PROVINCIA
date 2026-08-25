@@ -35,6 +35,7 @@
           "factoid_id": "gov_A443_1",
           "person_id": "person_A443",
           "exact_text": "Legatus Aug. pro praetore Pannoniae inferioris d. 1 m. Sept. a. 114 t. 3",
+          "source_page": 91,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Pannonia inferior",
           "province_normalized": null,

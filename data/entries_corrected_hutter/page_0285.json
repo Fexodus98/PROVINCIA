@@ -1,10 +1,9 @@
 {
-  "document_notes": [
-    "Page 269 of PIR contains entry 1331, which is highly relevant to the PROVINCIA corpus as it explicitly names a legatus Aug. pro pr. of Galatia."
-  ],
+  "source_page": 285,
+  "document_notes": "Human-reviewed correction for PIR A 1331.",
   "entries": [
     {
-      "entry_id": "A_1331",
+      "entry_id": "PIR_A_1331",
       "pir_reference": "A 1331",
       "lemma": "C. ATTICIVS NORBANVS (?) STRABO",
       "relevance_to_provincia_corpus": "yes",
@@ -37,10 +36,8 @@
           "factoid_id": "gov_A_1331_01",
           "person_id": "person_A_1331",
           "exact_text": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT)",
-          "source_page": 285,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Galatiae",
-          "province_normalized": null,
           "date_text": "a. 198 - a. 200",
           "date_normalized_start": 198,
           "date_normalized_end": 200,
@@ -48,7 +45,9 @@
           "evidence_type": "explicit",
           "notes": [
             "The milestones date to the reign of Septimius Severus, specifically mentioning his tribunician power VI (198 AD) and VIII (200 AD)."
-          ]
+          ],
+          "province_normalized": "Galatia",
+          "source_page": 285
         }
       ],
       "career_factoids": [],
@@ -61,7 +60,8 @@
           "certainty": "medium",
           "notes": [
             "Mentioned in PIR A 1332 as a clarissimus puer."
-          ]
+          ],
+          "pir_reference": "A 1332"
         }
       ],
       "relations": [
@@ -77,42 +77,14 @@
       "entry_notes": [
         "The reading of the name on milestone 4 was problematic for the editors (T. ATTICIVMNOR. M.... PRAO. NEM)."
       ],
+      "source_page": 285,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "lemma",
-            "issue": "The lemma in the proposed JSON includes '(?)' after NORBANVS, but the printed page shows '(?)' only after NORBANVS in the lemma line, not as part of the main lemma transcription. The parentheses are not part of the lemma itself.",
-            "severity": "low",
-            "suggested_fix": "Remove '(?)' from the lemma field. Keep it in the notes if necessary."
-          },
-          {
-            "field": "main_person.normalized_name",
-            "issue": "The normalized name 'C. Atticius Norbanus Strabo' assumes 'Norbanus' is the nomen, but the printed page shows 'NORBANVS (?)' with a question mark, indicating uncertainty. The name may not be 'Norbanus' at all.",
-            "severity": "medium",
-            "suggested_fix": "Use 'C. Atticius Strabo' as the normalized name, or retain the uncertainty in the name (e.g., 'C. Atticius [Norbanus?] Strabo')."
-          },
-          {
-            "field": "governorship_factoids.0.exact_text",
-            "issue": "The exact_text is overly verbose and includes editorial notes ('ubi Septimius Severus appellatur...'). The printed page shows the formula as 'Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3' and 'a. 200 t. 4', but the additional context is not part of the direct quote.",
-            "severity": "low",
-            "suggested_fix": "Shorten exact_text to: 'Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3, a. 200 t. 4'."
-          },
-          {
-            "field": "governorship_factoids.0.date_normalized_end",
-            "issue": "The date_normalized_end is set to 200, but the text notes 'vix fuit VIIIT' (likely not the 8th tribunician power), suggesting uncertainty about whether 200 is the exact end date.",
-            "severity": "medium",
-            "suggested_fix": "Adjust date_normalized_end to 200 with a note about the uncertainty, or use a broader range (e.g., 198-201)."
-          },
-          {
-            "field": "related_persons.0.normalized_name",
-            "issue": "The normalized name 'T. Atticius Strabo Romulus' assumes 'Atticius' is the nomen, but the printed page shows 'T. ATTICIVS STRABO ROMVLVS' with 'Attici' as a possible abbreviation or corruption. The full nomen is uncertain.",
-            "severity": "medium",
-            "suggested_fix": "Use 'T. Atticius Strabo Romulus' with a note about the uncertainty in the nomen."
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1331 confirmed as governor of Galatia in AD 198-200."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

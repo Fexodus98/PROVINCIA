@@ -1,6 +1,95 @@
 {
   "entries": [
     {
+      "entry_id": "PIR_A_101",
+      "pir_reference": "A 101",
+      "lemma": "Q. ACVTIVS NERVA",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Governor of Germania inferior, probably AD 101-103/104.",
+      "segments": {
+        "lemma": "101 Q. ACVTIVS NERVA",
+        "name_variants": "Q. Acutius Nerva, Acutius Nerva",
+        "identification_and_sources": "Plin. ep. 2, 12, 2; titulis a vexillationibus exercitus Germaniae inferioris... CIL XIII 7715. 7716. 7967.",
+        "offices_and_career": "consul designatus a. 100, consul suffectus eodem anno, Legatus Aug. pro pr. Germaniae inferioris",
+        "governorship_attestation": "Legatus Aug. pro pr. Germaniae inferioris paullo post, fortasse ab a. 101 usque ad a. 103/104, nominatur in titulis a vexillationibus exercitus Germaniae inferioris, q(uae) s(ub) Q. Acut(io) s(unt), Herculi Saxano dedicatis XIII 7715. 7716. 7967.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "consul designatus a. 100 in senatu sententiam dicit Plin. ep. 2, 12, 2... consul igitur suffectus eodem anno.",
+        "bibliography_or_cross_references": "Plin. ep. 2, 12, 2; CIL XIII 7715, 7716, 7967."
+      },
+      "main_person": {
+        "id": "person_101",
+        "displayed_name": "Q. ACVTIVS NERVA",
+        "normalized_name": "Quintus Acutius Nerva",
+        "pir_reference": "A 101",
+        "status_markers": [
+          "consul suffectus",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_101_1",
+          "person_id": "person_101",
+          "exact_text": "Legatus Aug. pro pr. Germaniae inferioris paullo post, fortasse ab a. 101 usque ad a. 103/104",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Germaniae inferioris",
+          "date_text": "paullo post [a. 100], fortasse ab a. 101 usque ad a. 103/104",
+          "date_normalized_start": 101,
+          "date_normalized_end": 104,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in inscriptions of vexillations of the army of Germania inferior dedicated to Hercules Saxanus (CIL XIII 7715, 7716, 7967).",
+            "The governorship is securely attested; only its dating is uncertain: PIR says 'fortasse ab a. 101 usque ad a. 103/104'."
+          ],
+          "province_normalized": "Germania inferior",
+          "source_page": 32
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_101_1",
+          "person_id": "person_101",
+          "exact_text": "consul designatus a. 100 in senatu sententiam dicit Plin. ep. 2, 12, 2",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 100",
+          "date_normalized_start": 100,
+          "date_normalized_end": 100,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_101_2",
+          "person_id": "person_101",
+          "exact_text": "consul igitur suffectus eodem anno",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "a. 100",
+          "date_normalized_start": 100,
+          "date_normalized_end": 100,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [],
+      "relations": [],
+      "entry_notes": [],
+      "source_page": 32,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 101 confirmed as governor of Germania inferior; correct scan page is page_0032 (printed page 16)."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "PIR_A_184_cont",
       "pir_reference": "A 184",
       "lemma": "AELIVS [HADRIANVS]",
@@ -46,7 +135,8 @@
           "notes": [
             "Sarmatas compressit, ob res bene gestas consul est factus.",
             "Beginn 107 erschlossen (vor dem Konsulat 108)."
-          ]
+          ],
+          "source_page": 45
         },
         {
           "factoid_id": "gov_2",
@@ -63,7 +153,8 @@
             "'legatus Syriae certe a. 117'; bis zum Regierungsantritt (Aug. 117).",
             "In Stufe 5 fälschlich verworfen (Formel nicht zusammenhängend); manuell wieder aufgenommen."
           ],
-          "province_normalized": "Syria"
+          "province_normalized": "Syria",
+          "source_page": 45
         }
       ],
       "career_factoids": [
@@ -243,6 +334,204 @@
       "source_page": 45
     },
     {
+      "entry_id": "PIR_A_200",
+      "pir_reference": "A 200",
+      "lemma": "L. AELIVS LAMIA",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Appointed by Tiberius to govern Syria after AD 21, but retained in Rome; he never travelled to or exercised the governorship in the province.",
+      "segments": {
+        "lemma": "200 L. AELIVS LAMIA, consul a. 3 p. C.",
+        "name_variants": "L. Aelius L. f. L. n. Lamia; Λ. Αἴλιος Λ. υἱ. Λαμίας; L. Aelius Lamia; L. Lamia; Λαμία; Λαμίου; Λαμμία; [L. Aelius] L. f. Lam[ia]; Λούκιος Λαμίας",
+        "identification_and_sources": "Fasti Capitolini; Dio ind. l. 55; CIL X 892 = D. 6393; CIL XV 4571 = D. 8581; CIL VI 36841 = D. 9337; L. Aelius Eph. ep. 8, 316 = D. 6387; Fasti Gabini (XIV 2801); Valerius Maximus 1, 8, 11; Cassiodorus Chron. min. 2, 136; Fasti Arvales; Malalas 231, 8 B; Epiphanius adv. haer. 2, 22; CIL VI 37058; CIL VI 16553; Punica inscription (Compt. rend. 1904, 553 = Clermont-Ganneau Recueil d'archéol. orient. 7, 88); Coins (Cohen 12, 338-340; Babelon Monn. rép. 1, 113; Willers Kupferpräg. 145 n. 177-179; Grueber Coins Br. Mus. 2, 88; Mattingly Br. Mus. 1, 40); Tacitus Ann. 4, 13; 6, 27; Dio 58, 19, 5; Velleius Paterculus 2, 116, 3; Horace Carm. 3, 17, 1; 1, 26, 8; 1, 36, 7; Epist. 1, 14, 6.",
+        "offices_and_career": "Proconsul Africae (outside the PROVINCIA corpus); after AD 21 appointed to Syria by Tiberius, but retained at Rome and never sent to the province.",
+        "governorship_attestation": "A Tiberio provinciae Syriae praepositus (post a. 21, quo anno Cn. Sentius Saturninus provinciae praefuit), sed in urbe retentus Tac. a. 6, 27.",
+        "family_and_social_relations": "Filius L. Aelii Lamiae (legati Hispaniae a. 24 a. C.); nepos Lamiae (amici Ciceronis); frater Q. Aelii Lamiae.",
+        "prosopographical_commentary": "Discusses his lineage from Lamus (mythical ancestor mentioned by Horace). Analyzes his career under Augustus and Tiberius, specifically his military service in Germany and Illyricum under Tiberius, and the scholarly debate regarding his governorship of Pannonia and proconsulship of Africa.",
+        "bibliography_or_cross_references": "Borghesi 4, 455 sq.; Maria Marchetti Bull. com. 1912, 136 sq.; Ruhnken; Willers."
+      },
+      "main_person": {
+        "id": "person_aelii_lamia_200",
+        "displayed_name": "L. Aelius Lamia",
+        "normalized_name": "Lucius Aelius Lamia",
+        "pir_reference": "A 200",
+        "status_markers": [
+          "consul",
+          "patricius",
+          "XVvir sacris faciundis",
+          "IIIvir a.a.a.f.f."
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_200_syria_appointment",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "A Tiberio provinciae Syriae praepositus (post a. 21, quo anno Cn. Sentius Saturninus provinciae praefuit), sed in urbe retentus",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syriae",
+          "province_normalized": "Syria",
+          "date_text": "post a. 21; appointed but retained in Rome",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "inferred_from_context",
+          "source_page": 51,
+          "notes": [
+            "Praepositus is interpreted here as appointed/designated to govern Syria.",
+            "Tac. Ann. 6.27: Tiberius retained Lamia in Rome; he never entered Syria or exercised on-site command.",
+            "The conjectural Pannonia governorship in the raw extraction is rejected and is not modelled."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "fact_lamia_triumvir",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "III vir aere argento auro flando feriundo",
+          "normalized_office": "triumvir monetalis",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_praetor",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "Praetor",
+          "normalized_office": "praetor",
+          "province_text": null,
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_consul",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "consul a. 3 p. C.",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "a. 3 p. C.",
+          "date_normalized_start": 3,
+          "date_normalized_end": 3,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "fact_lamia_germania_illyricum",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "in Germania Illyricoque et mox in Africa splendidissimis functus ministeriis... Tiberii legatum in Germania a. 4-6 fuisse... parti exercitus Germanici praefuerit",
+          "normalized_office": "legatus",
+          "province_text": "Germania, Illyricum",
+          "date_text": "a. 4-6 / a. 10 et 11",
+          "date_normalized_start": 4,
+          "date_normalized_end": 11,
+          "relevance_to_governorship": "high",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Velleius Paterculus 2, 116, 3 mentions his services in Germany and Illyricum."
+          ]
+        },
+        {
+          "factoid_id": "fact_lamia_proconsul_africa",
+          "person_id": "person_aelii_lamia_200",
+          "exact_text": "Proconsul Africae t. 3. Tac. a. 4, 13. Vell. l. l., certe ante a. 17/18",
+          "normalized_office": "proconsul",
+          "province_text": "Africa",
+          "date_text": "certe ante a. 17/18",
+          "date_normalized_start": 15,
+          "date_normalized_end": 17,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Proconsular Africa is outside the PROVINCIA corpus."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_aelii_lamia_father",
+          "displayed_name": "L. Aelius Lamia",
+          "normalized_name": "Lucius Aelius Lamia",
+          "relation_context": "Father, legatus of Hispania in 24 BC",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_lamia_grandfather",
+          "displayed_name": "Lamia",
+          "normalized_name": "Aelius Lamia",
+          "relation_context": "Grandfather, friend of Cicero",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_q_aelius_lamia",
+          "displayed_name": "Q. Aelius Lamia",
+          "normalized_name": "Quintus Aelius Lamia",
+          "relation_context": "Brother",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_m_servilius",
+          "displayed_name": "M. Servilius",
+          "normalized_name": "Marcus Servilius",
+          "relation_context": "Consular colleague in 3 AD",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_aelii_lamia_father",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "L. f. L. n. fasti Capitol.: filius scilicet L. Aelii Lamiae legati Hispaniae a. 24 a. C.",
+          "notes": []
+        },
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_lamia_grandfather",
+          "relation": "related_to",
+          "certainty": "high",
+          "basis": "nepos Lamiae amici Ciceronis",
+          "notes": []
+        },
+        {
+          "source": "person_aelii_lamia_200",
+          "target": "person_q_aelius_lamia",
+          "relation": "sibling_of",
+          "certainty": "high",
+          "basis": "frater Q. Aelii Lamiae",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry provides a detailed overview of the career of L. Aelius Lamia, consul in 3 AD, highlighting his military commands under Tiberius and his proconsulship of Africa."
+      ],
+      "source_page": 50,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 200 modelled only for the Syrian appointment after AD 21; the non-assumption of office in the province is explicit. Pannonia rejected; proconsular Africa excluded."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "235",
       "pir_reference": "A 235",
       "lemma": "[AELI?]vs pRo[cvivs?]",
@@ -286,7 +575,8 @@
             "a. 152 ut videtur (Opramoas-Monument IGR 3, 739); Amtsdauer nicht bestimmbar.",
             "Provinz-Status: unter Antoninus Pius kaiserlich (Lycia et Pamphylia erst seit Marcus Aurelius wieder senatorisch).",
             "Namensergaenzung durch Heberdey unsicher ('num recte nomina suppleverit … incertum')."
-          ]
+          ],
+          "source_page": 55
         }
       ],
       "career_factoids": [],
@@ -353,7 +643,8 @@
           "notes": [
             "Commemorated in a mutilated inscription dedicated to Marcus Aurelius and Lucius Verus by the Comanenses.",
             "Amt 'fortasse' (verstuemmelte Inschrift IGR 3, 106 aus Comana); aus gemeinsamer Regierung Marcus + Verus erschlossen (161-169)."
-          ]
+          ],
+          "source_page": 55
         }
       ],
       "career_factoids": [],
@@ -412,7 +703,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on multiple milestones in Arabia under Pertinax (193) and Septimius Severus (194)."
-          ]
+          ],
+          "source_page": 60
         },
         {
           "factoid_id": "gov_2_thracia",
@@ -428,7 +720,8 @@
           "date_normalized_end": null,
           "notes": [
             "Von A. Stein erschlossen: Ehreninschrift Perinth (IGR I 794 = AEM VIII 217,43) fuer den Sohn A 261 nennt den Vater lamprotatos hypatikos (vir clarissimus consularis); da A 260 Statthalter von Arabia (193/194, praetorisch) und hier Konsular ist, verwaltete er Thracia (konsularisch) nach Arabia. Erschlossen, nicht direkt bezeugt."
-          ]
+          ],
+          "source_page": 60
         }
       ],
       "career_factoids": [
@@ -527,7 +820,8 @@
           "notes": [
             "Attested on multiple milestones (miliaria) of Pannonia inferior.",
             "Regierung Macrinus (Apr 217 - Jun 218); Diadumenianus Augustus ab Mai 218 ('Augustorum')."
-          ]
+          ],
+          "source_page": 61
         }
       ],
       "career_factoids": [
@@ -687,7 +981,8 @@
           "notes": [
             "Attested in 142/143 AD (year 205 of the Pompeian era) and before 150 AD when L. Attidius Cornelianus took over.",
             "Ende 149 ('ante a. 150', bis L. Attidius Cornelianus A 1341 uebernahm)."
-          ]
+          ],
+          "source_page": 69
         },
         {
           "factoid_id": "gov_A338_lugdunensis",
@@ -703,7 +998,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Served as censitor of Lugdunensis under Antoninus Pius."
-          ]
+          ],
+          "source_page": 69
         },
         {
           "factoid_id": "gov_A338_cappadocia",
@@ -720,7 +1016,8 @@
           "notes": [
             "Governed Cappadocia before M. Sedatius Severianus.",
             "Beginn unbestimmt (nur Terminus vor M. Sedatius Severianus, bis 161)."
-          ]
+          ],
+          "source_page": 69
         },
         {
           "factoid_id": "gov_A338_dacia",
@@ -736,7 +1033,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD)."
-          ]
+          ],
+          "source_page": 69
         }
       ],
       "career_factoids": [
@@ -956,7 +1254,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Provinciam rexit sub Antonino Pio non ante annum 145, cum Pius in titulo dictus sit consul IIII, fortasse hoc ipso anno."
-          ]
+          ],
+          "source_page": 70
         }
       ],
       "career_factoids": [
@@ -1045,7 +1344,8 @@
           "evidence_type": "explicit",
           "notes": [
             "t. mutilus Lugdunensis ei positus a tribus provinciis Galliae"
-          ]
+          ],
+          "source_page": 70
         }
       ],
       "career_factoids": [
@@ -1144,7 +1444,8 @@
           "notes": [
             "Ritterling argues he was the first leg. Aug. pr. pr. of Pannonia.",
             "Datierung a. 8/9 aus Kontext erschlossen; Text: 'Fortasse primus fuit'."
-          ]
+          ],
+          "source_page": 77
         },
         {
           "factoid_id": "gov_A369_hispania",
@@ -1161,7 +1462,8 @@
             "Vell. 2, 125, 5 mentions him holding command in the Spains in 14 AD.",
             "In Stufe 5 fälschlich verworfen (Formel nicht wörtlich zusammenhängend); manuell wieder aufgenommen."
           ],
-          "province_normalized": "Hispania citerior"
+          "province_normalized": "Hispania citerior",
+          "source_page": 77
         }
       ],
       "career_factoids": [
@@ -1328,7 +1630,8 @@
           "notes": [
             "Videtur successor fuisse C. Modii Iusti legati a. 171, decessor A. Iulii Pompilii Pisonis legati a. 176.",
             "Beginn/Ende evtl. geringfuegig davor/danach."
-          ]
+          ],
+          "source_page": 81
         }
       ],
       "career_factoids": [
@@ -1500,7 +1803,8 @@
           "notes": [
             "Attested in a military diploma dated September 1, 114 AD.",
             "Nur 1. Sept. 114 (Militaerdiplom) bezeugt; Ende offen."
-          ]
+          ],
+          "source_page": 91
         }
       ],
       "career_factoids": [
@@ -1628,7 +1932,8 @@
           "notes": [
             "The text notes: 'Modestus non ante a. p. C. 198 provinciam rexerit necesse est.'",
             "Ende offen; aus XVvir-Amt 204 nur Terminus erschlossen."
-          ]
+          ],
+          "source_page": 96
         },
         {
           "factoid_id": "gov_A470_2",
@@ -1645,7 +1950,8 @@
             "fortasse auch Vor-/Folgejahre.",
             "In Stufe 5 faelschlich verworfen (Formel nicht zusammenhaengend); manuell wieder aufgenommen."
           ],
-          "province_normalized": "Germania superior"
+          "province_normalized": "Germania superior",
+          "source_page": 96
         }
       ],
       "career_factoids": [
@@ -1864,7 +2170,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Governed Pontus et Bithynia as legatus Augusti pro praetore."
-          ]
+          ],
+          "source_page": 97
         }
       ],
       "career_factoids": [
@@ -2044,12 +2351,14 @@
           "notes": [
             "The governorship of Arabia is securely attested by the Gerasene inscription IGR III 1371.",
             "The conjectural identification in Wadd. 2460 and its date of 209 do not date this secure Arabia factoid."
-          ]
+          ],
+          "source_page": 104
         },
         {
           "factoid_id": "gov_519_2_syria",
           "person_id": "person_519",
           "exact_text": "hunc nominatum fuisse in t. posito a. 209, Wadd. 2460, ubi nomina legati perierunt praeter ....ητιανοῦ, suspicati sunt Bruennow et Domaszewski; qui simul monuerunt fieri posse ut non Arabiae sed Syriae legatus in hoc t. memoratus sit",
+          "source_page": 104,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Syria",
           "province_normalized": "Syria",
@@ -2212,7 +2521,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested in a Greek inscription from Ancyra (IGR III 162)."
-          ]
+          ],
+          "source_page": 106
         },
         {
           "factoid_id": "gov_2_pann_sup",
@@ -2229,7 +2539,8 @@
           "notes": [
             "Statthalterschaft von Pannonia superior nicht explizit bezeugt; erschlossen allein daraus, dass Alfius als Senator im zentralen Verwaltungssitz Pannoniens geehrt wurde — CIL III 14356^4 (= EDH HD072856). Moeglicherweise Statthalter von Pannonia superior; sehr geringe Sicherheit.",
             "Personenidentitaet: moeglicherweise dieselbe Person wie A 535 (P. Alfius Maximus Numerius Licinianus). PIR wechselseitig: bei 534 'Fortasse non diversus ab eo qui sequitur', bei 535 'Potest idem esse is, qui praecedit'. sameAs-Kandidat."
-          ]
+          ],
+          "source_page": 106
         }
       ],
       "career_factoids": [],
@@ -2314,7 +2625,8 @@
           "notes": [
             "Attested in inscriptions from Gerasa.",
             "In der PIR 'consul (suffectus anno incerto saec. II medii)' — die Klammer markiert Erschlossenes (belegt nur 'consul'); diese Datierung gilt dem KONSULAT, nicht der Statthalterschaft. Arabia-Statthalterschaft (CIL III 118 = 14156^3, Gerasa) faellt kurz vor das Konsulat (dort consul designatus). Moegliche Identitaet mit C. Allius C. f. Fuscianus (Ostia a. 140, a. 152)."
-          ]
+          ],
+          "source_page": 107
         }
       ],
       "career_factoids": [
@@ -2401,6 +2713,155 @@
       "source_page": 107
     },
     {
+      "entry_id": "PIR_A_595",
+      "pir_reference": "A 595",
+      "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'Legatus Augusti vel Augustorum pro praetore (Numidiae)' and 'Legatus Augustorum pro pr. (Moesiae superioris)'.",
+      "segments": {
+        "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+        "name_variants": "Ἀνίκιος Φῆστος (librariorum errore) Dio 78, 22, 2. Φαῦστος ib. § 4.",
+        "identification_and_sources": "18068 (13). 18255 (14). 18256 (15). Bull. tr. hist. 1911, 99 (16) ; ib. 100 (17); 1919, 85 (18). D. 9097 (19), Thamugadensibus VIII 17870 (= D. 446) (20). 17871 (21), Cirtensi VIII 19495 (22), Arsacalitano VIII 6048 (23), Cuiculitanis Bull. tr. hist. 1916, 233 (24) ; ib. 1911, 115 (25), Suburburano ib. 1917, 342 (26), Mauretano VIII 8796 cf. 18021 (27); ad eum pertinere videtur frustulum Lambaesitanum VIII 18078 (28) ; incertum num eius nomen recte restituatur in t. Numidiae VIII 2466 cf. 17954 (29); cf. Pallu de Lessert Fast. 1, 406—417. Dedicavit in legatione Moesiaca titulos III 1685 (30). 1686 (31). Nomina plena extant sive recte restituta sunt in titulis omnibus.",
+        "offices_and_career": "Clarissimus vir... Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8 (nomina consulum anni 197, quae leguntur in t. 4, non ad tituli dedicationem sed ad collationem pecuniae spectare videntur; cf. Stout Governors of Moes. 36 sq.); consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25 (ubi Severus errore dicitur cos. III). Faustus cum consul designatus fuerit a. 198, eodem anno fasces in legatione Numidica gesserit necesse est; itaque in t. 11. 13. 21 (posito a. 199) non co(n)s(ul) sed co(n)s(ularis) amplissimus legendum (item co(n)s(ularis) in t. 1 a. b. 2 b.). Severus in sortitione proconsulatus (Africae vel Asiae) eum praeteriit Dio 78, 22, 4 (Dionem errasse et Antoninum intelligendum esse statuit Waddington Fast. As. n. 169 sine idonea causa). A. 217 Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit et, cum exiguum anni proconsularis spatium ei remaneret, mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset Dio 78, 22, 2. 4. Quod num Elagabalus ratum habuerit, ignoramus.",
+        "governorship_attestation": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197 (cum Caracalla Caesar dictus sit, nondum imperator destinatus) t. 22, a. 197 t. 15. 20. 23, a. 199 t. 21. 24. 25. 26, a. 200 t. 19, a. 201 t. 1 a. b. 2 a. b. (de t. 4 v. infra). Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30 (numeri annorum tribuniciae potestatis corrupti sunt). 31.",
+        "family_and_social_relations": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius. Anicii, qui aetate labente floruerunt, ab eo originem duxisse videntur.",
+        "prosopographical_commentary": "The text discusses the chronology of his governorship in Numidia, arguing that since he was consul designatus in 198, he must have held the fasces in Numidia in that same year. It also notes the error in Dio regarding the proconsulship of Asia under Macrinus, and discusses the debate over whether Severus or Antoninus passed him over in the sortition.",
+        "bibliography_or_cross_references": "cf. Pallu de Lessert Fast. 1, 406—417; Stout Governors of Moes. 36 sq.; Waddington Fast. As. n. 169; cf. sub Anicio Fausto Paulino."
+      },
+      "main_person": {
+        "id": "person_A595",
+        "displayed_name": "Sex. Anicius Faustus",
+        "normalized_name": "Sextus Anicius Faustus",
+        "pir_reference": "A 595",
+        "status_markers": [
+          "clarissimus vir",
+          "consularis",
+          "patronus"
+        ],
+        "notes": [
+          "Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1",
+          "person_id": "person_A595",
+          "exact_text": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Numidia",
+          "date_text": "anno 196 vel priore semestri a. 197",
+          "date_normalized_start": 196,
+          "date_normalized_end": 201,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested from 196/197 through 201; the office is explicit."
+          ],
+          "province_normalized": "Numidia",
+          "source_page": 114
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_A595",
+          "exact_text": "Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia superior",
+          "date_text": "intra a. 202 et 207",
+          "date_normalized_start": 202,
+          "date_normalized_end": 207,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The office is explicit; the exact years 202-207 remain uncertain because the tribunician-power numerals are corrupt."
+          ],
+          "province_normalized": "Moesia superior",
+          "source_page": 114
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1",
+          "person_id": "PIR_A_595",
+          "exact_text": "Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 198,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "car_2",
+          "person_id": "PIR_A_595",
+          "exact_text": "consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25",
+          "normalized_office": "consularis",
+          "province_text": null,
+          "date_text": "a. 199 - 200",
+          "date_normalized_start": 199,
+          "date_normalized_end": 200,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A596",
+          "displayed_name": "SEXTVS ANICIVS FAVSTVS",
+          "normalized_name": "Sextus Anicius Faustus",
+          "pir_reference": "A 596",
+          "relation_context": "Pater fortasse Sex. Anicii Fausti ... Anici consularis filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 596; possible son of A 595."
+          ]
+        },
+        {
+          "id": "PIR_C_Iulius_Asprus",
+          "displayed_name": "(C. Iulius) Asprus",
+          "normalized_name": "C. Iulius Asprus",
+          "relation_context": "Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "PIR_Aufidius_Fronto",
+          "displayed_name": "Aufidius Fronto",
+          "normalized_name": "M. Aufidius Fronto",
+          "relation_context": "mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A595",
+          "target": "person_A596",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.",
+          "notes": [
+            "Possible father-son relation; A 595 and A 596 are not identified with one another."
+          ]
+        }
+      ],
+      "entry_notes": [
+        "This entry is a continuation of PIR² A 595 from the previous page (page 97)."
+      ],
+      "source_page": 114,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 595 restored as governor of Numidia and Moesia superior; possible father of A 596 normalized to parent_of."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "PIR_A_599",
       "pir_reference": "A 599",
       "lemma": "ANICIVS FAVSTVS PAVLINVS",
@@ -2440,7 +2901,8 @@
           "notes": [
             "Attested in CIL III 7473 from Moesia inferior.",
             "Successor of L. Mantennius Sabinus, legatus in 229."
-          ]
+          ],
+          "source_page": 115
         }
       ],
       "career_factoids": [],
@@ -2571,7 +3033,8 @@
           "notes": [
             "Attested in an inscription from Sarmizegetusa (CIL III 1455 = 7972). Governed before the reign of Marcus Aurelius (161-180 AD) as a praetorian legate.",
             "'ante imperatorem Marcum' = vor 161; Ende ~161 (praetorischer Legat)."
-          ]
+          ],
+          "source_page": 125
         }
       ],
       "career_factoids": [
@@ -2753,7 +3216,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on September 20, 224 AD."
-          ]
+          ],
+          "source_page": 129
         }
       ],
       "career_factoids": [],
@@ -2864,6 +3328,173 @@
       "source_page": 129
     },
     {
+      "entry_id": "668",
+      "pir_reference": "A 668",
+      "lemma": "M. ANNIVS LIBO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "The entry explicitly discusses Marcus Annius Libo as 'legatum Aug. pr. pr. Syriae' during the Parthian War under Marcus Aurelius and Lucius Verus.",
+      "segments": {
+        "lemma": "M. ANNIVS LIBO, M. f. Gal(eria)",
+        "name_variants": "M. Annius Libo",
+        "identification_and_sources": "nominatur inter testes senatus consulti de Cyzicenis facti sub Antonino Pio III 7060 = D. 7190.",
+        "offices_and_career": "Filius sine dubio M. Annii Libonis consulis a. 128; idem videtur Libo patruelis imperatoris Marci ab eo temporibus belli Parthici legatus in Syriam missus, qui ibi periit subito morbo notis prope veneni existentibus (c. a. 163) vita Veri 9, 2.",
+        "governorship_attestation": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim; quod si recte ponitur antea consul (suff. a. inc.) fuerit necesse est.",
+        "family_and_social_relations": "Libonis uxorem invito Marco Verus dedit Agaclyto liberto ib. 9, 3. — Fortasse filius eius M. Annius Sabinus Libo, curator Lavinii. Nepos Libonis huius videtur M. Annius Flavius Libo consul a. 204.",
+        "prosopographical_commentary": "The author identifies him as the cousin (patruelis) of Emperor Marcus Aurelius, sent to Syria during the Parthian War, where he died under suspicious circumstances (suspected poisoning).",
+        "bibliography_or_cross_references": "CIL III 7060 = D. 7190. HA, Vita Veri 9, 2; 9, 3. Cf. M. Annius Flavius Libo."
+      },
+      "main_person": {
+        "id": "person_668",
+        "displayed_name": "M. Annius Libo",
+        "normalized_name": "Marcus Annius Libo",
+        "pir_reference": "A 668",
+        "status_markers": [
+          "patruelis imperatoris Marci",
+          "consularis"
+        ],
+        "notes": [
+          "Cousin of Marcus Aurelius, died in Syria c. 163 AD."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_668_1",
+          "person_id": "person_668",
+          "exact_text": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syria",
+          "date_text": "c. a. 163",
+          "date_normalized_start": 162,
+          "date_normalized_end": 163,
+          "certainty": "low",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The governorship is a PIR inference ('putaverim'), not an explicit office attestation."
+          ],
+          "province_normalized": "Syria",
+          "source_page": 130
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_668_1",
+          "person_id": "person_668",
+          "exact_text": "legatus in Syriam missus",
+          "normalized_office": "Legatus",
+          "province_text": "Syria",
+          "date_text": "temporibus belli Parthici",
+          "date_normalized_start": 161,
+          "date_normalized_end": 163,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in HA, Vita Veri 9, 2."
+          ]
+        },
+        {
+          "factoid_id": "car_668_2",
+          "person_id": "person_668",
+          "exact_text": "consul (suff. a. inc.)",
+          "normalized_office": "Consul suffectus",
+          "province_text": null,
+          "date_text": "suff. a. inc.",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Inferred as necessary prior to his consular governorship of Syria."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_668_father",
+          "displayed_name": "M. Annius Libo",
+          "normalized_name": "Marcus Annius Libo",
+          "relation_context": "father, consul in 128 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_668_son",
+          "displayed_name": "M. Annius Sabinus Libo",
+          "normalized_name": "Marcus Annius Sabinus Libo",
+          "relation_context": "possible son, curator Lavinii",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_A648",
+          "displayed_name": "M. ANNIVS FLAVIVS LIBO",
+          "normalized_name": "Marcus Annius Flavius Libo",
+          "pir_reference": "A 648",
+          "relation_context": "Nepos Libonis huius videtur; nepos, non filius.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 648; probable grandson, explicitly not son, of A 668."
+          ]
+        },
+        {
+          "id": "person_668_wife",
+          "displayed_name": "uxor Libonis",
+          "normalized_name": null,
+          "relation_context": "wife, remarried to Agaclytus by Lucius Verus",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_668",
+          "target": "person_668_father",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Filius sine dubio M. Annii Libonis consulis a. 128",
+          "notes": []
+        },
+        {
+          "source": "person_668_son",
+          "target": "person_668",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Fortasse filius eius M. Annius Sabinus Libo",
+          "notes": []
+        },
+        {
+          "source": "person_668",
+          "target": "person_A648",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Nepos Libonis huius videtur; nepos, non filius.",
+          "notes": [
+            "Specific kinship: A 668 is the probable grandfather of A 648."
+          ]
+        },
+        {
+          "source": "person_668_wife",
+          "target": "person_668",
+          "relation": "spouse_of",
+          "certainty": "high",
+          "basis": "Libonis uxorem",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of Libo, cousin of Marcus Aurelius, sent to Syria during the Parthian War, and his sudden death, which was rumored to be by poison."
+      ],
+      "source_page": 130,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 668 restored as low-certainty governor of Syria; probable grandfather relation to A 648 added."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "731",
       "pir_reference": "A 731",
       "lemma": "P. ANTEIVS RUFVS",
@@ -2905,7 +3536,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested in Dalmatian inscriptions."
-          ]
+          ],
+          "source_page": 152
         }
       ],
       "career_factoids": [
@@ -3008,7 +3640,8 @@
           "notes": [
             "Dedicavit pro salute, victoria et perpetuitate Imp. Caesaris M. Aureli...",
             "Fortsetzung S.153: 'Titulus non ante Commodum positus est' (CIL III 3637) -> Kaiser 'Imp. Caesar M. Aureli[us…] p. f. Aug.' fruehestens Commodus (ab 180); Ritterling erwog sogar Elagabal (218/222)."
-          ]
+          ],
+          "source_page": 152
         }
       ],
       "career_factoids": [],
@@ -3094,7 +3727,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested at Bostra (III 92) and Gerasa (IGR 3, 1368)."
-          ]
+          ],
+          "source_page": 158
         },
         {
           "factoid_id": "gov_2",
@@ -3110,7 +3744,8 @@
           "evidence_type": "explicit",
           "notes": [
             "In this legation he dedicated an altar to Jupiter Optimus Maximus, Sol Invictus, Apollo, Luna, Diana, Fortuna, Mars, Victoria, and Pax."
-          ]
+          ],
+          "source_page": 159
         },
         {
           "factoid_id": "gov_3",
@@ -3127,7 +3762,8 @@
           "notes": [
             "Attested in source t. 11.",
             "Provinzname erschlossen ('Legatus Aug. pr. pr. (Britanniae)'), durch CIL VII 440 gestuetzt."
-          ]
+          ],
+          "source_page": 159
         }
       ],
       "career_factoids": [
@@ -3457,6 +4093,194 @@
       "source_page": 158
     },
     {
+      "entry_id": "PIR_A_776",
+      "pir_reference": "A 776",
+      "lemma": "L. ANTISTIVS VETVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pro pr. a. 56' of Germania Superior ('exercitui (Germaniae superioris) praefuit').",
+      "segments": {
+        "lemma": "[L. ANTISTIVS VETVS]",
+        "name_variants": "L. Antistius Vetus, L. Antistio",
+        "identification_and_sources": "Tac. a. 13, 11; 16, 10; Suet. Nero 14; CIL IV 5513",
+        "offices_and_career": "Consul a. 55 cum Nerone Augusto. Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55. Legatus Aug. pro pr. a. 56. Proconsul Asiae a. 64/65 ut videtur.",
+        "governorship_attestation": "legatus Aug. pro pr. a. 56 t. 1; exercitui (Germaniae superioris) praefuit Tac. a. 13, 53",
+        "family_and_social_relations": "Pater fuit, si t. 2 pertinet ad Veterem hunc, C. Antistius Vetus consul a. 23. Gener: Rubellius Plautus. Filia: Antistia Pollitta. Socrus: Sextia. Nepotes memorantur Tac. 14, 59; 16, 11.",
+        "prosopographical_commentary": "Accusatus apud Neronem a Fortunato liberto adscito Claudio Demiano; damnationem anteierunt venas simul solventes a. 65.",
+        "bibliography_or_cross_references": "Tac. a. 13, 11; 13, 53; 14, 58. 59; 16, 10. 11. 12; Suet. Nero 14; Plin. n. h. ind. l. 3-6; CIL IV 5513."
+      },
+      "main_person": {
+        "id": "P_A_776",
+        "displayed_name": "L. Antistius Vetus",
+        "normalized_name": "Lucius Antistius Vetus",
+        "pir_reference": "A 776",
+        "status_markers": [
+          "consul",
+          "legatus Augusti pro praetore",
+          "proconsul"
+        ],
+        "notes": [
+          "Consul in 55 AD",
+          "Legatus of Germania Superior",
+          "Proconsul of Asia"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "F_G_A_776_1",
+          "person_id": "P_A_776",
+          "exact_text": "Post consulatum exercitui (Germaniae superioris) praefuit Tac. a. 13, 53 probabiliter iam a. 55 ... legatus Aug. pro pr. a. 56 t. 1",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Germaniae superioris",
+          "date_text": "a. 55-56",
+          "date_normalized_start": 55,
+          "date_normalized_end": 56,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Governed Germania Superior as legatus Aug. pro pr.",
+            "The governorship is secure, but the beginning in AD 55 is only probable ('probabiliter iam a. 55'); the legateship in AD 56 is explicit."
+          ],
+          "province_normalized": "Germania superior",
+          "source_page": 166
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "F_C_A_776_1",
+          "person_id": "P_A_776",
+          "exact_text": "Consul a. 55 cum Nerone Augusto",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "a. 55",
+          "date_normalized_start": 55,
+          "date_normalized_end": 55,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "F_C_A_776_2",
+          "person_id": "P_A_776",
+          "exact_text": "Proconsul Asiae ib. 16, 10 anno 64/65 ut videtur",
+          "normalized_office": "proconsul",
+          "province_text": "Asia",
+          "date_text": "anno 64/65 ut videtur",
+          "date_normalized_start": 64,
+          "date_normalized_end": 65,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "P_C_Antistius_Vetus",
+          "displayed_name": "C. Antistius Vetus",
+          "normalized_name": "Gaius Antistius Vetus",
+          "relation_context": "Father of L. Antistius Vetus",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 23 AD"
+          ]
+        },
+        {
+          "id": "P_Antistia_Pollitta",
+          "displayed_name": "Antistia Pollitta",
+          "normalized_name": "Antistia Pollitta",
+          "relation_context": "Daughter of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Rubellius_Plautus",
+          "displayed_name": "Rubellius Plautus",
+          "normalized_name": "Rubellius Plautus",
+          "relation_context": "Son-in-law of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Sextia",
+          "displayed_name": "Sextia",
+          "normalized_name": "Sextia",
+          "relation_context": "Mother-in-law of L. Antistius Vetus",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Aelius_Gracilis",
+          "displayed_name": "Aelius Gracilis",
+          "normalized_name": "Aelius Gracilis",
+          "relation_context": "Legatus of Belgica who deterred Vetus from digging a canal",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "P_Curtilius_Mancia",
+          "displayed_name": "T. Curtilius Mancia",
+          "normalized_name": "Titus Curtilius Mancia",
+          "relation_context": "Successor of Vetus in Germania Superior",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "P_A_776",
+          "target": "P_C_Antistius_Vetus",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Pater fuit, si t. 2 pertinet ad Veterem hunc, C. Antistius Vetus consul a. 23.",
+          "notes": []
+        },
+        {
+          "source": "P_Antistia_Pollitta",
+          "target": "P_A_776",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Antistia Pollitta (?) filia ... Luci Veteris",
+          "notes": []
+        },
+        {
+          "source": "P_Rubellius_Plautus",
+          "target": "P_A_776",
+          "relation": "related_to",
+          "certainty": "high",
+          "basis": "Rubellium Plautum generum Luci Veteris",
+          "notes": []
+        },
+        {
+          "source": "P_Sextia",
+          "target": "P_A_776",
+          "relation": "related_to",
+          "certainty": "high",
+          "basis": "ipse socrusque eius Sextia",
+          "notes": []
+        },
+        {
+          "source": "P_Curtilius_Mancia",
+          "target": "P_A_776",
+          "relation": "successor_of",
+          "certainty": "high",
+          "basis": "eo ipso anno T. Curtilius Mancia in eius locum successit",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry for L. Antistius Vetus is continued from the previous page (149). Only the text on page 150 is analyzed here."
+      ],
+      "source_page": 165,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 776 confirmed as governor of Germania superior in AD 55-56; entry spans page_0165-page_0166."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "PIR_A_816",
       "pir_reference": "A 816",
       "lemma": "ANTONIVS BALBVS",
@@ -3502,7 +4326,8 @@
           "notes": [
             "Attested in inscriptions from Charadrus (IGR 3, 838) and possibly Olba (IGR 3, 848).",
             "Datierung = Zeitfenster der Inschrift IGR 3,838 (unter Sept. Severus, 198-209); genaue Amtsdauer nicht bestimmbar."
-          ]
+          ],
+          "source_page": 172
         }
       ],
       "career_factoids": [
@@ -3559,6 +4384,107 @@
       "source_page": 172
     },
     {
+      "entry_id": "PIR_A_836",
+      "pir_reference": "A 836",
+      "lemma": "ANTONIVS HIBERVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatum Augusti pr. pr.' of Moesia Inferior ('Moesiam inferiorem rexisse').",
+      "segments": {
+        "lemma": "ANTONIVS HIBERVS",
+        "name_variants": "ANTONIVS HIBERVS",
+        "identification_and_sources": "nominatur in epistula Severi et Antonini de immunitate Tyranorum data a. 201 III 781 = D. 423",
+        "offices_and_career": "gravissimus praeses, legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "governorship_attestation": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "family_and_social_relations": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "prosopographical_commentary": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "bibliography_or_cross_references": "III 781 = D. 423"
+      },
+      "main_person": {
+        "id": "person_836",
+        "displayed_name": "ANTONIVS HIBERVS",
+        "normalized_name": "Antonius Hiberus",
+        "pir_reference": "A 836",
+        "status_markers": [
+          "praeses",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_836_1",
+          "person_id": "person_836",
+          "exact_text": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "date_text": "aetate Antonini Pii vel divorum fratrum",
+          "date_normalized_start": 138,
+          "date_normalized_end": 169,
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "The office is inferred from the context; normalized dates cover Antoninus Pius and the divi fratres."
+          ],
+          "province_normalized": "Moesia inferior",
+          "source_page": 179
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_836_1",
+          "person_id": "person_836",
+          "exact_text": "gravissimus praeses",
+          "normalized_office": "praeses",
+          "province_text": null,
+          "date_text": "a. 201",
+          "date_normalized_start": 201,
+          "date_normalized_end": 201,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Mentioned as 'gravissimus praeses' in an imperial letter of 201 AD."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_A837",
+          "displayed_name": "M. ANTONIVS HIBERVS",
+          "normalized_name": "Marcus Antonius Hiberus",
+          "pir_reference": "A 837",
+          "relation_context": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "PIR A 837; probably identical, but retained as a separate person node."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_836",
+          "target": "person_A837",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "A 836: 'Probabiliter non diversus ...'; A 837: 'Probabiliter idem qui praecedit.'",
+          "notes": [
+            "No merge; both PIR entries remain distinct."
+          ]
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the identity of the governor Antonius Hiberus, linking him probably to the consul of 133 AD."
+      ],
+      "source_page": 179,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "A 836 restored as governor of Moesia inferior; A 836/A 837 possibly_same_as added."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "851",
       "pir_reference": "A 851",
       "lemma": "ANTONIVS MEMMIVS HIERO",
@@ -3599,7 +4525,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on multiple milestones in Cappadocia during the reign of the Philip emperors (244-249 AD)."
-          ]
+          ],
+          "source_page": 180
         }
       ],
       "career_factoids": [],
@@ -3671,7 +4598,8 @@
           "notes": [
             "Attested on provincial coinage of Perinthus, Philippopolis, and Nicopolis.",
             "Muenzen 'non ante a. 140' (nach Tod der Faustina d.Ae.); Statthalterschaft um 140, vor dem Konsulat 148; genaues Ende unbestimmt."
-          ]
+          ],
+          "source_page": 187
         }
       ],
       "career_factoids": [
@@ -3774,6 +4702,100 @@
       "source_page": 187
     },
     {
+      "entry_id": "PIR_1070",
+      "pir_reference": "A 1070",
+      "lemma": "M. ARRANIVS VENVSTVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. (exercitus Africani)'.",
+      "segments": {
+        "lemma": "M. ARRANIVS VENVSTVS",
+        "name_variants": "..... us Venustus",
+        "identification_and_sources": "memoratur in t. filii M. Arranii Venusti Bassiliani clarissimi pueri Ammaedarensi Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37.",
+        "offices_and_career": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166 VIII 4195 t. Verecundae rep.",
+        "governorship_attestation": "legatus Aug. pr. pr. (exercitus Africani)",
+        "family_and_social_relations": "Father of M. Arranius Venustus Bassilianus (1071).",
+        "prosopographical_commentary": "Nescio an idem sit ..... us Venustus, legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166.",
+        "bibliography_or_cross_references": "Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37; VIII 4195."
+      },
+      "main_person": {
+        "id": "person_1070",
+        "displayed_name": "M. Arranius Venustus",
+        "normalized_name": "Marcus Arranius Venustus",
+        "pir_reference": "A 1070",
+        "status_markers": [
+          "consul designatus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1070_1",
+          "person_id": "person_1070",
+          "exact_text": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "exercitus Africanus",
+          "province_normalized": "Numidia",
+          "date_text": "a. 165/166 (Thomasson); consul designatus a. 166",
+          "date_normalized_start": 165,
+          "date_normalized_end": 166,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "De facto — wenn nicht de iure (Numidia wurde erst in severischer Zeit eigene kaiserliche Provinz) — Statthalter von Numidia als Befehlshaber der legio III Augusta (exercitus Africani). Moeglicherweise identisch mit der in CIL VIII 4195 (Verecunda) genannten Person (PIR: \"Nescio an idem sit\"). Bengt E. Thomasson, \"Die Statthalter der roemischen Provinzen Nordafrikas von Augustus bis Diokletian\" (S. 181), fuehrt einen Venustus als Statthalter Numidiens fuer 165/166. Personenidentitaet nicht voellig gesichert -> certainty=medium."
+          ],
+          "source_page": 225
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_1070_1",
+          "person_id": "person_1070",
+          "exact_text": "consul designatus a. 166",
+          "normalized_office": "consul designatus",
+          "province_text": null,
+          "date_text": "a. 166",
+          "date_normalized_start": 166,
+          "date_normalized_end": 166,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1071",
+          "displayed_name": "M. Arranius Venustus Bassilianus",
+          "normalized_name": "Marcus Arranius Venustus Bassilianus",
+          "relation_context": "filius",
+          "certainty": "high",
+          "notes": [
+            "clarissimus puer"
+          ],
+          "pir_reference": "A 1071"
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1070",
+          "target": "person_1071",
+          "relation": "parent_of",
+          "certainty": "high",
+          "basis": "filii M. Arranii Venusti Bassiliani",
+          "notes": []
+        }
+      ],
+      "entry_notes": [],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-20",
+        "note": "Existing parent relation A 1070 -> A 1071 confirmed; PIR reference made explicit."
+      },
+      "needs_review": false,
+      "source_page": 225
+    },
+    {
       "entry_id": "PIR_A_1088",
       "pir_reference": "A 1088",
       "lemma": "C. ARRIVS ANTONINVS",
@@ -3818,7 +4840,8 @@
           "evidence_type": "explicit",
           "notes": [
             "preses (sic) p(rovinciae)"
-          ]
+          ],
+          "source_page": 229
         },
         {
           "factoid_id": "gov_2",
@@ -3834,7 +4857,8 @@
           "evidence_type": "explicit",
           "notes": [
             "co(n)s(ularis) trium Daciarum"
-          ]
+          ],
+          "source_page": 229
         }
       ],
       "career_factoids": [
@@ -3998,6 +5022,143 @@
       "source_page": 229
     },
     {
+      "entry_id": "entry_l_arruntius_222",
+      "pir_reference": "A 1130",
+      "lemma": "ARRVNTIVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatus Augusti pro praetore' of Hispania (citeriorem), though he governed the province in absence (absens gubernare coactus est).",
+      "segments": {
+        "lemma": "ARRVNTIVS",
+        "name_variants": "L. f. L. n. fasti Capitol., L. f. Dio ind. l. 55, filius consulis a. 732 = 22 a. C. Teretina tribu VI 5931 = D. 7851 (v. infra).",
+        "identification_and_sources": "Consul a. p. C. 6 cum M. Aemilio Lepido v. supra in kalendas Iulias fasti Capitol. fast? min. XV. Not. d. sc. 1902, 268. Ann. ép. 1928, 18 (XVI k. Febr.). 1752 (k. Febr.). 753 (k. Apr.). II 3695 (k. Mais). VI 14844 (XIIII kal. Iul., fer'is se. Latinis). Augustus supremis sermonibus cum tractaret, quinam adipisci principem locum suffeeturi abnuerent aut inpares vellent vel idem possent cuperentque, L. Arruntium dixerat non indignum et, si easus daretur, ausurum (pro Arruntio quidam Cn. Pisonem tradidere) Tac. a. 1, 13. A. 14 post Augusti mortem in senatu sententiam dixit Tac. a. 1, 8; paulo post Tiberium in senatu offendit, quamquam Tiberio nulla vetus in Arruntium ira; sed divitem, promptum, artibus egregiis et pari fama publice, suspectabat ib. 1, 13. A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum ib. 1, 76; de eo negotio egerunt in senatu ib. 1, 79. A. 20 a Cn. Pisone patronus petitus se excusavit ib. 3, 11. A. 21 pro L. Sulla propinquo suo in senatu verba fecit ib. 9, 31.",
+        "offices_and_career": "Consul a. p. C. 6... A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum... Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80. Suet. Ti. 63 (nomine omisso) ; sub a. 33 Tacitus tradit (a. 6, 27) Arruntium, ne in Hispaniam pergeret, decumum iam annum attineri: minus accurate, nam a. 25 cerle L. Piso praefuit Hispaniae citeriort (Tac. a. 4, 45; similis error subest ap. Dionem 58, 5, 9, v. infra). In Pisonis locum eo ipso anno in provincia interfeci Arruntium successisse probabiliter statuendum est. Omnino incertum, num Hispaniae legationem usque ad finem vitae retinuerit.",
+        "governorship_attestation": "Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80. Suet. Ti. 63 (nomine omisso) ; sub a. 33 Tacitus tradit (a. 6, 27) Arruntium, ne in Hispaniam pergeret, decumum iam annum attineri: minus accurate, nam a. 25 cerle L. Piso praefuit Hispaniae citeriort (Tac. a. 4, 45; similis error subest ap. Dionem 58, 5, 9, v. infra). In Pisonis locum eo ipso anno in provincia interfeci Arruntium successisse probabiliter statuendum est. Omnino incertum, num Hispaniae legationem usque ad finem vitae retinuerit.",
+        "family_and_social_relations": "filius consulis a. 732 = 22 a. C. ... A. 21 pro L. Sulla propinquo suo in senatu verba fecit ib. 9, 31.",
+        "prosopographical_commentary": "Seiano invisus Tac. a. 6, 48. Dio 58, 8, 3 (sub a. 31), ubi Arruntii nomen non ponitur: ὅτι ὁ Τιβέριος ἐχθρόν τινα αὐτοῦ (sc. Seiani) ἡρημένον μὲν πρὸ δέκα ἐτῶν ᾿Ιβηρίας ἄρξαι (v. supra), κρινόμενον δὲ ἐπί τισιν ἐξ ἐκείνου ἀφῆκε, καὶ δ αὐτὸν καὶ τοῖς ἄλλοις τοῖς ἡγεμονεύσειν τινῶν ἢ καὶ ἀλλο τι δημόσιον πράξειν μέλλουσιν ἄδειαν ἐν τῷ καιρῷ τούτῳ τῶν τοιούτων δικῶν ἔδωκε. L. Arruntium hic intellegi recte puto observavit Rogers Class. Philol. 26, 1931, 37 sq., qui simul monuit ad eandem rem pertinere quae traduntur dig. 48, 2, 12 hos accusare non licet: legatum imperatoris ex sententia Lentuli dicta Sulla et Trione consulibus (qui fasces tenuerunt a kal. Iuliis usque ad kal. Octobres a. 31). Ab Aruseio et Sanquinio (?) accusatus Tac. a. 6, 7 (qua de re quae Tacitus reltulerat, lacuna codicis perierunt) Seiano auctore, sed absolutus Dio l. l., accusatores a senatu damnati Tac. l. l. A. 32 Cotta Messalinus arguitur querens de potentia M.' Lepidi ac L. Arruntii, cum quibus ob rem pecuniariam disceptabat, addidisse: illos quidem senatus, me autem tuebitur Tiberiolus meus Tac. a. 6, 5. Senex ib. 6, 48. Dio 58, 27, 4. Inimicitiae Macronis notae in Arruntium Tac.",
+        "bibliography_or_cross_references": "Tac. a. 1, 13; Tac. a. 1, 8; Tac. a. 1, 76; Tac. a. 1, 79; Tac. a. 3, 11; Tac. a. 9, 31; Tac. h. 2, 65; Tac. a. 1, 80; Suet. Ti. 63; Tac. a. 6, 27; Tac. a. 4, 45; Dio 58, 8, 3; Dio 58, 5, 9; dig. 48, 2, 12; Tac. a. 6, 7; Tac. a. 6, 5; Tac. a. 6, 48; Dio 58, 27, 4."
+      },
+      "main_person": {
+        "id": "person_l_arruntius",
+        "displayed_name": "L. Arruntius",
+        "normalized_name": "Lucius Arruntius",
+        "pir_reference": "A 1130",
+        "status_markers": [
+          "consularis",
+          "senator"
+        ],
+        "notes": [
+          "Filius consulis a. 22 a.C.",
+          "Consul in 6 AD"
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_arruntius_hispania",
+          "person_id": "person_l_arruntius",
+          "exact_text": "Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Hispaniam (citeriorem)",
+          "province_normalized": "Hispania citerior",
+          "date_text": "A. 21 - 37",
+          "date_normalized_start": 21,
+          "date_normalized_end": null,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Arruntius was appointed to govern Hispania Citerior but was forced to govern in absence because Tiberius detained him in Rome out of fear.",
+            "Tacitus (Ann. 6, 27) states in 33 AD that Arruntius had been detained for ten years, though L. Piso was in charge of Hispania Citerior in 25 AD. It is probable that Arruntius succeeded Piso after the latter's death in 25 AD.",
+            "Enddatum ungewiss: 'incertum, num Hispaniae legationem usque ad finem vitae retinuerit'."
+          ],
+          "source_page": 238
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_arruntius_consul",
+          "person_id": "person_l_arruntius",
+          "exact_text": "Consul a. p. C. 6 cum M. Aemilio Lepido",
+          "normalized_office": "consul",
+          "province_text": null,
+          "date_text": "6 AD",
+          "date_normalized_start": 6,
+          "date_normalized_end": 6,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        },
+        {
+          "factoid_id": "career_arruntius_curator_tiberis",
+          "person_id": "person_l_arruntius",
+          "exact_text": "A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum",
+          "normalized_office": "curator alvei Tiberis",
+          "province_text": null,
+          "date_text": "15 AD",
+          "date_normalized_start": 15,
+          "date_normalized_end": 15,
+          "relevance_to_governorship": "low",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_m_aemilius_lepido",
+          "displayed_name": "M. Aemilius Lepidus",
+          "normalized_name": "Marcus Aemilius Lepidus",
+          "relation_context": "Consul colleague in 6 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_ateius_capito",
+          "displayed_name": "Ateius Capito",
+          "normalized_name": "Gaius Ateius Capito",
+          "relation_context": "Colleague in the Tiber commission in 15 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_cn_piso",
+          "displayed_name": "Cn. Piso",
+          "normalized_name": "Gnaeus Calpurnius Piso",
+          "relation_context": "Asked Arruntius to be his patron in 20 AD, which Arruntius declined",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_l_sulla",
+          "displayed_name": "L. Sulla",
+          "normalized_name": "Lucius Cornelius Sulla",
+          "relation_context": "Relative (propinquus) for whom Arruntius spoke in the senate in 21 AD",
+          "certainty": "high",
+          "notes": []
+        },
+        {
+          "id": "person_l_piso",
+          "displayed_name": "L. Piso",
+          "normalized_name": "Lucius Calpurnius Piso",
+          "relation_context": "Predecessor in Hispania Citerior who died in 25 AD",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [],
+      "entry_notes": [
+        "L. Arruntius is a famous example of a governor kept in Rome by Tiberius (absens gubernare coactus est) due to imperial suspicion.",
+        "PIR-Nummer A 1130 (L. Arruntius, cos. 6 n. Chr.) vom Eintragskopf S. 237 ergänzt (Orphan-Fortsetzung)."
+      ],
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-07-01",
+        "note": "Orphan aufgelöst: PIR A 1130 zugewiesen; Enddatum null (in absentia, Ende ungewiss)."
+      },
+      "needs_review": false,
+      "source_page": 238
+    },
+    {
       "entry_id": "1180",
       "pir_reference": "A 1180",
       "lemma": "[...... a?]rToRivs",
@@ -4044,7 +5205,8 @@
           "notes": [
             "Attested in a bilingual inscription from Tomis (CIL III 7539 = 12493 = IGR I 606).",
             "Nur fuer a. 120 bezeugt (Punktbeleg CIL III 7539 = IGR I 606, Tomi); genaue Amtsdauer unbekannt."
-          ]
+          ],
+          "source_page": 252
         }
       ],
       "career_factoids": [],
@@ -4085,6 +5247,119 @@
       },
       "needs_review": false,
       "source_page": 252
+    },
+    {
+      "entry_id": "PIR_A_1304",
+      "pir_reference": "A 1304",
+      "lemma": "T. ATILIVS RVFVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly attested as Legatus Aug. pro pr. Pannoniae and Legatus Aug. pro pr. Syriae.",
+      "segments": {
+        "lemma": "T. ATILIVS RVFVS",
+        "name_variants": "(plena nomina exhibent dipl. mil. et miliarius ; Atilius Rufus Tac. Agr. 40)",
+        "identification_and_sources": "consularis Tac. l.l., consul suffectus anno incerto Vespasiani ut videtur.",
+        "offices_and_career": "consul suffectus anno incerto Vespasiani ut videtur. Legatus Aug. pro pr. Pannoniae a. 80 III p. 854 dipl. mil. datum d. 13. m. Iunii a. 80. — Legatus Aug. pro pr. Syriae Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95 cippus ‘miliarius. Tac. Agr. 40, a. 83 miliarius; in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "governorship_attestation": "Legatus Aug. pro pr. Pannoniae a. 80 III p. 854 dipl. mil. datum d. 13. m. Iunii a. 80. — Legatus Aug. pro pr. Syriae Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95 cippus ‘miliarius. Tac. Agr. 40, a. 83 miliarius; in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "family_and_social_relations": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127. Cf. Add. Gr.",
+        "prosopographical_commentary": "in provincia obiit anno 84 ut videtur Tac. l. l.",
+        "bibliography_or_cross_references": "Tac. Agr. 40, dipl. mil. datum d. 13. m. Iunii a. 80, Palestine Explor. Fund 1924, 94 = Ann. ép. 1925, 95, Cf. Add. Gr."
+      },
+      "main_person": {
+        "id": "person_1304",
+        "displayed_name": "T. ATILIVS RVFVS",
+        "normalized_name": "Titus Atilius Rufus",
+        "pir_reference": "A 1304",
+        "status_markers": [
+          "consularis",
+          "consul suffectus"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1304_1",
+          "person_id": "person_1304",
+          "exact_text": "Legatus Aug. pro pr. Pannoniae a. 80",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Pannoniae",
+          "date_text": "a. 80",
+          "date_normalized_start": 80,
+          "date_normalized_end": 80,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by military diploma dated 13 June 80 AD (dipl. mil. datum d. 13. m. Iunii a. 80)."
+          ],
+          "source_page": 281,
+          "province_normalized": "Pannonia"
+        },
+        {
+          "factoid_id": "gov_1304_2",
+          "person_id": "person_1304",
+          "exact_text": "Legatus Aug. pro pr. Syriae",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Syriae",
+          "date_text": "a. 83-84",
+          "date_normalized_start": 83,
+          "date_normalized_end": 84,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested by a milestone (cippus miliarius) published in Palestine Explor. Fund 1924, 94 = AE 1925, 95.",
+            "Died in office in the province in 84 AD according to Tacitus (Agr. 40)."
+          ],
+          "source_page": 281,
+          "province_normalized": "Syria"
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_1304_1",
+          "person_id": "person_1304",
+          "exact_text": "consul suffectus anno incerto Vespasiani ut videtur",
+          "normalized_office": "consul suffectus",
+          "province_text": null,
+          "date_text": "anno incerto Vespasiani ut videtur",
+          "date_normalized_start": 69,
+          "date_normalized_end": 79,
+          "relevance_to_governorship": "medium",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": []
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_1305",
+          "displayed_name": "T. Atilius Rufus Titianus",
+          "normalized_name": "Titus Atilius Rufus Titianus",
+          "relation_context": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127.",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 127 AD."
+          ],
+          "pir_reference": "A 1305"
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1304",
+          "target": "person_1305",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Probabiliter avus T. Atilii Rufi Titiani consulis a. 127.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [],
+      "source_page": 281,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1304 (not A 1305) confirmed as governor of Pannonia in AD 80 and Syria in AD 83-84; A 1305 remains only a probable grandson."
+      },
+      "needs_review": false
     },
     {
       "entry_id": "1322",
@@ -4129,7 +5404,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Governed Thrace during the reign of Caracalla (Severus Antoninus)."
-          ]
+          ],
+          "source_page": 283
         },
         {
           "factoid_id": "gov_1",
@@ -4145,7 +5421,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Teil des Tarraco-Cursus (CIL II 4111 = ILS 1176)."
-          ]
+          ],
+          "source_page": 284
         },
         {
           "factoid_id": "gov_2",
@@ -4161,7 +5438,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Im Text 'Syriae maioris'; keine Standard-Provinz; hier als Syria Coele (groesserer Nordteil nach Severus' Teilung 194) gedeutet — Gleichsetzung unsicher (Vorbehalt)."
-          ]
+          ],
+          "source_page": 284
         },
         {
           "factoid_id": "gov_3",
@@ -4177,7 +5455,8 @@
           "evidence_type": "explicit",
           "notes": [
             "A centurio of legio VII gemina piae fidelis Severianae Alexandrianae dedicated an inscription."
-          ]
+          ],
+          "source_page": 284
         }
       ],
       "career_factoids": [
@@ -4253,6 +5532,90 @@
       "source_page": 283
     },
     {
+      "entry_id": "PIR_A_1331",
+      "pir_reference": "A 1331",
+      "lemma": "C. ATTICIVS NORBANVS (?) STRABO",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. of Galatia (Galatiae) under Septimius Severus, attested on milestones of Lycaonia and Isauria between 198 and 200 AD.",
+      "segments": {
+        "lemma": "1331 C. ATTICIVS NORBANVS (?) STRABO",
+        "name_variants": "C. Atticius Strabo t. 1...... [S]trabonem t. 2.... nicium (recte ...tieium) ...banum St[r]a[bo]nem t. 3. T. ATTICIVMNOR. M.... PRAO. NEM legere sibi visi sunt editores in t. 4.",
+        "identification_and_sources": "memoratur in miliariis Lycaoniae et Isauriae Stud. in the hist. and art of the eastern prov. ed. Ramsay (1906) 173, 58 = Ann. ép. 1907, 58 (1), Stud. 172, 56 cf. p. 284. 247 = Class. Rev. 1905, 416 = Ann. ép. 1906, 21 (2), inedito quem Ramsay cum Ottone Hirschfeld communicavit a. 1905 (3), Ann. d. scuola arch. di Atene 3, 1916/20 p. 51 = Ann. ép. 1922, 5 (4).",
+        "offices_and_career": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT).",
+        "governorship_attestation": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT).",
+        "family_and_social_relations": "Pater probabiliter eius qui sequitur (T. Atticius Strabo Romulus, PIR A 1332).",
+        "prosopographical_commentary": "The milestones record his name with some variations and corruptions in the readings of the editors (e.g., T. ATTICIVMNOR. M.... PRAO. NEM).",
+        "bibliography_or_cross_references": "Stud. in the hist. and art of the eastern prov. ed. Ramsay (1906) 173, 58 = Ann. ép. 1907, 58 (1), Stud. 172, 56 cf. p. 284. 247 = Class. Rev. 1905, 416 = Ann. ép. 1906, 21 (2), inedito quem Ramsay cum Ottone Hirschfeld communicavit a. 1905 (3), Ann. d. scuola arch. di Atene 3, 1916/20 p. 51 = Ann. ép. 1922, 5 (4)."
+      },
+      "main_person": {
+        "id": "person_A_1331",
+        "displayed_name": "C. ATTICIVS NORBANVS (?) STRABO",
+        "normalized_name": "C. Atticius Norbanus Strabo",
+        "pir_reference": "A 1331",
+        "status_markers": [
+          "senator",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": [
+          "Attested on milestones in Lycaonia and Isauria."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_A_1331_01",
+          "person_id": "person_A_1331",
+          "exact_text": "Legatus Aug. pro pr. (Galatiae) t. 1—4 a. 198 t. 2. 3 (ubi Septimius Severus appellatur tribuniciae potestatis VI imp. XI), a. 200 t. 4 (trib. pot. VIII; vix fuit VIIIT)",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Galatiae",
+          "date_text": "a. 198 - a. 200",
+          "date_normalized_start": 198,
+          "date_normalized_end": 200,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "The milestones date to the reign of Septimius Severus, specifically mentioning his tribunician power VI (198 AD) and VIII (200 AD)."
+          ],
+          "province_normalized": "Galatia",
+          "source_page": 285
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_A_1332",
+          "displayed_name": "T. ATTICIVS STRABO ROMVLVS",
+          "normalized_name": "T. Atticius Strabo Romulus",
+          "relation_context": "Pater probabiliter eius qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "Mentioned in PIR A 1332 as a clarissimus puer."
+          ],
+          "pir_reference": "A 1332"
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_A_1331",
+          "target": "person_A_1332",
+          "relation": "parent_of",
+          "certainty": "medium",
+          "basis": "Pater probabiliter eius qui sequitur.",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The reading of the name on milestone 4 was problematic for the editors (T. ATTICIVMNOR. M.... PRAO. NEM)."
+      ],
+      "source_page": 285,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1331 confirmed as governor of Galatia in AD 198-200."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "PIR_A_1341_continuation",
       "pir_reference": "A 1341",
       "lemma": "L. ATTIDIVS CORNELIANVS",
@@ -4298,7 +5661,8 @@
             "Defeated by the Parthians in 161/162 AD.",
             "anno 157 (t.6), a. 162 (t.5), a Parthis fugatus (a. 161/162).",
             "Moeglicherweise = anonymer praeses Syriae (vita Pert. 1, 6) — ER-Kandidat."
-          ]
+          ],
+          "source_page": 287
         },
         {
           "factoid_id": "gov_A1341_arabia",
@@ -4314,7 +5678,8 @@
           "notes": [
             "In Stufe 5 faelschlich verworfen ('Legatus Aug. pro pr. (Arabiae)' — abgekuerzt/Klammer); manuell wieder aufgenommen."
           ],
-          "province_normalized": "Arabia"
+          "province_normalized": "Arabia",
+          "source_page": 287
         }
       ],
       "career_factoids": [
@@ -4373,6 +5738,90 @@
       "source_page": 287
     },
     {
+      "entry_id": "PIR_A_1350",
+      "pir_reference": "A 1350",
+      "lemma": "Q. ATTIVS CELER",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as Legatus Aug. pro pr. provinciae Thraciae sub Gordiano.",
+      "segments": {
+        "lemma": "1350 Q. ATTIVS CELER",
+        "name_variants": "nominatur in titulo Traianae Augustae reperto IGR 1, 756 (1), in miliariis Thracis ib. 724 cf. 1477 (2), 725 (3), SEG 3, 508 (4). K. Ἀττόου Κέλερος t. 1. K. Ἀττ[ί]ου Κελέρου t. 4. K. Ἀτίου Κελερ ... t. 2. Ἀτίου Κέλερος t. 3",
+        "identification_and_sources": "ex hoc t. apparet Q. Attii nomen ei fuisse, non Cattii, ut legerunt priores (cf. PIR1 1, 321, 470)",
+        "offices_and_career": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4",
+        "governorship_attestation": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano t. 1—4; cf. Stein l. l. p. 66 sq.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "sed dubitat Stein Thracia p. 66, num t. 3 recte descriptus sit, provocans ad Cattium Celerem tituli IX 2778.",
+        "bibliography_or_cross_references": "IGR 1, 756 (1); IGR 1, 724 cf. 1477 (2), 725 (3); SEG 3, 508 (4); PIR1 1, 321, 470; Stein Thracia p. 66"
+      },
+      "main_person": {
+        "id": "person_1350",
+        "displayed_name": "Q. Attius Celer",
+        "normalized_name": "Quintus Attius Celer",
+        "pir_reference": "A 1350",
+        "status_markers": [],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_1350_1",
+          "person_id": "person_1350",
+          "exact_text": "Legatus Aug. pro pr. provinciae Thraciae sub Gordiano",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Thraciae",
+          "date_text": "sub Gordiano",
+          "date_normalized_start": 238,
+          "date_normalized_end": 244,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on milestones (miliaria) in Thrace."
+          ],
+          "province_normalized": "Thracia",
+          "source_page": 288
+        }
+      ],
+      "career_factoids": [],
+      "related_persons": [
+        {
+          "id": "person_cattius_celer",
+          "displayed_name": "Cattius Celer",
+          "normalized_name": "Cattius Celer",
+          "relation_context": "Stein compares him to Cattius Celer of tituli IX 2778 due to reading doubts.",
+          "certainty": "medium",
+          "notes": []
+        },
+        {
+          "id": "person_gordianus",
+          "displayed_name": "Gordianus",
+          "normalized_name": "Gordianus III",
+          "relation_context": "Emperor under whom Q. Attius Celer served as governor.",
+          "certainty": "high",
+          "notes": []
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_1350",
+          "target": "person_gordianus",
+          "relation": "associated_with",
+          "certainty": "high",
+          "basis": "sub Gordiano",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the correction of the name from Cattius to Q. Attius based on epigraphic evidence."
+      ],
+      "source_page": 288,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 1350 confirmed as governor of Thracia under Gordian III (AD 238-244)."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "1383",
       "pir_reference": "A 1383",
       "lemma": "AVFIDIVS CORESNIVS MARCELLVS agnomine ZMINTHIVS",
@@ -4416,7 +5865,8 @@
           "notes": [
             "Attested in an inscription from Traianopolis (Ann. ép. 1927, 75).",
             "= Regierungszeit Severus Alexander (222-235), Naeherung."
-          ]
+          ],
+          "source_page": 292
         }
       ],
       "career_factoids": [
@@ -4530,7 +5980,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on coins of Neocaesarea of year 37 of the local era, corresponding to 100/101 AD."
-          ]
+          ],
+          "source_page": 296
         }
       ],
       "career_factoids": [
@@ -4630,7 +6081,8 @@
             "Attested in multiple inscriptions (t. 1-5, 7-10) and literary sources.",
             "Nondum a. 163, quo Cn. Iulius Verus Syriam rexit.",
             "Vorgaenger Cn. Iulius Verus bis ~165; Statthalterschaft belegt bis 171/2; danach ausserordentliches Ostkommando bis zum Aufstand 175; kein Arabia-Kommando (Ritterling irrt: 'Haud recte … Arabiae praefuisse')."
-          ]
+          ],
+          "source_page": 298
         }
       ],
       "career_factoids": [
@@ -4774,7 +6226,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)."
-          ]
+          ],
+          "source_page": 301
         },
         {
           "factoid_id": "gov_1",
@@ -4792,7 +6245,8 @@
             "Premerstein argued he was recalled from the province in 117/118 by Hadrian.",
             "Domaszewski (CIL III 7904): Statthalter jener Provinz, zu deren Heer die legio IV Flavia Felix gehoerte = Moesia superior. Dedikant M. Calventius Viator war Centurio der legio IV Flavia Felix; Fundort Sarmizegetusa/Dacia allein nicht entscheidend (equites singulares konnten einen Ausbilder aus dem Heer einer Nachbarprovinz haben). Daher wahrscheinlicher Moesia superior; Dacia nicht sicher auszuschliessen ('potius quam Daciae'). Viator spaeter unter den equites singulares Hadriani in Gerasa (129/130 oder 131/132).",
             "Dublette-Faktoid 'Dacia' (gleicher Beleg CIL III 7904) entfernt."
-          ]
+          ],
+          "source_page": 302
         }
       ],
       "career_factoids": [
@@ -4984,7 +6438,8 @@
           "notes": [
             "The cognomen Quietus is restored by editors in the military diploma.",
             "certainty medium: Identifikation beruht auf editorisch ergaenztem Cognomen im Militaerdiplom ('cognomen Quieti suppleverunt')."
-          ]
+          ],
+          "source_page": 305
         }
       ],
       "career_factoids": [
@@ -5147,7 +6602,8 @@
           "notes": [
             "Attested in an inscription from Mogontiacum (CIL XIII 6762).",
             "a. 213 ut videtur, Punktbeleg Mainz CIL XIII 6762; Provinz durch Fundort Mainz gestuetzt."
-          ]
+          ],
+          "source_page": 307
         }
       ],
       "career_factoids": [],
@@ -5204,7 +6660,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on a milestone (miliarius) on the road from Tavium to Amaseia (CIL III 14184, 2). Exact year of governorship within Severus Alexander’s reign not specified in the source."
-          ]
+          ],
+          "source_page": 313
         }
       ],
       "career_factoids": [],
@@ -5296,6 +6753,141 @@
       }
     },
     {
+      "entry_id": "PIR_A_1517",
+      "pir_reference": "A 1517",
+      "lemma": "L. AVRELIVS GALLVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Governor of Moesia inferior under Septimius Severus and Caracalla, AD 202-205.",
+      "segments": {
+        "lemma": "[L. AVRELIVS GALLVS]",
+        "name_variants": "L. Aur[elius Gal]lus, Αὐρή(λιος) Γάλλος, Αὐρ. Γάλλος, Αὐρ. Γάλλου, ὑπ. Αὐρ. Γάλλου",
+        "identification_and_sources": "Coins of Nicopolis ad Istrum (Νικοπολειτῶν πρὸς Ἴστρον) mentioning ὑπ. Αὐρ. Γάλλου / ὑπ. Αὐρ. Γάλλ. / ὑπ. Αὐ. Γάλλου. Inscriptions: XIV 4562, 2 (fasti), IGR 3, 848 (Cilicia, corrected), VI 36936, VI 31133.",
+        "offices_and_career": "Consul ordinarius in a. 198 with P. Martius Saturninus (XIV 4562, 2). Perhaps curator aedium sacrarum vel operum publicorum (VI 31133).",
+        "governorship_attestation": "Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi, id quod inde colligitur, quod in nummis comparet Fulvia Plautilla.",
+        "family_and_social_relations": "Filius videtur L. Aurelii Galli consulis a. 174. Parentela cum his Aureliis Gallis coniunctus fuisse videtur L. Iunius L. f. Gal(eria) Aurelius Neratius Gallus Fulvius Macer VI 1433.",
+        "prosopographical_commentary": "Discussion of the coins of Nicopolis ad Istrum and the reading of the governor's name (ὑπ. Αὐρ. Γάλλου). Discussion of the fasti and the correction of IGR 3, 848.",
+        "bibliography_or_cross_references": "Ruzicka Num. Z. p. 141sq., Grose l. l. 2, 173 n. 4398, Macdonald Hunter. Coll. 1 p. 414, 9, Cesano Annuario di Atene 3, 174, Ant. Münz. n. 1654-1659, 1536, 1632, Pick, M. Britschkoff Ath. Mitt. l. l. p. 118."
+      },
+      "main_person": {
+        "id": "person_l_aurelius_gallus",
+        "displayed_name": "L. Aurelius Gallus",
+        "normalized_name": "Lucius Aurelius Gallus",
+        "pir_reference": "A 1517",
+        "status_markers": [
+          "vir clarissimus",
+          "consularis"
+        ],
+        "notes": [
+          "Consul ordinarius in A.D. 198."
+        ]
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_l_aurelius_gallus_moesia_inf",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi",
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesiae inferioris",
+          "date_text": "intra a. 202—205",
+          "date_normalized_start": 202,
+          "date_normalized_end": 205,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested on coins of Nicopolis ad Istrum during the joint reign of Septimius Severus and Caracalla, featuring Fulvia Plautilla."
+          ],
+          "province_normalized": "Moesia inferior",
+          "source_page": 330
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "career_l_aurelius_gallus_cos",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "Consul ordinarius a. 198 cum P. Martio Saturnino",
+          "normalized_office": "consul ordinarius",
+          "province_text": null,
+          "date_text": "198",
+          "date_normalized_start": 198,
+          "date_normalized_end": 198,
+          "relevance_to_governorship": "medium",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in fasti (CIL XIV 4562, 2)."
+          ]
+        },
+        {
+          "factoid_id": "career_l_aurelius_gallus_curator",
+          "person_id": "person_l_aurelius_gallus",
+          "exact_text": "curator aedium sacrarum vel operum publicorum in fragmento t. urbani VI 31133",
+          "normalized_office": "curator aedium sacrarum et operum publicorum",
+          "province_text": "Roma",
+          "date_text": null,
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "relevance_to_governorship": "low",
+          "certainty": "medium",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "PIR notes: 'Hic fortasse Aurelius G....., qui memoratur ut curator...'"
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_l_aurelius_gallus_cos_174",
+          "displayed_name": "L. Aurelius Gallus (cos. 174)",
+          "normalized_name": "Lucius Aurelius Gallus",
+          "relation_context": "Filius videtur L. Aurelii Galli consulis a. 174",
+          "certainty": "medium",
+          "notes": [
+            "Presumed father of the main person."
+          ],
+          "pir_reference": "A 1516"
+        },
+        {
+          "id": "person_l_iunius_aurelius_neratius_gallus",
+          "displayed_name": "L. Iunius L. f. Gal. Aurelius Neratius Gallus Fulvius Macer",
+          "normalized_name": "Lucius Iunius Aurelius Neratius Gallus Fulvius Macer",
+          "relation_context": "Parentela cum his Aureliis Gallis coniunctus fuisse videtur",
+          "certainty": "medium",
+          "notes": [
+            "Attested in CIL VI 1433."
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "person_l_aurelius_gallus",
+          "target": "person_l_aurelius_gallus_cos_174",
+          "relation": "child_of",
+          "certainty": "medium",
+          "basis": "Filius videtur L. Aurelii Galli consulis a. 174",
+          "notes": []
+        },
+        {
+          "source": "person_l_iunius_aurelius_neratius_gallus",
+          "target": "person_l_aurelius_gallus",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Parentela cum his Aureliis Gallis coniunctus fuisse videtur",
+          "notes": []
+        }
+      ],
+      "entry_notes": [
+        "The entry discusses the reading of the governor's name on the coins of Nicopolis ad Istrum, rejecting the reading of a praenomen 'A.' or 'L.' before Aurelius on the coins, attributing it to punctuation errors."
+      ],
+      "source_page": 329,
+      "review": {
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "Corrected PIR number from the erroneous A 1498 extraction to A 1517; governorship of Moesia inferior dated AD 202-205."
+      },
+      "needs_review": false
+    },
+    {
       "entry_id": "1570",
       "pir_reference": "A 1570",
       "lemma": "Aur(elius) Petrus",
@@ -5341,7 +6933,8 @@
           "notes": [
             "The title legatus Aug. pr. pr. is proposed as an alternative possibility to equestrian praeses, but is marked as uncertain.",
             "Arabia seit 106 n. Chr. kaiserliche Provinz. Fuer Aur. Petrus (278/279, hegemon/praeses Arabiae) bleibt unsicher, ob legatus Augusti pro praetore oder ritterlicher praeses; die Inschrift nennt ihn diasemotatos (= perfectissimus, ritterlich). Unter Vorbehalt aufgenommen — koennte leg. Aug. pr. pr. gewesen sein."
-          ]
+          ],
+          "source_page": 337
         }
       ],
       "career_factoids": [
@@ -5375,456 +6968,6 @@
       },
       "needs_review": false,
       "source_page": 337
-    },
-    {
-      "entry_id": "pir-b-14",
-      "pir_reference": "B 14",
-      "lemma": "L. BAEBIVS CAECILIANVS",
-      "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly attested as Legatus Augustorum pro praetore of Pannonia inferior in 199 AD.",
-      "segments": {
-        "lemma": "L. BAEBIVS CAECILIANVS",
-        "name_variants": "L. Baebius Caecilianus, Baebius Caecilianus",
-        "identification_and_sources": "nominatur in miliarits Pannoniae inferioris III 3706 (1), 3733 (2), in titulis Intercisae rep. D. 9155 (3), Arch. Ertesitö 1909, 245 = Ann. ép. 1910, 140 (4).",
-        "offices_and_career": "Legatus Augustorum pro praetore (Pannoniae inferioris)",
-        "governorship_attestation": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
-        "family_and_social_relations": "",
-        "prosopographical_commentary": "",
-        "bibliography_or_cross_references": "Gr."
-      },
-      "main_person": {
-        "id": "person-l-baebius-caecilianus",
-        "displayed_name": "L. BAEBIVS CAECILIANVS",
-        "normalized_name": "L. Baebius Caecilianus",
-        "pir_reference": "B 14",
-        "status_markers": [
-          "senator"
-        ],
-        "notes": []
-      },
-      "governorship_factoids": [
-        {
-          "factoid_id": "factoid-gov-b-14-pannonia-inf",
-          "person_id": "person-l-baebius-caecilianus",
-          "exact_text": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Pannonia inferior",
-          "province_normalized": "Pannonia inferior",
-          "date_text": "a. 199",
-          "date_normalized_start": 199,
-          "date_normalized_end": 199,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Attested on milestones (miliaria) of Pannonia inferior and inscriptions from Intercisa.",
-            "Nur fuer a. 199 bezeugt (Meilensteine); Amtsdauer nicht naeher bestimmt."
-          ]
-        }
-      ],
-      "career_factoids": [],
-      "related_persons": [],
-      "relations": [],
-      "entry_notes": [],
-      "review": {
-        "verdict": "human_corrected",
-        "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#27: Pannonia inferior; 'vir clarissimus' entfernt (redundant/nicht belegt); province_normalized gesetzt."
-      },
-      "needs_review": false,
-      "source_page": 362
-    },
-    {
-      "entry_id": "59",
-      "pir_reference": "B 59",
-      "lemma": "BASILA",
-      "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. Galatiae'.",
-      "segments": {
-        "lemma": "BASILA",
-        "name_variants": "(ΒΑΣΙΛΑ traditur)",
-        "identification_and_sources": "CIG 4039 = Dit. Or. Gr. 33; probabiliter idem atque T. Helvius Basila, cf. Rostowzew Mel. Boissier 422.",
-        "offices_and_career": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
-        "governorship_attestation": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio CIG 4039 = Dit. Or. Gr. 33",
-        "family_and_social_relations": "probabiliter idem atque T. Helvius Basila",
-        "prosopographical_commentary": "ut videtur imperante Tiberio... probabiliter idem atque T. Helvius Basila",
-        "bibliography_or_cross_references": "CIG 4039 = Dit. Or. Gr. 33; Rostowzew Mel. Boissier 422."
-      },
-      "main_person": {
-        "id": "person_basila",
-        "displayed_name": "BASILA",
-        "normalized_name": "Basila",
-        "pir_reference": "B 59",
-        "status_markers": [
-          "senator"
-        ],
-        "notes": [
-          "Probably identical with T. Helvius Basila"
-        ]
-      },
-      "governorship_factoids": [
-        {
-          "factoid_id": "gov_59_galatia",
-          "person_id": "person_basila",
-          "exact_text": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Galatia",
-          "province_normalized": "Galatia",
-          "date_text": "imperante Tiberio",
-          "date_normalized_start": 14,
-          "date_normalized_end": 37,
-          "certainty": "low",
-          "evidence_type": "explicit",
-          "notes": [
-            "The governorship is qualified with 'ut videtur' (as it seems).",
-            "imperante Tiberio (14-37), ut videtur.",
-            "probabiliter idem atque T. Helvius Basila (cf. Rostowzew Mel. Boissier 422). sameAs-Kandidat."
-          ]
-        }
-      ],
-      "career_factoids": [],
-      "related_persons": [
-        {
-          "id": "person_H67",
-          "displayed_name": "T. HELVIVS BASILA",
-          "normalized_name": "Titus Helvius Basila",
-          "pir_reference": "H 67",
-          "relation_context": "probabiliter idem atque T. Helvius Basila; idem ut videtur Basila supra B 59",
-          "certainty": "medium",
-          "notes": [
-            "PIR H 67 is not otherwise modeled in the current A-B pilot corpus."
-          ]
-        }
-      ],
-      "relations": [
-        {
-          "source": "person_basila",
-          "target": "person_H67",
-          "relation": "possibly_same_as",
-          "certainty": "medium",
-          "basis": "B 59: 'probabiliter idem atque T. Helvius Basila'; H 67: 'Idem ut videtur Basila supra B 59'",
-          "notes": [
-            "H 67 remains an external person target; no node merge was performed."
-          ]
-        }
-      ],
-      "entry_notes": [
-        "The Greek inscription CIG 4039 (Dittenberger, OGIS 533) records the name as ΒΑΣΙΛΑ."
-      ],
-      "review": {
-        "verdict": "human_corrected",
-        "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "B 59/H 67 possibly_same_as added; H 67 retained as an external PIR target."
-      },
-      "needs_review": false,
-      "source_page": 371
-    },
-    {
-      "entry_id": "pir-b-164",
-      "pir_reference": "B 164",
-      "lemma": "C. BRVTTIVS PRAESENS",
-      "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'Legatus Aug. pr. pr. (Galatiae) sub Hadriano'.",
-      "segments": {
-        "lemma": "C. Bruttius Praesens t. 2.",
-        "name_variants": "Br(u)ttio, Brittio, Βρουττ[ίου Πρα]ίσεντος, Βρούτιος, Βροῦτος, Bruttium, C. Bruttius Praesens",
-        "identification_and_sources": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161). Βρούτιος (sic cod. optimus), quem Romanis militibus in Armenia ut videtur praefuisse Suidas s. λύγος loco ex Arriano desumpto (Arr. Parth. fr. 85 Roos) tradit, idem probabiliter intellegendus est. quod monuit Roos Studia Arrianea 58 sq. ; ad eundem refert. Roos fragmentum sine auctoris nomine servatum a Suida s. ταύτῃ ubi traditur Βροῦτος.",
-        "offices_and_career": "Traiani bello Parthico tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse coniecit Roos, nihil tamen obstat quominus statuamus eum tune legioni alicui praefuisse. — Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1. Consul I (suffectus) a. inc. imperante Hadriano (hie fortasse [Pr]aesens consul cum Tor[quato?] VII 422). Consul II a.139 cum Antonino Aug. ll v.supra (geminati consulatus nota adest III 411. III p.936. VI 833. 31147. IX 2828. chronogr. a. 354 Chron. min. 1, 58. Victor. Aquit. ib. 694. Cassiodor. ib. 2, 142) ; m. Maio fasces etiamtum gesserunt, id quod apparel ex t. III 411 v. 7.",
-        "governorship_attestation": "Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.",
-        "family_and_social_relations": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165). Ad huius potius quam ad fili uxorem reltulerim 1.2: ...... (nomen feminae periit) C. Brutti Praesentis II cos. uxor, C. Brutti Praesentis cos. mater Aesculapio — — — testamento fieri iussit, C. Bruttius Praesens cos. C. Brutti Praesentis II cos. filius et heres posuit; nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat. Ad Bruttium hunc rettulit Pallu de Lessert Fast. Afr. 1, 201 t. Capsensem [Valjeriae Mar[ciae] Hostiliae Crispinae Moeciae Corneliae C. Brutti Praesentis proconsulis (Afrieae) uxori positum VIII 110, sed potius de uxore fili? eius cogitaverim (v. sub filio).",
-        "prosopographical_commentary": "Hic vel unus ex posteris C. Bruttius Praesens, qui nominatur in fistulis plumbeis IX 4906 cf. p.686. XV 7912 et in legulis IX p.686. XV 331 in agro Trebulano repertis. Bruttios Praesentes Trebulae Mutuescae fundos possedisse ex lapidibus quoque bi erutis apparet: IX 4915. 4920 (Brutti Praesentis ser.). 4943. Item praedia huie genti fuisse videntur Amiterni cf. 1.2. IX 4232 (C. Brut[ti Prae]sentis [L]) Venusiae IX 425. IG 14, 688 -- IGR 1, 464 ef. VI 7588 (Bruttio Venusino C. Bruttius Praesens patronus liberto cet.), «n Lucania Volceis cf. X 408. Plin. ep. 7, ὃ el Grumenti cf. X 238, Antii XV 7796. Romae Bruttiis domus fuit in regione lerlia: regio III continet ... domum Brutti (britti vel bryti vel bruti codd.) Praesentis curtosum urb., nol. reg. Jordan Form. urb. Rom. p. 49; Topogr. 2, 545, cf. Jordan-Hülsen 1, 3, 318.",
-        "bibliography_or_cross_references": "Plin. ep. 7, 3; CIL XIV 4091; CIL XV 2322; CIL III 411; CIL VI 833; CIL VI 31147; CIL IX 2828; CIL IX 4906; CIL XV 7912; CIL IX 4915; CIL IX 4920; CIL IX 4943; CIL IX 4232; CIL IX 425; IG 14, 688; IGR 1, 464; CIL VI 7588; CIL X 408; CIL X 238; CIL XV 7796."
-      },
-      "main_person": {
-        "id": "person-c-bruttius-praesens",
-        "displayed_name": "C. Bruttius Praesens (L. Fulvius Rusticus)",
-        "normalized_name": "Caius Bruttius Praesens",
-        "pir_reference": "B 164",
-        "status_markers": [
-          "consularis"
-        ],
-        "notes": [
-          "Friend of Pliny the Younger, consul II in 139 AD."
-        ]
-      },
-      "governorship_factoids": [
-        {
-          "factoid_id": "gov-1",
-          "person_id": "person-c-bruttius-praesens",
-          "exact_text": "— Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Galatiae",
-          "province_normalized": "Galatia",
-          "date_text": "sub Hadriano",
-          "date_normalized_start": 117,
-          "date_normalized_end": 138,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Governed Galatia during the reign of Hadrian.",
-            "sub Hadriano (117-138); vor dem ersten Konsulat -> eher fruehe Hadrianszeit; genauer nicht bestimmbar."
-          ]
-        }
-      ],
-      "career_factoids": [
-        {
-          "factoid_id": "car-1",
-          "person_id": "person-c-bruttius-praesens",
-          "exact_text": "tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse",
-          "normalized_office": "tribunus militum laticlavius",
-          "province_text": "Armenia",
-          "date_text": "Traiani bello Parthico",
-          "date_normalized_start": 114,
-          "date_normalized_end": 117,
-          "relevance_to_governorship": "medium",
-          "certainty": "medium",
-          "evidence_type": "inferred_from_context",
-          "notes": [
-            "Conjecture by Roos regarding military command in Armenia during Trajan's Parthian War."
-          ]
-        },
-        {
-          "factoid_id": "car-2",
-          "person_id": "person-c-bruttius-praesens",
-          "exact_text": "Consul I (suffectus) a. inc. imperante Hadriano",
-          "normalized_office": "consul suffectus",
-          "province_text": null,
-          "date_text": "imperante Hadriano",
-          "date_normalized_start": 117,
-          "date_normalized_end": 138,
-          "relevance_to_governorship": "high",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "First consulship, suffect, under Hadrian."
-          ]
-        },
-        {
-          "factoid_id": "car-3",
-          "person_id": "person-c-bruttius-praesens",
-          "exact_text": "Consul II a.139 cum Antonino Aug. ll",
-          "normalized_office": "consul II",
-          "province_text": null,
-          "date_text": "139",
-          "date_normalized_start": 139,
-          "date_normalized_end": 139,
-          "relevance_to_governorship": "high",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Second consulship, ordinary, with Antoninus Pius."
-          ]
-        }
-      ],
-      "related_persons": [
-        {
-          "id": "person_B161",
-          "displayed_name": "(BRVTTIVS) PRAESENS",
-          "normalized_name": "Bruttius Praesens",
-          "pir_reference": "B 161",
-          "relation_context": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161).",
-          "certainty": "medium",
-          "notes": [
-            "PIR B 161; probable father of B 164."
-          ]
-        },
-        {
-          "id": "person_B165",
-          "displayed_name": "C. BRVTTIVS PRAESENS",
-          "normalized_name": "Gaius Bruttius Praesens",
-          "pir_reference": "B 165",
-          "relation_context": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165).",
-          "certainty": "high",
-          "notes": [
-            "PIR B 165; certain son of B 164."
-          ]
-        },
-        {
-          "id": "person-l-bruttius-quintius-crispinus",
-          "displayed_name": "L. Bruttium Quintium Crispinum cos. II a. 180",
-          "normalized_name": "Lucius Bruttius Quintius Crispinus",
-          "relation_context": "Grandson of C. Bruttius Praesens (cos. II 139)",
-          "certainty": "high",
-          "notes": [
-            "Consul in 180 AD."
-          ]
-        }
-      ],
-      "relations": [
-        {
-          "source": "person-c-bruttius-praesens",
-          "target": "person_B161",
-          "relation": "child_of",
-          "certainty": "medium",
-          "basis": "Filius videtur (Bruttii) Praesentis amici Plinii",
-          "notes": []
-        },
-        {
-          "source": "person_B165",
-          "target": "person-c-bruttius-praesens",
-          "relation": "child_of",
-          "certainty": "high",
-          "basis": "Pater sine dubio C. Bruttii Praesentis cos. a. 153",
-          "notes": []
-        },
-        {
-          "source": "person-l-bruttius-quintius-crispinus",
-          "target": "person_B165",
-          "relation": "child_of",
-          "certainty": "high",
-          "basis": "nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat.",
-          "notes": []
-        }
-      ],
-      "entry_notes": [
-        "The entry details the career of C. Bruttius Praesens, highlighting his military service in Armenia, his governorship of Galatia, and his two consulships.",
-        "Nur Galatia; die Mehr-Provinzen-Karriere (Mactar-Inschrift) ist post-1950 und nicht in PIR2."
-      ],
-      "review": {
-        "verdict": "human_corrected",
-        "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "Existing genealogy normalized as B 161 probable father of B 164 and B 164 certain father of B 165."
-      },
-      "needs_review": false,
-      "source_page": 387
-    },
-    {
-      "entry_id": "entry_l_arruntius_222",
-      "pir_reference": "A 1130",
-      "lemma": "ARRVNTIVS",
-      "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'legatus Augusti pro praetore' of Hispania (citeriorem), though he governed the province in absence (absens gubernare coactus est).",
-      "segments": {
-        "lemma": "ARRVNTIVS",
-        "name_variants": "L. f. L. n. fasti Capitol., L. f. Dio ind. l. 55, filius consulis a. 732 = 22 a. C. Teretina tribu VI 5931 = D. 7851 (v. infra).",
-        "identification_and_sources": "Consul a. p. C. 6 cum M. Aemilio Lepido v. supra in kalendas Iulias fasti Capitol. fast? min. XV. Not. d. sc. 1902, 268. Ann. ép. 1928, 18 (XVI k. Febr.). 1752 (k. Febr.). 753 (k. Apr.). II 3695 (k. Mais). VI 14844 (XIIII kal. Iul., fer'is se. Latinis). Augustus supremis sermonibus cum tractaret, quinam adipisci principem locum suffeeturi abnuerent aut inpares vellent vel idem possent cuperentque, L. Arruntium dixerat non indignum et, si easus daretur, ausurum (pro Arruntio quidam Cn. Pisonem tradidere) Tac. a. 1, 13. A. 14 post Augusti mortem in senatu sententiam dixit Tac. a. 1, 8; paulo post Tiberium in senatu offendit, quamquam Tiberio nulla vetus in Arruntium ira; sed divitem, promptum, artibus egregiis et pari fama publice, suspectabat ib. 1, 13. A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum ib. 1, 76; de eo negotio egerunt in senatu ib. 1, 79. A. 20 a Cn. Pisone patronus petitus se excusavit ib. 3, 11. A. 21 pro L. Sulla propinquo suo in senatu verba fecit ib. 9, 31.",
-        "offices_and_career": "Consul a. p. C. 6... A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum... Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80. Suet. Ti. 63 (nomine omisso) ; sub a. 33 Tacitus tradit (a. 6, 27) Arruntium, ne in Hispaniam pergeret, decumum iam annum attineri: minus accurate, nam a. 25 cerle L. Piso praefuit Hispaniae citeriort (Tac. a. 4, 45; similis error subest ap. Dionem 58, 5, 9, v. infra). In Pisonis locum eo ipso anno in provincia interfeci Arruntium successisse probabiliter statuendum est. Omnino incertum, num Hispaniae legationem usque ad finem vitae retinuerit.",
-        "governorship_attestation": "Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus Tac. h. 2, 65 cf. a. 1, 80. Suet. Ti. 63 (nomine omisso) ; sub a. 33 Tacitus tradit (a. 6, 27) Arruntium, ne in Hispaniam pergeret, decumum iam annum attineri: minus accurate, nam a. 25 cerle L. Piso praefuit Hispaniae citeriort (Tac. a. 4, 45; similis error subest ap. Dionem 58, 5, 9, v. infra). In Pisonis locum eo ipso anno in provincia interfeci Arruntium successisse probabiliter statuendum est. Omnino incertum, num Hispaniae legationem usque ad finem vitae retinuerit.",
-        "family_and_social_relations": "filius consulis a. 732 = 22 a. C. ... A. 21 pro L. Sulla propinquo suo in senatu verba fecit ib. 9, 31.",
-        "prosopographical_commentary": "Seiano invisus Tac. a. 6, 48. Dio 58, 8, 3 (sub a. 31), ubi Arruntii nomen non ponitur: ὅτι ὁ Τιβέριος ἐχθρόν τινα αὐτοῦ (sc. Seiani) ἡρημένον μὲν πρὸ δέκα ἐτῶν ᾿Ιβηρίας ἄρξαι (v. supra), κρινόμενον δὲ ἐπί τισιν ἐξ ἐκείνου ἀφῆκε, καὶ δ αὐτὸν καὶ τοῖς ἄλλοις τοῖς ἡγεμονεύσειν τινῶν ἢ καὶ ἀλλο τι δημόσιον πράξειν μέλλουσιν ἄδειαν ἐν τῷ καιρῷ τούτῳ τῶν τοιούτων δικῶν ἔδωκε. L. Arruntium hic intellegi recte puto observavit Rogers Class. Philol. 26, 1931, 37 sq., qui simul monuit ad eandem rem pertinere quae traduntur dig. 48, 2, 12 hos accusare non licet: legatum imperatoris ex sententia Lentuli dicta Sulla et Trione consulibus (qui fasces tenuerunt a kal. Iuliis usque ad kal. Octobres a. 31). Ab Aruseio et Sanquinio (?) accusatus Tac. a. 6, 7 (qua de re quae Tacitus reltulerat, lacuna codicis perierunt) Seiano auctore, sed absolutus Dio l. l., accusatores a senatu damnati Tac. l. l. A. 32 Cotta Messalinus arguitur querens de potentia M.' Lepidi ac L. Arruntii, cum quibus ob rem pecuniariam disceptabat, addidisse: illos quidem senatus, me autem tuebitur Tiberiolus meus Tac. a. 6, 5. Senex ib. 6, 48. Dio 58, 27, 4. Inimicitiae Macronis notae in Arruntium Tac.",
-        "bibliography_or_cross_references": "Tac. a. 1, 13; Tac. a. 1, 8; Tac. a. 1, 76; Tac. a. 1, 79; Tac. a. 3, 11; Tac. a. 9, 31; Tac. h. 2, 65; Tac. a. 1, 80; Suet. Ti. 63; Tac. a. 6, 27; Tac. a. 4, 45; Dio 58, 8, 3; Dio 58, 5, 9; dig. 48, 2, 12; Tac. a. 6, 7; Tac. a. 6, 5; Tac. a. 6, 48; Dio 58, 27, 4."
-      },
-      "main_person": {
-        "id": "person_l_arruntius",
-        "displayed_name": "L. Arruntius",
-        "normalized_name": "Lucius Arruntius",
-        "pir_reference": "A 1130",
-        "status_markers": [
-          "consularis",
-          "senator"
-        ],
-        "notes": [
-          "Filius consulis a. 22 a.C.",
-          "Consul in 6 AD"
-        ]
-      },
-      "governorship_factoids": [
-        {
-          "factoid_id": "gov_arruntius_hispania",
-          "person_id": "person_l_arruntius",
-          "exact_text": "Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Hispaniam (citeriorem)",
-          "province_normalized": "Hispania citerior",
-          "date_text": "A. 21 - 37",
-          "date_normalized_start": 21,
-          "date_normalized_end": null,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Arruntius was appointed to govern Hispania Citerior but was forced to govern in absence because Tiberius detained him in Rome out of fear.",
-            "Tacitus (Ann. 6, 27) states in 33 AD that Arruntius had been detained for ten years, though L. Piso was in charge of Hispania Citerior in 25 AD. It is probable that Arruntius succeeded Piso after the latter's death in 25 AD.",
-            "Enddatum ungewiss: 'incertum, num Hispaniae legationem usque ad finem vitae retinuerit'."
-          ]
-        }
-      ],
-      "career_factoids": [
-        {
-          "factoid_id": "career_arruntius_consul",
-          "person_id": "person_l_arruntius",
-          "exact_text": "Consul a. p. C. 6 cum M. Aemilio Lepido",
-          "normalized_office": "consul",
-          "province_text": null,
-          "date_text": "6 AD",
-          "date_normalized_start": 6,
-          "date_normalized_end": 6,
-          "relevance_to_governorship": "medium",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": []
-        },
-        {
-          "factoid_id": "career_arruntius_curator_tiberis",
-          "person_id": "person_l_arruntius",
-          "exact_text": "A. 15 remedium coercendi Tiberis Ateio Capitoni et L. Arruntio mandatum",
-          "normalized_office": "curator alvei Tiberis",
-          "province_text": null,
-          "date_text": "15 AD",
-          "date_normalized_start": 15,
-          "date_normalized_end": 15,
-          "relevance_to_governorship": "low",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": []
-        }
-      ],
-      "related_persons": [
-        {
-          "id": "person_m_aemilius_lepido",
-          "displayed_name": "M. Aemilius Lepidus",
-          "normalized_name": "Marcus Aemilius Lepidus",
-          "relation_context": "Consul colleague in 6 AD",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "person_ateius_capito",
-          "displayed_name": "Ateius Capito",
-          "normalized_name": "Gaius Ateius Capito",
-          "relation_context": "Colleague in the Tiber commission in 15 AD",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "person_cn_piso",
-          "displayed_name": "Cn. Piso",
-          "normalized_name": "Gnaeus Calpurnius Piso",
-          "relation_context": "Asked Arruntius to be his patron in 20 AD, which Arruntius declined",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "person_l_sulla",
-          "displayed_name": "L. Sulla",
-          "normalized_name": "Lucius Cornelius Sulla",
-          "relation_context": "Relative (propinquus) for whom Arruntius spoke in the senate in 21 AD",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "person_l_piso",
-          "displayed_name": "L. Piso",
-          "normalized_name": "Lucius Calpurnius Piso",
-          "relation_context": "Predecessor in Hispania Citerior who died in 25 AD",
-          "certainty": "high",
-          "notes": []
-        }
-      ],
-      "relations": [],
-      "entry_notes": [
-        "L. Arruntius is a famous example of a governor kept in Rome by Tiberius (absens gubernare coactus est) due to imperial suspicion.",
-        "PIR-Nummer A 1130 (L. Arruntius, cos. 6 n. Chr.) vom Eintragskopf S. 237 ergänzt (Orphan-Fortsetzung)."
-      ],
-      "review": {
-        "verdict": "human_corrected",
-        "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-01",
-        "note": "Orphan aufgelöst: PIR A 1130 zugewiesen; Enddatum null (in absentia, Ende ungewiss)."
-      },
-      "needs_review": false,
-      "source_page": 238
     },
     {
       "entry_id": "PIR_Aurelius_Quietus_p325",
@@ -5870,7 +7013,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested in inscriptions from Termessos (TAM II 21)"
-          ]
+          ],
+          "source_page": 341
         }
       ],
       "career_factoids": [
@@ -6001,7 +7145,8 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested in inscription 1 ('t. 1'), where the name of an emperor seems to have been erased."
-          ]
+          ],
+          "source_page": 347
         },
         {
           "factoid_id": "gov_2",
@@ -6018,7 +7163,8 @@
           "notes": [
             "Attested in inscriptions 2 and 3 ('t. 2. 3.').",
             "The text uses both 'Praeses provinciae Hispaniae citerioris' and 'legatus Augustorum pro praetore'."
-          ]
+          ],
+          "source_page": 347
         }
       ],
       "career_factoids": [],
@@ -6051,510 +7197,321 @@
       "source_page": 347
     },
     {
-      "entry_id": "PIR_1070",
-      "pir_reference": "A 1070",
-      "lemma": "M. ARRANIVS VENVSTVS",
+      "entry_id": "pir-b-14",
+      "pir_reference": "B 14",
+      "lemma": "L. BAEBIVS CAECILIANVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. (exercitus Africani)'.",
+      "relevance_notes": "Explicitly attested as Legatus Augustorum pro praetore of Pannonia inferior in 199 AD.",
       "segments": {
-        "lemma": "M. ARRANIVS VENVSTVS",
-        "name_variants": "..... us Venustus",
-        "identification_and_sources": "memoratur in t. filii M. Arranii Venusti Bassiliani clarissimi pueri Ammaedarensi Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37.",
-        "offices_and_career": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166 VIII 4195 t. Verecundae rep.",
-        "governorship_attestation": "legatus Aug. pr. pr. (exercitus Africani)",
-        "family_and_social_relations": "Father of M. Arranius Venustus Bassilianus (1071).",
-        "prosopographical_commentary": "Nescio an idem sit ..... us Venustus, legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166.",
-        "bibliography_or_cross_references": "Bull. tr. hist. 1927, 199 = Ann. ép. 1927, 37; VIII 4195."
+        "lemma": "L. BAEBIVS CAECILIANVS",
+        "name_variants": "L. Baebius Caecilianus, Baebius Caecilianus",
+        "identification_and_sources": "nominatur in miliarits Pannoniae inferioris III 3706 (1), 3733 (2), in titulis Intercisae rep. D. 9155 (3), Arch. Ertesitö 1909, 245 = Ann. ép. 1910, 140 (4).",
+        "offices_and_career": "Legatus Augustorum pro praetore (Pannoniae inferioris)",
+        "governorship_attestation": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
+        "family_and_social_relations": "",
+        "prosopographical_commentary": "",
+        "bibliography_or_cross_references": "Gr."
       },
       "main_person": {
-        "id": "person_1070",
-        "displayed_name": "M. Arranius Venustus",
-        "normalized_name": "Marcus Arranius Venustus",
-        "pir_reference": "A 1070",
+        "id": "person-l-baebius-caecilianus",
+        "displayed_name": "L. BAEBIVS CAECILIANVS",
+        "normalized_name": "L. Baebius Caecilianus",
+        "pir_reference": "B 14",
         "status_markers": [
-          "consul designatus"
+          "senator"
         ],
         "notes": []
       },
       "governorship_factoids": [
         {
-          "factoid_id": "gov_1070_1",
-          "person_id": "person_1070",
-          "exact_text": "legatus Aug. pr. pr. (exercitus Africani), consul designatus a. 166",
+          "factoid_id": "factoid-gov-b-14-pannonia-inf",
+          "person_id": "person-l-baebius-caecilianus",
+          "exact_text": "Legatus Augustorum pro praetore (Pannoniae inferioris) t. 1—4 a. 199 t. 2.",
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "exercitus Africanus",
-          "province_normalized": "Numidia",
-          "date_text": "a. 165/166 (Thomasson); consul designatus a. 166",
-          "date_normalized_start": 165,
-          "date_normalized_end": 166,
-          "certainty": "medium",
-          "evidence_type": "explicit",
-          "notes": [
-            "De facto — wenn nicht de iure (Numidia wurde erst in severischer Zeit eigene kaiserliche Provinz) — Statthalter von Numidia als Befehlshaber der legio III Augusta (exercitus Africani). Moeglicherweise identisch mit der in CIL VIII 4195 (Verecunda) genannten Person (PIR: \"Nescio an idem sit\"). Bengt E. Thomasson, \"Die Statthalter der roemischen Provinzen Nordafrikas von Augustus bis Diokletian\" (S. 181), fuehrt einen Venustus als Statthalter Numidiens fuer 165/166. Personenidentitaet nicht voellig gesichert -> certainty=medium."
-          ]
-        }
-      ],
-      "career_factoids": [
-        {
-          "factoid_id": "car_1070_1",
-          "person_id": "person_1070",
-          "exact_text": "consul designatus a. 166",
-          "normalized_office": "consul designatus",
-          "province_text": null,
-          "date_text": "a. 166",
-          "date_normalized_start": 166,
-          "date_normalized_end": 166,
-          "relevance_to_governorship": "medium",
+          "province_text": "Pannonia inferior",
+          "province_normalized": "Pannonia inferior",
+          "date_text": "a. 199",
+          "date_normalized_start": 199,
+          "date_normalized_end": 199,
           "certainty": "high",
           "evidence_type": "explicit",
-          "notes": []
-        }
-      ],
-      "related_persons": [
-        {
-          "id": "person_1071",
-          "displayed_name": "M. Arranius Venustus Bassilianus",
-          "normalized_name": "Marcus Arranius Venustus Bassilianus",
-          "relation_context": "filius",
-          "certainty": "high",
           "notes": [
-            "clarissimus puer"
+            "Attested on milestones (miliaria) of Pannonia inferior and inscriptions from Intercisa.",
+            "Nur fuer a. 199 bezeugt (Meilensteine); Amtsdauer nicht naeher bestimmt."
           ],
-          "pir_reference": "A 1071"
+          "source_page": 362
         }
       ],
-      "relations": [
-        {
-          "source": "person_1070",
-          "target": "person_1071",
-          "relation": "parent_of",
-          "certainty": "high",
-          "basis": "filii M. Arranii Venusti Bassiliani",
-          "notes": []
-        }
-      ],
+      "career_factoids": [],
+      "related_persons": [],
+      "relations": [],
       "entry_notes": [],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "Existing parent relation A 1070 -> A 1071 confirmed; PIR reference made explicit."
+        "reviewed_on": "2026-07-06",
+        "note": "#27: Pannonia inferior; 'vir clarissimus' entfernt (redundant/nicht belegt); province_normalized gesetzt."
       },
       "needs_review": false,
-      "source_page": 225
+      "source_page": 362
     },
     {
-      "entry_id": "PIR_A_595",
-      "pir_reference": "A 595",
-      "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
+      "entry_id": "59",
+      "pir_reference": "B 59",
+      "lemma": "BASILA",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'Legatus Augusti vel Augustorum pro praetore (Numidiae)' and 'Legatus Augustorum pro pr. (Moesiae superioris)'.",
+      "relevance_notes": "Explicitly identified as 'legatus Aug. pr. pr. Galatiae'.",
       "segments": {
-        "lemma": "[SEX. ANICIVS FAVSTVS] (continued from page 97)",
-        "name_variants": "Ἀνίκιος Φῆστος (librariorum errore) Dio 78, 22, 2. Φαῦστος ib. § 4.",
-        "identification_and_sources": "18068 (13). 18255 (14). 18256 (15). Bull. tr. hist. 1911, 99 (16) ; ib. 100 (17); 1919, 85 (18). D. 9097 (19), Thamugadensibus VIII 17870 (= D. 446) (20). 17871 (21), Cirtensi VIII 19495 (22), Arsacalitano VIII 6048 (23), Cuiculitanis Bull. tr. hist. 1916, 233 (24) ; ib. 1911, 115 (25), Suburburano ib. 1917, 342 (26), Mauretano VIII 8796 cf. 18021 (27); ad eum pertinere videtur frustulum Lambaesitanum VIII 18078 (28) ; incertum num eius nomen recte restituatur in t. Numidiae VIII 2466 cf. 17954 (29); cf. Pallu de Lessert Fast. 1, 406—417. Dedicavit in legatione Moesiaca titulos III 1685 (30). 1686 (31). Nomina plena extant sive recte restituta sunt in titulis omnibus.",
-        "offices_and_career": "Clarissimus vir... Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8 (nomina consulum anni 197, quae leguntur in t. 4, non ad tituli dedicationem sed ad collationem pecuniae spectare videntur; cf. Stout Governors of Moes. 36 sq.); consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25 (ubi Severus errore dicitur cos. III). Faustus cum consul designatus fuerit a. 198, eodem anno fasces in legatione Numidica gesserit necesse est; itaque in t. 11. 13. 21 (posito a. 199) non co(n)s(ul) sed co(n)s(ularis) amplissimus legendum (item co(n)s(ularis) in t. 1 a. b. 2 b.). Severus in sortitione proconsulatus (Africae vel Asiae) eum praeteriit Dio 78, 22, 4 (Dionem errasse et Antoninum intelligendum esse statuit Waddington Fast. As. n. 169 sine idonea causa). A. 217 Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit et, cum exiguum anni proconsularis spatium ei remaneret, mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset Dio 78, 22, 2. 4. Quod num Elagabalus ratum habuerit, ignoramus.",
-        "governorship_attestation": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197 (cum Caracalla Caesar dictus sit, nondum imperator destinatus) t. 22, a. 197 t. 15. 20. 23, a. 199 t. 21. 24. 25. 26, a. 200 t. 19, a. 201 t. 1 a. b. 2 a. b. (de t. 4 v. infra). Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30 (numeri annorum tribuniciae potestatis corrupti sunt). 31.",
-        "family_and_social_relations": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius. Anicii, qui aetate labente floruerunt, ab eo originem duxisse videntur.",
-        "prosopographical_commentary": "The text discusses the chronology of his governorship in Numidia, arguing that since he was consul designatus in 198, he must have held the fasces in Numidia in that same year. It also notes the error in Dio regarding the proconsulship of Asia under Macrinus, and discusses the debate over whether Severus or Antoninus passed him over in the sortition.",
-        "bibliography_or_cross_references": "cf. Pallu de Lessert Fast. 1, 406—417; Stout Governors of Moes. 36 sq.; Waddington Fast. As. n. 169; cf. sub Anicio Fausto Paulino."
+        "lemma": "BASILA",
+        "name_variants": "(ΒΑΣΙΛΑ traditur)",
+        "identification_and_sources": "CIG 4039 = Dit. Or. Gr. 33; probabiliter idem atque T. Helvius Basila, cf. Rostowzew Mel. Boissier 422.",
+        "offices_and_career": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
+        "governorship_attestation": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio CIG 4039 = Dit. Or. Gr. 33",
+        "family_and_social_relations": "probabiliter idem atque T. Helvius Basila",
+        "prosopographical_commentary": "ut videtur imperante Tiberio... probabiliter idem atque T. Helvius Basila",
+        "bibliography_or_cross_references": "CIG 4039 = Dit. Or. Gr. 33; Rostowzew Mel. Boissier 422."
       },
       "main_person": {
-        "id": "person_A595",
-        "displayed_name": "Sex. Anicius Faustus",
-        "normalized_name": "Sextus Anicius Faustus",
-        "pir_reference": "A 595",
+        "id": "person_basila",
+        "displayed_name": "BASILA",
+        "normalized_name": "Basila",
+        "pir_reference": "B 59",
         "status_markers": [
-          "clarissimus vir",
-          "consularis",
-          "patronus"
+          "senator"
         ],
         "notes": [
-          "Patronus Lambaesitanorum, Thamugadensium, Cirtensium, Cuiculitanorum."
+          "Probably identical with T. Helvius Basila"
         ]
       },
       "governorship_factoids": [
         {
-          "factoid_id": "gov_1",
-          "person_id": "person_A595",
-          "exact_text": "Legatus Augusti vel Augustorum pro praetore (Numidiae) t. 1—29 anno 196 vel priore semestri a. 197",
+          "factoid_id": "gov_59_galatia",
+          "person_id": "person_basila",
+          "exact_text": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Numidia",
-          "date_text": "anno 196 vel priore semestri a. 197",
-          "date_normalized_start": 196,
-          "date_normalized_end": 201,
-          "certainty": "high",
+          "province_text": "Galatia",
+          "province_normalized": "Galatia",
+          "date_text": "imperante Tiberio",
+          "date_normalized_start": 14,
+          "date_normalized_end": 37,
+          "certainty": "low",
           "evidence_type": "explicit",
           "notes": [
-            "Attested from 196/197 through 201; the office is explicit."
+            "The governorship is qualified with 'ut videtur' (as it seems).",
+            "imperante Tiberio (14-37), ut videtur.",
+            "probabiliter idem atque T. Helvius Basila (cf. Rostowzew Mel. Boissier 422). sameAs-Kandidat."
           ],
-          "province_normalized": "Numidia"
-        },
-        {
-          "factoid_id": "gov_2",
-          "person_id": "person_A595",
-          "exact_text": "Legatus Augustorum pro pr. (Moesiae superioris) intra a. 202 et 207 t. 30",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Moesia superior",
-          "date_text": "intra a. 202 et 207",
-          "date_normalized_start": 202,
-          "date_normalized_end": 207,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "The office is explicit; the exact years 202-207 remain uncertain because the tribunician-power numerals are corrupt."
-          ],
-          "province_normalized": "Moesia superior"
+          "source_page": 371
         }
       ],
-      "career_factoids": [
-        {
-          "factoid_id": "car_1",
-          "person_id": "PIR_A_595",
-          "exact_text": "Consul designatus t. 3—9. 10. 29 (si hic t. ad eum pertinet) a. 198 t. 8",
-          "normalized_office": "consul designatus",
-          "province_text": null,
-          "date_text": "a. 198",
-          "date_normalized_start": 198,
-          "date_normalized_end": 198,
-          "relevance_to_governorship": "medium",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": []
-        },
-        {
-          "factoid_id": "car_2",
-          "person_id": "PIR_A_595",
-          "exact_text": "consularis t. 17. 19 (a. 200), vir amp(lissimus) consularis a. 199 t. 25",
-          "normalized_office": "consularis",
-          "province_text": null,
-          "date_text": "a. 199 - 200",
-          "date_normalized_start": 199,
-          "date_normalized_end": 200,
-          "relevance_to_governorship": "medium",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": []
-        }
-      ],
+      "career_factoids": [],
       "related_persons": [
         {
-          "id": "person_A596",
-          "displayed_name": "SEXTVS ANICIVS FAVSTVS",
-          "normalized_name": "Sextus Anicius Faustus",
-          "pir_reference": "A 596",
-          "relation_context": "Pater fortasse Sex. Anicii Fausti ... Anici consularis filius.",
+          "id": "person_H67",
+          "displayed_name": "T. HELVIVS BASILA",
+          "normalized_name": "Titus Helvius Basila",
+          "pir_reference": "H 67",
+          "relation_context": "probabiliter idem atque T. Helvius Basila; idem ut videtur Basila supra B 59",
           "certainty": "medium",
           "notes": [
-            "PIR A 596; possible son of A 595."
+            "PIR H 67 is not otherwise modeled in the current A-B pilot corpus."
           ]
-        },
-        {
-          "id": "PIR_C_Iulius_Asprus",
-          "displayed_name": "(C. Iulius) Asprus",
-          "normalized_name": "C. Iulius Asprus",
-          "relation_context": "Macrinus eum in locum (C. Iulii) Aspri proconsulem in Asiam misit",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "PIR_Aufidius_Fronto",
-          "displayed_name": "Aufidius Fronto",
-          "normalized_name": "M. Aufidius Fronto",
-          "relation_context": "mandavit, ut Aufidii Frontonis loco etiam in annum sequentem (218/219) provinciae praeesset",
-          "certainty": "high",
-          "notes": []
         }
       ],
       "relations": [
         {
-          "source": "person_A595",
-          "target": "person_A596",
-          "relation": "parent_of",
+          "source": "person_basila",
+          "target": "person_H67",
+          "relation": "possibly_same_as",
           "certainty": "medium",
-          "basis": "Pater fortasse Sex. Anicii Fausti, qui dicitur in t. Thamugadensi VIII 17890 Anici consularis filius.",
+          "basis": "B 59: 'probabiliter idem atque T. Helvius Basila'; H 67: 'Idem ut videtur Basila supra B 59'",
           "notes": [
-            "Possible father-son relation; A 595 and A 596 are not identified with one another."
+            "H 67 remains an external person target; no node merge was performed."
           ]
         }
       ],
       "entry_notes": [
-        "This entry is a continuation of PIR² A 595 from the previous page (page 97)."
+        "The Greek inscription CIG 4039 (Dittenberger, OGIS 533) records the name as ΒΑΣΙΛΑ."
       ],
-      "source_page": 114,
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
         "reviewed_on": "2026-08-20",
-        "note": "A 595 restored as governor of Numidia and Moesia superior; possible father of A 596 normalized to parent_of."
+        "note": "B 59/H 67 possibly_same_as added; H 67 retained as an external PIR target."
       },
-      "needs_review": false
+      "needs_review": false,
+      "source_page": 371
     },
     {
-      "entry_id": "668",
-      "pir_reference": "A 668",
-      "lemma": "M. ANNIVS LIBO",
+      "entry_id": "pir-b-164",
+      "pir_reference": "B 164",
+      "lemma": "C. BRVTTIVS PRAESENS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "The entry explicitly discusses Marcus Annius Libo as 'legatum Aug. pr. pr. Syriae' during the Parthian War under Marcus Aurelius and Lucius Verus.",
+      "relevance_notes": "Explicitly identified as 'Legatus Aug. pr. pr. (Galatiae) sub Hadriano'.",
       "segments": {
-        "lemma": "M. ANNIVS LIBO, M. f. Gal(eria)",
-        "name_variants": "M. Annius Libo",
-        "identification_and_sources": "nominatur inter testes senatus consulti de Cyzicenis facti sub Antonino Pio III 7060 = D. 7190.",
-        "offices_and_career": "Filius sine dubio M. Annii Libonis consulis a. 128; idem videtur Libo patruelis imperatoris Marci ab eo temporibus belli Parthici legatus in Syriam missus, qui ibi periit subito morbo notis prope veneni existentibus (c. a. 163) vita Veri 9, 2.",
-        "governorship_attestation": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim; quod si recte ponitur antea consul (suff. a. inc.) fuerit necesse est.",
-        "family_and_social_relations": "Libonis uxorem invito Marco Verus dedit Agaclyto liberto ib. 9, 3. — Fortasse filius eius M. Annius Sabinus Libo, curator Lavinii. Nepos Libonis huius videtur M. Annius Flavius Libo consul a. 204.",
-        "prosopographical_commentary": "The author identifies him as the cousin (patruelis) of Emperor Marcus Aurelius, sent to Syria during the Parthian War, where he died under suspicious circumstances (suspected poisoning).",
-        "bibliography_or_cross_references": "CIL III 7060 = D. 7190. HA, Vita Veri 9, 2; 9, 3. Cf. M. Annius Flavius Libo."
+        "lemma": "C. Bruttius Praesens t. 2.",
+        "name_variants": "Br(u)ttio, Brittio, Βρουττ[ίου Πρα]ίσεντος, Βρούτιος, Βροῦτος, Bruttium, C. Bruttius Praesens",
+        "identification_and_sources": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161). Βρούτιος (sic cod. optimus), quem Romanis militibus in Armenia ut videtur praefuisse Suidas s. λύγος loco ex Arriano desumpto (Arr. Parth. fr. 85 Roos) tradit, idem probabiliter intellegendus est. quod monuit Roos Studia Arrianea 58 sq. ; ad eundem refert. Roos fragmentum sine auctoris nomine servatum a Suida s. ταύτῃ ubi traditur Βροῦτος.",
+        "offices_and_career": "Traiani bello Parthico tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse coniecit Roos, nihil tamen obstat quominus statuamus eum tune legioni alicui praefuisse. — Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1. Consul I (suffectus) a. inc. imperante Hadriano (hie fortasse [Pr]aesens consul cum Tor[quato?] VII 422). Consul II a.139 cum Antonino Aug. ll v.supra (geminati consulatus nota adest III 411. III p.936. VI 833. 31147. IX 2828. chronogr. a. 354 Chron. min. 1, 58. Victor. Aquit. ib. 694. Cassiodor. ib. 2, 142) ; m. Maio fasces etiamtum gesserunt, id quod apparel ex t. III 411 v. 7.",
+        "governorship_attestation": "Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.",
+        "family_and_social_relations": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165). Ad huius potius quam ad fili uxorem reltulerim 1.2: ...... (nomen feminae periit) C. Brutti Praesentis II cos. uxor, C. Brutti Praesentis cos. mater Aesculapio — — — testamento fieri iussit, C. Bruttius Praesens cos. C. Brutti Praesentis II cos. filius et heres posuit; nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat. Ad Bruttium hunc rettulit Pallu de Lessert Fast. Afr. 1, 201 t. Capsensem [Valjeriae Mar[ciae] Hostiliae Crispinae Moeciae Corneliae C. Brutti Praesentis proconsulis (Afrieae) uxori positum VIII 110, sed potius de uxore fili? eius cogitaverim (v. sub filio).",
+        "prosopographical_commentary": "Hic vel unus ex posteris C. Bruttius Praesens, qui nominatur in fistulis plumbeis IX 4906 cf. p.686. XV 7912 et in legulis IX p.686. XV 331 in agro Trebulano repertis. Bruttios Praesentes Trebulae Mutuescae fundos possedisse ex lapidibus quoque bi erutis apparet: IX 4915. 4920 (Brutti Praesentis ser.). 4943. Item praedia huie genti fuisse videntur Amiterni cf. 1.2. IX 4232 (C. Brut[ti Prae]sentis [L]) Venusiae IX 425. IG 14, 688 -- IGR 1, 464 ef. VI 7588 (Bruttio Venusino C. Bruttius Praesens patronus liberto cet.), «n Lucania Volceis cf. X 408. Plin. ep. 7, ὃ el Grumenti cf. X 238, Antii XV 7796. Romae Bruttiis domus fuit in regione lerlia: regio III continet ... domum Brutti (britti vel bryti vel bruti codd.) Praesentis curtosum urb., nol. reg. Jordan Form. urb. Rom. p. 49; Topogr. 2, 545, cf. Jordan-Hülsen 1, 3, 318.",
+        "bibliography_or_cross_references": "Plin. ep. 7, 3; CIL XIV 4091; CIL XV 2322; CIL III 411; CIL VI 833; CIL VI 31147; CIL IX 2828; CIL IX 4906; CIL XV 7912; CIL IX 4915; CIL IX 4920; CIL IX 4943; CIL IX 4232; CIL IX 425; IG 14, 688; IGR 1, 464; CIL VI 7588; CIL X 408; CIL X 238; CIL XV 7796."
       },
       "main_person": {
-        "id": "person_668",
-        "displayed_name": "M. Annius Libo",
-        "normalized_name": "Marcus Annius Libo",
-        "pir_reference": "A 668",
+        "id": "person-c-bruttius-praesens",
+        "displayed_name": "C. Bruttius Praesens (L. Fulvius Rusticus)",
+        "normalized_name": "Caius Bruttius Praesens",
+        "pir_reference": "B 164",
         "status_markers": [
-          "patruelis imperatoris Marci",
           "consularis"
         ],
         "notes": [
-          "Cousin of Marcus Aurelius, died in Syria c. 163 AD."
+          "Friend of Pliny the Younger, consul II in 139 AD."
         ]
       },
       "governorship_factoids": [
         {
-          "factoid_id": "gov_668_1",
-          "person_id": "person_668",
-          "exact_text": "Libonem legatum Aug. pr. pr. Syriae fuisse putaverim",
+          "factoid_id": "gov-1",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "— Legatus Aug. pr. pr. (Galatiae) sub Hadriano t. 1.",
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Syria",
-          "date_text": "c. a. 163",
-          "date_normalized_start": 162,
-          "date_normalized_end": 163,
-          "certainty": "low",
-          "evidence_type": "inferred_from_context",
+          "province_text": "Galatiae",
+          "province_normalized": "Galatia",
+          "date_text": "sub Hadriano",
+          "date_normalized_start": 117,
+          "date_normalized_end": 138,
+          "certainty": "high",
+          "evidence_type": "explicit",
           "notes": [
-            "The governorship is a PIR inference ('putaverim'), not an explicit office attestation."
+            "Governed Galatia during the reign of Hadrian.",
+            "sub Hadriano (117-138); vor dem ersten Konsulat -> eher fruehe Hadrianszeit; genauer nicht bestimmbar."
           ],
-          "province_normalized": "Syria"
+          "source_page": 387
         }
       ],
       "career_factoids": [
         {
-          "factoid_id": "car_668_1",
-          "person_id": "person_668",
-          "exact_text": "legatus in Syriam missus",
-          "normalized_office": "Legatus",
-          "province_text": "Syria",
-          "date_text": "temporibus belli Parthici",
-          "date_normalized_start": 161,
-          "date_normalized_end": 163,
-          "relevance_to_governorship": "high",
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Attested in HA, Vita Veri 9, 2."
-          ]
-        },
-        {
-          "factoid_id": "car_668_2",
-          "person_id": "person_668",
-          "exact_text": "consul (suff. a. inc.)",
-          "normalized_office": "Consul suffectus",
-          "province_text": null,
-          "date_text": "suff. a. inc.",
-          "date_normalized_start": null,
-          "date_normalized_end": null,
+          "factoid_id": "car-1",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "tribuni. militum laticlaviw officio Bruttium functum. esse vexillationemque legionis alicuius in Armenia duxisse",
+          "normalized_office": "tribunus militum laticlavius",
+          "province_text": "Armenia",
+          "date_text": "Traiani bello Parthico",
+          "date_normalized_start": 114,
+          "date_normalized_end": 117,
           "relevance_to_governorship": "medium",
           "certainty": "medium",
           "evidence_type": "inferred_from_context",
           "notes": [
-            "Inferred as necessary prior to his consular governorship of Syria."
-          ]
-        }
-      ],
-      "related_persons": [
-        {
-          "id": "person_668_father",
-          "displayed_name": "M. Annius Libo",
-          "normalized_name": "Marcus Annius Libo",
-          "relation_context": "father, consul in 128 AD",
-          "certainty": "high",
-          "notes": []
-        },
-        {
-          "id": "person_668_son",
-          "displayed_name": "M. Annius Sabinus Libo",
-          "normalized_name": "Marcus Annius Sabinus Libo",
-          "relation_context": "possible son, curator Lavinii",
-          "certainty": "medium",
-          "notes": []
-        },
-        {
-          "id": "person_A648",
-          "displayed_name": "M. ANNIVS FLAVIVS LIBO",
-          "normalized_name": "Marcus Annius Flavius Libo",
-          "pir_reference": "A 648",
-          "relation_context": "Nepos Libonis huius videtur; nepos, non filius.",
-          "certainty": "medium",
-          "notes": [
-            "PIR A 648; probable grandson, explicitly not son, of A 668."
+            "Conjecture by Roos regarding military command in Armenia during Trajan's Parthian War."
           ]
         },
         {
-          "id": "person_668_wife",
-          "displayed_name": "uxor Libonis",
-          "normalized_name": null,
-          "relation_context": "wife, remarried to Agaclytus by Lucius Verus",
-          "certainty": "high",
-          "notes": []
-        }
-      ],
-      "relations": [
-        {
-          "source": "person_668",
-          "target": "person_668_father",
-          "relation": "child_of",
-          "certainty": "high",
-          "basis": "Filius sine dubio M. Annii Libonis consulis a. 128",
-          "notes": []
-        },
-        {
-          "source": "person_668_son",
-          "target": "person_668",
-          "relation": "child_of",
-          "certainty": "medium",
-          "basis": "Fortasse filius eius M. Annius Sabinus Libo",
-          "notes": []
-        },
-        {
-          "source": "person_668",
-          "target": "person_A648",
-          "relation": "related_to",
-          "certainty": "medium",
-          "basis": "Nepos Libonis huius videtur; nepos, non filius.",
-          "notes": [
-            "Specific kinship: A 668 is the probable grandfather of A 648."
-          ]
-        },
-        {
-          "source": "person_668_wife",
-          "target": "person_668",
-          "relation": "spouse_of",
-          "certainty": "high",
-          "basis": "Libonis uxorem",
-          "notes": []
-        }
-      ],
-      "entry_notes": [
-        "The entry discusses the identity of Libo, cousin of Marcus Aurelius, sent to Syria during the Parthian War, and his sudden death, which was rumored to be by poison."
-      ],
-      "source_page": 130,
-      "review": {
-        "verdict": "human_corrected",
-        "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "A 668 restored as low-certainty governor of Syria; probable grandfather relation to A 648 added."
-      },
-      "needs_review": false
-    },
-    {
-      "entry_id": "PIR_A_836",
-      "pir_reference": "A 836",
-      "lemma": "ANTONIVS HIBERVS",
-      "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'legatum Augusti pr. pr.' of Moesia Inferior ('Moesiam inferiorem rexisse').",
-      "segments": {
-        "lemma": "ANTONIVS HIBERVS",
-        "name_variants": "ANTONIVS HIBERVS",
-        "identification_and_sources": "nominatur in epistula Severi et Antonini de immunitate Tyranorum data a. 201 III 781 = D. 423",
-        "offices_and_career": "gravissimus praeses, legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
-        "governorship_attestation": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
-        "family_and_social_relations": "Probabiliter non diversus a consule a. 133, qui sequitur.",
-        "prosopographical_commentary": "Probabiliter non diversus a consule a. 133, qui sequitur.",
-        "bibliography_or_cross_references": "III 781 = D. 423"
-      },
-      "main_person": {
-        "id": "person_836",
-        "displayed_name": "ANTONIVS HIBERVS",
-        "normalized_name": "Antonius Hiberus",
-        "pir_reference": "A 836",
-        "status_markers": [
-          "praeses",
-          "legatus Augusti pro praetore"
-        ],
-        "notes": []
-      },
-      "governorship_factoids": [
-        {
-          "factoid_id": "gov_836_1",
-          "person_id": "person_836",
-          "exact_text": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Moesia inferior",
-          "date_text": "aetate Antonini Pii vel divorum fratrum",
-          "date_normalized_start": 138,
-          "date_normalized_end": 169,
-          "certainty": "medium",
-          "evidence_type": "inferred_from_context",
-          "notes": [
-            "The office is inferred from the context; normalized dates cover Antoninus Pius and the divi fratres."
-          ],
-          "province_normalized": "Moesia inferior"
-        }
-      ],
-      "career_factoids": [
-        {
-          "factoid_id": "car_836_1",
-          "person_id": "person_836",
-          "exact_text": "gravissimus praeses",
-          "normalized_office": "praeses",
+          "factoid_id": "car-2",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "Consul I (suffectus) a. inc. imperante Hadriano",
+          "normalized_office": "consul suffectus",
           "province_text": null,
-          "date_text": "a. 201",
-          "date_normalized_start": 201,
-          "date_normalized_end": 201,
+          "date_text": "imperante Hadriano",
+          "date_normalized_start": 117,
+          "date_normalized_end": 138,
           "relevance_to_governorship": "high",
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Mentioned as 'gravissimus praeses' in an imperial letter of 201 AD."
+            "First consulship, suffect, under Hadrian."
+          ]
+        },
+        {
+          "factoid_id": "car-3",
+          "person_id": "person-c-bruttius-praesens",
+          "exact_text": "Consul II a.139 cum Antonino Aug. ll",
+          "normalized_office": "consul II",
+          "province_text": null,
+          "date_text": "139",
+          "date_normalized_start": 139,
+          "date_normalized_end": 139,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Second consulship, ordinary, with Antoninus Pius."
           ]
         }
       ],
       "related_persons": [
         {
-          "id": "person_A837",
-          "displayed_name": "M. ANTONIVS HIBERVS",
-          "normalized_name": "Marcus Antonius Hiberus",
-          "pir_reference": "A 837",
-          "relation_context": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+          "id": "person_B161",
+          "displayed_name": "(BRVTTIVS) PRAESENS",
+          "normalized_name": "Bruttius Praesens",
+          "pir_reference": "B 161",
+          "relation_context": "Filius videtur (Bruttii) Praesentis amici Plinii (n. 161).",
           "certainty": "medium",
           "notes": [
-            "PIR A 837; probably identical, but retained as a separate person node."
+            "PIR B 161; probable father of B 164."
+          ]
+        },
+        {
+          "id": "person_B165",
+          "displayed_name": "C. BRVTTIVS PRAESENS",
+          "normalized_name": "Gaius Bruttius Praesens",
+          "pir_reference": "B 165",
+          "relation_context": "Pater sine dubio C. Bruttii Praesentis cos. a. 153 (n. 165).",
+          "certainty": "high",
+          "notes": [
+            "PIR B 165; certain son of B 164."
+          ]
+        },
+        {
+          "id": "person-l-bruttius-quintius-crispinus",
+          "displayed_name": "L. Bruttium Quintium Crispinum cos. II a. 180",
+          "normalized_name": "Lucius Bruttius Quintius Crispinus",
+          "relation_context": "Grandson of C. Bruttius Praesens (cos. II 139)",
+          "certainty": "high",
+          "notes": [
+            "Consul in 180 AD."
           ]
         }
       ],
       "relations": [
         {
-          "source": "person_836",
-          "target": "person_A837",
-          "relation": "possibly_same_as",
+          "source": "person-c-bruttius-praesens",
+          "target": "person_B161",
+          "relation": "child_of",
           "certainty": "medium",
-          "basis": "A 836: 'Probabiliter non diversus ...'; A 837: 'Probabiliter idem qui praecedit.'",
-          "notes": [
-            "No merge; both PIR entries remain distinct."
-          ]
+          "basis": "Filius videtur (Bruttii) Praesentis amici Plinii",
+          "notes": []
+        },
+        {
+          "source": "person_B165",
+          "target": "person-c-bruttius-praesens",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "Pater sine dubio C. Bruttii Praesentis cos. a. 153",
+          "notes": []
+        },
+        {
+          "source": "person-l-bruttius-quintius-crispinus",
+          "target": "person_B165",
+          "relation": "child_of",
+          "certainty": "high",
+          "basis": "nam C. Brultii Praesentis cos. II a. 180 filum L. Bruttium Quintium Crispinum dictum esse ex t. VI 7582 constat.",
+          "notes": []
         }
       ],
       "entry_notes": [
-        "The entry discusses the identity of the governor Antonius Hiberus, linking him probably to the consul of 133 AD."
+        "The entry details the career of C. Bruttius Praesens, highlighting his military service in Armenia, his governorship of Galatia, and his two consulships.",
+        "Nur Galatia; die Mehr-Provinzen-Karriere (Mactar-Inschrift) ist post-1950 und nicht in PIR2."
       ],
-      "source_page": 179,
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
         "reviewed_on": "2026-08-20",
-        "note": "A 836 restored as governor of Moesia inferior; A 836/A 837 possibly_same_as added."
+        "note": "Existing genealogy normalized as B 161 probable father of B 164 and B 164 certain father of B 165."
       },
-      "needs_review": false
+      "needs_review": false,
+      "source_page": 387
     }
   ]
 }

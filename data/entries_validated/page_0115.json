@@ -32,6 +32,7 @@
           "factoid_id": "gov_599_1",
           "person_id": "person_599",
           "exact_text": "legatus Aug. pr. pr. (Moesiae inferioris) a. 230",
+          "source_page": 115,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Moesia inferior",
           "province_normalized": null,
@@ -96,6 +97,14 @@
           "relation": "child_of",
           "certainty": "medium",
           "basis": "Potest filius esse Q. Anicii Fausti consulis a. 198",
+          "notes": []
+        },
+        {
+          "source": "person_599",
+          "target": "person_sex_anicius_faustus",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "fortasse non diversus a Sex. Anicio Fausto (n. 596)",
           "notes": []
         },
         {

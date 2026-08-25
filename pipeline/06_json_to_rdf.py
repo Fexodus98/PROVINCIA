@@ -120,6 +120,7 @@ def build_graph(entries: list[dict[str, Any]]) -> Graph:
             g.add((factoid_uri, ONT.aboutPerson, person_uri))
             g.add((factoid_uri, ONT.derivedFromEntry, entry_uri))
             add_literal(g, factoid_uri, ONT.exactText, factoid.get("exact_text"))
+            add_literal(g, factoid_uri, ONT.sourcePage, factoid.get("source_page"), XSD.integer)
             add_literal(g, factoid_uri, ONT.dateText, factoid.get("date_text"))
             add_literal(g, factoid_uri, ONT.certainty, factoid.get("certainty"))
             add_literal(g, factoid_uri, ONT.evidenceType, factoid.get("evidence_type"))

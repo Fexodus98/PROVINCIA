@@ -2,5 +2,153 @@
   "document_notes": [
     "Page 163 of PIR contains entry 836, which explicitly mentions a legatus Augusti pro praetore of Moesia Inferior."
   ],
-  "entries": []
+  "entries": [
+    {
+      "entry_id": "PIR_A_836",
+      "pir_reference": "A 836",
+      "lemma": "ANTONIVS HIBERVS",
+      "relevance_to_provincia_corpus": "yes",
+      "relevance_notes": "Explicitly identified as 'legatum Augusti pr. pr.' of Moesia Inferior ('Moesiam inferiorem rexisse').",
+      "segments": {
+        "lemma": "ANTONIVS HIBERVS",
+        "name_variants": "ANTONIVS HIBERVS",
+        "identification_and_sources": "nominatur in epistula Severi et Antonini de immunitate Tyranorum data a. 201 III 781 = D. 423",
+        "offices_and_career": "gravissimus praeses, legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "governorship_attestation": "ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+        "family_and_social_relations": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "prosopographical_commentary": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+        "bibliography_or_cross_references": "III 781 = D. 423"
+      },
+      "main_person": {
+        "id": "person_836",
+        "displayed_name": "ANTONIVS HIBERVS",
+        "normalized_name": "Antonius Hiberus",
+        "pir_reference": "A 836",
+        "status_markers": [
+          "praeses",
+          "legatus Augusti pro praetore"
+        ],
+        "notes": []
+      },
+      "governorship_factoids": [
+        {
+          "factoid_id": "gov_836_1",
+          "person_id": "person_836",
+          "exact_text": "legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum",
+          "source_page": 179,
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Moesia inferior",
+          "province_normalized": null,
+          "date_text": "aetate Antonini Pii vel divorum fratrum",
+          "date_normalized_start": 138,
+          "date_normalized_end": 169,
+          "certainty": "high",
+          "evidence_type": "inferred_from_context",
+          "notes": [
+            "Inferred from the context of the epistle of Severus and Caracalla."
+          ]
+        }
+      ],
+      "career_factoids": [
+        {
+          "factoid_id": "car_836_1",
+          "person_id": "person_836",
+          "exact_text": "gravissimus praeses",
+          "normalized_office": "praeses",
+          "province_text": null,
+          "date_text": "a. 201",
+          "date_normalized_start": 201,
+          "date_normalized_end": 201,
+          "relevance_to_governorship": "high",
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Mentioned as 'gravissimus praeses' in an imperial letter of 201 AD."
+          ]
+        }
+      ],
+      "related_persons": [
+        {
+          "id": "person_837",
+          "displayed_name": "M. ANTONIVS HIBERVS",
+          "normalized_name": "Marcus Antonius Hiberus",
+          "relation_context": "Probabiliter non diversus a consule a. 133, qui sequitur.",
+          "certainty": "medium",
+          "notes": [
+            "Consul in 133 AD, probably identical to the governor Antonius Hiberus."
+          ]
+        }
+      ],
+      "relations": [],
+      "entry_notes": [
+        "The entry discusses the identity of the governor Antonius Hiberus, linking him probably to the consul of 133 AD."
+      ],
+      "review": {
+        "verdict": "minor_issues",
+        "problems": [
+          {
+            "field": "lemma",
+            "issue": "Lemma in the image is 'ANTONIVS HIBERVS' (with 'V' not 'U'), but proposed JSON uses 'ANTONIVS HIBERVS' (correct but note the distinction). No issue here, but be precise.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "pir_reference",
+            "issue": "PIR reference is correct as 'A 836' on the image.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "main_person.displayed_name",
+            "issue": "Displayed name uses 'ANTONIVS' (with 'V'), which matches the image. No issue.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.0.exact_text",
+            "issue": "Exact text is slightly truncated. The image shows: 'ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum'. Proposed exact_text omits 'ex contextu apparet eum'.",
+            "severity": "medium",
+            "suggested_fix": "Use full verbatim quote: 'ex contextu apparet eum legatum Augusti pr. pr. Moesiam inferiorem rexisse aetate Antonini Pii vel divorum fratrum'."
+          },
+          {
+            "field": "governorship_factoids.0.province_text",
+            "issue": "Province text 'Moesia inferior' is correct (ablative case matches the image).",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.0.province_normalized",
+            "issue": "Province normalized as 'Moesia inferior' is correct and matches the registry label.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "governorship_factoids.0.date_text",
+            "issue": "Date text 'aetate Antonini Pii vel divorum fratrum' is correct, but the normalized dates (138-169) are an interpretation. The image does not provide explicit dates, only the reign context.",
+            "severity": "medium",
+            "suggested_fix": "Clarify in notes that dates are inferred from the reigns of Antoninus Pius (138-161) and the Divi Fratres (Marcus Aurelius and Lucius Verus, 161-169)."
+          },
+          {
+            "field": "related_persons.0.relation_context",
+            "issue": "Relation context 'Probabiliter non diversus a consule a. 133, qui sequitur' is supported by the image.",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "career_factoids.0.date_text",
+            "issue": "Date text 'a. 201' is correct as per the image ('data a. 201').",
+            "severity": "low",
+            "suggested_fix": null
+          },
+          {
+            "field": "career_factoids.0.normalized_office",
+            "issue": "Normalized office 'praeses' is correct, but the image uses 'gravissimus praeses', which is more precise.",
+            "severity": "low",
+            "suggested_fix": "Update normalized_office to 'gravissimus praeses' or add a note about the qualifier."
+          }
+        ]
+      },
+      "needs_review": true
+    }
+  ]
 }

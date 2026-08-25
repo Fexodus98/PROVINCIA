@@ -1,20 +1,19 @@
 {
-  "document_notes": [
-    "Page 34 of PIR² contains entry 200 (L. Aelius Lamia), which is highly relevant due to the mention of his potential governorship of Pannonia as legatus Aug. pro pr."
-  ],
+  "source_page": 50,
+  "document_notes": "Human-reviewed correction for PIR A 200; the governorship passage continues on page_0051.",
   "entries": [
     {
-      "entry_id": "pir_2_a_200",
+      "entry_id": "PIR_A_200",
       "pir_reference": "A 200",
       "lemma": "L. AELIVS LAMIA",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly discussed as a potential 'legatum Aug. pro pr. Pannoniae' (circa a. 10-13) based on a hypothesis by Maria Marchetti. Also mentions his father as 'legati Hispaniae a. 24 a. C.'",
+      "relevance_notes": "Appointed by Tiberius to govern Syria after AD 21, but retained in Rome; he never travelled to or exercised the governorship in the province.",
       "segments": {
         "lemma": "200 L. AELIVS LAMIA, consul a. 3 p. C.",
         "name_variants": "L. Aelius L. f. L. n. Lamia; Λ. Αἴλιος Λ. υἱ. Λαμίας; L. Aelius Lamia; L. Lamia; Λαμία; Λαμίου; Λαμμία; [L. Aelius] L. f. Lam[ia]; Λούκιος Λαμίας",
         "identification_and_sources": "Fasti Capitolini; Dio ind. l. 55; CIL X 892 = D. 6393; CIL XV 4571 = D. 8581; CIL VI 36841 = D. 9337; L. Aelius Eph. ep. 8, 316 = D. 6387; Fasti Gabini (XIV 2801); Valerius Maximus 1, 8, 11; Cassiodorus Chron. min. 2, 136; Fasti Arvales; Malalas 231, 8 B; Epiphanius adv. haer. 2, 22; CIL VI 37058; CIL VI 16553; Punica inscription (Compt. rend. 1904, 553 = Clermont-Ganneau Recueil d'archéol. orient. 7, 88); Coins (Cohen 12, 338-340; Babelon Monn. rép. 1, 113; Willers Kupferpräg. 145 n. 177-179; Grueber Coins Br. Mus. 2, 88; Mattingly Br. Mus. 1, 40); Tacitus Ann. 4, 13; 6, 27; Dio 58, 19, 5; Velleius Paterculus 2, 116, 3; Horace Carm. 3, 17, 1; 1, 26, 8; 1, 36, 7; Epist. 1, 14, 6.",
-        "offices_and_career": "III vir aere argento auro flando feriundo; Praetor; XV vir [sacris faciundis]; Consul priore semestri a. p. C. 3; military commands in Germania and Illyricum; Legatus of Tiberius in Germany (a. 4-6 or 10-11); Legatus Aug. pro pr. Pannoniae (circa a. 10-13); Proconsul of Africa (before a. 17/18).",
-        "governorship_attestation": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.",
+        "offices_and_career": "Proconsul Africae (outside the PROVINCIA corpus); after AD 21 appointed to Syria by Tiberius, but retained at Rome and never sent to the province.",
+        "governorship_attestation": "A Tiberio provinciae Syriae praepositus (post a. 21, quo anno Cn. Sentius Saturninus provinciae praefuit), sed in urbe retentus Tac. a. 6, 27.",
         "family_and_social_relations": "Filius L. Aelii Lamiae (legati Hispaniae a. 24 a. C.); nepos Lamiae (amici Ciceronis); frater Q. Aelii Lamiae.",
         "prosopographical_commentary": "Discusses his lineage from Lamus (mythical ancestor mentioned by Horace). Analyzes his career under Augustus and Tiberius, specifically his military service in Germany and Illyricum under Tiberius, and the scholarly debate regarding his governorship of Pannonia and proconsulship of Africa.",
         "bibliography_or_cross_references": "Borghesi 4, 455 sq.; Maria Marchetti Bull. com. 1912, 136 sq.; Ruhnken; Willers."
@@ -34,20 +33,22 @@
       },
       "governorship_factoids": [
         {
-          "factoid_id": "fact_lamia_pannonia",
+          "factoid_id": "gov_200_syria_appointment",
           "person_id": "person_aelii_lamia_200",
-          "exact_text": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.",
-          "source_page": 50,
+          "exact_text": "A Tiberio provinciae Syriae praepositus (post a. 21, quo anno Cn. Sentius Saturninus provinciae praefuit), sed in urbe retentus",
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Pannonia",
-          "province_normalized": null,
-          "date_text": "circa a. 10—13",
-          "date_normalized_start": 10,
-          "date_normalized_end": 13,
-          "certainty": "medium",
+          "province_text": "Syriae",
+          "province_normalized": "Syria",
+          "date_text": "post a. 21; appointed but retained in Rome",
+          "date_normalized_start": null,
+          "date_normalized_end": null,
+          "certainty": "high",
           "evidence_type": "inferred_from_context",
+          "source_page": 51,
           "notes": [
-            "Reconstructed governorship proposed by Maria Marchetti."
+            "Praepositus is interpreted here as appointed/designated to govern Syria.",
+            "Tac. Ann. 6.27: Tiberius retained Lamia in Rome; he never entered Syria or exercised on-site command.",
+            "The conjectural Pannonia governorship in the raw extraction is rejected and is not modelled."
           ]
         }
       ],
@@ -119,10 +120,12 @@
           "date_text": "certe ante a. 17/18",
           "date_normalized_start": 15,
           "date_normalized_end": 17,
-          "relevance_to_governorship": "high",
+          "relevance_to_governorship": "low",
           "certainty": "high",
           "evidence_type": "explicit",
-          "notes": []
+          "notes": [
+            "Proconsular Africa is outside the PROVINCIA corpus."
+          ]
         }
       ],
       "related_persons": [
@@ -188,48 +191,14 @@
       "entry_notes": [
         "The entry provides a detailed overview of the career of L. Aelius Lamia, consul in 3 AD, highlighting his military commands under Tiberius and his proconsulship of Africa."
       ],
+      "source_page": 50,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "governorship_factoids[0].province_normalized",
-            "issue": "The province 'Pannonia' is not listed in the normalized registry as a standalone province. The correct normalized form should be 'Pannonia superior' or 'Pannonia inferior', but the text does not specify. The entry uses 'Pannonia' as a general term.",
-            "severity": "low",
-            "suggested_fix": "Pannonia"
-          },
-          {
-            "field": "governorship_factoids[0].certainty",
-            "issue": "The certainty is marked as 'medium', but the text explicitly states this is a hypothesis ('censuit Maria Marchetti'), so 'low' would be more accurate.",
-            "severity": "low",
-            "suggested_fix": "low"
-          },
-          {
-            "field": "governorship_factoids[0].exact_text",
-            "issue": "The exact_text is slightly truncated. The full quote from the image is: 'eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq.'",
-            "severity": "low",
-            "suggested_fix": "eum circa a. 10—13 legatum Aug. pro pr. Pannoniae fuisse censuit Maria Marchetti Bull. com. 1912, 136 sq."
-          },
-          {
-            "field": "career_factoids[3].province_text",
-            "issue": "The province_text 'Germania, Illyricum' is not normalized. 'Germania' is not a province in the registry, and 'Illyricum' is not listed. The correct normalized forms are 'Germania superior' or 'Germania inferior' for Germania, and 'Dalmatia' or 'Pannonia' for Illyricum, but the text is not specific.",
-            "severity": "medium",
-            "suggested_fix": null
-          },
-          {
-            "field": "career_factoids[3].date_normalized_end",
-            "issue": "The date_normalized_end is set to 11, but the text mentions 'a. 4-6 / a. 10 et 11', which is ambiguous. The end date should reflect the uncertainty.",
-            "severity": "medium",
-            "suggested_fix": 11
-          },
-          {
-            "field": "main_person.status_markers",
-            "issue": "The status marker 'patricius' is not explicitly supported by the text on this page. The text does not mention his patrician status.",
-            "severity": "medium",
-            "suggested_fix": null
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "A 200 modelled only for the Syrian appointment after AD 21; the non-assumption of office in the province is explicit. Pannonia rejected; proconsular Africa excluded."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

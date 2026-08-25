@@ -38,6 +38,7 @@
           "factoid_id": "gov_A369_pannonia",
           "person_id": "person_A369",
           "exact_text": "legatus Augusti pro praetore provinciam Pannoniam rexit",
+          "source_page": 77,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Pannonia",
           "province_normalized": null,

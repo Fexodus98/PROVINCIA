@@ -35,9 +35,27 @@
       },
       "governorship_factoids": [
         {
+          "factoid_id": "gov_A1341_arabia",
+          "person_id": "person_A1341",
+          "exact_text": "Legatus Aug. pro pr. (Arabiae) t. 1—4, anno 213 (aerae Pompeianae) = a. p. C. 150 t. 3. 4... etiamtum legatus Arabiae",
+          "source_page": 287,
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Arabia",
+          "province_normalized": null,
+          "date_text": "anno 213 (aerae Pompeianae) = a. p. C. 150; consul suffectus a. 151 etiamtum legatus Arabiae",
+          "date_normalized_start": 150,
+          "date_normalized_end": 151,
+          "certainty": "high",
+          "evidence_type": "explicit",
+          "notes": [
+            "Attested in year 213 of the Bostran era (150 AD) and still in office as consul suffectus in 151 AD."
+          ]
+        },
+        {
           "factoid_id": "gov_A1341_syria",
           "person_id": "person_A1341",
           "exact_text": "Legatus Aug. pr. pr. Syriae t. 5. 6. vita Marci 8, 6... anno 157 t. 6, a. 162 t. 5, a Parthis fugatus (a. 161/162)",
+          "source_page": 287,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Syria",
           "province_normalized": null,

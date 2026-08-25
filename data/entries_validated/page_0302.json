@@ -38,6 +38,7 @@
           "factoid_id": "gov_1",
           "person_id": "person_avidius_nigrinus",
           "exact_text": "Legatus Aug. pr. pr. t. 8 Moesiae superioris potius quam Daciae",
+          "source_page": 302,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Moesia superior",
           "province_normalized": null,
@@ -48,6 +49,23 @@
           "evidence_type": "explicit",
           "notes": [
             "Premerstein argued he was recalled from the province in 117/118 by Hadrian."
+          ]
+        },
+        {
+          "factoid_id": "gov_2",
+          "person_id": "person_avidius_nigrinus",
+          "exact_text": "Nigrinum missum esse legatum in Achaiam ad ordinandum vel corrigendum statum rerum publicarum ... legati Aug. pro praetore extra ordinem Achaiam provinciam proconsulis loco regebant",
+          "source_page": 302,
+          "normalized_office": "legatus Augusti pro praetore provinciae",
+          "province_text": "Achaia",
+          "province_normalized": null,
+          "date_text": "Traiani Hadrianique aetate",
+          "date_normalized_start": 98,
+          "date_normalized_end": 138,
+          "certainty": "medium",
+          "evidence_type": "explicit",
+          "notes": [
+            "Mommsen's view of him being sent to Achaia to order/correct the state of public affairs."
           ]
         }
       ],

@@ -38,6 +38,7 @@
           "factoid_id": "gov_A470_1",
           "person_id": "person_A470",
           "exact_text": "Legatus Aug. pr. pr. Arabiae",
+          "source_page": 96,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Arabia",
           "province_normalized": null,

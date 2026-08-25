@@ -36,6 +36,7 @@
           "factoid_id": "gov_1465_1",
           "person_id": "person_1465",
           "exact_text": "legatus Augusti pro praetore (provinciae Galatiae) imperante Severo Alexandro",
+          "source_page": 313,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Galatia",
           "province_normalized": null,

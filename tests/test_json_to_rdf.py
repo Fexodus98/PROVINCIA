@@ -152,6 +152,23 @@ class ProvinceTextRdfTests(unittest.TestCase):
         self.assertFalse(any(graph.objects(factoid, RDF_GENERATOR.ONT.provinceText)))
         self.assertFalse(any(graph.objects(factoid, RDF_GENERATOR.ONT.commandAreaText)))
 
+    def test_entry_and_factoid_keep_their_own_source_pages(self) -> None:
+        entry = make_entry([make_factoid("gov_1", "Arabiae", "Arabia")])
+        entry["source_page"] = 100
+        entry["governorship_factoids"][0]["source_page"] = 101
+        graph = RDF_GENERATOR.build_graph([entry])
+        entry_uri = RDF_GENERATOR.RES["entry/pir-a-1"]
+        factoid_uri = RDF_GENERATOR.RES["factoid/pir-a-1-gov-1"]
+
+        self.assertIn(
+            (entry_uri, RDF_GENERATOR.ONT.sourcePage, Literal(100, datatype=RDF_GENERATOR.XSD.integer)),
+            graph,
+        )
+        self.assertIn(
+            (factoid_uri, RDF_GENERATOR.ONT.sourcePage, Literal(101, datatype=RDF_GENERATOR.XSD.integer)),
+            graph,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -37,6 +37,7 @@
           "factoid_id": "gov_643_1",
           "person_id": "person_643",
           "exact_text": "legatus Augusti pr. pr. provinciae Daciae (ante imperatorem Marcum, utpote legatus praetorius)",
+          "source_page": 125,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Dacia",
           "province_normalized": null,

@@ -37,6 +37,7 @@
           "factoid_id": "gov_1",
           "person_id": "person_avidius_quietus",
           "exact_text": "Legatus Aug. pr. pr. Britanniae a. 98 (vel 99)",
+          "source_page": 305,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Britannia",
           "province_normalized": null,

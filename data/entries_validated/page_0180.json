@@ -34,6 +34,7 @@
           "factoid_id": "gov_851_1",
           "person_id": "person_851",
           "exact_text": "legatus Aug. pr. pr. (Cappadociae) sub Philippis",
+          "source_page": 180,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Cappadocia",
           "province_normalized": null,
@@ -60,7 +61,16 @@
           ]
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "source": "person_851",
+          "target": "person_850",
+          "relation": "possibly_same_as",
+          "certainty": "medium",
+          "basis": "Fortasse idem qui praecedit.",
+          "notes": []
+        }
+      ],
       "entry_notes": [
         "The entry suggests a possible identity with the preceding entry 850 (M. Ant(onius) Mem......)."
       ],

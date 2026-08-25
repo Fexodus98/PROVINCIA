@@ -37,6 +37,7 @@
           "factoid_id": "gov-1",
           "person_id": "person-c-bruttius-praesens",
           "exact_text": "Legatus Aug. pr. pr. (Galatiae) sub Hadriano",
+          "source_page": 387,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Galatiae",
           "province_normalized": null,

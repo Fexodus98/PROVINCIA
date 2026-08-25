@@ -37,6 +37,7 @@
           "factoid_id": "gov_59_galatia",
           "person_id": "person_basila",
           "exact_text": "legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio",
+          "source_page": 371,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Galatia",
           "province_normalized": null,

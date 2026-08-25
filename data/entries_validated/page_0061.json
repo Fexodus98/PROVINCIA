@@ -37,6 +37,7 @@
           "factoid_id": "gov_271_1",
           "person_id": "person_271",
           "exact_text": "legatus Augustorum pro praetore Pannoniae inferioris sub Macrino et Diadumeniano miliari",
+          "source_page": 61,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Pannonia inferior",
           "province_normalized": null,

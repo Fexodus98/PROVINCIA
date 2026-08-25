@@ -38,6 +38,7 @@
           "factoid_id": "gov_477_1",
           "person_id": "person_477",
           "exact_text": "legatus Aug. pr. pr. Ponti et Bithyniae",
+          "source_page": 97,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Pontus et Bithynia",
           "province_normalized": null,

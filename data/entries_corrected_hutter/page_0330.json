@@ -1,15 +1,22 @@
 {
-  "document_notes": [
-    "The page image shows page number 314, although the prompt metadata refers to page 330.",
-    "The entry for L. Aurelius Gallus (cos. 198) is continued from the preceding page; the lemma header itself is on the previous page, but the text on this page contains the crucial governorship attestation for Moesia inferior."
-  ],
+  "source_page": 330,
+  "document_notes": "Human-reviewed numbering correction: L. Aurelius Gallus is PIR A 1517, not A 1498; entry starts on page_0329.",
   "entries": [
     {
       "entry_id": "PIR_A_1498",
       "pir_reference": "A 1498",
+      "relevance_to_provincia_corpus": "no",
+      "source_page": 330,
+      "entry_notes": [
+        "Extraction numbering error: this record belongs to PIR A 1517."
+      ]
+    },
+    {
+      "entry_id": "PIR_A_1517",
+      "pir_reference": "A 1517",
       "lemma": "L. AVRELIVS GALLVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly attested as 'Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris)' under Septimius Severus and Caracalla.",
+      "relevance_notes": "Governor of Moesia inferior under Septimius Severus and Caracalla, AD 202-205.",
       "segments": {
         "lemma": "[L. AVRELIVS GALLVS]",
         "name_variants": "L. Aur[elius Gal]lus, Αὐρή(λιος) Γάλλος, Αὐρ. Γάλλος, Αὐρ. Γάλλου, ὑπ. Αὐρ. Γάλλου",
@@ -24,7 +31,7 @@
         "id": "person_l_aurelius_gallus",
         "displayed_name": "L. Aurelius Gallus",
         "normalized_name": "Lucius Aurelius Gallus",
-        "pir_reference": "A 1498",
+        "pir_reference": "A 1517",
         "status_markers": [
           "vir clarissimus",
           "consularis"
@@ -38,10 +45,8 @@
           "factoid_id": "gov_l_aurelius_gallus_moesia_inf",
           "person_id": "person_l_aurelius_gallus",
           "exact_text": "Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi",
-          "source_page": 330,
           "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Moesia inferior",
-          "province_normalized": null,
+          "province_text": "Moesiae inferioris",
           "date_text": "intra a. 202—205",
           "date_normalized_start": 202,
           "date_normalized_end": 205,
@@ -49,7 +54,9 @@
           "evidence_type": "explicit",
           "notes": [
             "Attested on coins of Nicopolis ad Istrum during the joint reign of Septimius Severus and Caracalla, featuring Fulvia Plautilla."
-          ]
+          ],
+          "province_normalized": "Moesia inferior",
+          "source_page": 330
         }
       ],
       "career_factoids": [
@@ -95,7 +102,8 @@
           "certainty": "medium",
           "notes": [
             "Presumed father of the main person."
-          ]
+          ],
+          "pir_reference": "A 1516"
         },
         {
           "id": "person_l_iunius_aurelius_neratius_gallus",
@@ -116,41 +124,27 @@
           "certainty": "medium",
           "basis": "Filius videtur L. Aurelii Galli consulis a. 174",
           "notes": []
+        },
+        {
+          "source": "person_l_iunius_aurelius_neratius_gallus",
+          "target": "person_l_aurelius_gallus",
+          "relation": "related_to",
+          "certainty": "medium",
+          "basis": "Parentela cum his Aureliis Gallis coniunctus fuisse videtur",
+          "notes": []
         }
       ],
       "entry_notes": [
         "The entry discusses the reading of the governor's name on the coins of Nicopolis ad Istrum, rejecting the reading of a praenomen 'A.' or 'L.' before Aurelius on the coins, attributing it to punctuation errors."
       ],
+      "source_page": 329,
       "review": {
-        "verdict": "minor_issues",
-        "problems": [
-          {
-            "field": "governorship_factoids[0].exact_text",
-            "issue": "The exact_text includes 'f. 1—4, nummi,' which is not a verbatim quote from the image. The image shows 'f. 1—4, nummi, intra a. 202—205 cusi'. The truncation omits part of the text.",
-            "severity": "low",
-            "suggested_fix": "Use the full verbatim quote: 'Legatus Aug. pro pr. consularis (provinciae Moesiae inferioris) Severo et Antonino regnantibus f. 1—4, nummi, intra a. 202—205 cusi'."
-          },
-          {
-            "field": "governorship_factoids[0].date_normalized_start",
-            "issue": "The date range 'intra a. 202—205' is supported by the text, but the start date is inferred from the mention of Fulvia Plautilla. The certainty should reflect this inference.",
-            "severity": "medium",
-            "suggested_fix": "Add a note clarifying the inference: 'Start date inferred from the presence of Fulvia Plautilla on the coins, who was empress from 202 to 205.'"
-          },
-          {
-            "field": "main_person.status_markers",
-            "issue": "The status marker 'consularis' is correct but not explicitly stated in the text for the governorship. It is inferred from 'Legatus Aug. pro pr. consularis'.",
-            "severity": "low",
-            "suggested_fix": "Add a note: 'Status as consularis inferred from the title Legatus Aug. pro pr. consularis.'"
-          },
-          {
-            "field": "segments.identification_and_sources",
-            "issue": "The correction of IGR 3, 848 is described as 'corrigendum est, item refellitur coniectura Sa[Ilus]t[ium?]', but the proposed extraction omits the refutation of the conjecture about Verginium Gallum.",
-            "severity": "medium",
-            "suggested_fix": "Include the full context: 'IGR 3, 848 propositum ab editoribus [ἐπὶ] ὑπά[των ... Γάϊλλο[υ κ]αὶ Οὐ ..... [Σατορνείνου] corrigendum est, item refellitur coniectura Sa[Ilus]t[ium?] Verginium Gallum cos.'"
-          }
-        ]
+        "verdict": "human_corrected",
+        "reviewed_by": "Hutter",
+        "reviewed_on": "2026-08-25",
+        "note": "Corrected PIR number from the erroneous A 1498 extraction to A 1517; governorship of Moesia inferior dated AD 202-205."
       },
-      "needs_review": true
+      "needs_review": false
     }
   ]
 }

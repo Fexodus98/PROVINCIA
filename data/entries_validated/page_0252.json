@@ -37,6 +37,7 @@
           "factoid_id": "gov_1180_1",
           "person_id": "person_1180",
           "exact_text": "legatus Aug. pr. pr. (Moesiae inferioris) a. 120",
+          "source_page": 252,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Moesia inferior",
           "province_normalized": null,

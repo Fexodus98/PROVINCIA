@@ -263,7 +263,7 @@ def merge_cross_page_entries(entries: list[dict[str, Any]]) -> list[dict[str, An
     return result
 
 
-def clean_factoid(obj: dict[str, Any]) -> dict[str, Any] | None:
+def clean_factoid(obj: dict[str, Any], source_page: int | None = None) -> dict[str, Any] | None:
     exact_text = str(obj.get("exact_text", "")).strip()
     if not exact_text:
         return None
@@ -278,10 +278,17 @@ def clean_factoid(obj: dict[str, Any]) -> dict[str, Any] | None:
     if normalized_office != TARGET_OFFICE:
         return None
 
+    page_value = source_page if isinstance(source_page, int) and not isinstance(source_page, bool) else None
+    if page_value is None:
+        existing_page = obj.get("source_page")
+        if isinstance(existing_page, int) and not isinstance(existing_page, bool):
+            page_value = existing_page
+
     return {
         "factoid_id": str(obj.get("factoid_id", "")).strip() or "g1",
         "person_id": str(obj.get("person_id", "")).strip() or "p1",
         "exact_text": exact_text,
+        "source_page": page_value,
         "normalized_office": TARGET_OFFICE,
         "province_text": obj.get("province_text"),
         "province_normalized": obj.get("province_normalized"),
@@ -294,10 +301,10 @@ def clean_factoid(obj: dict[str, Any]) -> dict[str, Any] | None:
     }
 
 
-def clean_entry(entry: dict[str, Any]) -> dict[str, Any] | None:
+def clean_entry(entry: dict[str, Any], source_page: int | None = None) -> dict[str, Any] | None:
     gov_factoids = []
     for factoid in ensure_list(entry.get("governorship_factoids")):
-        cleaned = clean_factoid(factoid)
+        cleaned = clean_factoid(factoid, source_page)
         if cleaned:
             gov_factoids.append(cleaned)
 
@@ -372,10 +379,14 @@ def attach_review(entry: dict[str, Any], judgment: dict[str, Any] | None) -> Non
     entry["needs_review"] = verdict != "confirm"
 
 
-def validate_page(raw_doc: dict[str, Any], judgments: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
+def validate_page(
+    raw_doc: dict[str, Any],
+    judgments: dict[str, dict[str, Any]] | None = None,
+    page_no: int | None = None,
+) -> dict[str, Any]:
     entries = []
     for entry in ensure_list(raw_doc.get("entries")):
-        cleaned = clean_entry(entry)
+        cleaned = clean_entry(entry, page_no)
         if cleaned:
             raw_id = str(entry.get("entry_id", "")).strip()
             attach_review(cleaned, (judgments or {}).get(raw_id))
@@ -407,7 +418,7 @@ def main() -> None:
         judgments, missed = load_judgments(page_no)
         for m in missed:
             all_missed.append({"page": page_no, **m})
-        validated = validate_page(raw_doc, judgments)
+        validated = validate_page(raw_doc, judgments, page_no)
         out_path = ENTRIES_VALIDATED_DIR / raw_path.name
         out_path.write_text(json.dumps(validated, indent=2, ensure_ascii=False), encoding="utf-8")
         manifest.append({"page": page_no, "validated_json": str(out_path), "entry_count": len(validated["entries"])})

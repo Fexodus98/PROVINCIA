@@ -38,6 +38,7 @@
           "factoid_id": "gov_t_aurelius_quietus_lycia_pamphylia",
           "person_id": "person_t_aurelius_quietus",
           "exact_text": "Legatus Aug. pr. pr. (Lyciae et Pamphyliae) a. 80/81",
+          "source_page": 341,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Lycia et Pamphylia",
           "province_normalized": null,

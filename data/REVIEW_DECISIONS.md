@@ -9,8 +9,25 @@ Ziel: nichts geht verloren; die MEDIUM-Beschlüsse lassen sich hieraus in Korrek
 - **HIGH (5): erledigt & bereits im Graphen** (via `make_corrections.py` → `apply_corrections.py` → `06_json_to_rdf.py`; 45→44 Einträge, Backup `provincia_entries.backup.json`).
 - **MEDIUM (28, #1–#28): beschlossen & UMGESETZT ✓** (via `make_corrections_medium_low.py` → `apply_corrections.py` → `06`).
 - **LOW (5, L1–L5): beschlossen & UMGESETZT ✓**.
-- **GRAPH-STAND (2026-07-06, final):** **44 Personen/PIREntries, 61 GovernorshipFactoids, 25 Provinzen.** Herleitung: automatisch 45/57 → HIGH: **A 1089 entfernt** (44) → MEDIUM/LOW: +5 wieder aufgenommen [A 184 Syria, A 260 Thracia, A 470 Germania sup., A 534 Pannonia sup., A 1341 Arabia], −1 Dublette [A 1408 Dacia] (61) → **A 1070 als Numidia/medium behalten (44/61)**. Nur **eine** nicht relevante Person entfernt (A 1089). Syria Coele statt „Syria maior" (WARN behoben). **Keine RDF-WARNs.** Sicherungen: `provincia_entries.pre_medlow.json`, `provincia_entries.backup.json`.
-- **Deliverables:** auf 44/61/25 aktualisiert (Präsentation, Vortragsnotizen, Projektbeschreibung, Projektbericht inkl. Abschnitt 7; Validierungsbericht).
+- **AKTUELLER GRAPH-STAND (2026-08-25):** **54 Personen/PIREntries, 74 GovernorshipFactoids, 25 Provinzen, 1.923 RDF-Tripel.** Alle 54 Einträge sind menschlich bestätigt oder korrigiert; `needs_review=false` für das gesamte Endkorpus. Sämtliche 74 Factoids besitzen eine geprüfte `source_page`.
+- **Historischer Graph-Stand (2026-07-06):** 44 Personen/PIREntries, 61 GovernorshipFactoids, 25 Provinzen. Dieser Stand ist durch die späteren Identitäts-/Verwandtschaftskorrekturen, zusätzliche geprüfte Statthalter und die Factoid-Seitenmodellierung überholt.
+- **RDF-Grenze:** Personenrelationen bleiben bewusst im JSON und werden nicht in den RDF-Piloten überführt.
+
+### Offene, nicht blockierende Punkte
+
+- **Punkt 4 – alte absolute Pfade:** `candidate_pages.json` enthält noch Pfade aus einer früheren lokalen Umgebung. Die aktuelle Pipeline verwendet die Seitennummern und die konfigurierten Projektverzeichnisse; der geprüfte Daten- und RDF-Stand wird dadurch nicht beeinträchtigt.
+- **Punkt 6 – vollständige Laufzeitumgebung:** Tesseract inklusive `lat`/`eng`, die vollständigen Python-Abhängigkeiten, `PROVINCIA_INPUT_PDF` und `MISTRAL_API_KEY` müssen erst eingerichtet werden, wenn die gesamte Pipeline erneut von der Quell-PDF beziehungsweise über OCR und Mistral ausgeführt werden soll. Stufe 5, Korrekturoverlay, RDF-Erzeugung und Tests funktionieren unabhängig davon.
+
+### Ergänzungen bis 25. August 2026
+
+- Gegenüber dem zuletzt versionierten Stand 47/66 wurden sieben geprüfte Einträge ergänzt: **A 101, A 200, A 776, A 1304, A 1331, A 1350 und A 1517**; zusammen acht Statthalterschafts-Factoids.
+- **A 200:** Statthalter von Syria nach 21 n. Chr.; von Tiberius in Rom zurückgehalten und niemals in der Provinz tätig. Die verworfene Pannonia-Hypothese ist kein GovernorshipFactoid; das Prokonsulat Africa liegt außerhalb des Zielkorpus.
+- **A 776:** PIR-Eintrag auf `page_0165` (Druckseite 149), Statthalterschaft Germania superior auf `page_0166` (Druckseite 150). Beginn 55 nur wahrscheinlich, Legatur 56 ausdrücklich belegt.
+- **A 1304** (nicht A 1305): Pannonia 80 und Syria 83–84; A 1305 bleibt als wahrscheinlicher Enkel im JSON verknüpft.
+- **A 1517:** L. Aurelius Gallus, Moesia inferior 202–205. Die frühere Extraktionsnummer A 1498 war falsch und wurde entfernt.
+- Bekannte PIR-Ziele der Relationen sind im JSON explizit gesetzt, darunter A 1305, A 1332 und A 1516.
+- Datierungsunsicherheiten bei A 101 und A 776 sind als Notizen dokumentiert, ohne die sichere Statthalterschaft selbst herabzustufen.
+- `source_page` wird getrennt für PIR-Eintrag und Factoid geführt und als `ont:sourcePage` in RDF ausgegeben.
 
 ### Durchgängige Befunde (für den Code/Bericht)
 1. **`province_normalized` war bei praktisch ALLEN geprüften Faktoiden `None`** — Stufe 5 füllt das Feld nicht aus der Registry. Systematischer Bug (betrifft weit mehr als die geflaggten Einträge).
@@ -90,7 +107,7 @@ Stufe 5 verworfen)**. → Empfehlung: `FORMULA_RE` lockern (fehlertolerant), dan
 ---
 
 ## MEDIUM — ALLE ERLEDIGT ✓
-28 Beschlüsse (#1–#28). Umsetzung in Korrektur-Dateien + `apply_corrections` + `06` steht noch aus.
+28 Beschlüsse (#1–#28). Umsetzung in Korrektur-Dateien + `apply_corrections` + `06` ist erfolgt.
 
 ## LOW — einzeln durchgehen
 **Durchgehend bei allen:** `province_normalized` von `None` setzen; Amt nicht als Status-Marker; `exact_text` von Quellenangaben säubern.
@@ -106,7 +123,7 @@ L4. **A 1421** (S.307, „[…]r. Avitus"): **Germania superior** (Fix von `None
 L5. **B 59** (S.371, Basila): **Galatia** (Fix von `None`). `normalized_office` certainty **medium → low** („legatus Aug. pr. pr. Galatiae **ut videtur** imperante Tiberio"). date **14/37** + Notiz „imperante Tiberio (14–37), ut videtur". `exact_text` → „legatus Aug. pr. pr. Galatiae ut videtur imperante Tiberio" (Quellenangabe CIG 4039 = OGIS 533 raus). **status_markers:** ‚legatus Augusti pro praetore' (Amt) **entfernen** → **`senator`**. **Identitäts-Notiz:** „probabiliter idem atque **T. Helvius Basila** (cf. Rostowzew Mél. Boissier 422)" → **`sameAs`-Kandidat**.
 
 ## LOW — ALLE ERLEDIGT ✓
-5 Beschlüsse (L1–L5). Umsetzung zusammen mit den MEDIUM-Korrekturen.
+5 Beschlüsse (L1–L5). Umsetzung zusammen mit den MEDIUM-Korrekturen ist erfolgt.
 
 ---
 

@@ -7,3 +7,4 @@ PyMuPDF>=1.24        # Modul 'fitz' — PDF-Rendering (Stufe 1)
 mistralai>=1.0       # Vision-LLM (Proposer/Judge, Stufe 4/4b/8)
 rapidfuzz>=3.0       # Editierdistanz für CER/WER (Stufe 7/8)
 rdflib>=7.0          # RDF-Graph-Erzeugung und Serialisierung (Stufe 6)
+pytest>=8.0          # Regressionstests

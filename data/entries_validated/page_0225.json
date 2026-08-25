@@ -35,6 +35,7 @@
           "factoid_id": "gov_1070_1",
           "person_id": "person_1070",
           "exact_text": "legatus Aug. pr. pr. (exercitus Africani)",
+          "source_page": 225,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "exercitus Africanus",
           "province_normalized": null,

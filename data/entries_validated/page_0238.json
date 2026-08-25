@@ -38,6 +38,7 @@
           "factoid_id": "gov_arruntius_hispania",
           "person_id": "person_l_arruntius",
           "exact_text": "Hispaniam (citeriorem) regendam accepit (legatus Augusti pro praetore), sed provinciam absens gubernare coactus est, a Tiberio ob metum Romae retentus",
+          "source_page": 238,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Hispaniam (citeriorem)",
           "province_normalized": null,

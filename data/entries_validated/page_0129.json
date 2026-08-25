@@ -37,6 +37,7 @@
           "factoid_id": "gov_A659_1",
           "person_id": "person_A659",
           "exact_text": "legatus Augusti pr. pr. provinciae Moesiae inferioris t. 3 a. 224 d. 20 m. Sept. t. 4",
+          "source_page": 129,
           "normalized_office": "legatus Augusti pro praetore provinciae",
           "province_text": "Moesia inferior",
           "province_normalized": null,
