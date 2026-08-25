@@ -149,6 +149,10 @@ def build_graph(entries: list[dict[str, Any]]) -> Graph:
                 g.add((province_uri, RDF.type, ONT.Province))
                 add_literal(g, province_uri, RDFS.label, province_label)
                 add_literal(g, province_uri, ONT.attestedForm, province_attested)
+                if province_attested and normalize_province(province_attested) is None:
+                    add_literal(g, factoid_uri, ONT.commandAreaText, province_attested)
+                else:
+                    add_literal(g, factoid_uri, ONT.provinceText, province_attested)
                 g.add((factoid_uri, ONT.province, province_uri))
             elif province_attested:
                 # Non-province command area (e.g. "exercitus Africanus") or
