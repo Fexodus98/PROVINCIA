@@ -471,9 +471,9 @@
     },
     "mistral-medium-latest": {
       "summary": {
-        "pages": 21,
-        "micro_cer": 0.031505497603608684,
-        "micro_wer": 0.06924643584521385
+        "pages": 25,
+        "micro_cer": 0.03053253734889661,
+        "micro_wer": 0.06976955180547995
       },
       "pages": [
         {
@@ -511,6 +511,15 @@
           "cer": 0.03504335260115607,
           "wer": 0.05517241379310345,
           "page": 71
+        },
+        {
+          "gt_chars": 2393,
+          "gt_words": 381,
+          "char_edits": 58,
+          "word_edits": 32,
+          "cer": 0.02423735896364396,
+          "wer": 0.08398950131233596,
+          "page": 89
         },
         {
           "gt_chars": 1204,
@@ -567,6 +576,15 @@
           "page": 189
         },
         {
+          "gt_chars": 2637,
+          "gt_words": 404,
+          "char_edits": 68,
+          "word_edits": 32,
+          "cer": 0.02578687902919985,
+          "wer": 0.07920792079207921,
+          "page": 207
+        },
+        {
           "gt_chars": 2570,
           "gt_words": 419,
           "char_edits": 28,
@@ -574,6 +592,15 @@
           "cer": 0.010894941634241245,
           "wer": 0.05489260143198091,
           "page": 223
+        },
+        {
+          "gt_chars": 2793,
+          "gt_words": 452,
+          "char_edits": 99,
+          "word_edits": 32,
+          "cer": 0.03544575725026853,
+          "wer": 0.07079646017699115,
+          "page": 240
         },
         {
           "gt_chars": 2856,
@@ -610,6 +637,15 @@
           "cer": 0.020535714285714286,
           "wer": 0.0855614973262032,
           "page": 285
+        },
+        {
+          "gt_chars": 2763,
+          "gt_words": 456,
+          "char_edits": 43,
+          "word_edits": 27,
+          "cer": 0.015562794064422729,
+          "wer": 0.05921052631578947,
+          "page": 293
         },
         {
           "gt_chars": 3029,
@@ -666,24 +702,7 @@
           "page": 371
         }
       ],
-      "failures": [
-        {
-          "page": 89,
-          "error": "The read operation timed out"
-        },
-        {
-          "page": 207,
-          "error": "The read operation timed out"
-        },
-        {
-          "page": 240,
-          "error": "The read operation timed out"
-        },
-        {
-          "page": 293,
-          "error": "The read operation timed out"
-        }
-      ]
+      "failures": []
     },
     "mistral-large-latest": {
       "summary": {

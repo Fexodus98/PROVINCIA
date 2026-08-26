@@ -32,8 +32,19 @@ def image_data_url(path: Path) -> str:
 
 
 def _retryable(exc: Exception) -> bool:
-    text = str(exc)
-    return "429" in text or "rate" in text.lower() or "500" in text or "502" in text or "503" in text
+    text = str(exc).lower()
+    return any(
+        marker in text
+        for marker in (
+            "429",
+            "rate",
+            "500",
+            "502",
+            "503",
+            "timeout",
+            "timed out",
+        )
+    )
 
 
 def _with_retries(fn):
