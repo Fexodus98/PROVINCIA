@@ -86,7 +86,7 @@ So bleibt nachvollziehbar, **wer wann was** entschieden hat — auch wenn der Ju
 
 Die Korrekturen müssen die validierten Daten **überlagern**, bevor Stufe 6 läuft:
 
-1. (Einmalig nötiges Hilfsskript) `apply_corrections`: liest `provincia_entries.json` + alle
+1. Das implementierte Overlay-Skript `apply_corrections.py` liest `provincia_entries.json` + alle
    `entries_corrected_hutter/page_*.json`, ersetzt die Einträge mit gleicher `pir_reference`
    durch die korrigierte Fassung und schreibt `provincia_entries.json` zurück.
 2. **`06_json_to_rdf.py` erneut ausführen** → neuer Graph (`rdf/provincia_graph.ttl` …).
@@ -95,8 +95,8 @@ Die Korrekturen müssen die validierten Daten **überlagern**, bevor Stufe 6 lä
 > `provincia_entries.json` aus `entries_raw/`+`entries_judged/` neu erzeugen und deine Overlays
 > überschreiben. Reihenfolge daher: 5 → (Review) → apply_corrections → 6.
 
-*(Dieses Overlay-Skript existiert noch nicht — ich kann es dir bauen, dann ist Schritt 4
-ein einziger Befehl.)*
+Das Overlay ist implementiert und wird aus dem Repository-Stamm mit
+`python data/apply_corrections.py` ausgeführt.
 
 ---
 
