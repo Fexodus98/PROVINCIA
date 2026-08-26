@@ -1,0 +1,280 @@
+@prefix ont: <https://provincia.uni-graz.at/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ont: a rdfs:Resource ;
+    rdfs:label "PROVINCIA RDFS vocabulary"@en ,
+        "PROVINCIA-RDFS-Vokabular"@de ;
+    rdfs:comment "RDFS vocabulary for the PROVINCIA pilot knowledge graph of Roman provincial governorships extracted from the Prosopographia Imperii Romani (PIR). Person-to-person identity and kinship relations remain JSON-only and are intentionally outside the implemented RDF pilot."@en ,
+        "RDFS-Vokabular für den PROVINCIA-Pilotwissensgraphen zu römischen Provinzstatthalterschaften aus der Prosopographia Imperii Romani (PIR). Personenbezogene Identitäts- und Verwandtschaftsrelationen bleiben ausschließlich im JSON und liegen bewusst außerhalb des implementierten RDF-Piloten."@de .
+
+# General classes used to express shared RDFS domains without implying that
+# resources belong to two unrelated concrete classes.
+
+ont:PROVINCIAEntity a rdfs:Class ;
+    rdfs:label "PROVINCIA entity"@en , "PROVINCIA-Entität"@de ;
+    rdfs:comment "General superclass of resources represented in the PROVINCIA RDF graph."@en ,
+        "Allgemeine Oberklasse der im PROVINCIA-RDF-Graphen repräsentierten Ressourcen."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:ProsopographicalEntity a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "prosopographical entity"@en , "prosopographische Entität"@de ;
+    rdfs:comment "Superclass of PIR entries and the persons described by them."@en ,
+        "Oberklasse der PIR-Einträge und der darin beschriebenen Personen."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:EvidenceBearingEntity a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "evidence-bearing entity"@en , "belegtragende Entität"@de ;
+    rdfs:comment "Superclass of resources that can be assigned to a specific scanned PIR source page."@en ,
+        "Oberklasse von Ressourcen, die einer bestimmten gescannten PIR-Quellseite zugeordnet werden können."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:DocumentedEntity a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "documented entity"@en , "kommentierbare Entität"@de ;
+    rdfs:comment "Superclass of resources to which editorial notes may be attached."@en ,
+        "Oberklasse von Ressourcen, denen redaktionelle Notizen zugeordnet werden können."@de ;
+    rdfs:isDefinedBy ont: .
+
+# Concrete classes emitted by pipeline/06_json_to_rdf.py.
+
+ont:Person a rdfs:Class ;
+    rdfs:subClassOf ont:ProsopographicalEntity , ont:DocumentedEntity ;
+    rdfs:label "person"@en , "Person"@de ;
+    rdfs:comment "The main person described by a PIR entry."@en ,
+        "Die in einem PIR-Eintrag beschriebene Hauptperson."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:PIREntry a rdfs:Class ;
+    rdfs:subClassOf ont:ProsopographicalEntity , ont:EvidenceBearingEntity ;
+    rdfs:label "PIR entry"@en , "PIR-Eintrag"@de ;
+    rdfs:comment "A citable entry in the Prosopographia Imperii Romani."@en ,
+        "Ein zitierbarer Eintrag der Prosopographia Imperii Romani."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:GovernorshipFactoid a rdfs:Class ;
+    rdfs:subClassOf ont:EvidenceBearingEntity , ont:DocumentedEntity ;
+    rdfs:label "governorship factoid"@en , "Statthalterschafts-Factoid"@de ;
+    rdfs:comment "A source-based assertion that a person held or was designated for a provincial governorship."@en ,
+        "Eine quellenbasierte Aussage, dass eine Person eine Provinzstatthalterschaft innehatte oder dafür bestimmt war."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:Office a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "office"@en , "Amt"@de ;
+    rdfs:comment "A normalized office represented in a governorship factoid."@en ,
+        "Ein in einem Statthalterschafts-Factoid normalisiertes Amt."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:Province a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "province"@en , "Provinz"@de ;
+    rdfs:comment "A normalized Roman province from the controlled PROVINCIA registry."@en ,
+        "Eine normalisierte römische Provinz aus dem kontrollierten PROVINCIA-Register."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:SourceWork a rdfs:Class ;
+    rdfs:subClassOf ont:PROVINCIAEntity ;
+    rdfs:label "source work"@en , "Quellenwerk"@de ;
+    rdfs:comment "A bibliographic source work from which PIR entries are derived."@en ,
+        "Ein bibliographisches Quellenwerk, aus dem PIR-Einträge abgeleitet sind."@de ;
+    rdfs:isDefinedBy ont: .
+
+# Object properties.
+
+ont:aboutPerson a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range ont:Person ;
+    rdfs:label "about person"@en , "betrifft Person"@de ;
+    rdfs:comment "Links a governorship factoid to its main person."@en ,
+        "Verknüpft ein Statthalterschafts-Factoid mit seiner Hauptperson."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:attestedIn a rdf:Property ;
+    rdfs:domain ont:Person ;
+    rdfs:range ont:PIREntry ;
+    rdfs:label "attested in"@en , "belegt in"@de ;
+    rdfs:comment "Links a person to the PIR entry in which the person is represented."@en ,
+        "Verknüpft eine Person mit dem PIR-Eintrag, in dem sie repräsentiert wird."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:derivedFromEntry a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range ont:PIREntry ;
+    rdfs:label "derived from entry"@en , "abgeleitet aus Eintrag"@de ;
+    rdfs:comment "Links a factoid to the PIR entry that supplies its evidence."@en ,
+        "Verknüpft ein Factoid mit dem PIR-Eintrag, der seinen Beleg liefert."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:normalizedOffice a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range ont:Office ;
+    rdfs:label "normalized office"@en , "normalisiertes Amt"@de ;
+    rdfs:comment "Links a factoid to its normalized office resource."@en ,
+        "Verknüpft ein Factoid mit der Ressource seines normalisierten Amtes."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:province a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range ont:Province ;
+    rdfs:label "province"@en , "Provinz"@de ;
+    rdfs:comment "Links a governorship factoid to a normalized province."@en ,
+        "Verknüpft ein Statthalterschafts-Factoid mit einer normalisierten Provinz."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:sourceWork a rdf:Property ;
+    rdfs:domain ont:PIREntry ;
+    rdfs:range ont:SourceWork ;
+    rdfs:label "source work"@en , "Quellenwerk"@de ;
+    rdfs:comment "Links a PIR entry to its bibliographic source work."@en ,
+        "Verknüpft einen PIR-Eintrag mit seinem bibliographischen Quellenwerk."@de ;
+    rdfs:isDefinedBy ont: .
+
+# Datatype properties.
+
+ont:attestedForm a rdf:Property ;
+    rdfs:domain ont:Province ;
+    rdfs:range xsd:string ;
+    rdfs:label "attested form"@en , "belegte Form"@de ;
+    rdfs:comment "The province form attested in the PIR source text."@en ,
+        "Die im PIR-Quellentext belegte Form des Provinznamens."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:certainty a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "certainty"@en , "Sicherheit"@de ;
+    rdfs:comment "Editorial certainty of the factoid, normally high, medium, or low."@en ,
+        "Redaktionelle Sicherheit des Factoids, üblicherweise high, medium oder low."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:commandAreaText a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "command-area text"@en , "Text des Kommandobereichs"@de ;
+    rdfs:comment "Attested text for a command area that is not modeled as a province."@en ,
+        "Belegter Text eines Kommandobereichs, der nicht als Provinz modelliert wird."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:dateNormalizedEnd a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:integer ;
+    rdfs:label "normalized end year"@en , "normalisiertes Endjahr"@de ;
+    rdfs:comment "Normalized inclusive end year; negative integers may represent BCE years."@en ,
+        "Normalisiertes inklusives Endjahr; negative Ganzzahlen können Jahre v. Chr. ausdrücken."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:dateNormalizedStart a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:integer ;
+    rdfs:label "normalized start year"@en , "normalisiertes Anfangsjahr"@de ;
+    rdfs:comment "Normalized inclusive start year; negative integers may represent BCE years."@en ,
+        "Normalisiertes inklusives Anfangsjahr; negative Ganzzahlen können Jahre v. Chr. ausdrücken."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:dateText a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "date text"@en , "Datierungstext"@de ;
+    rdfs:comment "Human-readable source-oriented dating statement."@en ,
+        "Menschenlesbare, quellenorientierte Datierungsangabe."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:displayedName a rdf:Property ;
+    rdfs:domain ont:Person ;
+    rdfs:range xsd:string ;
+    rdfs:label "displayed name"@en , "angezeigter Name"@de ;
+    rdfs:comment "The name form displayed or attested in the PIR entry."@en ,
+        "Die im PIR-Eintrag angezeigte oder belegte Namensform."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:evidenceType a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "evidence type"@en , "Belegtyp"@de ;
+    rdfs:comment "Classification of how the governorship is supported by the source."@en ,
+        "Klassifikation, auf welche Weise die Statthalterschaft durch die Quelle gestützt wird."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:exactText a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "exact text"@en , "genauer Wortlaut"@de ;
+    rdfs:comment "The exact source wording supporting the factoid."@en ,
+        "Der genaue Quellenwortlaut, der das Factoid stützt."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:needsReview a rdf:Property ;
+    rdfs:domain ont:PIREntry ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "needs review"@en , "benötigt Prüfung"@de ;
+    rdfs:comment "Whether the PIR entry still requires human review."@en ,
+        "Gibt an, ob der PIR-Eintrag noch eine menschliche Prüfung benötigt."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:normalizedName a rdf:Property ;
+    rdfs:domain ont:Person ;
+    rdfs:range xsd:string ;
+    rdfs:label "normalized name"@en , "normalisierter Name"@de ;
+    rdfs:comment "Editorially normalized form of a person's name."@en ,
+        "Redaktionell normalisierte Form eines Personennamens."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:note a rdf:Property ;
+    rdfs:domain ont:DocumentedEntity ;
+    rdfs:range xsd:string ;
+    rdfs:label "note"@en , "Notiz"@de ;
+    rdfs:comment "An editorial note about a person or governorship factoid."@en ,
+        "Eine redaktionelle Notiz zu einer Person oder einem Statthalterschafts-Factoid."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:pirReference a rdf:Property ;
+    rdfs:domain ont:ProsopographicalEntity ;
+    rdfs:range xsd:string ;
+    rdfs:label "PIR reference"@en , "PIR-Referenz"@de ;
+    rdfs:comment "Canonical PIR identifier, for example A 534."@en ,
+        "Kanonischer PIR-Identifikator, beispielsweise A 534."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:provinceText a rdf:Property ;
+    rdfs:domain ont:GovernorshipFactoid ;
+    rdfs:range xsd:string ;
+    rdfs:label "province text"@en , "Provinzwortlaut"@de ;
+    rdfs:comment "The province wording attested for this factoid before normalization."@en ,
+        "Der vor der Normalisierung für dieses Factoid belegte Provinzwortlaut."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:reviewProblem a rdf:Property ;
+    rdfs:domain ont:PIREntry ;
+    rdfs:range xsd:string ;
+    rdfs:label "review problem"@en , "Prüfproblem"@de ;
+    rdfs:comment "A structured review issue serialized as a human-readable literal."@en ,
+        "Ein strukturiertes Prüfproblem, das als menschenlesbares Literal serialisiert wird."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:reviewVerdict a rdf:Property ;
+    rdfs:domain ont:PIREntry ;
+    rdfs:range xsd:string ;
+    rdfs:label "review verdict"@en , "Prüfurteil"@de ;
+    rdfs:comment "The current human or automated review verdict for a PIR entry."@en ,
+        "Das aktuelle menschliche oder automatisierte Prüfurteil für einen PIR-Eintrag."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:sourcePage a rdf:Property ;
+    rdfs:domain ont:EvidenceBearingEntity ;
+    rdfs:range xsd:integer ;
+    rdfs:label "source page"@en , "Quellseite"@de ;
+    rdfs:comment "One-based scan page on which an entry or individual factoid is evidenced."@en ,
+        "Einsbasierte Scanseite, auf der ein Eintrag oder ein einzelnes Factoid belegt ist."@de ;
+    rdfs:isDefinedBy ont: .
+
+ont:statusMarker a rdf:Property ;
+    rdfs:domain ont:Person ;
+    rdfs:range xsd:string ;
+    rdfs:label "status marker"@en , "Statusmerkmal"@de ;
+    rdfs:comment "A social or legal status marker attached to a person."@en ,
+        "Ein einer Person zugeordnetes soziales oder rechtliches Statusmerkmal."@de ;
+    rdfs:isDefinedBy ont: .

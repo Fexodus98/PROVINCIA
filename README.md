@@ -21,8 +21,12 @@ geführt. Sie sind bewusst nicht Bestandteil des RDF-Piloten, dessen Gegenstand 
 
 ```
 pipeline/     Die nummerierten Verarbeitungsschritte (Stufe 1–8) + Konfiguration
-data/         Strukturierte Ergebnisse (JSON), RDF-Graph, Review-Protokolle, Korrekturskripte
+data/         Strukturierte Ergebnisse (JSON), RDF-Graph und RDFS-Vokabular, Review-Protokolle, Korrekturskripte
 ```
+
+Das maschinenlesbare Schema des implementierten RDF-Piloten liegt unter
+[`data/rdf/provincia_schema.ttl`](data/rdf/provincia_schema.ttl). Es definiert die verwendeten
+Klassen und Properties mit RDFS-Domains, Ranges und zweisprachigen Beschreibungen.
 
 ## Pipeline (Stufen)
 
