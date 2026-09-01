@@ -112,15 +112,26 @@ e["main_person"]["status_markers"] = ["consularis"]
 review(e, "#2: Thracia als erschlossen (low, Stein IGR I 794) aufgenommen; Arabia bleibt; Amt-Status entfernt; province_normalized gesetzt.")
 emit(e)
 
-# #3 A 338 — 4 govs behalten; Cappadocia start->null; Arabia end 150->149
+# #3 A 338 — 3 regulaere Statthalterschaften; Lugdunensis-Zensus ist Sonderauftrag
 e = get("A 338")
 setf(e, "gov_A338_arabia", province_normalized="Arabia", date_normalized_end=149,
      addnotes=["Ende 149 ('ante a. 150', bis L. Attidius Cornelianus A 1341 uebernahm)."])
-setf(e, "gov_A338_lugdunensis", province_normalized="Gallia Lugdunensis")
+dropf(e, "gov_A338_lugdunensis")
+pnote(e, "Unter Antoninus Pius als legatus Augusti pro praetore censitor provinciae Lugdunensis taetig; "
+         "Zensus-Sonderauftrag, keine regulaere Statthalterschaft und daher nicht als GovernorshipFactoid modelliert.")
 setf(e, "gov_A338_cappadocia", province_normalized="Cappadocia", date_normalized_start=None,
      addnotes=["Beginn unbestimmt (nur Terminus vor M. Sedatius Severianus, bis 161)."])
-setf(e, "gov_A338_dacia", province_normalized="Tres Daciae")
-review(e, "#3: 4 Statthalterschaften behalten; Cappadocia-Beginn null; Arabia-Ende 149; province_normalized gesetzt.")
+setf(e, "gov_A338_dacia", province_normalized="Tres Daciae",
+     addnotes=["Ritterling nahm an, der Statthalter der Tres Daciae sei nicht A 338 selbst, sondern dessen Sohn gewesen. "
+               "Die PIR-Autoren weisen diese Theorie als ohne ausreichenden Grund ('sine idonea causa') zurueck "
+               "und identifizieren den Statthalter mit A 338."])
+e["relevance_notes"] = ("Three regular governorships are retained: Arabia, Cappadocia, and Tres Daciae. "
+                        "The Lugdunensis censitor assignment is recorded as a special census commission, not a governorship.")
+enote(e, "Die PIR-Autoren verwerfen Ritterlings Theorie, der Statthalter der Tres Daciae sei ein Sohn von A 338 gewesen, "
+         "und identifizieren den Statthalter mit A 338 selbst.")
+review(e, "#3 revidiert: 3 regulaere Statthalterschaften behalten; Lugdunensis-censitor nur als Sonderauftragsnotiz; "
+          "PIR verwirft Ritterlings Sohn-Hypothese fuer Tres Daciae; Cappadocia-Beginn null; Arabia-Ende 149.")
+e["review"]["reviewed_on"] = "2026-09-01"
 emit(e)
 
 # #4 A 346 — Gallia Lugdunensis; Name Frontinus vel Fronto
@@ -352,7 +363,7 @@ e["lemma"] = "C. AVIDIVS CASSIVS"
 review(e, "#23: Syria (start 166); Status -> consularis + vir clarissimus; lemma-Fix; province_normalized gesetzt.")
 emit(e)
 
-# #24 A 1408 — Dacia-Dublette loeschen; Moesia superior; Achaia
+# #24 A 1408 — nur Moesia superior; Dacia-Dublette und Achaia-Ziel-Faktoid loeschen
 e = get("A 1408")
 dropf(e, "gov_1408_dacia")
 setf(e, "gov_1", province_normalized="Moesia superior", certainty="medium",
@@ -364,9 +375,17 @@ setf(e, "gov_1", province_normalized="Moesia superior", certainty="medium",
                "dem Heer einer Nachbarprovinz haben). Daher wahrscheinlicher Moesia superior; Dacia nicht sicher "
                "auszuschliessen ('potius quam Daciae'). Viator spaeter unter den equites singulares Hadriani in Gerasa (129/130 oder 131/132).",
                "Dublette-Faktoid 'Dacia' (gleicher Beleg CIL III 7904) entfernt."])
-setf(e, "gov_1408_achaia", province_normalized="Achaia", date_normalized_start=114, date_normalized_end=117,
-     date_text="legatus Aug. pr. pr. extra ordinem (Delphi-Grenzstreit), sub finem imperii Traiani, c. 114-117")
-review(e, "#24: Dacia-Dublette geloescht; Moesia superior (medium, Domaszewski); Achaia c.114-117; province_normalized gesetzt.")
+dropf(e, "gov_1408_achaia")
+pnote(e, "Zur Zeit Traians oder Hadrians koennte A 1408 als ausserordentlich bestellter legatus Augusti pro praetore "
+         "Achaia anstelle eines Prokonsuls verwaltet haben ('proconsulis loco'). Zeitpunkt und Rechtsgrundlage sind "
+         "laut PIR nicht bestimmbar; daher keine regulaere kaiserliche Statthalterschaft und kein GovernorshipFactoid.")
+e["relevance_notes"] = ("Relevant through the probable governorship of Moesia superior. The possible extraordinary "
+                        "administration of senatorial Achaia in place of a proconsul is retained only as a note.")
+enote(e, "Die moegliche ausserordentliche Verwaltung Achaias unter Traian oder Hadrian wird wegen des senatorischen "
+         "Provinzstatus und der unklaren Rechtsgrundlage nicht als regulaere kaiserliche Statthalterschaft modelliert.")
+review(e, "#24 revidiert: nur Moesia superior als Statthalterschaft; Dacia-Dublette geloescht; Achaia als moegliche "
+          "ausserordentliche Verwaltung proconsulis loco nur in einer Notiz festgehalten.")
+e["review"]["reviewed_on"] = "2026-09-01"
 emit(e)
 
 # #25 A 1410 — Britannia; Thracia-Irrtum

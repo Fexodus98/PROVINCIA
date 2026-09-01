@@ -10,9 +10,9 @@ Vision-fähiger Large Language Models für die Extraktion und eine unabhängige 
 Ein menschlicher Review als letzte Instanz sichert Qualität und Auditierbarkeit.
 
 Testband: **PIR² Pars I, A–B** (396 Seiten). Aktueller, vollständig menschlich geprüfter Stand
-(25. August 2026): ein kollisionsfreier Graph mit **54 Personen/PIREntries,
-74 Statthalterschafts-Factoids und 25 Provinzen**. Die vier RDF-Serialisierungen enthalten
-jeweils **1.923 Tripel**.
+(1. September 2026): ein kollisionsfreier Graph mit **54 Personen/PIREntries,
+72 Statthalterschafts-Factoids und 24 Provinzen**. Die vier RDF-Serialisierungen enthalten
+jeweils **1.894 Tripel**.
 
 Personenbeziehungen (unter anderem `possibly_same_as` und Verwandtschaft) werden im JSON strukturiert
 geführt. Sie sind bewusst nicht Bestandteil des RDF-Piloten, dessen Gegenstand die Statthalterschaften ist.

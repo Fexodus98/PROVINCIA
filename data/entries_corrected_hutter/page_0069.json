@@ -6,7 +6,7 @@
       "pir_reference": "A 338",
       "lemma": "L. AEMILIVS CARVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore of Arabia, Cappadocia, Tres Daciae, and censitor of Lugdunensis.",
+      "relevance_notes": "Three regular governorships are retained: Arabia, Cappadocia, and Tres Daciae. The Lugdunensis censitor assignment is recorded as a special census commission, not a governorship.",
       "segments": {
         "lemma": "338 L. AEMILIVS CARVS.",
         "name_variants": "L. Aemilius L. f. Cam(ilia) Karus t. 1. L. Aemilius Carus t. 2—6. Αἰμίλιος Κᾶρος t. 7. 8.",
@@ -26,7 +26,9 @@
           "senator",
           "consularis"
         ],
-        "notes": []
+        "notes": [
+          "Unter Antoninus Pius als legatus Augusti pro praetore censitor provinciae Lugdunensis tätig; Zensus-Sonderauftrag, keine reguläre Statthalterschaft und daher nicht als GovernorshipFactoid modelliert."
+        ]
       },
       "governorship_factoids": [
         {
@@ -44,22 +46,6 @@
           "notes": [
             "Attested in 142/143 AD (year 205 of the Pompeian era) and before 150 AD when L. Attidius Cornelianus took over.",
             "Ende 149 ('ante a. 150', bis L. Attidius Cornelianus A 1341 uebernahm)."
-          ]
-        },
-        {
-          "factoid_id": "gov_A338_lugdunensis",
-          "person_id": "person_A338",
-          "exact_text": "legatus Aug. pr. pr. censitor provinciae Lugdunensis",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Lugdunensis",
-          "province_normalized": "Gallia Lugdunensis",
-          "date_text": "imperante Antonino Pio",
-          "date_normalized_start": 138,
-          "date_normalized_end": 161,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Served as censitor of Lugdunensis under Antoninus Pius."
           ]
         },
         {
@@ -92,7 +78,8 @@
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD)."
+            "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD).",
+            "Ritterling nahm an, der Statthalter der Tres Daciae sei nicht A 338 selbst, sondern dessen Sohn gewesen. Die PIR-Autoren weisen diese Theorie als ohne ausreichenden Grund ('sine idonea causa') zurück und identifizieren den Statthalter mit A 338."
           ]
         }
       ],
@@ -263,13 +250,14 @@
         }
       ],
       "entry_notes": [
-        "The entry discusses the debate on whether the legatus of Dacia was this Carus or his son, concluding that it was likely this Carus, who governed the Three Dacias as a consularis between 161 and 164/166 AD."
+        "The entry discusses the debate on whether the legatus of Dacia was this Carus or his son, concluding that it was likely this Carus, who governed the Three Dacias as a consularis between 161 and 164/166 AD.",
+        "Die PIR-Autoren verwerfen Ritterlings Theorie, der Statthalter der Tres Daciae sei ein Sohn von A 338 gewesen, und identifizieren den Statthalter mit A 338 selbst."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#3: 4 Statthalterschaften behalten; Cappadocia-Beginn null; Arabia-Ende 149; province_normalized gesetzt."
+        "reviewed_on": "2026-09-01",
+        "note": "#3 revidiert: 3 reguläre Statthalterschaften behalten; Lugdunensis-censitor nur als Sonderauftragsnotiz; PIR verwirft Ritterlings Sohn-Hypothese für Tres Daciae; Cappadocia-Beginn null; Arabia-Ende 149."
       },
       "needs_review": false,
       "source_page": 69

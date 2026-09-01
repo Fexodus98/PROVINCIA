@@ -73,6 +73,42 @@ class AdditionalGovernorCorrectionTests(unittest.TestCase):
         self.assertEqual(a776["governorship_factoids"][0]["source_page"], 166)
         self.assertIn("beginning in AD 55 is only probable", " ".join(a776["governorship_factoids"][0]["notes"]))
 
+    def test_a338_excludes_lugdunensis_census_commission_and_records_dacia_debate(self) -> None:
+        entry = self.entries["A 338"]
+        factoids = {factoid["factoid_id"]: factoid for factoid in entry["governorship_factoids"]}
+
+        self.assertEqual(
+            {factoid["province_normalized"] for factoid in factoids.values()},
+            {"Arabia", "Cappadocia", "Tres Daciae"},
+        )
+        self.assertNotIn("gov_A338_lugdunensis", factoids)
+        self.assertIn("Zensus-Sonderauftrag", " ".join(entry["main_person"]["notes"]))
+
+        dacia_notes = " ".join(factoids["gov_A338_dacia"]["notes"])
+        self.assertIn("Ritterling", dacia_notes)
+        self.assertIn("Sohn", dacia_notes)
+        self.assertIn("weisen diese Theorie", dacia_notes)
+
+        graph = Graph().parse(RDF_PATH, format="turtle")
+        removed_factoid = URIRef(f"{RESOURCE}factoid/pir-a-338-gov-a338-lugdunensis")
+        self.assertNotIn((removed_factoid, None, None), graph)
+
+    def test_a1408_excludes_senatorial_achaia_but_preserves_extraordinary_commission_note(self) -> None:
+        entry = self.entries["A 1408"]
+        factoids = entry["governorship_factoids"]
+
+        self.assertEqual(len(factoids), 1)
+        self.assertEqual(factoids[0]["province_normalized"], "Moesia superior")
+        self.assertNotIn("gov_1408_achaia", {factoid["factoid_id"] for factoid in factoids})
+
+        person_notes = " ".join(entry["main_person"]["notes"])
+        self.assertIn("proconsulis loco", person_notes)
+        self.assertIn("keine reguläre kaiserliche Statthalterschaft", person_notes)
+
+        graph = Graph().parse(RDF_PATH, format="turtle")
+        removed_factoid = URIRef(f"{RESOURCE}factoid/pir-a-1408-gov-1408-achaia")
+        self.assertNotIn((removed_factoid, None, None), graph)
+
     def test_known_related_people_have_pir_references(self) -> None:
         expected = {
             "A 1304": {"person_1305": "A 1305"},

@@ -308,21 +308,6 @@
     ont:provinceText "Moesia superior" ;
     ont:sourcePage 302 .
 
-<https://provincia.uni-graz.at/resource/factoid/pir-a-1408-gov-1408-achaia> a ont:GovernorshipFactoid ;
-    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-1408-person-1408> ;
-    ont:certainty "high" ;
-    ont:dateNormalizedEnd 117 ;
-    ont:dateNormalizedStart 114 ;
-    ont:dateText "legatus Aug. pr. pr. extra ordinem (Delphi-Grenzstreit), sub finem imperii Traiani, c. 114-117" ;
-    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-1408> ;
-    ont:evidenceType "explicit" ;
-    ont:exactText "Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. ... ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος)" ;
-    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
-    ont:note "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)." ;
-    ont:province <https://provincia.uni-graz.at/resource/province/achaia> ;
-    ont:provinceText "Achaia" ;
-    ont:sourcePage 301 .
-
 <https://provincia.uni-graz.at/resource/factoid/pir-a-1410-gov-1> a ont:GovernorshipFactoid ;
     ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-1410-person-avidius-quietus> ;
     ont:certainty "medium" ;
@@ -610,24 +595,10 @@
     ont:evidenceType "explicit" ;
     ont:exactText "Legatus Aug. pr. pr. III Daciarum" ;
     ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
-    ont:note "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD)." ;
+    ont:note "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD).",
+        "Ritterling nahm an, der Statthalter der Tres Daciae sei nicht A 338 selbst, sondern dessen Sohn gewesen. Die PIR-Autoren weisen diese Theorie als ohne ausreichenden Grund ('sine idonea causa') zurück und identifizieren den Statthalter mit A 338." ;
     ont:province <https://provincia.uni-graz.at/resource/province/tres-daciae> ;
     ont:provinceText "Tres Daciae" ;
-    ont:sourcePage 69 .
-
-<https://provincia.uni-graz.at/resource/factoid/pir-a-338-gov-a338-lugdunensis> a ont:GovernorshipFactoid ;
-    ont:aboutPerson <https://provincia.uni-graz.at/resource/person/pir-a-338-person-a338> ;
-    ont:certainty "high" ;
-    ont:dateNormalizedEnd 161 ;
-    ont:dateNormalizedStart 138 ;
-    ont:dateText "imperante Antonino Pio" ;
-    ont:derivedFromEntry <https://provincia.uni-graz.at/resource/entry/pir-a-338> ;
-    ont:evidenceType "explicit" ;
-    ont:exactText "legatus Aug. pr. pr. censitor provinciae Lugdunensis" ;
-    ont:normalizedOffice <https://provincia.uni-graz.at/resource/office/legatus-augusti-pro-praetore-provinciae> ;
-    ont:note "Served as censitor of Lugdunensis under Antoninus Pius." ;
-    ont:province <https://provincia.uni-graz.at/resource/province/gallia-lugdunensis> ;
-    ont:provinceText "Lugdunensis" ;
     ont:sourcePage 69 .
 
 <https://provincia.uni-graz.at/resource/factoid/pir-a-342-gov-342-1> a ont:GovernorshipFactoid ;
@@ -1200,6 +1171,16 @@
     ont:statusMarker "consularis",
         "vir clarissimus" .
 
+<https://provincia.uni-graz.at/resource/person/pir-a-1408-person-1408> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-1408> ;
+    ont:displayedName "C. Avidius Nigrinus" ;
+    ont:normalizedName "Gaius Avidius Nigrinus" ;
+    ont:note "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5).",
+        "Zur Zeit Traians oder Hadrians könnte A 1408 als außerordentlich bestellter legatus Augusti pro praetore Achaia anstelle eines Prokonsuls verwaltet haben ('proconsulis loco'). Zeitpunkt und Rechtsgrundlage sind laut PIR nicht bestimmbar; daher keine reguläre kaiserliche Statthalterschaft und kein GovernorshipFactoid." ;
+    ont:pirReference "A 1408" ;
+    ont:statusMarker "consularis",
+        "senator" .
+
 <https://provincia.uni-graz.at/resource/person/pir-a-1410-person-avidius-quietus> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-1410> ;
     ont:displayedName "T. Avidius Quietus" ;
@@ -1451,10 +1432,6 @@
     ont:pirReference "B 59" ;
     ont:statusMarker "senator" .
 
-<https://provincia.uni-graz.at/resource/province/achaia> a ont:Province ;
-    rdfs:label "Achaia" ;
-    ont:attestedForm "Achaia" .
-
 <https://provincia.uni-graz.at/resource/province/cappadocia-et-galatia> a ont:Province ;
     rdfs:label "Cappadocia et Galatia" ;
     ont:attestedForm "Cappadocia et Galatia" .
@@ -1466,6 +1443,10 @@
 <https://provincia.uni-graz.at/resource/province/dacia> a ont:Province ;
     rdfs:label "Dacia" ;
     ont:attestedForm "Dacia" .
+
+<https://provincia.uni-graz.at/resource/province/gallia-lugdunensis> a ont:Province ;
+    rdfs:label "Gallia Lugdunensis" ;
+    ont:attestedForm "Lugudunensis" .
 
 <https://provincia.uni-graz.at/resource/province/pannonia-superior> a ont:Province ;
     rdfs:label "Pannonia superior" ;
@@ -1549,6 +1530,14 @@
     ont:pirReference "A 1402" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 298 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
+<https://provincia.uni-graz.at/resource/entry/pir-a-1408> a ont:PIREntry ;
+    rdfs:label "c. AVIDIVS NIGRINVS" ;
+    ont:needsReview false ;
+    ont:pirReference "A 1408" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 301 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/entry/pir-a-1410> a ont:PIREntry ;
@@ -1818,15 +1807,6 @@
     ont:statusMarker "consul suffectus",
         "consularis" .
 
-<https://provincia.uni-graz.at/resource/person/pir-a-1408-person-1408> a ont:Person ;
-    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-1408> ;
-    ont:displayedName "C. Avidius Nigrinus" ;
-    ont:normalizedName "Gaius Avidius Nigrinus" ;
-    ont:note "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5)." ;
-    ont:pirReference "A 1408" ;
-    ont:statusMarker "consularis",
-        "senator" .
-
 <https://provincia.uni-graz.at/resource/person/pir-a-1623-person-aurelius-continued> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-1623> ;
     ont:displayedName "M. Aurelius Valentinianus" ;
@@ -1905,11 +1885,6 @@
     rdfs:label "Dalmatia" ;
     ont:attestedForm "Dalmatia" .
 
-<https://provincia.uni-graz.at/resource/province/gallia-lugdunensis> a ont:Province ;
-    rdfs:label "Gallia Lugdunensis" ;
-    ont:attestedForm "Lugdunensis",
-        "Lugudunensis" .
-
 <https://provincia.uni-graz.at/resource/province/germania-inferior> a ont:Province ;
     rdfs:label "Germania inferior" ;
     ont:attestedForm "Germania inferior",
@@ -1954,14 +1929,6 @@
     ont:pirReference "A 1341" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 287 ;
-    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
-
-<https://provincia.uni-graz.at/resource/entry/pir-a-1408> a ont:PIREntry ;
-    rdfs:label "c. AVIDIVS NIGRINVS" ;
-    ont:needsReview false ;
-    ont:pirReference "A 1408" ;
-    ont:reviewVerdict "human_corrected" ;
-    ont:sourcePage 301 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/entry/pir-a-1623> a ont:PIREntry ;
@@ -2028,6 +1995,15 @@
     ont:sourcePage 114 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
+<https://provincia.uni-graz.at/resource/person/pir-a-338-person-a338> a ont:Person ;
+    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-338> ;
+    ont:displayedName "L. AEMILIVS CARVS" ;
+    ont:normalizedName "Lucius Aemilius Carus" ;
+    ont:note "Unter Antoninus Pius als legatus Augusti pro praetore censitor provinciae Lugdunensis tätig; Zensus-Sonderauftrag, keine reguläre Statthalterschaft und daher nicht als GovernorshipFactoid modelliert." ;
+    ont:pirReference "A 338" ;
+    ont:statusMarker "consularis",
+        "senator" .
+
 <https://provincia.uni-graz.at/resource/person/pir-a-754-person-754> a ont:Person ;
     ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-754> ;
     ont:displayedName "Q. ANTISTIVS ADVENTVS POSTVMIVS AQVILINVS" ;
@@ -2050,6 +2026,14 @@
     ont:attestedForm "Numidia",
         "exercitus Africanus" .
 
+<https://provincia.uni-graz.at/resource/entry/pir-a-338> a ont:PIREntry ;
+    rdfs:label "L. AEMILIVS CARVS" ;
+    ont:needsReview false ;
+    ont:pirReference "A 338" ;
+    ont:reviewVerdict "human_corrected" ;
+    ont:sourcePage 69 ;
+    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
+
 <https://provincia.uni-graz.at/resource/entry/pir-a-754> a ont:PIREntry ;
     rdfs:label "Q. ANTISTIVS ADVENTVS POSTVMIVS AQVILINVS" ;
     ont:needsReview false ;
@@ -2067,14 +2051,6 @@
         "senator",
         "vir clarissimus" .
 
-<https://provincia.uni-graz.at/resource/person/pir-a-338-person-a338> a ont:Person ;
-    ont:attestedIn <https://provincia.uni-graz.at/resource/entry/pir-a-338> ;
-    ont:displayedName "L. AEMILIVS CARVS" ;
-    ont:normalizedName "Lucius Aemilius Carus" ;
-    ont:pirReference "A 338" ;
-    ont:statusMarker "consularis",
-        "senator" .
-
 <https://provincia.uni-graz.at/resource/province/hispania-citerior> a ont:Province ;
     rdfs:label "Hispania citerior" ;
     ont:attestedForm "Hispania citerior",
@@ -2086,14 +2062,6 @@
     ont:pirReference "A 1322" ;
     ont:reviewVerdict "human_corrected" ;
     ont:sourcePage 283 ;
-    ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
-
-<https://provincia.uni-graz.at/resource/entry/pir-a-338> a ont:PIREntry ;
-    rdfs:label "L. AEMILIVS CARVS" ;
-    ont:needsReview false ;
-    ont:pirReference "A 338" ;
-    ont:reviewVerdict "human_corrected" ;
-    ont:sourcePage 69 ;
     ont:sourceWork <https://provincia.uni-graz.at/resource/source/pir-work> .
 
 <https://provincia.uni-graz.at/resource/province/cappadocia> a ont:Province ;

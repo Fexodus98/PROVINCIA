@@ -6,7 +6,7 @@
       "pir_reference": "A 1408",
       "lemma": "c. AVIDIVS NIGRINVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'leg. Aug. pr. pr.' in an inscription from Sarmizegetusa (CIL III 7904 = D. 2417) and as 'Legatus Aug. pr. pr.' / 'leg. Aug. pro pr.' / '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος' in bilingual inscriptions from Delphi.",
+      "relevance_notes": "Relevant through the probable governorship of Moesia superior. The possible extraordinary administration of senatorial Achaia in place of a proconsul is retained only as a note.",
       "segments": {
         "lemma": "1408 c. AVIDIVS NIGRINVS, filius probabiliter eius qui praecedit. (v. sub hoc).",
         "name_variants": "C. Avidius Nigrinus, [C. Avi]dius Nigrinus, ᾿Αουίδιος Νιγρῖνος",
@@ -27,26 +27,11 @@
           "consularis"
         ],
         "notes": [
-          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5)."
+          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5).",
+          "Zur Zeit Traians oder Hadrians könnte A 1408 als außerordentlich bestellter legatus Augusti pro praetore Achaia anstelle eines Prokonsuls verwaltet haben ('proconsulis loco'). Zeitpunkt und Rechtsgrundlage sind laut PIR nicht bestimmbar; daher keine reguläre kaiserliche Statthalterschaft und kein GovernorshipFactoid."
         ]
       },
       "governorship_factoids": [
-        {
-          "factoid_id": "gov_1408_achaia",
-          "person_id": "person_1408",
-          "exact_text": "Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. ... ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος)",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Achaia",
-          "province_normalized": "Achaia",
-          "date_text": "legatus Aug. pr. pr. extra ordinem (Delphi-Grenzstreit), sub finem imperii Traiani, c. 114-117",
-          "date_normalized_start": 114,
-          "date_normalized_end": 117,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)."
-          ]
-        },
         {
           "factoid_id": "gov_1",
           "person_id": "person_1408",
@@ -197,15 +182,16 @@
         }
       ],
       "entry_notes": [
-        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his governorship in Dacia, both dating to the late reign of Trajan.",
-        "The entry is a continuation from the previous page, but contains the critical governorship attestations for Moesia Superior and Achaia.",
-        "Merged continuation fragment 'avidius_nigrinus' (page 302) into this entry."
+        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his probable governorship of Moesia superior.",
+        "The entry is a continuation from the previous page and contains the evidence for Moesia superior as well as the discussion of an extraordinary commission in Achaia.",
+        "Merged continuation fragment 'avidius_nigrinus' (page 302) into this entry.",
+        "Die mögliche außerordentliche Verwaltung Achaias unter Traian oder Hadrian wird wegen des senatorischen Provinzstatus und der unklaren Rechtsgrundlage nicht als reguläre kaiserliche Statthalterschaft modelliert."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "Relation source IDs normalized from person_avidius_nigrinus to the main-person ID person_1408."
+        "reviewed_on": "2026-09-01",
+        "note": "#24 revidiert: nur Moesia superior als Statthalterschaft; Dacia-Dublette gelöscht; Achaia als mögliche außerordentliche Verwaltung proconsulis loco nur in einer Notiz festgehalten."
       },
       "needs_review": false,
       "source_page": 301

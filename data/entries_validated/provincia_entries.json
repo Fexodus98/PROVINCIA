@@ -943,7 +943,7 @@
       "pir_reference": "A 338",
       "lemma": "L. AEMILIVS CARVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as legatus Augusti pro praetore of Arabia, Cappadocia, Tres Daciae, and censitor of Lugdunensis.",
+      "relevance_notes": "Three regular governorships are retained: Arabia, Cappadocia, and Tres Daciae. The Lugdunensis censitor assignment is recorded as a special census commission, not a governorship.",
       "segments": {
         "lemma": "338 L. AEMILIVS CARVS.",
         "name_variants": "L. Aemilius L. f. Cam(ilia) Karus t. 1. L. Aemilius Carus t. 2—6. Αἰμίλιος Κᾶρος t. 7. 8.",
@@ -963,7 +963,9 @@
           "senator",
           "consularis"
         ],
-        "notes": []
+        "notes": [
+          "Unter Antoninus Pius als legatus Augusti pro praetore censitor provinciae Lugdunensis tätig; Zensus-Sonderauftrag, keine reguläre Statthalterschaft und daher nicht als GovernorshipFactoid modelliert."
+        ]
       },
       "governorship_factoids": [
         {
@@ -981,23 +983,6 @@
           "notes": [
             "Attested in 142/143 AD (year 205 of the Pompeian era) and before 150 AD when L. Attidius Cornelianus took over.",
             "Ende 149 ('ante a. 150', bis L. Attidius Cornelianus A 1341 uebernahm)."
-          ],
-          "source_page": 69
-        },
-        {
-          "factoid_id": "gov_A338_lugdunensis",
-          "person_id": "person_A338",
-          "exact_text": "legatus Aug. pr. pr. censitor provinciae Lugdunensis",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Lugdunensis",
-          "province_normalized": "Gallia Lugdunensis",
-          "date_text": "imperante Antonino Pio",
-          "date_normalized_start": 138,
-          "date_normalized_end": 161,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Served as censitor of Lugdunensis under Antoninus Pius."
           ],
           "source_page": 69
         },
@@ -1032,7 +1017,8 @@
           "certainty": "high",
           "evidence_type": "explicit",
           "notes": [
-            "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD)."
+            "Governed the Three Dacias between the governorship of P. Furius Saturninus (161 AD) and M. Claudius Fronto (164/166 AD).",
+            "Ritterling nahm an, der Statthalter der Tres Daciae sei nicht A 338 selbst, sondern dessen Sohn gewesen. Die PIR-Autoren weisen diese Theorie als ohne ausreichenden Grund ('sine idonea causa') zurück und identifizieren den Statthalter mit A 338."
           ],
           "source_page": 69
         }
@@ -1204,13 +1190,14 @@
         }
       ],
       "entry_notes": [
-        "The entry discusses the debate on whether the legatus of Dacia was this Carus or his son, concluding that it was likely this Carus, who governed the Three Dacias as a consularis between 161 and 164/166 AD."
+        "The entry discusses the debate on whether the legatus of Dacia was this Carus or his son, concluding that it was likely this Carus, who governed the Three Dacias as a consularis between 161 and 164/166 AD.",
+        "Die PIR-Autoren verwerfen Ritterlings Theorie, der Statthalter der Tres Daciae sei ein Sohn von A 338 gewesen, und identifizieren den Statthalter mit A 338 selbst."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-07-06",
-        "note": "#3: 4 Statthalterschaften behalten; Cappadocia-Beginn null; Arabia-Ende 149; province_normalized gesetzt."
+        "reviewed_on": "2026-09-01",
+        "note": "#3 revidiert: 3 reguläre Statthalterschaften behalten; Lugdunensis-censitor nur als Sonderauftragsnotiz; PIR verwirft Ritterlings Sohn-Hypothese für Tres Daciae; Cappadocia-Beginn null; Arabia-Ende 149."
       },
       "needs_review": false,
       "source_page": 69
@@ -6187,7 +6174,7 @@
       "pir_reference": "A 1408",
       "lemma": "c. AVIDIVS NIGRINVS",
       "relevance_to_provincia_corpus": "yes",
-      "relevance_notes": "Explicitly identified as 'leg. Aug. pr. pr.' in an inscription from Sarmizegetusa (CIL III 7904 = D. 2417) and as 'Legatus Aug. pr. pr.' / 'leg. Aug. pro pr.' / '᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος' in bilingual inscriptions from Delphi.",
+      "relevance_notes": "Relevant through the probable governorship of Moesia superior. The possible extraordinary administration of senatorial Achaia in place of a proconsul is retained only as a note.",
       "segments": {
         "lemma": "1408 c. AVIDIVS NIGRINVS, filius probabiliter eius qui praecedit. (v. sub hoc).",
         "name_variants": "C. Avidius Nigrinus, [C. Avi]dius Nigrinus, ᾿Αουίδιος Νιγρῖνος",
@@ -6208,27 +6195,11 @@
           "consularis"
         ],
         "notes": [
-          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5)."
+          "Executed under Hadrian (SHA Hadr. 7, 1. 2; Dio exc. 69, 2, 5).",
+          "Zur Zeit Traians oder Hadrians könnte A 1408 als außerordentlich bestellter legatus Augusti pro praetore Achaia anstelle eines Prokonsuls verwaltet haben ('proconsulis loco'). Zeitpunkt und Rechtsgrundlage sind laut PIR nicht bestimmbar; daher keine reguläre kaiserliche Statthalterschaft und kein GovernorshipFactoid."
         ]
       },
       "governorship_factoids": [
-        {
-          "factoid_id": "gov_1408_achaia",
-          "person_id": "person_1408",
-          "exact_text": "Legatus Aug. pr. pr. ([C. Avi]dio Nigrino leg. Aug. pro pr. ... ᾿Αουίδιος Νιγρῖ[νος, πρεσβ.] Σεβ. ἀντιστράτηγος)",
-          "normalized_office": "legatus Augusti pro praetore provinciae",
-          "province_text": "Achaia",
-          "province_normalized": "Achaia",
-          "date_text": "legatus Aug. pr. pr. extra ordinem (Delphi-Grenzstreit), sub finem imperii Traiani, c. 114-117",
-          "date_normalized_start": 114,
-          "date_normalized_end": 117,
-          "certainty": "high",
-          "evidence_type": "explicit",
-          "notes": [
-            "Attested by bilingual boundary decisions from Delphi (Ditt. Syll.3 827)."
-          ],
-          "source_page": 301
-        },
         {
           "factoid_id": "gov_1",
           "person_id": "person_1408",
@@ -6380,15 +6351,16 @@
         }
       ],
       "entry_notes": [
-        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his governorship in Dacia, both dating to the late reign of Trajan.",
-        "The entry is a continuation from the previous page, but contains the critical governorship attestations for Moesia Superior and Achaia.",
-        "Merged continuation fragment 'avidius_nigrinus' (page 302) into this entry."
+        "The entry details the career of C. Avidius Nigrinus, particularly his boundary arbitrations in Delphi and his probable governorship of Moesia superior.",
+        "The entry is a continuation from the previous page and contains the evidence for Moesia superior as well as the discussion of an extraordinary commission in Achaia.",
+        "Merged continuation fragment 'avidius_nigrinus' (page 302) into this entry.",
+        "Die mögliche außerordentliche Verwaltung Achaias unter Traian oder Hadrian wird wegen des senatorischen Provinzstatus und der unklaren Rechtsgrundlage nicht als reguläre kaiserliche Statthalterschaft modelliert."
       ],
       "review": {
         "verdict": "human_corrected",
         "reviewed_by": "Hutter",
-        "reviewed_on": "2026-08-20",
-        "note": "Relation source IDs normalized from person_avidius_nigrinus to the main-person ID person_1408."
+        "reviewed_on": "2026-09-01",
+        "note": "#24 revidiert: nur Moesia superior als Statthalterschaft; Dacia-Dublette gelöscht; Achaia als mögliche außerordentliche Verwaltung proconsulis loco nur in einer Notiz festgehalten."
       },
       "needs_review": false,
       "source_page": 301
