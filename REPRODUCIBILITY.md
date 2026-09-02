@@ -29,12 +29,30 @@ plattformabhängigen Paket-Hashes.
 
 ### Tesseract-OCR
 
-Die OCR-Stufe benötigt Tesseract mit den Sprachpaketen `lat` und `eng`. Im Repository
-war keine historische Tesseract-Versionsnummer protokolliert, und auf dem bei der
-Erstellung dieser Datei verwendeten Rechner war Tesseract nicht installiert. Daher
-wird keine vermeintlich exakte Version nachträglich behauptet.
+Die für PROVINCIA verwendete und am 2. September 2026 über
+`tesseract --version` bestätigte Installation ist:
 
-Für einen vollständigen Neulauf müssen folgende Angaben protokolliert werden:
+- Tesseract **5.4.0.20240606**
+- Leptonica **1.84.1**
+- Sprachpakete **`lat`** und **`eng`**
+
+Die Tesseract-Ausgabe nennt außerdem folgende eingebundene Bibliotheken:
+
+- libgif 5.2.1
+- libjpeg 8d / libjpeg-turbo 3.0.1
+- libpng 1.6.43
+- libtiff 4.6.0
+- zlib 1.3; für libarchive zlib 1.3.1
+- libwebp 1.4.0
+- libopenjp2 2.5.2
+- libarchive 3.7.4
+- liblzma 5.6.1
+- bzip2 1.0.8
+- liblz4 1.9.4
+- libzstd 1.5.6
+
+Die Installation meldet Unterstützung für AVX2, AVX, FMA und SSE4.1. Zur erneuten
+Kontrolle der Installation dienen:
 
 ```powershell
 tesseract --version
