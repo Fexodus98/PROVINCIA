@@ -49,7 +49,7 @@ Korrekturen werden isoliert in `data/entries_corrected_hutter/` geführt und via
 ## Ausführung
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.lock.txt
 # Tesseract-OCR muss separat installiert sein (lat+eng Sprachpakete).
 # Ein Mistral-API-Key wird über eine Umgebungsvariable erwartet (kein Key im Code).
 
@@ -71,7 +71,7 @@ export PROVINCIA_DATA_DIR=/pfad/zu/separaten_daten
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.lock.txt
 
 # Tesseract separat installieren und die Sprachpakete lat + eng aktivieren.
 $env:TESSERACT_CMD = "C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -85,6 +85,9 @@ $env:MISTRAL_API_KEY = "DEIN_API_KEY"
 Windows-Konfiguration kann `setx` verwendet werden; die Variable steht dann erst in neu geöffneten
 Terminals zur Verfügung. Die bereits geprüften Stufen 5, Korrekturoverlay und 6 benötigen weder
 Tesseract noch einen API-Key.
+
+Die exakt geprüften Python-Versionen und die Grenzen der Reproduzierbarkeit externer
+Komponenten sind in [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) dokumentiert.
 
 Die Stufen sind einzeln lauffähig; die Reihenfolge ist 1 → 2 → 3 → 4 → 4b → 5 → (Review) → 6 → 7/8.
 
